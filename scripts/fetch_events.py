@@ -22,6 +22,12 @@ try:
 except ImportError:
     sys.exit("Missing deps — run: pip install -r requirements.txt")
 
+try:
+    import truststore
+    truststore.inject_into_ssl()  # corporate TLS-inspection proxies: use the OS cert store
+except ImportError:
+    pass
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "raw_events.json"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -40,6 +46,10 @@ def upcoming_weekend(today=None):
 def get(url):
     r = requests.get(url, headers=UA, timeout=TIMEOUT)
     r.raise_for_status()
+    if "Browser Isolation" in r.text or "Zscaler" in r.text[:5000]:
+        # Corporate TLS proxy serving an isolation wrapper instead of the page.
+        # Expected behind Zscaler; works fine from non-proxied networks (CI/cloud).
+        raise RuntimeError("blocked by proxy browser isolation")
     return BeautifulSoup(r.text, "html.parser")
 
 
@@ -148,7 +158,7 @@ def main():
         "weekend": {"fri": fri.isoformat(), "sun": sun.isoformat()},
         "failed_sources": failed,
         "raw_events": collected,
-    }, indent=2, ensure_ascii=False))
+    }, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {OUT} ({len(collected)} raw listings, {len(failed)} failed sources)")
 
 

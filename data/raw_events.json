@@ -1,0 +1,4288 @@
+{
+  "fetched_at": "2026-10-23T11:04:27-04:00",
+  "weekend": {
+    "fri": "2026-10-23",
+    "sun": "2026-10-25"
+  },
+  "failed_sources": [
+    "stufftodoinrdu",
+    "triangleonthecheap"
+  ],
+  "raw_events": [
+    {
+      "title": "Events next weekend >>",
+      "url": "https://rt.kidsoutandabout.com/view/events/next-weekend-view",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "kidsoutandabout",
+      "tags": []
+    },
+    {
+      "title": "Virtual Run Events powered by Moon Joggers",
+      "url": "https://rt.kidsoutandabout.com/content/virtual-run-events-powered-moon-joggers",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "kidsoutandabout",
+      "tags": []
+    },
+    {
+      "title": "Virtual Run Events powered by Moon Joggers",
+      "url": "https://rt.kidsoutandabout.com/content/virtual-run-events-powered-moon-joggers",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "kidsoutandabout",
+      "tags": []
+    },
+    {
+      "title": "Events Calendar",
+      "url": "https://raleighparent.com/events/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Submit Event",
+      "url": "https://raleighparent.com/submit-event/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Submit it for free",
+      "url": "https://raleighparent.com/submit-event/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "All 977 events",
+      "url": "https://raleighparent.com/events/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Today 46 events",
+      "url": "https://raleighparent.com/events/today/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tomorrow 70 events",
+      "url": "https://raleighparent.com/events/tomorrow/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Weekend 104 events",
+      "url": "https://raleighparent.com/events/weekend/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Next 30 Days 801 events",
+      "url": "https://raleighparent.com/events/30-days/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Featured Events 7",
+      "url": "https://raleighparent.com/events/featured/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "African-American Heritage 3",
+      "url": "https://raleighparent.com/events/african-american-heritage/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "America’s 250th 3",
+      "url": "https://raleighparent.com/events/americas-250th/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Pet Adoption Events 3",
+      "url": "https://raleighparent.com/events/animal-adoption/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Annual Events 74",
+      "url": "https://raleighparent.com/events/annual-events/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Beer & Brewery 57",
+      "url": "https://raleighparent.com/events/beer-brewery/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Bluegrass Music 12",
+      "url": "https://raleighparent.com/events/bluegrass/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Christmas & Holiday Events 104",
+      "url": "https://raleighparent.com/events/christmas-holiday/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Classes & Workshops 112",
+      "url": "https://raleighparent.com/events/classes-workshops/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Colleges & Universities 46",
+      "url": "https://raleighparent.com/events/colleges-universities/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Comedy Shows 48",
+      "url": "https://raleighparent.com/events/comedy/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Commencement & Graduation 1",
+      "url": "https://raleighparent.com/events/commencement-graduation/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Live Music & Concerts 270",
+      "url": "https://raleighparent.com/events/concerts-live-music/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Dance Performances 62",
+      "url": "https://raleighparent.com/events/dance/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Dining & Drinks 123",
+      "url": "https://raleighparent.com/events/dining-drinks/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Earth Day & Arbor Day Celebrations 1",
+      "url": "https://raleighparent.com/events/earth-day-arbor-day-celebrations/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Education Outreach 101",
+      "url": "https://raleighparent.com/events/education-outreach/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Esports & Gaming 5",
+      "url": "https://raleighparent.com/events/esports-gaming/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Community Fairs 30",
+      "url": "https://raleighparent.com/events/fairs/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Family Events 172",
+      "url": "https://raleighparent.com/events/family/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Local Farmers Markets 20",
+      "url": "https://raleighparent.com/events/farmers-markets/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Farm Experiences 8",
+      "url": "https://raleighparent.com/events/farms/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Festivals 183",
+      "url": "https://raleighparent.com/events/festivals/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Film & Cinema 32",
+      "url": "https://raleighparent.com/events/film/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Free Events 216",
+      "url": "https://raleighparent.com/events/free/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Free Food Events 1",
+      "url": "https://raleighparent.com/events/free-food/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fundraisers & Benefits 24",
+      "url": "https://raleighparent.com/events/fundraisers-benefits/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Historic Events 17",
+      "url": "https://raleighparent.com/events/historic/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Holiday Events 174",
+      "url": "https://raleighparent.com/events/holiday/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Kids Night Out Events 3",
+      "url": "https://raleighparent.com/events/kids-night-out/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Kwanzaa Celebrations 3",
+      "url": "https://raleighparent.com/events/kwanzaa-celebrations/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "LGBTQ+ Events 18",
+      "url": "https://raleighparent.com/events/lgbt/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Lunar New Year Events 26",
+      "url": "https://raleighparent.com/events/lunar-new-year/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Multicultural Events 87",
+      "url": "https://raleighparent.com/events/multicultural/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Museum Programs & Exhibits 42",
+      "url": "https://raleighparent.com/events/museums/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Nature & Outdoor Events 103",
+      "url": "https://raleighparent.com/events/nature-outdoor/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Nightlife 151",
+      "url": "https://raleighparent.com/events/nightlife/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Open House Events 16",
+      "url": "https://raleighparent.com/events/open-houses/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "People-First Tourism 1",
+      "url": "https://raleighparent.com/events/people-first-tourism/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Raleigh Locals Guide 5",
+      "url": "https://raleighparent.com/events/raleigh-locals-guide/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Running & Races & Marathons Events 7",
+      "url": "https://raleighparent.com/events/running-races-marathons/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Shopping Events 52",
+      "url": "https://raleighparent.com/events/shopping/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sports & Athletics 82",
+      "url": "https://raleighparent.com/events/sports/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Super Bowl Watch Parties 6",
+      "url": "https://raleighparent.com/events/super-bowl-watch-parties/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Team Building 13",
+      "url": "https://raleighparent.com/events/team-building/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Theater & Performing Arts 54",
+      "url": "https://raleighparent.com/events/theater/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wellness Events 30",
+      "url": "https://raleighparent.com/events/wellness/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Featured Events",
+      "url": "https://raleighparent.com/events/featured/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 04:30 PM - 06:00 PM Trunk or Treat Extravaganza 120 Smallwood Drive, Morrisville, NC 27560 226.1 mi away • FREE • Featured See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-extravaganza-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 10:00 AM - 06:00 PM LOVE Raleigh! Market & Festival- Honoring Veterans! Moore Square - 200 Blount St. Raleigh NC 27601 231.7 mi away • FREE • Featured Festival See details →",
+      "url": "https://raleighparent.com/event/love-raleigh-market-festival-honoring-veterans-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 10:00 AM - 06:00 PM Raleigh's 5th Annual International WINE & BEER Oktoberfest 400 Fayetteville St Raleigh NC 27601 231.9 mi away • FREE • Featured Festival See details →",
+      "url": "https://raleighparent.com/event/raleighs-5th-annual-international-wine-beer-oktoberfest-on-oct-17-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 8, 04:00 PM - 07:00 PM TEDx Raleigh Dinner & Conversation 500 Glenwood Avenue Raleigh NC 27603 231.3 mi away • $40 • Featured Dining and Drinks Education Outreach Workshops Arts See details →",
+      "url": "https://raleighparent.com/event/tedx-raleigh-dinner-conversation-on-nov-8-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Nov 14-15, 10:00 AM - 06:00 PM RenFest At Spring Haven Farm 5306 Homer Ruffin Road, Chapel Hill, North Carolina 27516 226.1 mi away See details for pricing • Fairs Featured Festival See details →",
+      "url": "https://raleighparent.com/event/renfest-at-spring-haven-farm-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 15, 02:00 PM - 04:00 PM Carolina ONE Girls Basketball Clinic – Build Great Habits 1500 N Harrison Ave 231.2 mi away • $20 per player for one 60-minute clinic. • Sports Workshops Featured See details →",
+      "url": "https://raleighparent.com/event/carolina-one-girls-basketball-clinic-build-great-habits-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Dec 12, 10:00 AM - 06:00 PM Raleigh's International Holiday Market! A European Experience! Food, Desserts, Santa & More Raleigh City Plaza 400 Fayetteville St. Raleigh NC 27601 231.9 mi away • FREE • Featured Christmas and Holiday Events Holiday Festival Multicultural See details →",
+      "url": "https://raleighparent.com/event/raleighs-international-holiday-market-a-european-experience-food-desserts-santa-more-on-dec-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Today's Events",
+      "url": "https://raleighparent.com/events/today/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 15-25, 2026 , NC State Fair at NC State Fairgrounds,\n                Raleigh 231.8 mi away • Adults $10 advance, youth $5, 5 and under free • Fairs See details →",
+      "url": "https://raleighparent.com/event/nc-state-fair-on-oct-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 08:00 AM - 09:00 AM Bats, Bugs and Beasts at DCP Guest Services,\n                Cary 233.8 mi away • Free please register. This program is for ages 18 and older. • Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/bats-bugs-and-beasts-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 11:00 AM - 04:00 PM Make & Take: Lazy Susan at Rockler Woodworking & Hardware,\n                Cary 234.6 mi away • $107.25 • Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/make-take-lazy-susan-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Nature & Outdoor Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 01:00 PM - 02:00 PM Fall and Winter Birds of Wake County at Morrisville Senior Center,\n                Morrisville/RTP 231.9 mi away • Free. Please register. Ages 55+ • Education Outreach Nature & Outdoor Workshops See details →",
+      "url": "https://raleighparent.com/event/fall-and-winter-birds-of-wake-county-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown,\n                Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 04:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tomorrow's Events",
+      "url": "https://raleighparent.com/events/tomorrow/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 15-25, 2026 , NC State Fair at NC State Fairgrounds,\n                Raleigh 231.8 mi away • Adults $10 advance, youth $5, 5 and under free • Fairs See details →",
+      "url": "https://raleighparent.com/event/nc-state-fair-on-oct-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Oct 23-25, 07:30 PM Maggie Hughes Depalo Live at Room 861 at Goodnights Comedy Club,\n                West Raleigh 231.3 mi away • $29.99 - $45.99 • Comedy See details →",
+      "url": "https://raleighparent.com/event/maggie-hughes-depalo-live-at-room-861-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Oct 23-24, 07:30 PM Star Wars & More at Meymandi Concert Hall at Martin Marietta Center for the Performing Arts,\n                Downtown Raleigh 232.2 mi away • Tickets start at $53 with all-in pricing • Live Music & Concerts Film See details →",
+      "url": "https://raleighparent.com/event/star-wars-more-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 24-25, 2026 , Chapel Hill Biscuit Festival at SECU Family House,\n                Chapel-hill 231.3 mi away • Ticketed fundraiser • Festival Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/chapel-hill-biscuit-festival-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 08:00 AM - 01:00 PM Apex Half Marathon at Sweetwater Town Center,\n                Apex 239.2 mi away • $69 - $99 • Nature & Outdoor Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/apex-half-marathon-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 11:00 AM Vaping 101: Family Edition at Alice Aycock Poe Center for Health Education,\n                East Raleigh 230.7 mi away • $45/ pair, additional participants are $20 each • Education Outreach Wellness Workshops Family See details →",
+      "url": "https://raleighparent.com/event/vaping-101-family-edition-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 01:30 PM Celebrate Raleigh Arbor Day at Carolina Pines Park,\n                West Raleigh 234.1 mi away • FREE • Nature & Outdoor Wellness Earth Day & Arbor Day Celebrations See details →",
+      "url": "https://raleighparent.com/event/celebrate-raleigh-arbor-day-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:30 AM - 11:00 AM Raleigh Black History Walking Tour: Coffee and Donuts at Pope House Museum,\n                Downtown Raleigh 232.0 mi away • Free; registration required • Historic African-American Heritage Nature & Outdoor Tours Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-black-history-walking-tour-coffee-and-donuts-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "This Weekend's Events",
+      "url": "https://raleighparent.com/events/weekend/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 15-25, 2026 , NC State Fair at NC State Fairgrounds,\n                Raleigh 231.8 mi away • Adults $10 advance, youth $5, 5 and under free • Fairs See details →",
+      "url": "https://raleighparent.com/event/nc-state-fair-on-oct-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Oct 23-25, 07:30 PM Maggie Hughes Depalo Live at Room 861 at Goodnights Comedy Club,\n                West Raleigh 231.3 mi away • $29.99 - $45.99 • Comedy See details →",
+      "url": "https://raleighparent.com/event/maggie-hughes-depalo-live-at-room-861-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Oct 23-24, 07:30 PM Star Wars & More at Meymandi Concert Hall at Martin Marietta Center for the Performing Arts,\n                Downtown Raleigh 232.2 mi away • Tickets start at $53 with all-in pricing • Live Music & Concerts Film See details →",
+      "url": "https://raleighparent.com/event/star-wars-more-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 24-25, 2026 , Chapel Hill Biscuit Festival at SECU Family House,\n                Chapel-hill 231.3 mi away • Ticketed fundraiser • Festival Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/chapel-hill-biscuit-festival-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 08:00 AM - 01:00 PM Apex Half Marathon at Sweetwater Town Center,\n                Apex 239.2 mi away • $69 - $99 • Nature & Outdoor Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/apex-half-marathon-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 11:00 AM Vaping 101: Family Edition at Alice Aycock Poe Center for Health Education,\n                East Raleigh 230.7 mi away • $45/ pair, additional participants are $20 each • Education Outreach Wellness Workshops Family See details →",
+      "url": "https://raleighparent.com/event/vaping-101-family-edition-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 01:30 PM Celebrate Raleigh Arbor Day at Carolina Pines Park,\n                West Raleigh 234.1 mi away • FREE • Nature & Outdoor Wellness Earth Day & Arbor Day Celebrations See details →",
+      "url": "https://raleighparent.com/event/celebrate-raleigh-arbor-day-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:30 AM - 11:00 AM Raleigh Black History Walking Tour: Coffee and Donuts at Pope House Museum,\n                Downtown Raleigh 232.0 mi away • Free; registration required • Historic African-American Heritage Nature & Outdoor Tours Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-black-history-walking-tour-coffee-and-donuts-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Upcoming events in the next 30 Days",
+      "url": "https://raleighparent.com/events/30-days/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 15-25, 2026 , NC State Fair at NC State Fairgrounds,\n                Raleigh 231.8 mi away • Adults $10 advance, youth $5, 5 and under free • Fairs See details →",
+      "url": "https://raleighparent.com/event/nc-state-fair-on-oct-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 08:00 AM - 09:00 AM Bats, Bugs and Beasts at DCP Guest Services,\n                Cary 233.8 mi away • Free please register. This program is for ages 18 and older. • Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/bats-bugs-and-beasts-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 11:00 AM - 04:00 PM Make & Take: Lazy Susan at Rockler Woodworking & Hardware,\n                Cary 234.6 mi away • $107.25 • Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/make-take-lazy-susan-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Nature & Outdoor Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 01:00 PM - 02:00 PM Fall and Winter Birds of Wake County at Morrisville Senior Center,\n                Morrisville/RTP 231.9 mi away • Free. Please register. Ages 55+ • Education Outreach Nature & Outdoor Workshops See details →",
+      "url": "https://raleighparent.com/event/fall-and-winter-birds-of-wake-county-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown,\n                Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 04:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "African-American Heritage",
+      "url": "https://raleighparent.com/events/african-american-heritage/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:30 AM - 11:00 AM Raleigh Black History Walking Tour: Coffee and Donuts at Pope House Museum,\n                Downtown Raleigh 232.0 mi away • Free; registration required • Historic African-American Heritage Nature & Outdoor Tours Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-black-history-walking-tour-coffee-and-donuts-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 10:00 AM - 12:30 PM Youth Aviation Academy Program at John Chavis Memorial Park (Raleigh),\n                Raleigh 232.1 mi away • $10.00 • African-American Heritage Workshops Family Education Outreach See details →",
+      "url": "https://raleighparent.com/event/youth-aviation-academy-program-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 10:00 AM - 04:00 PM Exhibit Opening: The Doctor is in at Pope House Museum,\n                Downtown Raleigh 232.0 mi away • FREE • African-American Heritage Arts Museums Open Houses See details →",
+      "url": "https://raleighparent.com/event/exhibit-opening-the-doctor-is-in-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "America’s 250th",
+      "url": "https://raleighparent.com/events/americas-250th/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 8, 03:00 PM North Carolina Master Chorale: America 250 at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts America’s 250th See details →",
+      "url": "https://raleighparent.com/event/north-carolina-master-chorale-america-250-on-nov-8-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 8, 03:00 PM America 250 at Meymandi Concert Hall,\n                Downtown Raleigh 232.2 mi away • Individual ticket sales 9/11/26 • Family Live Music & Concerts America’s 250th See details →",
+      "url": "https://raleighparent.com/event/america-250-on-nov-8-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 242.7 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
+      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Pet Adoption Events",
+      "url": "https://raleighparent.com/events/animal-adoption/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 11:00 AM - 02:00 PM MMAHR Pup-kin Fall Event 4012 Mitchell Mill Road, Raleigh, North Carolina, 27616 222.7 mi away • FREE • Family Animal Adoption Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/mmahr-pup-kin-fall-event-on-oct-10-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 06:00 PM Dog Halloween Costume Contest at Boatman Spirits Co. at Boatman Spirits Co.,\n                Downtown Raleigh 230.9 mi away • FREE • Fundraiser/Benefit Dining and Drinks Holiday Animal Adoption See details →",
+      "url": "https://raleighparent.com/event/dog-halloween-costume-contest-at-boatman-spirits-co-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 05:00 PM - 07:00 PM Barks and Boos Open House and Supply Drive at Saving Grace,\n                Wake Forest 218.6 mi away • FREE • Family Festival Holiday Fundraiser/Benefit Animal Adoption Open Houses See details →",
+      "url": "https://raleighparent.com/event/barks-and-boos-open-house-and-supply-drive-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Annual Events",
+      "url": "https://raleighparent.com/events/annual-events/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 10:00 PM 11th Annual Zombiepalooza 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/11th-annual-zombiepalooza-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Trunk or Treat at Koka Booth Amphitheatre,\n                Cary 237.7 mi away • $8+ • Family Holiday Nature & Outdoor Annual Events Fundraiser/Benefit Festival See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Spellbound at Mordecai 2026 at Mordecai Historic Park,\n                Downtown Raleigh 230.6 mi away • Free, please register • Family Festival Historic Holiday Shopping Nature & Outdoor Annual Events See details →",
+      "url": "https://raleighparent.com/event/spellbound-at-mordecai-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Wings Over Springs at Sugg Farm,\n                Holly Springs 243.9 mi away • FREE • Family Nature & Outdoor Annual Events Festival Fairs See details →",
+      "url": "https://raleighparent.com/event/wings-over-springs-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM - 10:30 PM Downtown Scary Park: Haunted Hotel 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Festival Nature & Outdoor Annual Events Holiday See details →",
+      "url": "https://raleighparent.com/event/downtown-scary-park-haunted-hotel-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 03:00 PM - 11:00 PM Raleigh Official Halloween Pub Crawl 2026 at Dogwood Bar & Eatery,\n                Downtown Raleigh 231.2 mi away • $16.73+, 21+ years of age • Holiday Nature & Outdoor Nightlife Annual Events Beer and Brewery Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-official-halloween-pub-crawl-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 06:00 PM - 10:00 PM 2nd Annual Diwali Fest at Fuquay-Varina High School,\n                Fuquay-Varina 246.3 mi away • $5; Kids 10 and under enter free • Dance Dining and Drinks Festival Shopping Education Outreach Multicultural Annual Events See details →",
+      "url": "https://raleighparent.com/event/2nd-annual-diwali-fest-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM An Evening with Jared Wise at Crooked Hammock Brewery,\n                Midtown Raleigh 228.7 mi away • FREE • Live Music & Concerts Beer and Brewery Arts Theater See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-jared-wise-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM Live Music with Johnny G at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-johnny-g-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Vinyl Night: Super Stuff Records 301-2 Kinsey St., Raleigh, NC 27603 231.9 mi away • FREE • Shopping Live Music & Concerts Nightlife Arts See details →",
+      "url": "https://raleighparent.com/event/vinyl-night-super-stuff-records-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Green Road's Ghostly Spooktacular at Green Road Community Center and Park,\n                North Raleigh 226.8 mi away • Free, please register • Family Dance Holiday Arts Festival Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/green-roads-ghostly-spooktacular-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Día de Muertos Painting Experience with Perla Gerez at Diamante Arts & Cultural Center,\n                Midtown Raleigh 232.4 mi away • $40 • Holiday Arts Multicultural Workshops See details →",
+      "url": "https://raleighparent.com/event/da-de-muertos-painting-experience-with-perla-gerez-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:30 PM Carolina Ballet presents Dracula at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Dance See details →",
+      "url": "https://raleighparent.com/event/carolina-ballet-presents-dracula-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:30 PM North Carolina Symphony - The Music of John Williams: Star Wars & More at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts See details →",
+      "url": "https://raleighparent.com/event/north-carolina-symphony-the-music-of-john-williams-star-wars-more-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 08:00 PM The Lounge at Martin Marietta Center for the Performing Arts at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-lounge-at-martin-marietta-center-for-the-performing-arts-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Beer & Brewery",
+      "url": "https://raleighparent.com/events/beer-brewery/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM An Evening with Jared Wise at Crooked Hammock Brewery,\n                Midtown Raleigh 228.7 mi away • FREE • Live Music & Concerts Beer and Brewery Arts Theater See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-jared-wise-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM Live Music with Johnny G at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-johnny-g-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:00 PM - 10:00 PM Mysti Mayhem at Abbey Road Tavern & Grill - Cary,\n                Cary 235.2 mi away • FREE • Live Music & Concerts Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/mysti-mayhem-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 09:30 PM NC State Watch Party: Wolfpack vs. Stanford at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-stanford-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 03:00 PM - 11:00 PM Raleigh Official Halloween Pub Crawl 2026 at Dogwood Bar & Eatery,\n                Downtown Raleigh 231.2 mi away • $16.73+, 21+ years of age • Holiday Nature & Outdoor Nightlife Annual Events Beer and Brewery Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-official-halloween-pub-crawl-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 03:30 PM - 05:00 PM Modern Calligraphy & Pumpkin Lettering at Oma's Cafe + Wine,\n                Downtown Raleigh 232.1 mi away • $70 • Arts Education Outreach Team Building Dining and Drinks Beer and Brewery Workshops See details →",
+      "url": "https://raleighparent.com/event/modern-calligraphy-pumpkin-lettering-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 05:00 PM - 08:00 PM An Evening with Brent Stimmell at Crooked Hammock Brewery,\n                Midtown Raleigh 228.7 mi away • FREE • Live Music & Concerts Beer and Brewery Arts Comedy See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-brent-stimmell-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 05:00 PM - 08:00 PM Live Music with Sterling Scott at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-sterling-scott-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Bluegrass Music",
+      "url": "https://raleighparent.com/events/bluegrass/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:30 PM Two Friends – Two Voices at The Wake Forest Listening Room,\n                Wake Forest 216.6 mi away • $28.25 • Live Music & Concerts Bluegrass See details →",
+      "url": "https://raleighparent.com/event/two-friends-two-voices-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:00 PM Brad Williams at Carolina Theatre - Durham,\n                Durham 222.2 mi away See details for pricing • Comedy Bluegrass See details →",
+      "url": "https://raleighparent.com/event/brad-williams-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:30 PM An Evening with Kathy Mattea at Garner Performing Arts Center,\n                Garner 235.6 mi away • $27 • Live Music & Concerts Bluegrass See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-kathy-mattea-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 06:00 PM - 08:00 PM Durham Beer and Banjos at Old Mill Farm, Durham,\n                Durham 232.1 mi away • FREE • Bluegrass Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/durham-beer-and-banjos-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 5, 07:00 PM One Night on Sugar Hill at Carolina Theatre - Durham,\n                Durham 222.2 mi away See details for pricing • Bluegrass See details →",
+      "url": "https://raleighparent.com/event/one-night-on-sugar-hill-on-nov-5-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 08:30 PM An Evening with Mountain Grass Unit at Lincoln Theatre,\n                Downtown Raleigh 231.9 mi away • $29.55 to $35.25 • Live Music & Concerts Nightlife Bluegrass See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-mountain-grass-unit-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 07:30 PM Broken Compass Bluegrass at Garner Performing Arts Center,\n                Garner 235.6 mi away • $27 • Live Music & Concerts Bluegrass See details →",
+      "url": "https://raleighparent.com/event/broken-compass-bluegrass-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 08:30 PM An Evening With: Shadowgrass at Lincoln Theatre,\n                Downtown Raleigh 231.9 mi away • $23.25 to $42.25 • Live Music & Concerts Nightlife Bluegrass See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-shadowgrass-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Christmas & Holiday Events",
+      "url": "https://raleighparent.com/events/christmas-holiday/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 04:30 PM - 07:30 PM Lions Park Trunk-Or-Treat at Lions Park and Community Center,\n                North Raleigh 230.0 mi away • FREE • Family Live Music & Concerts Holiday Arts Festival Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/lions-park-trunk-or-treat-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 12:00 PM PONDER Program: Spooky Season at DCP Guest Services,\n                Cary 233.8 mi away • Free. Please Note: this is an event for people with dementia and their care partners. Registration required. • Education Outreach Wellness Holiday Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/ponder-program-spooky-season-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 06:00 PM - 08:00 PM Trunk Or Treat at The Capital Church at The Capital Church,\n                Garner 235.5 mi away • Free, please register • Family Holiday Nature & Outdoor Festival Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-at-the-capital-church-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 10:00 AM - 04:00 PM HollyFest 2026 at Jefferson L. Sugg Farm Park at Bass Lake,\n                Holly Springs 243.9 mi away • FREE • Family Live Music & Concerts Dining and Drinks Festival Holiday Nature & Outdoor Annual Events Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/hollyfest-2026-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 11:00 AM - 04:00 PM Pirates and Mermaids Holiday Market at Haven Farm at Haven of Knightdale,\n                Knightdale 225.2 mi away • FREE • Live Music & Concerts Dining and Drinks Holiday Shopping Nature & Outdoor Annual Events Christmas and Holiday Events Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/pirates-and-mermaids-holiday-market-at-haven-farm-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 6, 11:00 AM - 07:00 PM Holiday Market and Eastern NC BBQ and Brunswick Stew at North Raleigh United Methodist Church, Fellowship Hall ,\n                North Raleigh 223.6 mi away • Free, please RSVP. Cash and card accepted • Dining and Drinks Festival Shopping Fundraiser/Benefit Christmas and Holiday Events Holiday See details →",
+      "url": "https://raleighparent.com/event/holiday-market-and-eastern-nc-bbq-and-brunswick-stew-on-nov-6-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 10:00 AM - 06:00 PM LOVE Raleigh Festival & Market: Holiday Kick-Off at Moore Square,\n                Downtown Raleigh 231.7 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Festival Shopping Nature & Outdoor Holiday Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/love-raleigh-festival-market-holiday-kick-off-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sat, Nov 7, 10:00 AM - 02:00 PM Handmade Christmas Market 10212 Fayetteville Rd, Fuquay-Varina , NC 27526 243.0 mi away • FREE • Shopping Christmas and Holiday Events Farmers Markets Festival See details →",
+      "url": "https://raleighparent.com/event/handmade-christmas-market-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Classes & Workshops",
+      "url": "https://raleighparent.com/events/classes-workshops/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 11:00 AM - 04:00 PM Make & Take: Lazy Susan at Rockler Woodworking & Hardware,\n                Cary 234.6 mi away • $107.25 • Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/make-take-lazy-susan-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 01:00 PM - 02:00 PM Fall and Winter Birds of Wake County at Morrisville Senior Center,\n                Morrisville/RTP 231.9 mi away • Free. Please register. Ages 55+ • Education Outreach Nature & Outdoor Workshops See details →",
+      "url": "https://raleighparent.com/event/fall-and-winter-birds-of-wake-county-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Día de Muertos Painting Experience with Perla Gerez at Diamante Arts & Cultural Center,\n                Midtown Raleigh 232.4 mi away • $40 • Holiday Arts Multicultural Workshops See details →",
+      "url": "https://raleighparent.com/event/da-de-muertos-painting-experience-with-perla-gerez-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 11:00 AM Vaping 101: Family Edition at Alice Aycock Poe Center for Health Education,\n                East Raleigh 230.7 mi away • $45/ pair, additional participants are $20 each • Education Outreach Wellness Workshops Family See details →",
+      "url": "https://raleighparent.com/event/vaping-101-family-edition-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM Beneficial Bugs: Nature’s Pest Control at Fairview Greenhouses Garden Center,\n                South Raleigh 238.6 mi away • $10 • Nature & Outdoor Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/beneficial-bugs-natures-pest-control-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 11:00 AM - 01:00 PM Introduction to Machine Sewing at The Workshop,\n                Cary 233.6 mi away • $50 • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/introduction-to-machine-sewing-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 12:00 PM Educator Trek: Butterfly Pinning and Backyard Bug Collecting at Nature Research Center,\n                Downtown Raleigh 231.4 mi away • $70 includes insect resource manual, pinning board, butterfly display box, numerous exotic butterfly specimens. • Museums Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/educator-trek-butterfly-pinning-and-backyard-bug-collecting-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM - 04:00 PM Introduction to Machine Sewing Part 2 at The Workshop,\n                Cary 233.6 mi away • $55 • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/introduction-to-machine-sewing-part-2-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Colleges & Universities",
+      "url": "https://raleighparent.com/events/colleges-universities/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM North Carolina State Wolfpack Womens Volleyball vs. Wake Forest Demon Deacons Womens Volleyball at Reynolds Coliseum,\n                Raleigh 231.1 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-womens-volleyball-vs-wake-forest-demon-deacons-womens-volleyball-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 09:30 PM NC State Watch Party: Wolfpack vs. Stanford at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-stanford-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:30 PM North Carolina Tar Heels Football vs. Syracuse University Football at Kenan Stadium,\n                Chapel Hill 227.2 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-tar-heels-football-vs-syracuse-university-football-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 06:00 PM - 08:00 PM HowlFest 2026 at Carmichael Gym Outdoor Basketball Courts - NC State Campus,\n                West Raleigh 231.9 mi away • Free - $20 • Family Colleges and Universities Festival See details →",
+      "url": "https://raleighparent.com/event/howlfest-2026-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "October 31, 2026 , Duke Blue Devils Football vs. Boston College Eagles Football at Wallace Wade Stadium,\n                Durham 218.5 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/duke-blue-devils-football-vs-boston-college-eagles-football-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "October 31, 2026 , College Football: N.C. State Wolfpack vs. California Golden Bears at Carter-Finley Stadium,\n                West Raleigh 231.6 mi away • See website for ticket information • Colleges and Universities Sports See details →",
+      "url": "https://raleighparent.com/event/college-football-nc-state-wolfpack-vs-california-golden-bears-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 11:00 AM NC State Watch Party: Wolfpack vs. Cal at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-cal-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 02:00 PM - 05:30 PM NC Courage Pre-Match Party at Sports & Social,\n                Cary 233.6 mi away • Free, please RSVP • Dining and Drinks Colleges and Universities Sports Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/nc-courage-pre-match-party-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Comedy Shows",
+      "url": "https://raleighparent.com/events/comedy/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:00 PM Robby Hoffman at Carolina Theatre - Durham,\n                Durham 222.2 mi away See details for pricing • Comedy See details →",
+      "url": "https://raleighparent.com/event/robby-hoffman-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:00 PM Special Event: Ron Funches at Goodnights Comedy Club,\n                West Raleigh 231.3 mi away • $33 to $185 • Comedy Nightlife See details →",
+      "url": "https://raleighparent.com/event/special-event-ron-funches-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Oct 23-25, 07:30 PM Maggie Hughes Depalo Live at Room 861 at Goodnights Comedy Club,\n                West Raleigh 231.3 mi away • $29.99 - $45.99 • Comedy See details →",
+      "url": "https://raleighparent.com/event/maggie-hughes-depalo-live-at-room-861-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM Sherry Vine: Dirty Blonde at Goodnights Comedy Club,\n                Midtown Raleigh 231.3 mi away • $30.99 - $180.99 • Comedy LGBT Theater Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/sherry-vine-dirty-blonde-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 05:00 PM - 08:00 PM An Evening with Brent Stimmell at Crooked Hammock Brewery,\n                Midtown Raleigh 228.7 mi away • FREE • Live Music & Concerts Beer and Brewery Arts Comedy See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-brent-stimmell-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:00 PM Brad Williams at Carolina Theatre - Durham,\n                Durham 222.2 mi away See details for pricing • Comedy Bluegrass See details →",
+      "url": "https://raleighparent.com/event/brad-williams-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:00 PM Special Event: Ron Funches at Goodnights Comedy Club,\n                West Raleigh 231.3 mi away • $33 to $185 • Comedy Nightlife See details →",
+      "url": "https://raleighparent.com/event/special-event-ron-funches-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 PM - 10:30 PM She/They/Gay Show at ComedyWorx,\n                West Raleigh 231.5 mi away • $11-$13; rated M for Mature - anyone under 18 must be accompanied by a parent or guardian • Comedy LGBT See details →",
+      "url": "https://raleighparent.com/event/shetheygay-show-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Commencement & Graduation",
+      "url": "https://raleighparent.com/events/commencement-graduation/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM 2026 SEA Change North Carolina Signature Cohort Showcase at The Loading Dock - Beryl,\n                West Raleigh 231.6 mi away • Free, please register • Education Outreach Annual Events Fundraiser/Benefit Commencement/Graduation Workshops See details →",
+      "url": "https://raleighparent.com/event/2026-sea-change-north-carolina-signature-cohort-showcase-on-nov-11-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Live Music & Concerts",
+      "url": "https://raleighparent.com/events/concerts-live-music/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:30 PM DYING FETUS & SANGUISUGABOGG at The Ritz,\n                Raleigh 228.9 mi away See details for pricing • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/dying-fetus-sanguisugabogg-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM An Evening with Jared Wise at Crooked Hammock Brewery,\n                Midtown Raleigh 228.7 mi away • FREE • Live Music & Concerts Beer and Brewery Arts Theater See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-jared-wise-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM Live Music with Johnny G at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-johnny-g-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Vinyl Night: Super Stuff Records 301-2 Kinsey St., Raleigh, NC 27603 231.9 mi away • FREE • Shopping Live Music & Concerts Nightlife Arts See details →",
+      "url": "https://raleighparent.com/event/vinyl-night-super-stuff-records-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM Breaking Benjamin at Coastal Credit Union Music Park at Walnut Creek,\n                Raleigh 232.5 mi away See details for pricing • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/breaking-benjamin-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM The Fandinos Live at Tin Roof at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Live Music & Concerts Dining and Drinks Nightlife See details →",
+      "url": "https://raleighparent.com/event/the-fandinos-live-at-tin-roof-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:45 PM Breaking Benjamin, Chevelle & Starset at Coastal Credit Union Music Park at Walnut Creek,\n                South Raleigh 232.6 mi away • $68+ • Live Music & Concerts Nature & Outdoor Nightlife See details →",
+      "url": "https://raleighparent.com/event/breaking-benjamin-chevelle-starset-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Dance Performances",
+      "url": "https://raleighparent.com/events/dance/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Green Road's Ghostly Spooktacular at Green Road Community Center and Park,\n                North Raleigh 226.8 mi away • Free, please register • Family Dance Holiday Arts Festival Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/green-roads-ghostly-spooktacular-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:30 PM Carolina Ballet presents Dracula at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Dance See details →",
+      "url": "https://raleighparent.com/event/carolina-ballet-presents-dracula-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 10:30 PM Kawaii Rave at KINGS,\n                Downtown Raleigh 231.8 mi away • $18 adv / $22 day-of | 18+ • Dance Nightlife Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/kawaii-rave-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM Carolina Ballet presents Dracula at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Dance See details →",
+      "url": "https://raleighparent.com/event/carolina-ballet-presents-dracula-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 05:00 PM - 07:00 PM Goblin's Groove Family Dance at The Halle Cultural Arts Center,\n                Apex 238.5 mi away • Tickets: Individual - $5 / Child 2 & Under - $2 • Family Dance Holiday Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/goblins-groove-family-dance-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 06:00 PM - 10:00 PM 2nd Annual Diwali Fest at Fuquay-Varina High School,\n                Fuquay-Varina 246.3 mi away • $5; Kids 10 and under enter free • Dance Dining and Drinks Festival Shopping Education Outreach Multicultural Annual Events See details →",
+      "url": "https://raleighparent.com/event/2nd-annual-diwali-fest-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:30 PM Carolina Ballet presents Dracula at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Dance See details →",
+      "url": "https://raleighparent.com/event/carolina-ballet-presents-dracula-on-oct-24-2026-G5eVZ_/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 08:00 PM - 02:00 AM Rave to the Grave at Boxcar Bar + Arcade,\n                Downtown Raleigh 231.9 mi away • FREE • Dance Holiday Nightlife Beer and Brewery Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/rave-to-the-grave-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Dining & Drinks",
+      "url": "https://raleighparent.com/events/dining-drinks/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 10:00 PM Adult Nights: Tales of Woe at North Carolina Museum of Natural Sciences,\n                Downtown Raleigh 231.4 mi away • $15 to $25 • Museums Historic Nightlife Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/adult-nights-tales-of-woe-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM The Fandinos Live at Tin Roof at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Live Music & Concerts Dining and Drinks Nightlife See details →",
+      "url": "https://raleighparent.com/event/the-fandinos-live-at-tin-roof-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 08:00 PM The Lounge at Martin Marietta Center for the Performing Arts at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-lounge-at-martin-marietta-center-for-the-performing-arts-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 09:30 PM NC State Watch Party: Wolfpack vs. Stanford at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-stanford-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:30 AM - 11:00 AM Raleigh Black History Walking Tour: Coffee and Donuts at Pope House Museum,\n                Downtown Raleigh 232.0 mi away • Free; registration required • Historic African-American Heritage Nature & Outdoor Tours Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-black-history-walking-tour-coffee-and-donuts-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Sweet Paris Fenton Grand Opening Celebration at Sweet Paris Crêperie & Café,\n                Cary 233.6 mi away • FREE • Dining and Drinks Open Houses See details →",
+      "url": "https://raleighparent.com/event/sweet-paris-fenton-grand-opening-celebration-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM - 05:00 PM PokéFest Apex at Apex Senior Center,\n                Apex 238.3 mi away • FREE • Shopping Dining and Drinks Arts Festival Esports and Gaming See details →",
+      "url": "https://raleighparent.com/event/pokfest-apex-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Earth Day & Arbor Day Celebrations",
+      "url": "https://raleighparent.com/events/earth-day-arbor-day-celebrations/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 01:30 PM Celebrate Raleigh Arbor Day at Carolina Pines Park,\n                West Raleigh 234.1 mi away • FREE • Nature & Outdoor Wellness Earth Day & Arbor Day Celebrations See details →",
+      "url": "https://raleighparent.com/event/celebrate-raleigh-arbor-day-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Education Outreach",
+      "url": "https://raleighparent.com/events/education-outreach/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 08:00 AM - 09:00 AM Bats, Bugs and Beasts at DCP Guest Services,\n                Cary 233.8 mi away • Free please register. This program is for ages 18 and older. • Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/bats-bugs-and-beasts-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 11:00 AM - 04:00 PM Make & Take: Lazy Susan at Rockler Woodworking & Hardware,\n                Cary 234.6 mi away • $107.25 • Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/make-take-lazy-susan-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 01:00 PM - 02:00 PM Fall and Winter Birds of Wake County at Morrisville Senior Center,\n                Morrisville/RTP 231.9 mi away • Free. Please register. Ages 55+ • Education Outreach Nature & Outdoor Workshops See details →",
+      "url": "https://raleighparent.com/event/fall-and-winter-birds-of-wake-county-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 11:00 AM Vaping 101: Family Edition at Alice Aycock Poe Center for Health Education,\n                East Raleigh 230.7 mi away • $45/ pair, additional participants are $20 each • Education Outreach Wellness Workshops Family See details →",
+      "url": "https://raleighparent.com/event/vaping-101-family-edition-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sat, Oct 24, 10:00 AM - 11:30 AM Carpenter Community Garden Open House 2026 at Carpenter Community Garden,\n                Cary 233.5 mi away • Free. No pets allowed. All ages welcome. Children must be accompanied by an adult. • Family Nature & Outdoor Education Outreach Open Houses See details →",
+      "url": "https://raleighparent.com/event/carpenter-community-garden-open-house-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM Beneficial Bugs: Nature’s Pest Control at Fairview Greenhouses Garden Center,\n                South Raleigh 238.6 mi away • $10 • Nature & Outdoor Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/beneficial-bugs-natures-pest-control-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 11:00 AM - 01:00 PM Introduction to Machine Sewing at The Workshop,\n                Cary 233.6 mi away • $50 • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/introduction-to-machine-sewing-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 12:00 PM Educator Trek: Butterfly Pinning and Backyard Bug Collecting at Nature Research Center,\n                Downtown Raleigh 231.4 mi away • $70 includes insect resource manual, pinning board, butterfly display box, numerous exotic butterfly specimens. • Museums Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/educator-trek-butterfly-pinning-and-backyard-bug-collecting-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Esports & Gaming",
+      "url": "https://raleighparent.com/events/esports-gaming/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM - 05:00 PM PokéFest Apex at Apex Senior Center,\n                Apex 238.3 mi away • FREE • Shopping Dining and Drinks Arts Festival Esports and Gaming See details →",
+      "url": "https://raleighparent.com/event/pokfest-apex-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 06:00 PM - 10:00 PM Blood on the Clocktower Social Deduction Game at  DCP Academy Pavilion,\n                Cary 233.8 mi away • Free. This program is for ages 18 and older. Please register • Team Building Esports and Gaming Nightlife Workshops See details →",
+      "url": "https://raleighparent.com/event/blood-on-the-clocktower-social-deduction-game-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 02:00 PM Dungeons and Drafthouse at Video Vortex: Blazing Garden at Video Vortex at Alamo Drafthouse Cinema,\n                East Raleigh 231.1 mi away • $36.30 • Nightlife Dining and Drinks Esports and Gaming Workshops See details →",
+      "url": "https://raleighparent.com/event/dungeons-and-drafthouse-at-video-vortex-blazing-garden-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 12, 06:30 PM - 10:00 PM TTRPG Game Night at Chapel of Bones,\n                West Raleigh 233.1 mi away • Free entry | All ages welcome • Dining and Drinks Esports and Gaming Wellness Family Nightlife See details →",
+      "url": "https://raleighparent.com/event/ttrpg-game-night-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 19, 06:00 PM - 08:00 PM Mahjong and Mingle at The Backyard,\n                Cary 233.6 mi away • $40 no experience, $20 experienced • Education Outreach Multicultural Esports and Gaming Workshops See details →",
+      "url": "https://raleighparent.com/event/mahjong-and-mingle-on-nov-19-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Community Fairs",
+      "url": "https://raleighparent.com/events/fairs/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 15-25, 2026 , NC State Fair at NC State Fairgrounds,\n                Raleigh 231.8 mi away • Adults $10 advance, youth $5, 5 and under free • Fairs See details →",
+      "url": "https://raleighparent.com/event/nc-state-fair-on-oct-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Wings Over Springs at Sugg Farm,\n                Holly Springs 243.9 mi away • FREE • Family Nature & Outdoor Annual Events Festival Fairs See details →",
+      "url": "https://raleighparent.com/event/wings-over-springs-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 08:00 AM - 11:00 AM Cars and Coffee Raleigh: Slammed and Low Rider Day at 6270 Glenwood Avenue, Raleigh,\n                Raleigh 227.6 mi away • FREE • Annual Events Family Festival Fairs See details →",
+      "url": "https://raleighparent.com/event/cars-and-coffee-raleigh-slammed-and-low-rider-day-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 03:00 PM - 06:00 PM Medieval Feast and Fun: A Royal Family Gathering - CANCELLED at Herbert C. Young Community Center,\n                Cary 233.4 mi away • Family of 4 - $50 Resident. Non Resident $65. Registration Required. Ages 4+ • Family Team Building Historic Festival Fairs See details →",
+      "url": "https://raleighparent.com/event/medieval-feast-and-fun-a-royal-family-gathering-cancelled-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 05:30 PM - 07:30 PM Amplify Health: Monster Bash at Poe Center for Health Education,\n                East Raleigh 230.7 mi away • Free, please RSVP • Family Dining and Drinks Festival Education Outreach Arts Holiday Fairs See details →",
+      "url": "https://raleighparent.com/event/amplify-health-monster-bash-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 05:30 PM - 08:30 PM Fall Fest featuring Epic Live! The Shepherd's Church, 6051 Tryon Rd., Cary, NC 27518 235.8 mi away • FREE • Festival Family Fairs See details →",
+      "url": "https://raleighparent.com/event/fall-fest-featuring-epic-live-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 06:00 PM - 10:00 PM Halloween Adult Book Fair at Tap Yard Raleigh,\n                East Raleigh 230.0 mi away • FREE • Shopping Arts Fairs Holiday See details →",
+      "url": "https://raleighparent.com/event/halloween-adult-book-fair-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 12:00 PM Front Paige Media Raleigh Halloween Book Fair at Raleigh Iron Works,\n                Midtown Raleigh 229.3 mi away • FREE • Family Dining and Drinks Festival Education Outreach Nature & Outdoor Fairs See details →",
+      "url": "https://raleighparent.com/event/front-paige-media-raleigh-halloween-book-fair-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Family Events",
+      "url": "https://raleighparent.com/events/family/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Nature & Outdoor Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown,\n                Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 04:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:30 PM - 07:30 PM Spooky Family Fun Night at Zebulon Community Center,\n                Zebulon 224.1 mi away • FREE • Family Holiday Team Building See details →",
+      "url": "https://raleighparent.com/event/spooky-family-fun-night-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:30 PM Kooky Spooky Halloween Party at Marbles 2026 at Marbles Kids Museum,\n                Downtown Raleigh 231.6 mi away • $20 Member | $22 General Public. All attendees (adults & children) need a ticket to enter the event. Children must be accompanied by at least one adult over the age of 18. • Family Museums Holiday Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/kooky-spooky-halloween-party-at-marbles-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 10:00 PM 11th Annual Zombiepalooza 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/11th-annual-zombiepalooza-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Trunk or Treat at Koka Booth Amphitheatre,\n                Cary 237.7 mi away • $8+ • Family Holiday Nature & Outdoor Annual Events Fundraiser/Benefit Festival See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Local Farmers Markets",
+      "url": "https://raleighparent.com/events/farmers-markets/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 11:00 AM - 03:00 PM Durham Underground Market at Durham Central Park,\n                Durham 222.2 mi away • FREE • Festival Arts Farmers Markets Shopping See details →",
+      "url": "https://raleighparent.com/event/durham-underground-market-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Oct 28, 03:00 PM - 06:00 PM Market Bunch Kids Activities at Carrboro Farmers Market at Carrboro Farmers’ Market,\n                Chapel-hill 231.8 mi away • FREE • Farmers Markets Family See details →",
+      "url": "https://raleighparent.com/event/market-bunch-kids-activities-at-carrboro-farmers-market-on-oct-28-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 05:30 PM - 08:30 PM Last Fridays Makers Market at Old Courthouse–Hillsborough,\n                Chapel-hill 221.9 mi away • FREE • Arts Festival Shopping Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/last-fridays-makers-market-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 07:00 AM - 12:00 PM Carrboro Farmers' Market: Vendor Halloween Costume Contest at Carrboro Farmers’ Market,\n                Chapel-hill 231.8 mi away • FREE • Farmers Markets Family Fundraiser/Benefit Holiday See details →",
+      "url": "https://raleighparent.com/event/carrboro-farmers-market-vendor-halloween-costume-contest-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 11:00 AM - 02:00 PM The GRL Market October at Waverly Place,\n                Cary 236.8 mi away • FREE • Shopping Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/the-grl-market-october-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 10:00 AM - 03:00 PM Pop Up ARTernative Market at Chapel of Bones Coffee, Raleigh,\n                Raleigh 233.1 mi away • FREE • Arts Shopping Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/pop-up-arternative-market-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 11:00 AM - 04:00 PM Pirates and Mermaids Holiday Market at Haven Farm at Haven of Knightdale,\n                Knightdale 225.2 mi away • FREE • Live Music & Concerts Dining and Drinks Holiday Shopping Nature & Outdoor Annual Events Christmas and Holiday Events Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/pirates-and-mermaids-holiday-market-at-haven-farm-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 12:00 PM - 04:00 PM Cary Underground Market: Bands and Vendors at Bond Brothers Beer Company,\n                Cary 233.5 mi away • FREE • Annual Events Shopping Live Music & Concerts Festival Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/cary-underground-market-bands-and-vendors-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Farm Experiences",
+      "url": "https://raleighparent.com/events/farms/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Nature & Outdoor Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 06:00 PM - 10:00 PM Front Porch Friday at Haven Farm at Haven Farm, Knightdale,\n                Knightdale 225.2 mi away • FREE • Family Farms Nightlife See details →",
+      "url": "https://raleighparent.com/event/front-porch-friday-at-haven-farm-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 11:00 AM - 07:00 PM The Witch's Haunted Barn at Firefly Farm at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-at-firefly-farm-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 10:00 AM - 02:00 PM Saturday Slowdown Market and Open Farm Day at RambleRill Farm, Hillsborough,\n                Chapel-hill 227.4 mi away • FREE • Farmers Markets Farms Family See details →",
+      "url": "https://raleighparent.com/event/saturday-slowdown-market-and-open-farm-day-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 8, 12:00 PM Sunshine Harvest Market: A Raleigh Boutique Farmer's Market at Atlantic Gardening Company ,\n                North Raleigh 226.0 mi away • FREE • Family Shopping Farms Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/sunshine-harvest-market-a-raleigh-boutique-farmers-market-on-nov-8-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 09:00 AM - 01:00 PM Sunshine Harvest Market: A Raleigh Boutique Farmer's Market at Hayes Barton Baptist Church at Five Points,\n                Midtown Raleigh 230.0 mi away • FREE • Family Shopping Farms Farmers Markets See details →",
+      "url": "https://raleighparent.com/event/sunshine-harvest-market-a-raleigh-boutique-farmers-market-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 21, 12:00 PM - 04:00 PM Harvest Fest 2026 at Good Hope Farm,\n                Cary 232.7 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Shopping Nature & Outdoor Annual Events Beer and Brewery Festival Farms See details →",
+      "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Festivals",
+      "url": "https://raleighparent.com/events/festivals/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Nature & Outdoor Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown,\n                Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 04:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 10:00 PM 11th Annual Zombiepalooza 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/11th-annual-zombiepalooza-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Trunk or Treat at Koka Booth Amphitheatre,\n                Cary 237.7 mi away • $8+ • Family Holiday Nature & Outdoor Annual Events Fundraiser/Benefit Festival See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Green Road's Ghostly Spooktacular at Green Road Community Center and Park,\n                North Raleigh 226.8 mi away • Free, please register • Family Dance Holiday Arts Festival Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/green-roads-ghostly-spooktacular-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:00 PM - 10:30 PM Haunted Walk Night 1 at Bond Park Challenge Course,\n                Cary 233.5 mi away • $5, under 5 are free. All tickets are sold onsite, cash or card accepted. Ticket sales begin at 6:30pm. • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/haunted-walk-night-1-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Film & Cinema",
+      "url": "https://raleighparent.com/events/film/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 10:00 PM 11th Annual Zombiepalooza 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/11th-annual-zombiepalooza-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:30 PM Over the Garden Wall Screening at The Portal HQ at The Portal HQ,\n                West Raleigh 231.5 mi away See details for pricing • Film Holiday Nightlife Family See details →",
+      "url": "https://raleighparent.com/event/over-the-garden-wall-screening-at-the-portal-hq-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Oct 23-24, 07:30 PM Star Wars & More at Meymandi Concert Hall at Martin Marietta Center for the Performing Arts,\n                Downtown Raleigh 232.2 mi away • Tickets start at $53 with all-in pricing • Live Music & Concerts Film See details →",
+      "url": "https://raleighparent.com/event/star-wars-more-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 11:55 PM The Rocky Horror Picture Show at The Rialto at The Rialto Theatre,\n                Midtown Raleigh 230.2 mi away • $11 • Film Theater See details →",
+      "url": "https://raleighparent.com/event/the-rocky-horror-picture-show-at-the-rialto-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 01:00 PM - 03:45 PM The Burbs at The Cary Theater,\n                Cary 229.1 mi away • $4.66+ • Film Arts See details →",
+      "url": "https://raleighparent.com/event/the-burbs-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM - 10:30 PM Downtown Scary Park: Haunted Hotel 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Festival Nature & Outdoor Annual Events Holiday See details →",
+      "url": "https://raleighparent.com/event/downtown-scary-park-haunted-hotel-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 03:00 PM North Carolina Symphony - The Music of John Williams: Star Wars & More at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Festival Film See details →",
+      "url": "https://raleighparent.com/event/north-carolina-symphony-the-music-of-john-williams-star-wars-more-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 06:00 PM - 10:00 PM Movie Night: Halloween Double Feature at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Dining and Drinks Film Nature & Outdoor Holiday See details →",
+      "url": "https://raleighparent.com/event/movie-night-halloween-double-feature-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Free Events",
+      "url": "https://raleighparent.com/events/free/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 01:00 PM - 02:00 PM Fall and Winter Birds of Wake County at Morrisville Senior Center,\n                Morrisville/RTP 231.9 mi away • Free. Please register. Ages 55+ • Education Outreach Nature & Outdoor Workshops See details →",
+      "url": "https://raleighparent.com/event/fall-and-winter-birds-of-wake-county-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown,\n                Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:30 PM - 07:30 PM Spooky Family Fun Night at Zebulon Community Center,\n                Zebulon 224.1 mi away • FREE • Family Holiday Team Building See details →",
+      "url": "https://raleighparent.com/event/spooky-family-fun-night-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM An Evening with Jared Wise at Crooked Hammock Brewery,\n                Midtown Raleigh 228.7 mi away • FREE • Live Music & Concerts Beer and Brewery Arts Theater See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-jared-wise-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM Live Music with Johnny G at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-johnny-g-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Vinyl Night: Super Stuff Records 301-2 Kinsey St., Raleigh, NC 27603 231.9 mi away • FREE • Shopping Live Music & Concerts Nightlife Arts See details →",
+      "url": "https://raleighparent.com/event/vinyl-night-super-stuff-records-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 10:00 PM 11th Annual Zombiepalooza 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/11th-annual-zombiepalooza-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Free Food Events",
+      "url": "https://raleighparent.com/events/free-food/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 26, 12:00 PM Thanksgiving at the Hammock at Crooked Hammock Brewery,\n                West Raleigh 228.7 mi away • Free, reservations required • Family Dining and Drinks Holiday Beer and Brewery Christmas and Holiday Events Free Food See details →",
+      "url": "https://raleighparent.com/event/thanksgiving-at-the-hammock-on-nov-26-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fundraisers & Benefits",
+      "url": "https://raleighparent.com/events/fundraisers-benefits/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Trunk or Treat at Koka Booth Amphitheatre,\n                Cary 237.7 mi away • $8+ • Family Holiday Nature & Outdoor Annual Events Fundraiser/Benefit Festival See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP October 24-25, 2026 , Chapel Hill Biscuit Festival at SECU Family House,\n                Chapel-hill 231.3 mi away • Ticketed fundraiser • Festival Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/chapel-hill-biscuit-festival-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 08:00 AM - 01:00 PM Apex Half Marathon at Sweetwater Town Center,\n                Apex 239.2 mi away • $69 - $99 • Nature & Outdoor Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/apex-half-marathon-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:30 AM Sapphic Bike Ride at Greg Poole Jr. All Faiths Chapel,\n                Downtown Raleigh 232.5 mi away • FREE • Fundraiser/Benefit LGBT Wellness Nature & Outdoor Sports See details →",
+      "url": "https://raleighparent.com/event/sapphic-bike-ride-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:00 PM - 08:30 PM ASP Benefit Concert and Album Release at Wakefield United Methodist Church,\n                North Raleigh 219.4 mi away • Minimum Suggested Donation of $15 • Live Music & Concerts Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/asp-benefit-concert-and-album-release-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 06:00 PM Dog Halloween Costume Contest at Boatman Spirits Co. at Boatman Spirits Co.,\n                Downtown Raleigh 230.9 mi away • FREE • Fundraiser/Benefit Dining and Drinks Holiday Animal Adoption See details →",
+      "url": "https://raleighparent.com/event/dog-halloween-costume-contest-at-boatman-spirits-co-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 06:00 PM TRAOBA - Battle of the Bands at Lincoln Theatre,\n                Downtown Raleigh 231.9 mi away • $24.55 • Live Music & Concerts Nightlife Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/traoba-battle-of-the-bands-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 05:00 PM - 07:00 PM Barks and Boos Open House and Supply Drive at Saving Grace,\n                Wake Forest 218.6 mi away • FREE • Family Festival Holiday Fundraiser/Benefit Animal Adoption Open Houses See details →",
+      "url": "https://raleighparent.com/event/barks-and-boos-open-house-and-supply-drive-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Historic Events",
+      "url": "https://raleighparent.com/events/historic/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 10:00 PM Adult Nights: Tales of Woe at North Carolina Museum of Natural Sciences,\n                Downtown Raleigh 231.4 mi away • $15 to $25 • Museums Historic Nightlife Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/adult-nights-tales-of-woe-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:30 AM - 11:00 AM Raleigh Black History Walking Tour: Coffee and Donuts at Pope House Museum,\n                Downtown Raleigh 232.0 mi away • Free; registration required • Historic African-American Heritage Nature & Outdoor Tours Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-black-history-walking-tour-coffee-and-donuts-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Spellbound at Mordecai 2026 at Mordecai Historic Park,\n                Downtown Raleigh 230.6 mi away • Free, please register • Family Festival Historic Holiday Shopping Nature & Outdoor Annual Events See details →",
+      "url": "https://raleighparent.com/event/spellbound-at-mordecai-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 03:00 PM - 06:00 PM Medieval Feast and Fun: A Royal Family Gathering - CANCELLED at Herbert C. Young Community Center,\n                Cary 233.4 mi away • Family of 4 - $50 Resident. Non Resident $65. Registration Required. Ages 4+ • Family Team Building Historic Festival Fairs See details →",
+      "url": "https://raleighparent.com/event/medieval-feast-and-fun-a-royal-family-gathering-cancelled-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 02:00 PM - 03:30 PM Kanof Lecture: What Should Our Judaism Look Like? The Tobe Pascher Workshop and American Jewish Ritual Art at North Carolina Museum of Art,\n                West Raleigh 230.9 mi away • FREE • Museums Historic Education Outreach Arts Multicultural Workshops See details →",
+      "url": "https://raleighparent.com/event/kanof-lecture-what-should-our-judaism-look-like-the-tobe-pascher-workshop-and-american-jewish-ritual-art-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Nov 4, 10:00 AM - 11:00 AM Veterans Day Celebration Zebulon 2026 at Zebulon Town Hall. Rain Site Zebulon Community Center,\n                Zebulon 223.4 mi away • Free. RSVP Required By 10/30/26, call or email. • Family Historic Nature & Outdoor Holiday See details →",
+      "url": "https://raleighparent.com/event/veterans-day-celebration-zebulon-2026-on-nov-4-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 6, 06:30 PM - 09:00 PM 10th Annual Dia De Los Muertos at City of Raleigh Museum (COR Museum),\n                Downtown Raleigh 231.7 mi away • FREE • Family Dance Live Music & Concerts Festival Museums Historic Arts Multicultural Annual Events Holiday See details →",
+      "url": "https://raleighparent.com/event/10th-annual-dia-de-los-muertos-on-nov-6-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 6, 07:00 PM Nubia Trivia at Trophy Maywood at North Carolina Museum of Art,\n                West Raleigh 230.9 mi away • FREE • Museums Historic Education Outreach Dining and Drinks Workshops See details →",
+      "url": "https://raleighparent.com/event/nubia-trivia-at-trophy-maywood-on-nov-6-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Holiday Events",
+      "url": "https://raleighparent.com/events/holiday/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Nature & Outdoor Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown,\n                Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 04:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:30 PM - 07:30 PM Spooky Family Fun Night at Zebulon Community Center,\n                Zebulon 224.1 mi away • FREE • Family Holiday Team Building See details →",
+      "url": "https://raleighparent.com/event/spooky-family-fun-night-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:30 PM Kooky Spooky Halloween Party at Marbles 2026 at Marbles Kids Museum,\n                Downtown Raleigh 231.6 mi away • $20 Member | $22 General Public. All attendees (adults & children) need a ticket to enter the event. Children must be accompanied by at least one adult over the age of 18. • Family Museums Holiday Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/kooky-spooky-halloween-party-at-marbles-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Trunk or Treat at Koka Booth Amphitheatre,\n                Cary 237.7 mi away • $8+ • Family Holiday Nature & Outdoor Annual Events Fundraiser/Benefit Festival See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Green Road's Ghostly Spooktacular at Green Road Community Center and Park,\n                North Raleigh 226.8 mi away • Free, please register • Family Dance Holiday Arts Festival Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/green-roads-ghostly-spooktacular-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Kids Night Out Events",
+      "url": "https://raleighparent.com/events/kids-night-out/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:30 PM Kooky Spooky Halloween Party at Marbles 2026 at Marbles Kids Museum,\n                Downtown Raleigh 231.6 mi away • $20 Member | $22 General Public. All attendees (adults & children) need a ticket to enter the event. Children must be accompanied by at least one adult over the age of 18. • Family Museums Holiday Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/kooky-spooky-halloween-party-at-marbles-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Green Road's Ghostly Spooktacular at Green Road Community Center and Park,\n                North Raleigh 226.8 mi away • Free, please register • Family Dance Holiday Arts Festival Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/green-roads-ghostly-spooktacular-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Oct 28, 06:00 PM - 07:30 PM Ghost Stories with Donna Washington - A Little Shiver Kid's Show at The Halle Cultural Arts Center,\n                Apex 238.5 mi away • Tickets: Adults - $18 | Senior - $15 | Youth (16 & under) - $12 • Family Theater Holiday Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/ghost-stories-with-donna-washington-a-little-shiver-kids-show-on-oct-28-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Kwanzaa Celebrations",
+      "url": "https://raleighparent.com/events/kwanzaa-celebrations/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sat, Dec 19, 12:00 PM - 02:00 PM Celebrate Kwanzaa at The Cary Theater 122 East Chatham St, Cary, NC 27511 233.6 mi away • FREE • Kwanzaa Celebrations See details →",
+      "url": "https://raleighparent.com/event/celebrate-kwanzaa-at-the-cary-theater-on-dec-19-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sat, Dec 19, 05:00 PM - 07:30 PM Kwanzaa Poetics 327 S Academy Street 233.8 mi away • FREE • Kwanzaa Celebrations See details →",
+      "url": "https://raleighparent.com/event/kwanzaa-poetics-on-dec-19-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Wed, Dec 30, 05:00 PM - 07:00 PM Celebrating Kwanzaa PO Box 8005 $25-32 • Kwanzaa Celebrations Workshops Family See details →",
+      "url": "https://raleighparent.com/event/celebrating-kwanzaa-on-dec-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "LGBTQ+ Events",
+      "url": "https://raleighparent.com/events/lgbt/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 09:00 PM Strut, Slut!: The Wake at Chapel of Bones,\n                West Raleigh 233.1 mi away • $11.98 - $23.90 • Theater LGBT Nightlife See details →",
+      "url": "https://raleighparent.com/event/strut-slut-the-wake-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:30 AM Sapphic Bike Ride at Greg Poole Jr. All Faiths Chapel,\n                Downtown Raleigh 232.5 mi away • FREE • Fundraiser/Benefit LGBT Wellness Nature & Outdoor Sports See details →",
+      "url": "https://raleighparent.com/event/sapphic-bike-ride-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM Sherry Vine: Dirty Blonde at Goodnights Comedy Club,\n                Midtown Raleigh 231.3 mi away • $30.99 - $180.99 • Comedy LGBT Theater Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/sherry-vine-dirty-blonde-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 PM - 10:30 PM She/They/Gay Show at ComedyWorx,\n                West Raleigh 231.5 mi away • $11-$13; rated M for Mature - anyone under 18 must be accompanied by a parent or guardian • Comedy LGBT See details →",
+      "url": "https://raleighparent.com/event/shetheygay-show-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sun, Oct 25, 12:00 PM Pride Flow with Forest at Current Wellness,\n                Downtown Raleigh 231.6 mi away • Free or with two donation options ($15 &#8211; suggested price, $25 &#8211; supporter price). • LGBT Wellness See details →",
+      "url": "https://raleighparent.com/event/pride-flow-with-forest-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 01:00 PM Hocus Pocus Drag Brunch at Raleigh Improv,\n                Cary 231.7 mi away • $32.95 - $108.18; Ages 21+ • Theater LGBT Dining and Drinks Nightlife See details →",
+      "url": "https://raleighparent.com/event/hocus-pocus-drag-brunch-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 01:00 PM Hocus Pocus Drag Brunch at Raleigh Improv,\n                Cary 231.7 mi away • $32.95 - $108.18 • LGBT Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/hocus-pocus-drag-brunch-on-oct-25-2026-rZ7HnE/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 10:30 PM Did Somebody Say DRAG-ula? at Cabaret Theatre,\n                North Raleigh 225.0 mi away • $10-$25, 18+ years of age, IDs will be checked at the door. • Theater Nightlife LGBT Holiday See details →",
+      "url": "https://raleighparent.com/event/did-somebody-say-drag-ula-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Lunar New Year Events",
+      "url": "https://raleighparent.com/events/lunar-new-year/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 21, 04:30 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Lunar New Year Events Multicultural See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-21-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 21, 06:00 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Multicultural Lunar New Year Events See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-21-2026-Z7r9jZ/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 22, 04:30 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Multicultural Lunar New Year Events See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-22-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 22, 06:00 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Multicultural Lunar New Year Events See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-22-2026-Z7r9jZ/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Nov 23, 04:30 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Multicultural Lunar New Year Events See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Nov 23, 06:00 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Multicultural Lunar New Year Events See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-23-2026-Z7r9jZ/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Nov 24, 04:30 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Multicultural Lunar New Year Events See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Nov 24, 06:00 PM North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre at Regency Park,\n                Cary 235.6 mi away See details for pricing • Festival Multicultural Lunar New Year Events See details →",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-24-2026-Z7r9jZ/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Multicultural Events",
+      "url": "https://raleighparent.com/events/multicultural/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Día de Muertos Painting Experience with Perla Gerez at Diamante Arts & Cultural Center,\n                Midtown Raleigh 232.4 mi away • $40 • Holiday Arts Multicultural Workshops See details →",
+      "url": "https://raleighparent.com/event/da-de-muertos-painting-experience-with-perla-gerez-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 06:00 PM - 10:00 PM 2nd Annual Diwali Fest at Fuquay-Varina High School,\n                Fuquay-Varina 246.3 mi away • $5; Kids 10 and under enter free • Dance Dining and Drinks Festival Shopping Education Outreach Multicultural Annual Events See details →",
+      "url": "https://raleighparent.com/event/2nd-annual-diwali-fest-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 11:00 AM - 04:30 PM Day of the Dead with Revista Latina 2026 at City Plaza,\n                Downtown Raleigh 231.9 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Festival Nature & Outdoor Annual Events Multicultural Holiday See details →",
+      "url": "https://raleighparent.com/event/day-of-the-dead-with-revista-latina-2026-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 12:00 PM - 04:00 PM Chapel Hill Día de Muertos Celebration at 140 West Franklin Street Plaza, Chapel Hill,\n                Chapel Hill 231.2 mi away • FREE • Festival Multicultural Holiday See details →",
+      "url": "https://raleighparent.com/event/chapel-hill-da-de-muertos-celebration-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Oct 26, 06:30 PM - 08:00 PM Diwali Celebration in Downtown Cary Park at Downtown Cary Park,\n                Cary 233.8 mi away • FREE • Festival Multicultural Holiday See details →",
+      "url": "https://raleighparent.com/event/diwali-celebration-in-downtown-cary-park-on-oct-26-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 07:00 PM Stammtisch German Community Night at Der Nachbar at Der Nachbar Bottleshop & Taps, Durham,\n                Durham 222.0 mi away • Der Nachbar Bottleshop & Taps, Durham • Beer and Brewery Nightlife Raleigh Locals Guide Multicultural Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/stammtisch-german-community-night-at-der-nachbar-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 05:30 PM - 07:30 PM Diwali at the Northwest Cary Y Northwest Cary YMCA 233.1 mi away • FREE • Multicultural Holiday Dance See details →",
+      "url": "https://raleighparent.com/event/diwali-at-the-northwest-cary-y-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 12:00 PM 14th Annual Day of the Dead 5k and Street Festival at Centro,\n                Downtown Raleigh 231.6 mi away • Free, Street Festival; $40, 5k Race Entry • Family Live Music & Concerts Festival Holiday Shopping Nature & Outdoor Multicultural Annual Events Fundraiser/Benefit Beer and Brewery Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/14th-annual-day-of-the-dead-5k-and-street-festival-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Museum Programs & Exhibits",
+      "url": "https://raleighparent.com/events/museums/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:30 PM Kooky Spooky Halloween Party at Marbles 2026 at Marbles Kids Museum,\n                Downtown Raleigh 231.6 mi away • $20 Member | $22 General Public. All attendees (adults & children) need a ticket to enter the event. Children must be accompanied by at least one adult over the age of 18. • Family Museums Holiday Kids Night Out See details →",
+      "url": "https://raleighparent.com/event/kooky-spooky-halloween-party-at-marbles-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 10:00 PM Adult Nights: Tales of Woe at North Carolina Museum of Natural Sciences,\n                Downtown Raleigh 231.4 mi away • $15 to $25 • Museums Historic Nightlife Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/adult-nights-tales-of-woe-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 12:00 PM Educator Trek: Butterfly Pinning and Backyard Bug Collecting at Nature Research Center,\n                Downtown Raleigh 231.4 mi away • $70 includes insect resource manual, pinning board, butterfly display box, numerous exotic butterfly specimens. • Museums Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/educator-trek-butterfly-pinning-and-backyard-bug-collecting-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:30 PM - 04:00 PM Closing Reception: Syllabary Exhibition at Pullen Arts Center at Pullen Arts Center,\n                West Raleigh 231.7 mi away • FREE • Museums Arts See details →",
+      "url": "https://raleighparent.com/event/closing-reception-syllabary-exhibition-at-pullen-arts-center-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 05:30 PM Author Event: The Art of Hospitality with Molly Irani at North Carolina Museum of Art,\n                West Raleigh 230.9 mi away • $50 • Museums Education Outreach Dining and Drinks Workshops Arts See details →",
+      "url": "https://raleighparent.com/event/author-event-the-art-of-hospitality-with-molly-irani-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Oct 26, 12:00 PM Nature Play Day at NCMA at North Carolina Museum of Art Welcome Center,\n                West Raleigh 230.9 mi away • Free. This program is best for children 7 & younger • Family Museums Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/nature-play-day-at-ncma-on-oct-26-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Oct 28, 05:30 PM Sensory Friendly Playtime at Marbles Kids Museum,\n                Downtown Raleigh 231.6 mi away • Free, registration required • Family Museums Education Outreach See details →",
+      "url": "https://raleighparent.com/event/sensory-friendly-playtime-on-oct-28-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom,\n                West Raleigh 230.8 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/walk-through-the-seasons-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Nature & Outdoor Events",
+      "url": "https://raleighparent.com/events/nature-outdoor/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 08:00 AM - 09:00 AM Bats, Bugs and Beasts at DCP Guest Services,\n                Cary 233.8 mi away • Free please register. This program is for ages 18 and older. • Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/bats-bugs-and-beasts-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 12:00 PM - 05:00 PM The Witch's Haunted Barn (No Actor Version) at Firefly Farm, Hillsborough,\n                Chapel-hill 214.4 mi away • $13.00 • Family Farms Nature & Outdoor Holiday Festival See details →",
+      "url": "https://raleighparent.com/event/the-witchs-haunted-barn-no-actor-version-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 01:00 PM - 02:00 PM Fall and Winter Birds of Wake County at Morrisville Senior Center,\n                Morrisville/RTP 231.9 mi away • Free. Please register. Ages 55+ • Education Outreach Nature & Outdoor Workshops See details →",
+      "url": "https://raleighparent.com/event/fall-and-winter-birds-of-wake-county-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown,\n                Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse,\n                Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 10:00 PM 11th Annual Zombiepalooza 2026 at DCP Great Lawn Pavilion,\n                Cary 233.8 mi away • FREE • Family Film Nature & Outdoor Annual Events Festival See details →",
+      "url": "https://raleighparent.com/event/11th-annual-zombiepalooza-2026-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Trunk or Treat at Koka Booth Amphitheatre,\n                Cary 237.7 mi away • $8+ • Family Holiday Nature & Outdoor Annual Events Fundraiser/Benefit Festival See details →",
+      "url": "https://raleighparent.com/event/trunk-or-treat-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:45 PM Breaking Benjamin, Chevelle & Starset at Coastal Credit Union Music Park at Walnut Creek,\n                South Raleigh 232.6 mi away • $68+ • Live Music & Concerts Nature & Outdoor Nightlife See details →",
+      "url": "https://raleighparent.com/event/breaking-benjamin-chevelle-starset-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Nightlife",
+      "url": "https://raleighparent.com/events/nightlife/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM Live Music with Johnny G at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-johnny-g-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Vinyl Night: Super Stuff Records 301-2 Kinsey St., Raleigh, NC 27603 231.9 mi away • FREE • Shopping Live Music & Concerts Nightlife Arts See details →",
+      "url": "https://raleighparent.com/event/vinyl-night-super-stuff-records-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM - 10:00 PM Adult Nights: Tales of Woe at North Carolina Museum of Natural Sciences,\n                Downtown Raleigh 231.4 mi away • $15 to $25 • Museums Historic Nightlife Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/adult-nights-tales-of-woe-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:30 PM The Fandinos Live at Tin Roof at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Live Music & Concerts Dining and Drinks Nightlife See details →",
+      "url": "https://raleighparent.com/event/the-fandinos-live-at-tin-roof-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:45 PM Breaking Benjamin, Chevelle & Starset at Coastal Credit Union Music Park at Walnut Creek,\n                South Raleigh 232.6 mi away • $68+ • Live Music & Concerts Nature & Outdoor Nightlife See details →",
+      "url": "https://raleighparent.com/event/breaking-benjamin-chevelle-starset-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:00 PM Special Event: Ron Funches at Goodnights Comedy Club,\n                West Raleigh 231.3 mi away • $33 to $185 • Comedy Nightlife See details →",
+      "url": "https://raleighparent.com/event/special-event-ron-funches-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:00 PM - 10:00 PM Mysti Mayhem at Abbey Road Tavern & Grill - Cary,\n                Cary 235.2 mi away • FREE • Live Music & Concerts Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/mysti-mayhem-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 07:30 PM - 11:00 PM Necrocosm x Dissonance x Putrefact Indulgence x Infest Destiny at Cannonball Music Hall,\n                Midtown Raleigh 229.2 mi away • $14 • Live Music & Concerts Nightlife See details →",
+      "url": "https://raleighparent.com/event/necrocosm-x-dissonance-x-putrefact-indulgence-x-infest-destiny-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Open House Events",
+      "url": "https://raleighparent.com/events/open-houses/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sat, Oct 24, 10:00 AM - 11:30 AM Carpenter Community Garden Open House 2026 at Carpenter Community Garden,\n                Cary 233.5 mi away • Free. No pets allowed. All ages welcome. Children must be accompanied by an adult. • Family Nature & Outdoor Education Outreach Open Houses See details →",
+      "url": "https://raleighparent.com/event/carpenter-community-garden-open-house-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Sweet Paris Fenton Grand Opening Celebration at Sweet Paris Crêperie & Café,\n                Cary 233.6 mi away • FREE • Dining and Drinks Open Houses See details →",
+      "url": "https://raleighparent.com/event/sweet-paris-fenton-grand-opening-celebration-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 04:00 PM - 07:00 PM ShopSpace Open House and Sculpture Reveal 1505 Capital Blvd 230.0 mi away • FREE • Open Houses Arts See details →",
+      "url": "https://raleighparent.com/event/shopspace-open-house-and-sculpture-reveal-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 04:00 PM - 07:00 PM Katie Stewart Heart of Glass Closing Reception at Plum,\n                Downtown Raleigh 231.9 mi away See details for pricing • Arts Open Houses See details →",
+      "url": "https://raleighparent.com/event/katie-stewart-heart-of-glass-closing-reception-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 04:00 PM - 07:00 PM Transportation and Treats Community Event at Marsh Creek Park,\n                East Raleigh 227.5 mi away • FREE • Family Education Outreach Open Houses See details →",
+      "url": "https://raleighparent.com/event/transportation-and-treats-community-event-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 05:00 PM - 07:00 PM Barks and Boos Open House and Supply Drive at Saving Grace,\n                Wake Forest 218.6 mi away • FREE • Family Festival Holiday Fundraiser/Benefit Animal Adoption Open Houses See details →",
+      "url": "https://raleighparent.com/event/barks-and-boos-open-house-and-supply-drive-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 10:00 AM - 02:00 PM Fuquay-Varina Fire Department Annual Open House 2026 at Town of Fuquay-Varina,\n                Fuquay-varina 247.4 mi away • FREE • Family Education Outreach Annual Events Open Houses See details →",
+      "url": "https://raleighparent.com/event/fuquay-varina-fire-department-annual-open-house-2026-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 1, 12:00 PM Fall Into Forever Wedding Showcase at Brier Creek Country Club,\n                RDU/Brier Creek 226.2 mi away • Free; RSVP required • Shopping Education Outreach Open Houses Workshops See details →",
+      "url": "https://raleighparent.com/event/fall-into-forever-wedding-showcase-on-nov-1-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "People-First Tourism",
+      "url": "https://raleighparent.com/events/people-first-tourism/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 04:00 PM - 11:30 PM Spooky SZN Halloween Crawl 2026 at Le Dive,\n                Downtown Raleigh 231.8 mi away • $15-$25, 21+ years of age • Holiday Nature & Outdoor Nightlife Fundraiser/Benefit People-First Tourism Tours See details →",
+      "url": "https://raleighparent.com/event/spooky-szn-halloween-crawl-2026-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Raleigh Locals Guide",
+      "url": "https://raleighparent.com/events/raleigh-locals-guide/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Oct 27, 08:30 AM - 10:30 AM Midtown Raleigh Alliance Real Estate Forum at First Citizens Center in North Hills,\n                Midtown Raleigh 227.7 mi away • Free for Members / $25 for Non-Members • Education Outreach Raleigh Locals Guide Workshops See details →",
+      "url": "https://raleighparent.com/event/midtown-raleigh-alliance-real-estate-forum-on-oct-27-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Oct 27, 05:30 PM - 08:30 PM Durham Chess Enthusiasts Weekly Meetup at Der Nachbar Bottleshop & Taps, Durham,\n                Durham 222.0 mi away • FREE • Dining and Drinks Raleigh Locals Guide Sports Workshops See details →",
+      "url": "https://raleighparent.com/event/durham-chess-enthusiasts-weekly-meetup-on-oct-27-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 07:00 PM Stammtisch German Community Night at Der Nachbar at Der Nachbar Bottleshop & Taps, Durham,\n                Durham 222.0 mi away • Der Nachbar Bottleshop & Taps, Durham • Beer and Brewery Nightlife Raleigh Locals Guide Multicultural Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/stammtisch-german-community-night-at-der-nachbar-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 03:00 PM - 05:00 PM Holiday Classics: Cocktail Experience at Good Day Good Night at Good Day Good Night,\n                Downtown Raleigh 231.7 mi away • $65 per person • Holiday Education Outreach Dining and Drinks Raleigh Locals Guide Workshops Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/holiday-classics-cocktail-experience-at-good-day-good-night-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Nov 18, 06:00 PM - 09:00 PM Mulino’s Eighth Annual Turkey Ball at Mulino Italian Kitchen & Bar,\n                Downtown Raleigh 231.3 mi away • $60-$2500.00 • Holiday Nightlife Annual Events Fundraiser/Benefit Dining and Drinks Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Running & Races & Marathons Events",
+      "url": "https://raleighparent.com/events/running-races-marathons/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 08:00 AM - 01:00 PM Apex Half Marathon at Sweetwater Town Center,\n                Apex 239.2 mi away • $69 - $99 • Nature & Outdoor Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/apex-half-marathon-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 12:00 PM 14th Annual Day of the Dead 5k and Street Festival at Centro,\n                Downtown Raleigh 231.6 mi away • Free, Street Festival; $40, 5k Race Entry • Family Live Music & Concerts Festival Holiday Shopping Nature & Outdoor Multicultural Annual Events Fundraiser/Benefit Beer and Brewery Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/14th-annual-day-of-the-dead-5k-and-street-festival-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:30 PM The Stride at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away See details for pricing • Live Music & Concerts Running & Races & Marathons Wellness See details →",
+      "url": "https://raleighparent.com/event/the-stride-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 21, 08:00 AM Turkey Leg 5K 810 N. First Ave., Knightdale, NC 27545 227.8 mi away • $20 • Nature & Outdoor Annual Events Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/turkey-leg-5k-on-nov-21-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 21, 08:00 AM - 09:00 AM Turkey Leg Run 5K at Knightdale Station Park,\n                Knightdale 227.9 mi away See details for pricing • Sports Nature & Outdoor Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/turkey-leg-run-5k-on-nov-21-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 26, 08:00 AM Freedom Ride Rescue Turkey Day 5K at White Deer Park/Lake Benson,\n                Garner 237.9 mi away • $25+ • Family Holiday Sports Nature & Outdoor Team Building Annual Events Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/freedom-ride-rescue-turkey-day-5k-on-nov-26-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 27, 06:30 PM Wildfire Ride at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Live Music & Concerts Nightlife Sports Running & Races & Marathons Nature & Outdoor See details →",
+      "url": "https://raleighparent.com/event/wildfire-ride-on-nov-27-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Shopping Events",
+      "url": "https://raleighparent.com/events/shopping/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 08:00 PM Vinyl Night: Super Stuff Records 301-2 Kinsey St., Raleigh, NC 27603 231.9 mi away • FREE • Shopping Live Music & Concerts Nightlife Arts See details →",
+      "url": "https://raleighparent.com/event/vinyl-night-super-stuff-records-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Spellbound at Mordecai 2026 at Mordecai Historic Park,\n                Downtown Raleigh 230.6 mi away • Free, please register • Family Festival Historic Holiday Shopping Nature & Outdoor Annual Events See details →",
+      "url": "https://raleighparent.com/event/spellbound-at-mordecai-2026-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:00 AM - 07:00 PM Shop the EverythingELSE Consignment Sale for 50% Discount Day 1213 Buck Jones Rd 234.2 mi away • FREE • Shopping See details →",
+      "url": "https://raleighparent.com/event/shop-the-everythingelse-consignment-sale-for-50-discount-day-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM - 05:00 PM PokéFest Apex at Apex Senior Center,\n                Apex 238.3 mi away • FREE • Shopping Dining and Drinks Arts Festival Esports and Gaming See details →",
+      "url": "https://raleighparent.com/event/pokfest-apex-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 06:00 PM - 10:00 PM 2nd Annual Diwali Fest at Fuquay-Varina High School,\n                Fuquay-Varina 246.3 mi away • $5; Kids 10 and under enter free • Dance Dining and Drinks Festival Shopping Education Outreach Multicultural Annual Events See details →",
+      "url": "https://raleighparent.com/event/2nd-annual-diwali-fest-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 11:00 AM - 03:00 PM Durham Underground Market at Durham Central Park,\n                Durham 222.2 mi away • FREE • Festival Arts Farmers Markets Shopping See details →",
+      "url": "https://raleighparent.com/event/durham-underground-market-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 02:00 PM - 08:00 PM Shop the EverythingELSE Consignment Sale for 75% off final clearance 1213 Buck Jones Rd 234.2 mi away • FREE • Shopping See details →",
+      "url": "https://raleighparent.com/event/shop-the-everythingelse-consignment-sale-for-75-off-final-clearance-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Oct 26, 09:00 PM Bright Side ACOTAR 6 Midnight Release Party at Junction West,\n                Downtown Raleigh 231.9 mi away • $93.10 • Shopping Nightlife Arts Festival See details →",
+      "url": "https://raleighparent.com/event/bright-side-acotar-6-midnight-release-party-on-oct-26-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sports & Athletics",
+      "url": "https://raleighparent.com/events/sports/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM North Carolina State Wolfpack Womens Volleyball vs. Wake Forest Demon Deacons Womens Volleyball at Reynolds Coliseum,\n                Raleigh 231.1 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-womens-volleyball-vs-wake-forest-demon-deacons-womens-volleyball-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 09:30 PM NC State Watch Party: Wolfpack vs. Stanford at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-stanford-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:30 AM Sapphic Bike Ride at Greg Poole Jr. All Faiths Chapel,\n                Downtown Raleigh 232.5 mi away • FREE • Fundraiser/Benefit LGBT Wellness Nature & Outdoor Sports See details →",
+      "url": "https://raleighparent.com/event/sapphic-bike-ride-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 07:30 PM North Carolina Tar Heels Football vs. Syracuse University Football at Kenan Stadium,\n                Chapel Hill 227.2 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-tar-heels-football-vs-syracuse-university-football-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 04:00 PM - 06:00 PM United States Grand Prix Watch Party at The Davie at The Davie,\n                Downtown Raleigh 231.8 mi away • FREE • Sports Nightlife Dining and Drinks Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/united-states-grand-prix-watch-party-at-the-davie-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Oct 27, 05:30 PM - 08:30 PM Durham Chess Enthusiasts Weekly Meetup at Der Nachbar Bottleshop & Taps, Durham,\n                Durham 222.0 mi away • FREE • Dining and Drinks Raleigh Locals Guide Sports Workshops See details →",
+      "url": "https://raleighparent.com/event/durham-chess-enthusiasts-weekly-meetup-on-oct-27-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Oct 27, 08:00 PM Boston Bruins vs. Carolina Hurricanes at Lenovo Center,\n                West Raleigh 231.5 mi away • TBA • Family Dining and Drinks Sports See details →",
+      "url": "https://raleighparent.com/event/boston-bruins-vs-carolina-hurricanes-on-oct-27-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Oct 27, 08:00 PM Carolina Hurricanes vs. Boston Bruins at Lenovo Center,\n                Raleigh 231.5 mi away See details for pricing • Sports See details →",
+      "url": "https://raleighparent.com/event/carolina-hurricanes-vs-boston-bruins-on-oct-27-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Super Bowl Watch Parties",
+      "url": "https://raleighparent.com/events/super-bowl-watch-parties/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 09:30 PM NC State Watch Party: Wolfpack vs. Stanford at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-stanford-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 04:00 PM - 06:00 PM United States Grand Prix Watch Party at The Davie at The Davie,\n                Downtown Raleigh 231.8 mi away • FREE • Sports Nightlife Dining and Drinks Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/united-states-grand-prix-watch-party-at-the-davie-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 11:00 AM NC State Watch Party: Wolfpack vs. Cal at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-cal-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 11:00 AM NC State Watch Party - Wolfpack vs. Duke at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-duke-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 21, 11:00 AM NC State Watch Party - Wolfpack vs. Florida State at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-florida-state-on-nov-21-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 28, 11:00 AM NC State Watch Party: Wolfpack vs. North Carolina at Tin Roof Raleigh,\n                Downtown Raleigh 231.4 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery Super Bowl Watch Parties See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-north-carolina-on-nov-28-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Team Building",
+      "url": "https://raleighparent.com/events/team-building/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 05:30 PM - 07:30 PM Spooky Family Fun Night at Zebulon Community Center,\n                Zebulon 224.1 mi away • FREE • Family Holiday Team Building See details →",
+      "url": "https://raleighparent.com/event/spooky-family-fun-night-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM Live Music with Johnny G at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-johnny-g-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 03:30 PM - 05:00 PM Modern Calligraphy & Pumpkin Lettering at Oma's Cafe + Wine,\n                Downtown Raleigh 232.1 mi away • $70 • Arts Education Outreach Team Building Dining and Drinks Beer and Brewery Workshops See details →",
+      "url": "https://raleighparent.com/event/modern-calligraphy-pumpkin-lettering-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 05:00 PM - 08:00 PM Live Music with Sterling Scott at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-sterling-scott-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 03:00 PM - 06:00 PM Medieval Feast and Fun: A Royal Family Gathering - CANCELLED at Herbert C. Young Community Center,\n                Cary 233.4 mi away • Family of 4 - $50 Resident. Non Resident $65. Registration Required. Ages 4+ • Family Team Building Historic Festival Fairs See details →",
+      "url": "https://raleighparent.com/event/medieval-feast-and-fun-a-royal-family-gathering-cancelled-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 06:00 PM - 09:00 PM Live Music with Joe Conroy at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-joe-conroy-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 30, 06:00 PM - 10:00 PM Blood on the Clocktower Social Deduction Game at  DCP Academy Pavilion,\n                Cary 233.8 mi away • Free. This program is for ages 18 and older. Please register • Team Building Esports and Gaming Nightlife Workshops See details →",
+      "url": "https://raleighparent.com/event/blood-on-the-clocktower-social-deduction-game-on-oct-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 31, 05:00 PM - 08:00 PM Live Music with Luke Schofield at Rosecomb Beer Garden ,\n                Cary 231.8 mi away • FREE • Live Music & Concerts Arts Team Building Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/live-music-with-luke-schofield-on-oct-31-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Theater & Performing Arts",
+      "url": "https://raleighparent.com/events/theater/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 06:00 PM - 09:00 PM An Evening with Jared Wise at Crooked Hammock Brewery,\n                Midtown Raleigh 228.7 mi away • FREE • Live Music & Concerts Beer and Brewery Arts Theater See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-jared-wise-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 09:00 PM Strut, Slut!: The Wake at Chapel of Bones,\n                West Raleigh 233.1 mi away • $11.98 - $23.90 • Theater LGBT Nightlife See details →",
+      "url": "https://raleighparent.com/event/strut-slut-the-wake-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 11:55 PM The Rocky Horror Picture Show at The Rialto at The Rialto Theatre,\n                Midtown Raleigh 230.2 mi away • $11 • Film Theater See details →",
+      "url": "https://raleighparent.com/event/the-rocky-horror-picture-show-at-the-rialto-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 02:00 PM Sherry Vine: Dirty Blonde at Goodnights Comedy Club,\n                Midtown Raleigh 231.3 mi away • $30.99 - $180.99 • Comedy LGBT Theater Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/sherry-vine-dirty-blonde-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 06:30 PM - 08:00 PM Halloween Circus Show - Student Showcase 300 W Hargett St 231.7 mi away • $20 • Theater Holiday Family Arts See details →",
+      "url": "https://raleighparent.com/event/halloween-circus-show-student-showcase-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 06:30 PM Haunting at the Old Hotel at Page-Walker Arts and History Center,\n                Cary 233.5 mi away • $20, 11+ years of age. • Family Theater See details →",
+      "url": "https://raleighparent.com/event/haunting-at-the-old-hotel-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 01:00 PM Hocus Pocus Drag Brunch at Raleigh Improv,\n                Cary 231.7 mi away • $32.95 - $108.18; Ages 21+ • Theater LGBT Dining and Drinks Nightlife See details →",
+      "url": "https://raleighparent.com/event/hocus-pocus-drag-brunch-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Oct 28-29, 06:00 PM - 08:00 PM Chaos Choir: Dark | A SEEK Raleigh Project at Fred Fletcher Park,\n                Midtown Raleigh 230.9 mi away • Free; registration required • Theater Live Music & Concerts Arts See details →",
+      "url": "https://raleighparent.com/event/chaos-choir-dark-a-seek-raleigh-project-on-oct-28-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Oct 23, 04:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-23-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:30 AM - 11:00 AM Raleigh Black History Walking Tour: Coffee and Donuts at Pope House Museum,\n                Downtown Raleigh 232.0 mi away • Free; registration required • Historic African-American Heritage Nature & Outdoor Tours Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/raleigh-black-history-walking-tour-coffee-and-donuts-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 01:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 06:30 PM Curtain Call From Beyond: Theatre Haunts & History at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Tours See details →",
+      "url": "https://raleighparent.com/event/curtain-call-from-beyond-theatre-haunts-history-on-oct-25-2026-G5eVZ_KD/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 07:00 PM Accessible Curtain Call From Beyond: Theatre Haunts & History at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Tours See details →",
+      "url": "https://raleighparent.com/event/accessible-curtain-call-from-beyond-theatre-haunts-history-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 07:30 PM Curtain Call From Beyond: Theatre Haunts & History at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Tours See details →",
+      "url": "https://raleighparent.com/event/curtain-call-from-beyond-theatre-haunts-history-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 08:00 PM Curtain Call From Beyond: Theatre Haunts & History at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Tours See details →",
+      "url": "https://raleighparent.com/event/curtain-call-from-beyond-theatre-haunts-history-on-oct-25-2026-G5eVZ_/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Oct 26, 07:00 PM Curtain Call From Beyond: Theatre Haunts & History at Martin Marietta Center for the Performing Arts,\n                Raleigh 232.1 mi away See details for pricing • Arts Tours See details →",
+      "url": "https://raleighparent.com/event/curtain-call-from-beyond-theatre-haunts-history-on-oct-26-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wellness Events",
+      "url": "https://raleighparent.com/events/wellness/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 11:00 AM Vaping 101: Family Edition at Alice Aycock Poe Center for Health Education,\n                East Raleigh 230.7 mi away • $45/ pair, additional participants are $20 each • Education Outreach Wellness Workshops Family See details →",
+      "url": "https://raleighparent.com/event/vaping-101-family-edition-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 09:00 AM - 01:30 PM Celebrate Raleigh Arbor Day at Carolina Pines Park,\n                West Raleigh 234.1 mi away • FREE • Nature & Outdoor Wellness Earth Day & Arbor Day Celebrations See details →",
+      "url": "https://raleighparent.com/event/celebrate-raleigh-arbor-day-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Oct 24, 10:30 AM Sapphic Bike Ride at Greg Poole Jr. All Faiths Chapel,\n                Downtown Raleigh 232.5 mi away • FREE • Fundraiser/Benefit LGBT Wellness Nature & Outdoor Sports See details →",
+      "url": "https://raleighparent.com/event/sapphic-bike-ride-on-oct-24-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 10:00 AM - 11:00 AM Free Outdoor Yoga with Midtown Yoga at Rosecomb Beer Garden,\n                Cary 231.8 mi away • Free, please RSVP • Nature & Outdoor Beer and Brewery Wellness Workshops See details →",
+      "url": "https://raleighparent.com/event/free-outdoor-yoga-with-midtown-yoga-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sun, Oct 25, 12:00 PM Pride Flow with Forest at Current Wellness,\n                Downtown Raleigh 231.6 mi away • Free or with two donation options ($15 &#8211; suggested price, $25 &#8211; supporter price). • LGBT Wellness See details →",
+      "url": "https://raleighparent.com/event/pride-flow-with-forest-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 12:00 PM Metal Yoga (Halloween Edition) at Chapel of Bones,\n                West Raleigh 233.1 mi away • $29.93 • Wellness Workshops Holiday Annual Events See details →",
+      "url": "https://raleighparent.com/event/metal-yoga-halloween-edition-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 01:30 PM - 02:30 PM Seniors Without Walls: Sip-n-Paint with Humana at Rolesville Parks and Recreation Department,\n                Rolesville 219.9 mi away • Free; please register • Wellness Workshops Arts See details →",
+      "url": "https://raleighparent.com/event/seniors-without-walls-sip-n-paint-with-humana-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Oct 29, 06:00 PM - 08:00 PM Frost & Breathe: Cake Decorating + Guided Breathing at Joy Worthy Co.,\n                Downtown Raleigh 231.6 mi away • $99+. Only 10 seats available. Advance registration required • Education Outreach Arts Wellness Workshops See details →",
+      "url": "https://raleighparent.com/event/frost-breathe-cake-decorating-guided-breathing-on-oct-29-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 10:00 AM - 06:00 PM LOVE Raleigh! Market & Festival- Honoring Veterans! Moore Square - 200 Blount St. Raleigh NC 27601",
+      "url": "https://raleighparent.com/event/love-raleigh-market-festival-honoring-veterans-on-nov-7-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Nov 14-15, 10:00 AM - 06:00 PM RenFest At Spring Haven Farm 5306 Homer Ruffin Road, Chapel Hill, North Carolina 27516",
+      "url": "https://raleighparent.com/event/renfest-at-spring-haven-farm-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 8, 04:00 PM - 07:00 PM TEDx Raleigh Dinner & Conversation 500 Glenwood Avenue Raleigh NC 27603",
+      "url": "https://raleighparent.com/event/tedx-raleigh-dinner-conversation-on-nov-8-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 7, 10:00 AM - 06:00 PM Raleigh's 5th Annual International WINE & BEER Oktoberfest 400 Fayetteville St Raleigh NC 27601",
+      "url": "https://raleighparent.com/event/raleighs-5th-annual-international-wine-beer-oktoberfest-on-oct-17-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Oct 25, 04:30 PM - 06:00 PM Trunk or Treat Extravaganza 120 Smallwood Drive, Morrisville, NC 27560",
+      "url": "https://raleighparent.com/event/trunk-or-treat-extravaganza-on-oct-25-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    }
+  ]
+}
