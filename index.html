@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangle Family Weekend — ranked kid-friendly events</title>
+  <meta name="description" content="A curated, family-ranked list of weekend events around Holly Springs, Apex, Cary, and the NC Triangle.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎃</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <p class="kicker">Holly Springs · Apex · Cary · Raleigh · Durham</p>
+      <h1>Triangle Family Weekend</h1>
+      <p class="tagline">Every kid-friendly event happening Friday to Sunday, gathered from around the Triangle and ranked for families.</p>
+      <p class="updated" id="updated-stamp"></p>
+    </div>
+  </header>
+
+  <nav class="filters" id="filters" aria-label="Event filters">
+    <span class="filters-label">Show:</span>
+    <button class="chip is-active" data-filter="all">Everything</button>
+    <button class="chip" data-filter="free">Free</button>
+    <button class="chip" data-filter="outdoor">Outdoors</button>
+    <button class="chip" data-filter="indoor">Indoors</button>
+    <button class="chip" data-filter="nearby">Near home</button>
+    <button class="chip" data-filter="gentle">Little-kid friendly</button>
+  </nav>
+
+  <main id="events-root">
+    <section class="day-section" data-day="fri" aria-labelledby="day-fri">
+      <h2 id="day-fri"><span class="day-name">Friday</span><span class="day-date" id="date-fri"></span></h2>
+      <div class="cards" id="cards-fri"></div>
+    </section>
+    <section class="day-section" data-day="sat" aria-labelledby="day-sat">
+      <h2 id="day-sat"><span class="day-name">Saturday</span><span class="day-date" id="date-sat"></span></h2>
+      <div class="cards" id="cards-sat"></div>
+    </section>
+    <section class="day-section" data-day="sun" aria-labelledby="day-sun">
+      <h2 id="day-sun"><span class="day-name">Sunday</span><span class="day-date" id="date-sun"></span></h2>
+      <div class="cards" id="cards-sun"></div>
+    </section>
+    <p class="empty-state" id="empty-state" hidden>No events match those filters this weekend.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footnote">Events gathered from
+      <a href="https://stufftodoinrdu.com/">Stuff To Do in RDU</a>,
+      <a href="https://rt.kidsoutandabout.com/">Kids Out and About</a>,
+      <a href="https://raleighparent.com/">Raleigh Parent</a>,
+      <a href="https://triangleonthecheap.com/">Triangle on the Cheap</a>, and
+      <a href="https://www.axios.com/local/raleigh">Axios Raleigh</a>.
+      Always verify times and prices with the venue before heading out.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
