@@ -30,8 +30,9 @@ docs/plans/                      # implementation plan
 
 ## Current Work
 
-- 2026-10-23: Initial build — site, seeded events.json (Oct 23–25 weekend), scraper, runbook, Pages publish.
-- Open: GitHub repo not yet created (no `gh` CLI on machine); scheduled refresh not yet configured.
+- 2026-10-23: Initial build shipped — site live at https://hatariastanley.github.io/events-near-us/ with hand-curated Oct 23–25 seed. Auto-refresh via `.github/workflows/refresh.yml` (Mon 7am + Thu 6pm ET) runs scraper → `curate.py` → commit. LLM curation pass (REFRESH.md) is the quality tier — run on demand or via a Devin schedule if the user creates one in the web app.
+- Open: optional Devin scheduled session for the LLM pass (no MCP tool available here — user would create it at app.devin.ai).
+- `gh` binary lives at `~/tools/bin/gh.exe` (portable, not on PATH).
 
 ## Global Rules
 
