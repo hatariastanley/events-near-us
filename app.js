@@ -46,7 +46,7 @@ function cardHtml(e) {
     <div class="card-body">
       <h3>${escapeHtml(e.title)}</h3>
       <p class="meta"><strong>${escapeHtml(time)}</strong>${place ? ` · ${escapeHtml(place)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
-      <p class="why">${escapeHtml(e.why)}</p>
+      ${e.why ? `<p class="why">${escapeHtml(e.why)}</p>` : ""}
       <div class="tags">${(e.tags || []).map(tagChip).join("")}${link}</div>
     </div>
   </article>`;

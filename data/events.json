@@ -1,511 +1,832 @@
 {
-  "generated_at": "2026-10-23T10:40:00-04:00",
-  "weekend": { "fri": "2026-10-23", "sat": "2026-10-24", "sun": "2026-10-25" },
+  "generated_at": "2026-10-23T12:39:20-04:00",
+  "weekend": {
+    "fri": "2026-10-23",
+    "sun": "2026-10-25"
+  },
   "events": [
     {
-      "id": "pumpkin-flotilla-bond-park",
-      "title": "Pumpkin Flotilla at Bond Park",
-      "days": ["fri"],
-      "start": "5:00 PM",
-      "end": "7:00 PM",
-      "venue": "Fred G. Bond Metro Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 96,
-      "why": "Glowing jack-o'-lanterns floated across the lake at dusk with music and food — free, close, and pure fall magic for kids.",
-      "tags": ["halloween", "free", "outdoor"]
-    },
-    {
-      "id": "track-or-treat-new-hope-valley",
-      "title": "Track or Treat at New Hope Valley Railway",
-      "days": ["fri", "sat"],
-      "start": "1:30 PM",
-      "end": "9:00 PM",
-      "venue": "New Hope Valley Railway",
-      "city": "New Hill",
-      "cost": "Ticketed",
-      "url": "https://www.nhvry.org/",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 93,
-      "why": "Halloween train rides on a real heritage railway, minutes from Holly Springs — trains plus costumes is the 5–10 sweet spot.",
-      "tags": ["halloween", "trains", "outdoor"]
-    },
-    {
-      "id": "kooky-spooky-marbles",
-      "title": "Kooky Spooky Halloween Party at Marbles",
-      "days": ["fri"],
-      "start": "6:00 PM",
-      "end": "8:30 PM",
-      "venue": "Marbles Kids Museum",
-      "city": "Raleigh",
-      "cost": "$22 ($20 members)",
-      "url": "https://stufftodoinrdu.com/events/marbles-kooky-spooky-2026/",
-      "source": "Stuff To Do in RDU",
-      "indoor": true,
-      "family_score": 92,
-      "why": "A Halloween party built specifically for families inside the kids' museum — costumes, play, and done before bedtime.",
-      "tags": ["halloween", "museum", "indoor"]
-    },
-    {
-      "id": "scarecrow-row-apex",
-      "title": "Scarecrow Row",
-      "days": ["fri", "sat", "sun"],
-      "start": "All day",
-      "venue": "Apex Community Park",
-      "city": "Apex",
-      "cost": "Free",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 91,
-      "why": "Self-guided scarecrow trail through the park all weekend — free, flexible, and easy to fit around naps and meals.",
-      "tags": ["halloween", "free", "outdoor", "walk"]
-    },
-    {
-      "id": "nc-state-fair",
-      "title": "NC State Fair — final weekend",
-      "days": ["fri", "sat", "sun"],
-      "start": "All day",
-      "venue": "NC State Fairgrounds",
-      "city": "Raleigh",
-      "cost": "$5–13 + rides",
-      "url": "https://www.ncstatefair.org/",
-      "source": "Raleigh Parent",
-      "indoor": false,
-      "family_score": 90,
-      "why": "Last weekend of the fair — rides, animals, and fair food. Go early to beat crowds; costs add up, so set a budget first.",
-      "tags": ["fair", "rides", "animals", "outdoor"]
-    },
-    {
-      "id": "holly-springs-farmers-market-halloween",
-      "title": "Halloween at Holly Springs Farmers Market",
-      "days": ["sat"],
-      "start": "8:00 AM",
-      "end": "12:00 PM",
-      "venue": "Holly Springs Farmers Market, W Ballentine St",
+      "id": "sat-oct-24-10-00-am-02-00-pm-wings-over-springs-at-sugg-farm",
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Wings Over Springs at Sugg Farm, Holly Springs 243.9 mi away • FREE • Family Nature & Outdoor Annual Events Festival Fairs See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
       "city": "Holly Springs",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/holly-springs/",
-      "source": "Stuff To Do in RDU",
+      "url": "https://raleighparent.com/event/wings-over-springs-on-oct-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "fri-oct-23-02-00-pm-05-00-pm-trick-or-treat-downtown-fvda-20",
+      "title": "Fri, Oct 23, 02:00 PM - 05:00 PM Trick-or-Treat Downtown FVDA 2026 at Fuquay-Varina Downtown, Fuquay-Varina 247.4 mi away • FREE • Family Holiday Nature & Outdoor Festival See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Fuquay-Varina",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/trick-or-treat-downtown-fvda-2026-on-oct-23-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 93,
+      "why": "",
+      "tags": [
+        "free",
+        "halloween",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "fri-oct-23-05-00-pm-07-00-pm-pumpkin-flotilla-2026-at-fred-g",
+      "title": "Fri, Oct 23, 05:00 PM - 07:00 PM Pumpkin Flotilla 2026 at Fred G. Bond Metro Park and Boathouse, Cary 234.8 mi away • FREE • Family Live Music & Concerts Dining and Drinks Holiday Nature & Outdoor Annual Events Festival See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/pumpkin-flotilla-2026-on-oct-23-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 92,
+      "why": "",
+      "tags": [
+        "free",
+        "halloween",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sat-oct-31-10-00-am-04-00-pm-hollyfest-2026-at-jefferson-l-s",
+      "title": "Sat, Oct 31, 10:00 AM - 04:00 PM HollyFest 2026 at Jefferson L. Sugg Farm Park at Bass Lake, Holly Springs 243.9 mi away • FREE • Family Live Music & Concerts Dining and Drinks Festival Holiday Nature & Outdoor Annual Events Christmas and Holiday Events See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Holly Springs",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/hollyfest-2026-on-oct-31-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 92,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "fri-oct-23-04-30-pm-09-00-pm-track-or-treat-at-new-hope-vall",
+      "title": "Fri, Oct 23, 04:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "New Hill",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-23-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "fri-oct-23-06-30-pm-08-30-pm-green-road-s-ghostly-spooktacul",
+      "title": "Fri, Oct 23, 06:30 PM - 08:30 PM Green Road's Ghostly Spooktacular at Green Road Community Center and Park, North Raleigh 226.8 mi away • Free, please register • Family Dance Holiday Arts Festival Kids Night Out See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/green-roads-ghostly-spooktacular-on-oct-23-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "sat-oct-31-12-00-pm-front-paige-media-raleigh-halloween-book",
+      "title": "Sat, Oct 31, 12:00 PM Front Paige Media Raleigh Halloween Book Fair at Raleigh Iron Works, Midtown Raleigh 229.3 mi away • FREE • Family Dining and Drinks Festival Education Outreach Nature & Outdoor Fairs See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/front-paige-media-raleigh-halloween-book-fair-on-oct-31-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free",
+        "halloween",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sat-oct-24-06-00-pm-10-00-pm-movie-night-halloween-double-fe",
+      "title": "Sat, Oct 24, 06:00 PM - 10:00 PM Movie Night: Halloween Double Feature at DCP Great Lawn Pavilion, Cary 233.8 mi away • FREE • Family Dining and Drinks Film Nature & Outdoor Holiday See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/movie-night-halloween-double-feature-on-oct-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free",
+        "halloween",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "mon-oct-26-12-00-pm-nature-play-day-at-ncma-at-north-carolin",
+      "title": "Mon, Oct 26, 12:00 PM Nature Play Day at NCMA at North Carolina Museum of Art Welcome Center, West Raleigh 230.9 mi away • Free. This program is best for children 7 & younger • Family Museums Nature & Outdoor Education Outreach See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/nature-play-day-at-ncma-on-oct-26-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "thu-oct-29-12-00-pm-walk-through-the-seasons-at-prairie-ridg",
+      "title": "Thu, Oct 29, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom, West Raleigh 230.8 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/walk-through-the-seasons-on-oct-29-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sat-oct-24-01-30-pm-09-00-pm-track-or-treat-at-new-hope-vall",
+      "title": "Sat, Oct 24, 01:30 PM - 09:00 PM Track or Treat at New Hope Valley Railway 3900 Bonsal Rd New Hill, NC 27562 245.6 mi away • $18.61, Children under 2 ride free • Holiday Family Festival Tours See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "New Hill",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/track-or-treat-at-new-hope-valley-railway-on-oct-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "sat-nov-7-10-00-am-06-00-pm-love-raleigh-festival-market-hol",
+      "title": "Sat, Nov 7, 10:00 AM - 06:00 PM LOVE Raleigh Festival & Market: Holiday Kick-Off at Moore Square, Downtown Raleigh 231.7 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Festival Shopping Nature & Outdoor Holiday Christmas and Holiday Events See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/love-raleigh-festival-market-holiday-kick-off-on-nov-7-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 89,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "rp-sat-oct-24-10-00-am-11-30-am-carpenter-community-garden-o",
+      "title": "RP Sat, Oct 24, 10:00 AM - 11:30 AM Carpenter Community Garden Open House 2026 at Carpenter Community Garden, Cary 233.5 mi away • Free. No pets allowed. All ages welcome. Children must be accompanied by an adult. • Family Nature & Outdoor Education Outreach Open Houses See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/carpenter-community-garden-open-house-2026-on-oct-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 89,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sat-oct-24-11-00-am-02-00-pm-mmahr-pup-kin-fall-event-4012-m",
+      "title": "Sat, Oct 24, 11:00 AM - 02:00 PM MMAHR Pup-kin Fall Event 4012 Mitchell Mill Road, Raleigh, North Carolina, 27616 222.7 mi away • FREE • Family Animal Adoption Holiday Festival See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/mmahr-pup-kin-fall-event-on-oct-10-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 88,
-      "why": "The hometown market does Halloween — costumes welcome, local vendors, free, and wrapped up by noon.",
-      "tags": ["halloween", "free", "outdoor", "market"]
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
-      "id": "goblins-groove-apex",
-      "title": "Goblin's Groove Family Dance",
-      "days": ["sat"],
-      "start": "5:00 PM",
-      "end": "7:00 PM",
-      "venue": "Halle Cultural Arts Center",
-      "city": "Apex",
-      "cost": "Ticketed",
-      "url": "https://stufftodoinrdu.com/in/apex/",
-      "source": "Stuff To Do in RDU",
-      "indoor": true,
-      "family_score": 86,
-      "why": "Early-evening costume dance party for kids and grown-ups in downtown Apex — home well before bedtime.",
-      "tags": ["halloween", "dance", "indoor"]
+      "id": "fri-oct-30-05-30-pm-08-30-pm-fall-fest-featuring-epic-live-t",
+      "title": "Fri, Oct 30, 05:30 PM - 08:30 PM Fall Fest featuring Epic Live! The Shepherd's Church, 6051 Tryon Rd., Cary, NC 27518 235.8 mi away • FREE • Festival Family Fairs See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/fall-fest-featuring-epic-live-on-oct-30-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 88,
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
-      "id": "dia-de-muertos-raleigh",
-      "title": "Día de Muertos celebration",
-      "days": ["sun"],
-      "start": "Afternoon",
-      "venue": "Downtown Raleigh",
+      "id": "fri-nov-6-06-30-pm-09-00-pm-10th-annual-dia-de-los-muertos-a",
+      "title": "Fri, Nov 6, 06:30 PM - 09:00 PM 10th Annual Dia De Los Muertos at City of Raleigh Museum (COR Museum), Downtown Raleigh 231.7 mi away • FREE • Family Dance Live Music & Concerts Festival Museums Historic Arts Multicultural Annual Events Holiday See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://www.axios.com/local/raleigh/2026/10/22/what-to-do-this-weekend-raleigh-durham-cary",
-      "source": "Axios Raleigh",
+      "url": "https://raleighparent.com/event/10th-annual-dia-de-los-muertos-on-nov-6-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 87,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "fri-oct-23-06-00-pm-10-00-pm-11th-annual-zombiepalooza-2026-",
+      "title": "Fri, Oct 23, 06:00 PM - 10:00 PM 11th Annual Zombiepalooza 2026 at DCP Great Lawn Pavilion, Cary 233.8 mi away • FREE • Family Film Nature & Outdoor Annual Events Festival See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/11th-annual-zombiepalooza-2026-on-oct-23-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sat-oct-24-06-00-pm-10-00-pm-2nd-annual-diwali-fest-at-fuqua",
+      "title": "Sat, Oct 24, 06:00 PM - 10:00 PM 2nd Annual Diwali Fest at Fuquay-Varina High School, Fuquay-Varina 246.3 mi away • $5; Kids 10 and under enter free • Dance Dining and Drinks Festival Shopping Education Outreach Multicultural Annual Events See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Fuquay-Varina",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/2nd-annual-diwali-fest-on-oct-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "sun-oct-25-11-00-am-04-30-pm-day-of-the-dead-with-revista-la",
+      "title": "Sun, Oct 25, 11:00 AM - 04:30 PM Day of the Dead with Revista Latina 2026 at City Plaza, Downtown Raleigh 231.9 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Festival Nature & Outdoor Annual Events Multicultural Holiday See details →",
+      "days": [
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/day-of-the-dead-with-revista-latina-2026-on-oct-25-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "wed-oct-28-05-30-pm-sensory-friendly-playtime-at-marbles-kid",
+      "title": "Wed, Oct 28, 05:30 PM Sensory Friendly Playtime at Marbles Kids Museum, Downtown Raleigh 231.6 mi away • Free, registration required • Family Museums Education Outreach See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/sensory-friendly-playtime-on-oct-28-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "thu-oct-29-04-30-pm-07-30-pm-lions-park-trunk-or-treat-at-li",
+      "title": "Thu, Oct 29, 04:30 PM - 07:30 PM Lions Park Trunk-Or-Treat at Lions Park and Community Center, North Raleigh 230.0 mi away • FREE • Family Live Music & Concerts Holiday Arts Festival Christmas and Holiday Events See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/lions-park-trunk-or-treat-on-oct-29-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 85,
-      "why": "Colorful Day of the Dead festival — altars, music, and face painting; vibrant cultural outing kids remember.",
-      "tags": ["festival", "cultural", "free", "outdoor"]
+      "why": "",
+      "tags": [
+        "free",
+        "halloween"
+      ]
     },
     {
-      "id": "howl-at-the-view",
-      "title": "Howl at the View",
-      "days": ["sat"],
-      "start": "5:00 PM",
-      "end": "7:00 PM",
-      "venue": "Falls Lake — Rolling View access",
-      "city": "Durham",
+      "id": "sun-oct-25-08-00-am-11-00-am-cars-and-coffee-raleigh-slammed",
+      "title": "Sun, Oct 25, 08:00 AM - 11:00 AM Cars and Coffee Raleigh: Slammed and Low Rider Day at 6270 Glenwood Avenue, Raleigh, Raleigh 227.6 mi away • FREE • Annual Events Family Festival Fairs See details →",
+      "days": [
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/durham/",
-      "source": "Stuff To Do in RDU",
+      "url": "https://raleighparent.com/event/cars-and-coffee-raleigh-slammed-and-low-rider-day-on-oct-25-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 84,
-      "why": "Trunk-or-treat, craft tables, and a short family hike at the lake — outdoorsy Halloween without the scare factor.",
-      "tags": ["halloween", "free", "outdoor", "nature"]
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
-      "id": "music-stories-under-stars",
-      "title": "Music and Stories Under the Stars",
-      "days": ["fri"],
-      "start": "5:00 PM",
-      "end": "7:30 PM",
-      "venue": "Weaver Street Market lawn",
-      "city": "Carrboro",
+      "id": "fri-oct-30-05-30-pm-07-30-pm-amplify-health-monster-bash-at-",
+      "title": "Fri, Oct 30, 05:30 PM - 07:30 PM Amplify Health: Monster Bash at Poe Center for Health Education, East Raleigh 230.7 mi away • Free, please RSVP • Family Dining and Drinks Festival Education Outreach Arts Holiday Fairs See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/carrboro-music-and-stories-under-the-stars-2026/",
-      "source": "Stuff To Do in RDU",
+      "url": "https://raleighparent.com/event/amplify-health-monster-bash-on-oct-30-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 84,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "rp-sat-nov-7-10-00-am-02-00-pm-handmade-christmas-market-102",
+      "title": "RP Sat, Nov 7, 10:00 AM - 02:00 PM Handmade Christmas Market 10212 Fayetteville Rd, Fuquay-Varina , NC 27526 243.0 mi away • FREE • Shopping Christmas and Holiday Events Farmers Markets Festival See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Fuquay-Varina",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/handmade-christmas-market-on-nov-7-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 83,
-      "why": "Blanket + picnic supper + live music and stories on the lawn — a genuinely easy, free family evening.",
-      "tags": ["free", "outdoor", "music"]
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
-      "id": "raleigh-greek-festival",
-      "title": "Raleigh Greek Festival",
-      "days": ["sat"],
-      "start": "Daytime",
-      "venue": "Holy Trinity Greek Orthodox Church",
-      "city": "Raleigh",
-      "cost": "Free entry",
-      "url": "https://stufftodoinrdu.com/in/raleigh/",
-      "source": "Stuff To Do in RDU",
-      "indoor": false,
-      "family_score": 82,
-      "why": "Food, music, and folk dancing — kids love the honey puffs; a tasty cultural afternoon the whole family enjoys.",
-      "tags": ["festival", "food", "cultural"]
-    },
-    {
-      "id": "trunk-or-treat-durham-coop",
-      "title": "Trunk-or-Treat at Durham Co-op Market",
-      "days": ["sat"],
-      "start": "Daytime",
-      "venue": "Durham Co-op Market",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/durham/",
-      "source": "Stuff To Do in RDU",
-      "indoor": false,
-      "family_score": 82,
-      "why": "Contained, low-key trunk-or-treat — costumes and candy with zero commitment or scare factor.",
-      "tags": ["halloween", "free", "outdoor"]
-    },
-    {
-      "id": "midtown-movies-hocus-pocus",
-      "title": "Midtown Movies: Hocus Pocus",
-      "days": ["sat"],
-      "start": "Evening",
-      "venue": "North Hills Midtown Park",
+      "id": "sat-oct-24-10-00-am-02-00-pm-spellbound-at-mordecai-2026-at-",
+      "title": "Sat, Oct 24, 10:00 AM - 02:00 PM Spellbound at Mordecai 2026 at Mordecai Historic Park, Downtown Raleigh 230.6 mi away • Free, please register • Family Festival Historic Holiday Shopping Nature & Outdoor Annual Events See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/raleigh/",
-      "source": "Stuff To Do in RDU",
+      "url": "https://raleighparent.com/event/spellbound-at-mordecai-2026-on-oct-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "fri-oct-30-06-00-pm-08-00-pm-trunk-or-treat-at-the-capital-c",
+      "title": "Fri, Oct 30, 06:00 PM - 08:00 PM Trunk Or Treat at The Capital Church at The Capital Church, Garner 235.5 mi away • Free, please register • Family Holiday Nature & Outdoor Festival Christmas and Holiday Events See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Garner",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/trunk-or-treat-at-the-capital-church-on-oct-30-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sun-nov-8-12-00-pm-sunshine-harvest-market-a-raleigh-boutiqu",
+      "title": "Sun, Nov 8, 12:00 PM Sunshine Harvest Market: A Raleigh Boutique Farmer's Market at Atlantic Gardening Company , North Raleigh 226.0 mi away • FREE • Family Shopping Farms Farmers Markets See details →",
+      "days": [
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/sunshine-harvest-market-a-raleigh-boutique-farmers-market-on-nov-8-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wed-nov-11-11-00-am-veterans-day-ceremony-2026-at-veterans-m",
+      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial , Holly Springs 242.7 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Holly Springs",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 81,
-      "why": "Free outdoor screening of the Halloween classic kids can actually watch — bring chairs and a blanket.",
-      "tags": ["halloween", "free", "outdoor", "movie"]
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
     },
     {
-      "id": "zombiepalooza-cary",
-      "title": "Zombiepalooza 2026",
-      "days": ["fri"],
-      "start": "6:00 PM",
-      "end": "10:00 PM",
-      "venue": "Downtown Cary Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/zombiepalooza-2026/",
-      "source": "Stuff To Do in RDU",
-      "indoor": false,
-      "family_score": 80,
-      "why": "Free outdoor zombie short-film fest downtown. Great for kids 8+ who like spooky; littler ones may find it too much.",
-      "tags": ["halloween", "free", "outdoor", "scary"]
-    },
-    {
-      "id": "umstead-birthday-bash",
-      "title": "Umstead's 92nd Birthday Bash",
-      "days": ["sat"],
-      "start": "Daytime",
-      "venue": "William B. Umstead State Park",
+      "id": "thu-oct-29-06-00-pm-dog-halloween-costume-contest-at-boatman",
+      "title": "Thu, Oct 29, 06:00 PM Dog Halloween Costume Contest at Boatman Spirits Co. at Boatman Spirits Co., Downtown Raleigh 230.9 mi away • FREE • Fundraiser/Benefit Dining and Drinks Holiday Animal Adoption See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/raleigh/",
-      "source": "Stuff To Do in RDU",
+      "url": "https://raleighparent.com/event/dog-halloween-costume-contest-at-boatman-spirits-co-on-oct-29-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 80,
-      "why": "Celebrate the park's birthday with trails, nature activities, and cake at one of the Triangle's best family parks.",
-      "tags": ["free", "outdoor", "nature"]
+      "why": "",
+      "tags": [
+        "free",
+        "halloween"
+      ]
     },
     {
-      "id": "its-fall-yall-festival",
-      "title": "It's Fall Y'all Fun Festival",
-      "days": ["sat"],
-      "start": "Daytime",
-      "venue": "Millbrook United Methodist Church",
-      "city": "Raleigh",
+      "id": "sun-oct-25-11-00-am-03-00-pm-durham-underground-market-at-du",
+      "title": "Sun, Oct 25, 11:00 AM - 03:00 PM Durham Underground Market at Durham Central Park, Durham 222.2 mi away • FREE • Festival Arts Farmers Markets Shopping See details →",
+      "days": [
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Durham",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/raleigh/",
-      "source": "Stuff To Do in RDU",
+      "url": "https://raleighparent.com/event/durham-underground-market-on-oct-25-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 79,
-      "why": "Classic community fall festival — games, treats, and crafts at a neighborhood church.",
-      "tags": ["halloween", "festival", "free"]
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
-      "id": "pupalooza-durham",
-      "title": "Pupalooza",
-      "days": ["sat"],
-      "start": "Daytime",
-      "venue": "Durham",
-      "city": "Durham",
+      "id": "sun-nov-1-11-00-am-04-00-pm-pirates-and-mermaids-holiday-mar",
+      "title": "Sun, Nov 1, 11:00 AM - 04:00 PM Pirates and Mermaids Holiday Market at Haven Farm at Haven of Knightdale, Knightdale 225.2 mi away • FREE • Live Music & Concerts Dining and Drinks Holiday Shopping Nature & Outdoor Annual Events Christmas and Holiday Events Farmers Markets See details →",
+      "days": [
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Knightdale",
       "cost": "Free",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
+      "url": "https://raleighparent.com/event/pirates-and-mermaids-holiday-market-at-haven-farm-on-nov-1-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 78,
-      "why": "Dog-friendly festival with live music, activities, and vendors — a hit if your family includes a pup.",
-      "tags": ["festival", "dogs", "outdoor", "free"]
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
     },
     {
-      "id": "witchs-haunted-barn-no-actors",
-      "title": "Witch's Haunted Barn & Pumpkin Patch — no-actor Friday",
-      "days": ["fri"],
-      "start": "12:00 PM",
-      "end": "5:00 PM",
-      "venue": "Firefly Farm",
-      "city": "Hillsborough",
-      "cost": "Ticketed",
-      "url": "https://stufftodoinrdu.com/events/the-witchs-haunted-barn-pumpkin-patch-no-actor-fridays/",
-      "source": "Stuff To Do in RDU",
-      "indoor": false,
-      "family_score": 78,
-      "why": "Gentler no-actor haunt walk plus a real pumpkin patch — Halloween atmosphere without the jump scares.",
-      "tags": ["halloween", "farm", "outdoor"]
-    },
-    {
-      "id": "barktoberfest-durham",
-      "title": "Barktoberfest",
-      "days": ["sat"],
-      "start": "Daytime",
-      "venue": "Durham (hosted by Beyond Fences)",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://www.axios.com/local/raleigh/2026/10/22/what-to-do-this-weekend-raleigh-durham-cary",
-      "source": "Axios Raleigh",
-      "indoor": false,
-      "family_score": 77,
-      "why": "Bring the dog for a fall festival with vendors and activities — kids and pets both entertained.",
-      "tags": ["festival", "dogs", "outdoor", "free"]
-    },
-    {
-      "id": "crossroads-corn-maze",
-      "title": "Crossroads Corn Maze 2026",
-      "days": ["fri", "sat", "sun"],
-      "start": "Daytime",
-      "venue": "Crossroads Corn Maze",
-      "city": "Wendell",
-      "cost": "Ticketed",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 77,
-      "why": "Classic corn maze with farm activities — closest maze to the Knightdale side of the Triangle.",
-      "tags": ["fall", "farm", "cornmaze", "outdoor"]
-    },
-    {
-      "id": "nc-symphony-star-wars",
-      "title": "NC Symphony: The Music of John Williams — Star Wars & More",
-      "days": ["fri", "sat"],
-      "start": "7:30 PM",
-      "venue": "Meymandi Concert Hall",
+      "id": "fri-oct-30-06-00-pm-08-00-pm-howlfest-2026-at-carmichael-gym",
+      "title": "Fri, Oct 30, 06:00 PM - 08:00 PM HowlFest 2026 at Carmichael Gym Outdoor Basketball Courts - NC State Campus, West Raleigh 231.9 mi away • Free - $20 • Family Colleges and Universities Festival See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
       "city": "Raleigh",
-      "cost": "Ticketed",
-      "url": "https://stufftodoinrdu.com/in/raleigh/",
-      "source": "Stuff To Do in RDU",
-      "indoor": true,
-      "family_score": 77,
-      "why": "A full orchestra plays Star Wars — a memorable first-symphony pick for kids who already know the music.",
-      "tags": ["music", "indoor", "starwars"]
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/howlfest-2026-on-oct-30-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
     },
     {
-      "id": "ghouls-makers-market",
-      "title": "Ghouls Just Wanna Have Fun: Art & Makers Market",
-      "days": ["sat"],
-      "start": "Daytime",
-      "venue": "Durham",
-      "city": "Durham",
+      "id": "fri-oct-23-06-00-pm-08-30-pm-kooky-spooky-halloween-party-at",
+      "title": "Fri, Oct 23, 06:00 PM - 08:30 PM Kooky Spooky Halloween Party at Marbles 2026 at Marbles Kids Museum, Downtown Raleigh 231.6 mi away • $20 Member | $22 General Public. All attendees (adults & children) need a ticket to enter the event. Children must be accompanied by at least one adult over the age of 18. • Family Museums Holiday Kids Night Out See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://raleighparent.com/event/kooky-spooky-halloween-party-at-marbles-2026-on-oct-23-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "halloween"
+      ]
+    },
+    {
+      "id": "wed-oct-28-03-00-pm-06-00-pm-market-bunch-kids-activities-at",
+      "title": "Wed, Oct 28, 03:00 PM - 06:00 PM Market Bunch Kids Activities at Carrboro Farmers Market at Carrboro Farmers’ Market, Chapel-hill 231.8 mi away • FREE • Farmers Markets Family See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Carrboro",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/durham/",
-      "source": "Stuff To Do in RDU",
+      "url": "https://raleighparent.com/event/market-bunch-kids-activities-at-carrboro-farmers-market-on-oct-28-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "sat-oct-31-11-00-am-02-00-pm-the-grl-market-october-at-waver",
+      "title": "Sat, Oct 31, 11:00 AM - 02:00 PM The GRL Market October at Waverly Place, Cary 236.8 mi away • FREE • Shopping Farmers Markets See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/the-grl-market-october-on-oct-31-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "sat-nov-21-12-00-pm-04-00-pm-harvest-fest-2026-at-good-hope-",
+      "title": "Sat, Nov 21, 12:00 PM - 04:00 PM Harvest Fest 2026 at Good Hope Farm, Cary 232.7 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Shopping Nature & Outdoor Annual Events Beer and Brewery Festival Farms See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sat-oct-31-10-00-am-02-00-pm-fuquay-varina-fire-department-a",
+      "title": "Sat, Oct 31, 10:00 AM - 02:00 PM Fuquay-Varina Fire Department Annual Open House 2026 at Town of Fuquay-Varina, Fuquay-varina 247.4 mi away • FREE • Family Education Outreach Annual Events Open Houses See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Fuquay-Varina",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/fuquay-varina-fire-department-annual-open-house-2026-on-oct-31-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "fri-oct-30-05-00-pm-07-00-pm-barks-and-boos-open-house-and-s",
+      "title": "Fri, Oct 30, 05:00 PM - 07:00 PM Barks and Boos Open House and Supply Drive at Saving Grace, Wake Forest 218.6 mi away • FREE • Family Festival Holiday Fundraiser/Benefit Animal Adoption Open Houses See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Wake Forest",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/barks-and-boos-open-house-and-supply-drive-on-oct-30-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 76,
-      "why": "Spooky-cute makers market — good for browsing with kids who like crafts and Halloween art.",
-      "tags": ["halloween", "market", "art", "free"]
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
-      "id": "deer-tracking-raleigh",
-      "title": "Deer Tracking (ages 8–14)",
-      "days": ["fri"],
-      "start": "Daytime",
-      "venue": "Raleigh nature preserve",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 75,
-      "why": "Guided wildlife tracking walk for ages 8–14 — outdoorsy and quietly educational.",
-      "tags": ["nature", "outdoor", "free", "ages8+"]
-    },
-    {
-      "id": "fridays-at-the-farm",
-      "title": "Fridays at the Farm — Old Mill Farm",
-      "days": ["fri"],
-      "start": "4:00 PM",
-      "venue": "Old Mill Farm",
-      "city": "Durham",
-      "cost": "Varies",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 74,
-      "why": "Recurring Friday farm visit — animals and open space make an easy low-effort outing.",
-      "tags": ["farm", "animals", "outdoor"]
-    },
-    {
-      "id": "cosmic-origins-family-day",
-      "title": "Cosmic Origins Family Day",
-      "days": ["sat"],
-      "start": "Morning",
-      "venue": "Center for Documentary Studies",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/durham/",
-      "source": "Stuff To Do in RDU",
-      "indoor": true,
-      "family_score": 74,
-      "why": "Free Saturday-morning family program — space-themed activities in a relaxed setting.",
-      "tags": ["free", "indoor", "educational"]
-    },
-    {
-      "id": "cary-downtown-farmers-market",
-      "title": "Cary Downtown Farmers Market",
-      "days": ["sat"],
-      "start": "Morning",
-      "venue": "Downtown Cary",
+      "id": "sun-oct-25-03-00-pm-06-00-pm-medieval-feast-and-fun-a-royal-",
+      "title": "Sun, Oct 25, 03:00 PM - 06:00 PM Medieval Feast and Fun: A Royal Family Gathering - CANCELLED at Herbert C. Young Community Center, Cary 233.4 mi away • Family of 4 - $50 Resident. Non Resident $65. Registration Required. Ages 4+ • Family Team Building Historic Festival Fairs See details →",
+      "days": [
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
       "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/in/cary/",
-      "source": "Stuff To Do in RDU",
+      "cost": "See listing",
+      "url": "https://raleighparent.com/event/medieval-feast-and-fun-a-royal-family-gathering-cancelled-on-oct-25-2026/",
+      "source": "raleighparent",
       "indoor": false,
-      "family_score": 73,
-      "why": "Easy Saturday-morning stroll — snacks, local vendors, and a walkable downtown to explore after.",
-      "tags": ["free", "outdoor", "market"]
+      "family_score": 76,
+      "why": "",
+      "tags": []
     },
     {
-      "id": "raleigh-black-farmers-market",
-      "title": "Raleigh Black Farmers' Market",
-      "days": ["sun"],
-      "start": "1:00 PM",
-      "end": "4:00 PM",
-      "venue": "Rock Quarry Rd",
+      "id": "fri-oct-30-06-00-pm-10-00-pm-halloween-adult-book-fair-at-ta",
+      "title": "Fri, Oct 30, 06:00 PM - 10:00 PM Halloween Adult Book Fair at Tap Yard Raleigh, East Raleigh 230.0 mi away • FREE • Shopping Arts Fairs Holiday See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
+      "url": "https://raleighparent.com/event/halloween-adult-book-fair-on-oct-30-2026/",
+      "source": "raleighparent",
       "indoor": false,
-      "family_score": 73,
-      "why": "Sunday-afternoon market supporting local Black farmers — relaxed, free, and community-minded.",
-      "tags": ["free", "outdoor", "market"]
-    },
-    {
-      "id": "garden-storytime-raleigh",
-      "title": "Garden Storytime",
-      "days": ["fri"],
-      "start": "Morning",
-      "venue": "Raleigh",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 72,
-      "why": "Garden stroll + garden-themed books + a take-home craft — a sweet low-key morning for younger kids.",
-      "tags": ["free", "outdoor", "storytime"]
-    },
-    {
-      "id": "haunted-mordecai",
-      "title": "Haunted Mordecai",
-      "days": ["sat"],
-      "start": "Evening",
-      "venue": "Mordecai Historic Park",
-      "city": "Raleigh",
-      "cost": "Ticketed",
-      "url": "https://stufftodoinrdu.com/in/raleigh/",
-      "source": "Stuff To Do in RDU",
-      "indoor": true,
-      "family_score": 66,
-      "why": "Historic-house haunt — atmospheric and genuinely spooky; better for tweens than little ones.",
-      "tags": ["halloween", "scary", "indoor"]
-    },
-    {
-      "id": "downtown-scary-park-haunted-hotel",
-      "title": "Downtown Scary Park: Haunted Hotel",
-      "days": ["sat"],
-      "start": "Evening",
-      "venue": "Downtown Cary",
-      "city": "Cary",
-      "cost": "Ticketed",
-      "url": "https://stufftodoinrdu.com/in/cary/",
-      "source": "Stuff To Do in RDU",
-      "indoor": true,
-      "family_score": 65,
-      "why": "Tagged family-friendly but it is a haunted hotel — know your kids' scare tolerance before you go.",
-      "tags": ["halloween", "scary", "indoor"]
-    },
-    {
-      "id": "panic-point-haunted-forest",
-      "title": "Haunted Forest at Panic Point",
-      "days": ["fri", "sat", "sun"],
-      "start": "Evening",
-      "venue": "Panic Point",
-      "city": "Youngsville",
-      "cost": "Ticketed",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 55,
-      "why": "Full scare-factor haunted attraction — a teen/adult outing, not for the 5–10 crowd.",
-      "tags": ["halloween", "scary", "teens"]
-    },
-    {
-      "id": "clayton-fear-farm",
-      "title": "Clayton Fear Farm",
-      "days": ["fri", "sat", "sun"],
-      "start": "Evening",
-      "venue": "Clayton Fear Farm",
-      "city": "Clayton",
-      "cost": "Ticketed",
-      "url": "https://rt.kidsoutandabout.com/content/things-do-weekend-and-around-triangle",
-      "source": "Kids Out and About",
-      "indoor": false,
-      "family_score": 52,
-      "why": "Multi-attraction scream park — fun for teens, too intense for elementary-age kids.",
-      "tags": ["halloween", "scary", "teens"]
-    },
-    {
-      "id": "apex-half-marathon",
-      "title": "Apex Half Marathon",
-      "days": ["sat"],
-      "start": "8:00 AM",
-      "venue": "Sweetwater Town Center",
-      "city": "Apex",
-      "cost": "$69–99",
-      "url": "https://raleighparent.com/events/",
-      "source": "Raleigh Parent",
-      "indoor": false,
-      "family_score": 45,
-      "why": "A great run for a parent, not a spectator event for kids — listed so you can plan around road closures too.",
-      "tags": ["sports", "running"]
+      "family_score": 76,
+      "why": "",
+      "tags": [
+        "free",
+        "halloween"
+      ]
     }
   ]
 }

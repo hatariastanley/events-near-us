@@ -1,8 +1,11 @@
 # Weekly Refresh Runbook
 
-Run this twice a week — **Monday ~7am ET** (early-planning pass) and **Thursday ~6pm ET** (top-up after the weekly roundups publish). Designed to be executed by a scheduled agent session unattended.
+Two refresh tiers:
 
-## Steps
+1. **Automatic (baseline):** `.github/workflows/refresh.yml` runs the scraper + `scripts/curate.py` on GitHub Actions every **Mon 7am + Thu 6pm ET** and commits `data/events.json`. Deterministic ranking — decent, not great.
+2. **Agent pass (better):** the runbook below. An LLM curation run produces real `why` text, accurate day assignments, and better dedupe. Run it whenever you want a better list — it overwrites the Actions output.
+
+## Agent runbook (the LLM pass)
 
 1. **Collect raw listings**
    ```bash
