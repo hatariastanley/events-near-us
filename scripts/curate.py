@@ -21,7 +21,9 @@ OUT = ROOT / "data" / "events.json"
 
 NEAR_TOWNS = {"holly springs", "apex", "cary", "fuquay-varina", "morrisville",
               "new hill", "raleigh", "durham", "knightdale", "wake forest", "garner"}
-CORE_TOWNS = {"holly springs", "apex", "cary", "fuquay-varina", "morrisville", "new hill"}
+# User's named home area — the towns they actually drive to for family outings.
+CORE_TOWNS = {"holly springs", "apex", "cary", "fuquay-varina", "morrisville",
+              "new hill", "wake forest", "knightdale", "garner"}
 FAR_TOWNS = {"sanford", "clayton", "youngsville", "wendell", "pittsboro", "hillsborough",
              "chapel hill", "carrboro"}
 

@@ -3,7 +3,8 @@
  * between the refresh pipeline and this frontend). Do not change field names
  * without updating the scraper and REFRESH.md together. */
 
-const NEARBY_TOWNS = ["Holly Springs", "Apex", "Cary", "Fuquay-Varina", "Morrisville", "New Hill"];
+const NEARBY_TOWNS = ["Holly Springs", "Apex", "Cary", "Fuquay-Varina", "Morrisville", "New Hill",
+                      "Wake Forest", "Knightdale", "Garner"];
 
 const FILTERS = {
   all: () => true,
