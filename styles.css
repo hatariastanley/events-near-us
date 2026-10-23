@@ -109,6 +109,36 @@ body {
   color: var(--paper);
 }
 
+.zip-form {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 8px;
+}
+
+#zip-input {
+  font: inherit;
+  font-size: 0.85rem;
+  width: 9ch;
+  padding: 6px 10px;
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  background: #fffdf8;
+  color: var(--ink);
+}
+
+#zip-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+
+.zip-btn { padding: 7px 14px; }
+
+.zip-status {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  min-height: 1em;
+}
+
+.zip-status.error { color: var(--accent-deep); }
+
 /* ---------- Day sections ---------- */
 
 main {
@@ -237,6 +267,7 @@ main {
 
 .tag.free { background: #e3efe0; color: var(--score-good); }
 .tag.caution { background: #f6e3d4; color: var(--accent-deep); }
+.tag.distance { background: #dfe8f2; color: #33506e; font-weight: 700; }
 
 .event-link {
   margin-left: auto;

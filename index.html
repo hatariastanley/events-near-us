@@ -29,6 +29,12 @@
     <button class="chip" data-filter="indoor">Indoors</button>
     <button class="chip" data-filter="nearby">Near home</button>
     <button class="chip" data-filter="gentle">Little-kid friendly</button>
+    <form class="zip-form" id="zip-form">
+      <input id="zip-input" type="text" inputmode="numeric" maxlength="5" pattern="\d{5}"
+             placeholder="ZIP for distance" aria-label="ZIP code for distance sorting">
+      <button type="submit" class="chip zip-btn">Set</button>
+    </form>
+    <span class="zip-status" id="zip-status" role="status"></span>
   </nav>
 
   <main id="events-root">

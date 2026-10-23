@@ -11,7 +11,8 @@ Fetches `data/events.json` and renders ranked event cards grouped by day, with f
 - Loads events.json; stamps header with `generated_at` + event count; fills day dates.
 - Renders each event under every day in its `days` array (multi-day events repeat).
 - Sorts by `family_score` desc; score ≥85 gets the accent "top" badge color.
-- Filters: all / free / outdoor / indoor / nearby (NEARBY_TOWNS) / gentle (excludes `scary`/`21+` tags).
+- Filters: all / free / outdoor / indoor / nearby / gentle (excludes `scary`/`21+` tags).
+- ZIP box: geocodes via api.zippopotam.us (no key), persists to localStorage `home`. With a ZIP set, "nearby" shows ALL events sorted by haversine distance (TOWN_COORDS lookup, town-name fallback scan) and cards get a `{n} mi` badge. Without a ZIP, "nearby" falls back to the NEARBY_TOWNS town-list filter.
 
 ## Important Notes / NEVER Change
 
