@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-11-06T02:03:55+00:00",
+  "generated_at": "2026-11-09T21:14:47+00:00",
   "weekend": {
-    "fri": "2026-11-06",
-    "sun": "2026-11-08"
+    "fri": "2026-11-13",
+    "sun": "2026-11-15"
   },
   "events": [
     {
-      "id": "sat-nov-7-11-00-am-02-00-pm-bleeding-disorders-foundation-of",
-      "title": "Sat, Nov 7, 11:00 AM - 02:00 PM Bleeding Disorders Foundation of North Carolina Family Festival & Walk at Lake Crabtree County Park, Morrisville/RTP 2,206.7 mi away • $10 for adults, children are free. If this fee is cost prohibitive for you being able to participate, please contact us. • Family Festival Sports Team Building Nature & Outdoor Fundraiser/Benefit See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Morrisville",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/bleeding-disorders-foundation-of-north-carolina-family-festival-walk-on-nov-7-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
       "id": "wed-nov-11-10-30-am-veterans-day-at-new-hope-valley-railway-",
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway, Apex 2,205.4 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
+      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway, Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
       "days": [
         "sat"
       ],
@@ -48,8 +27,50 @@
       ]
     },
     {
+      "id": "sat-nov-21-11-00-am-04-00-pm-triangle-pop-up-handcrafted-hol",
+      "title": "Sat, Nov 21, 11:00 AM - 04:00 PM Triangle Pop Up – Handcrafted Holiday Market at Fenton Square, Cary 894.5 mi away • FREE • Family Holiday Shopping Nature & Outdoor Christmas and Holiday Events Farmers Markets See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/triangle-pop-up-handcrafted-holiday-market-on-nov-21-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sat-nov-14-03-30-pm-s-mores-and-suds-at-new-hope-valley-rail",
+      "title": "Sat, Nov 14, 03:30 PM S’mores and Suds at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway, Apex 888.6 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Apex",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
       "id": "sat-nov-21-12-00-pm-ax-rhythm-and-dance-fest-at-ubuntu-farm-",
-      "title": "Sat, Nov 21, 12:00 PM Axé Rhythm and Dance Fest at Ubuntu Farm, Knightdale 2,224.5 mi away • Free - Parking $5. Please RSVP • Family Dance Live Music & Concerts Dining and Drinks Festival African-American Heritage LGBT Arts Multicultural Workshops See details →",
+      "title": "Sat, Nov 21, 12:00 PM Axé Rhythm and Dance Fest at Ubuntu Farm, Knightdale 908.7 mi away • Free - Parking $5. Please RSVP • Family Dance Live Music & Concerts Dining and Drinks Festival African-American Heritage LGBT Arts Multicultural Workshops See details →",
       "days": [
         "fri",
         "sat"
@@ -69,49 +90,8 @@
       ]
     },
     {
-      "id": "thu-nov-5-12-00-pm-birdwatching-for-beginners-at-prairie-rid",
-      "title": "Thu, Nov 5, 12:00 PM Birdwatching for Beginners at Prairie Ridge Outdoor Classroom, West Raleigh 2,211.7 mi away • Free, please register. This program is best for adults and children ages 8+ • Family Museums Nature & Outdoor Education Outreach Workshops See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/birdwatching-for-beginners-on-nov-5-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
-      "id": "fri-nov-6-05-00-pm-09-00-pm-first-friday-market-and-movie-fa",
-      "title": "Fri, Nov 6, 05:00 PM - 09:00 PM First Friday Market and Movie: Fantastic Mr. Fox at Moore Square, Raleigh, Raleigh 2,216.8 mi away • FREE • Film Family Annual Events Festival Farmers Markets See details →",
-      "days": [
-        "fri"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/first-friday-market-and-movie-fantastic-mr-fox-on-nov-6-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "sat-nov-14-01-30-am-05-00-pm-s-mores-and-suds-at-new-hope-va",
-      "title": "Sat, Nov 14, 01:30 AM - 05:00 PM S’mores and Suds at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 2,205.4 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Festival Tours Bluegrass See details →",
+      "title": "Sat, Nov 14, 01:30 AM - 05:00 PM S’mores and Suds at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Festival Tours Bluegrass See details →",
       "days": [
         "sat"
       ],
@@ -130,29 +110,8 @@
       ]
     },
     {
-      "id": "sat-nov-7-11-00-am-05-00-pm-taste-of-china-festival-2026-at-",
-      "title": "Sat, Nov 7, 11:00 AM - 05:00 PM Taste of China Festival 2026 at Downtown Cary Park, Cary 2,209.7 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Festival Nature & Outdoor Multicultural Annual Events Arts See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/taste-of-china-festival-2026-on-nov-7-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
-      "id": "nov-7-8-12-00-pm-diy-and-punk-rock-flea-market-at-rebus-work",
-      "title": "Nov 7-8, 12:00 PM DIY and Punk Rock Flea Market at Rebus Works, Downtown Raleigh 2,216.1 mi away • FREE • Family Live Music & Concerts Dining and Drinks Festival Shopping Nature & Outdoor Multicultural Annual Events Arts Farmers Markets Fairs See details →",
+      "id": "thu-nov-12-12-00-pm-walk-through-the-seasons-at-prairie-ridg",
+      "title": "Thu, Nov 12, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom, West Raleigh 895.5 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
       "days": [
         "sat"
       ],
@@ -161,7 +120,7 @@
       "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/diy-and-punk-rock-flea-market-on-nov-7-2026/",
+      "url": "https://raleighparent.com/event/walk-through-the-seasons-on-nov-12-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 90,
@@ -172,41 +131,41 @@
       ]
     },
     {
-      "id": "fri-nov-6-09-30-am-11-00-am-hike-with-a-naturalist-at-histor",
-      "title": "Fri, Nov 6, 09:30 AM - 11:00 AM Hike with a Naturalist at Historic Yates Mill County Park - park office., South Raleigh 2,216.5 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
+      "id": "sun-nov-15-12-00-pm-pumpkin-and-play-fall-fest-at-giggles-dr",
+      "title": "Sun, Nov 15, 12:00 PM Pumpkin and Play Fall Fest at Giggles Drop In Childcare, North Raleigh 897.9 mi away • Free, please register • Family Dining and Drinks Festival Arts Fairs See details →",
+      "days": [
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/pumpkin-and-play-fall-fest-on-nov-15-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free",
+        "halloween"
+      ]
+    },
+    {
+      "id": "fri-nov-20-05-00-pm-08-00-pm-jazz-jive-night-at-the-depot-pa",
+      "title": "Fri, Nov 20, 05:00 PM - 08:00 PM Jazz & Jive Night at The Depot parking lot, Apex 891.9 mi away • FREE • Family Dance Live Music & Concerts Film Shopping Nature & Outdoor Dining and Drinks Arts Festival See details →",
       "days": [
         "fri"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Raleigh",
+      "city": "Apex",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-6-2026/",
+      "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
       "source": "raleighparent",
       "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
-      "id": "sat-nov-7-10-00-am-06-00-pm-love-raleigh-festival-market-hol",
-      "title": "Sat, Nov 7, 10:00 AM - 06:00 PM LOVE Raleigh Festival & Market: Holiday Kick-Off at Moore Square, Downtown Raleigh 2,216.7 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Festival Shopping Nature & Outdoor Holiday Christmas and Holiday Events See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/love-raleigh-festival-market-holiday-kick-off-on-nov-7-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 89,
+      "family_score": 90,
       "why": "",
       "tags": [
         "free",
@@ -215,7 +174,7 @@
     },
     {
       "id": "wed-nov-11-10-00-am-11-30-am-hike-with-a-naturalist-at-histo",
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office., South Raleigh 2,216.5 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
+      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office., South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
       "days": [
         "sat"
       ],
@@ -235,63 +194,24 @@
       ]
     },
     {
-      "id": "sat-nov-7-11-00-am-02-00-pm-holly-springs-autism-acceptance-",
-      "title": "Sat, Nov 7, 11:00 AM - 02:00 PM Holly Springs Autism Acceptance Day 2401 Grigsby Avenue, Holly Springs, NC 27540 2,213.7 mi away • FREE • Family Wellness Fairs Festival See details →",
+      "id": "nov-28-29-09-00-am-04-00-pm-repticon-raleigh-at-agri-supply-",
+      "title": "Nov 28-29, 09:00 AM - 04:00 PM Repticon Raleigh at Agri-Supply Exposition Center at North Carolina State Fairgrounds, West Raleigh 895.7 mi away • $10 - $20 (Adult) | $6-$7 (Ages 5-12) | Ages 4 and under are free • Shopping Festival Fairs Family Nature & Outdoor See details →",
       "days": [
         "sat"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Holly Springs",
+      "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/holly-springs-autism-acceptance-day-on-nov-7-2026/",
+      "url": "https://raleighparent.com/event/repticon-raleigh-on-nov-28-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 88,
       "why": "",
       "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "fri-nov-6-06-00-pm-09-00-pm-day-of-the-dead-d-a-de-los-muert",
-      "title": "Fri, Nov 6, 06:00 PM - 09:00 PM Day of the Dead - Día de los Muertos at City of Raleigh Museum (COR Museum), Downtown Raleigh 2,216.5 mi away • FREE • Family Dance Live Music & Concerts Museums Holiday Arts Shopping Multicultural Annual Events Festival See details →",
-      "days": [
-        "fri"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/day-of-the-dead-da-de-los-muertos-on-nov-6-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "fri-nov-6-06-30-pm-09-00-pm-10th-annual-dia-de-los-muertos-a",
-      "title": "Fri, Nov 6, 06:30 PM - 09:00 PM 10th Annual Dia De Los Muertos at City of Raleigh Museum (COR Museum), Downtown Raleigh 2,216.5 mi away • FREE • Family Dance Live Music & Concerts Festival Museums Historic Arts Multicultural Annual Events Holiday See details →",
-      "days": [
-        "fri"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/10th-annual-dia-de-los-muertos-on-nov-6-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
+        "free",
+        "outdoor"
       ]
     },
     {
@@ -316,7 +236,7 @@
     },
     {
       "id": "sat-dec-5-05-00-pm-08-00-pm-light-the-springs-2026-at-holly-",
-      "title": "Sat, Dec 5, 05:00 PM - 08:00 PM Light the Springs 2026 at Holly Springs Cultural Center, Holly Springs 2,214.7 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Christmas and Holiday Events Festival Hanukkah Celebrations See details →",
+      "title": "Sat, Dec 5, 05:00 PM - 08:00 PM Light the Springs 2026 at Holly Springs Cultural Center, Holly Springs 898.6 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Christmas and Holiday Events Festival Hanukkah Celebrations See details →",
       "days": [
         "sat"
       ],
@@ -337,7 +257,7 @@
     },
     {
       "id": "wed-dec-9-10-30-am-11-00-am-artful-story-time-happy-hanukkah",
-      "title": "Wed, Dec 9, 10:30 AM - 11:00 AM Artful Story Time: Happy Hanukkah! at North Carolina Museum of Art, West Raleigh 2,212.4 mi away • Free (pay what you wish) • Family Live Music & Concerts Holiday Arts Hanukkah Celebrations Workshops See details →",
+      "title": "Wed, Dec 9, 10:30 AM - 11:00 AM Artful Story Time: Happy Hanukkah! at North Carolina Museum of Art, West Raleigh 896.2 mi away • Free (pay what you wish) • Family Live Music & Concerts Holiday Arts Hanukkah Celebrations Workshops See details →",
       "days": [
         "sat"
       ],
@@ -356,17 +276,37 @@
       ]
     },
     {
-      "id": "fri-nov-6-07-30-pm-10-00-pm-movie-night-minions-at-dcp-great",
-      "title": "Fri, Nov 6, 07:30 PM - 10:00 PM Movie Night: Minions at DCP Great Lawn Pavilion, Cary 2,209.7 mi away • FREE • Family Film Nature & Outdoor See details →",
+      "id": "tue-nov-24-04-30-pm-08-30-pm-ninja-kidz-grand-opening-at-nin",
+      "title": "Tue, Nov 24, 04:30 PM - 08:30 PM Ninja Kidz Grand Opening at Ninja Kidz Action Park Raleigh 220 Grande Heights Dr, Cary, NC 27513 892.7 mi away • $149.99 per kid; grown-ups free with a paid kid's ticket • Family Open Houses Festival Sports See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/ninja-kidz-grand-opening-at-ninja-kidz-action-park-raleigh-on-nov-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "fri-nov-13-04-00-pm-05-30-pm-kidical-mass-family-bike-ride-a",
+      "title": "Fri, Nov 13, 04:00 PM - 05:30 PM Kidical Mass Family Bike Ride at Jaycee Park, Midtown Raleigh 898.4 mi away • FREE • Family Sports Team Building Nature & Outdoor See details →",
       "days": [
         "fri"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Cary",
+      "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/movie-night-minions-on-nov-6-2026/",
+      "url": "https://raleighparent.com/event/kidical-mass-family-bike-ride-on-nov-13-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 85,
@@ -377,17 +317,17 @@
       ]
     },
     {
-      "id": "rp-sat-nov-7-08-00-am-11-00-am-cars-and-coffee-morrisville-a",
-      "title": "RP Sat, Nov 7, 08:00 AM - 11:00 AM Cars and Coffee Morrisville at Imperial Center, Durham, Durham 2,203.3 mi away • FREE • Annual Events Nature & Outdoor Festival Fairs Open Houses See details →",
+      "id": "sat-nov-21-10-00-am-03-00-pm-holiday-vendor-market-at-fairvi",
+      "title": "Sat, Nov 21, 10:00 AM - 03:00 PM Holiday Vendor Market at Fairview Greenhouses Garden Center, South Raleigh 896.8 mi away • FREE • Dining and Drinks Holiday Shopping Nature & Outdoor Christmas and Holiday Events Farmers Markets See details →",
       "days": [
         "sat"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Morrisville",
+      "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/cars-and-coffee-morrisville-on-nov-7-2026/",
+      "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 84,
@@ -398,37 +338,17 @@
       ]
     },
     {
-      "id": "rp-sat-nov-7-10-00-am-02-00-pm-handmade-christmas-market-102",
-      "title": "RP Sat, Nov 7, 10:00 AM - 02:00 PM Handmade Christmas Market 10212 Fayetteville Rd, Fuquay-Varina , NC 27526 2,218.4 mi away • FREE • Shopping Christmas and Holiday Events Farmers Markets Festival See details →",
+      "id": "wed-dec-16-05-00-pm-07-00-pm-holiday-lights-2026-at-saving-g",
+      "title": "Wed, Dec 16, 05:00 PM - 07:00 PM Holiday Lights 2026 at Saving Grace Supply Company, Wake Forest 890.2 mi away • FREE • Family Holiday Shopping Fundraiser/Benefit Christmas and Holiday Events Farms See details →",
       "days": [
         "sat"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Fuquay-Varina",
+      "city": "Wake Forest",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/handmade-christmas-market-on-nov-7-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 83,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "rp-nov-7-8-09-00-am-05-00-pm-neuse-river-valley-model-railro",
-      "title": "RP Nov 7-8, 09:00 AM - 05:00 PM Neuse River Valley Model Railroad Club 42nd Annual Model Train Show and Sale at Agri-Supply Exposition Center at North Carolina State Fairgrounds, West Raleigh 2,211.9 mi away • $10 Two-Day Admission | Free Admission for 12yrs and under with Adult • Shopping Education Outreach Annual Events Dining and Drinks Fairs Festival See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/neuse-river-valley-model-railroad-club-42nd-annual-model-train-show-and-sale-on-nov-7-2026/",
+      "url": "https://raleighparent.com/event/holiday-lights-2026-on-dec-16-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 83,
@@ -458,30 +378,30 @@
       ]
     },
     {
-      "id": "fri-nov-6-06-00-pm-07-00-pm-teen-science-caf-rhino-conservat",
-      "title": "Fri, Nov 6, 06:00 PM - 07:00 PM Teen Science Café: Rhino Conservation at Daily Planet Cafe, Downtown Raleigh 2,216.4 mi away • Free. This program is recommended for participants ages 11&#8211;17. • Family Museums Education Outreach Workshops Nature & Outdoor See details →",
+      "id": "sat-nov-14-11-00-am-02-00-pm-camera-swap-at-rebus-works-down",
+      "title": "Sat, Nov 14, 11:00 AM - 02:00 PM Camera Swap at Rebus Works, Downtown Raleigh 899.9 mi away • FREE • Family Shopping Arts Farmers Markets See details →",
       "days": [
-        "fri"
+        "sat"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/teen-science-caf-rhino-conservation-on-nov-6-2026/",
+      "url": "https://raleighparent.com/event/camera-swap-on-nov-14-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 82,
       "why": "",
       "tags": [
-        "free",
-        "outdoor"
+        "free"
       ]
     },
     {
-      "id": "sun-nov-8-12-00-pm-sunshine-harvest-market-a-raleigh-boutiqu",
-      "title": "Sun, Nov 8, 12:00 PM Sunshine Harvest Market: A Raleigh Boutique Farmer's Market at Atlantic Gardening Company , North Raleigh 2,215.5 mi away • FREE • Family Shopping Farms Farmers Markets See details →",
+      "id": "sat-nov-14-10-00-am-02-00-pm-quail-hollow-artwalk-2026-at-qu",
+      "title": "Sat, Nov 14, 10:00 AM - 02:00 PM Quail Hollow ARTWalk 2026 at Quail Hollow Neighborhood, Midtown Raleigh 899.0 mi away • Free. Rain Date is Sunday, November 15, 2026, 10am-2pm • Family Shopping Nature & Outdoor Arts Festival See details →",
       "days": [
+        "sat",
         "sun"
       ],
       "start": "See listing",
@@ -489,13 +409,14 @@
       "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/sunshine-harvest-market-a-raleigh-boutique-farmers-market-on-nov-8-2026/",
+      "url": "https://raleighparent.com/event/quail-hollow-artwalk-2026-on-nov-14-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 82,
       "why": "",
       "tags": [
-        "free"
+        "free",
+        "outdoor"
       ]
     },
     {
@@ -519,8 +440,28 @@
       ]
     },
     {
+      "id": "kids-voting-durham-20th-anniversary",
+      "title": "Kids Voting Durham 20th Anniversary",
+      "days": [
+        "sat"
+      ],
+      "start": "11 AM",
+      "end": "",
+      "venue": "NC Cooperative Extension, Durham County Center",
+      "city": "Durham",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/kids-voting-durham-20th-anniversary/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "wed-nov-11-11-00-am-veterans-day-ceremony-2026-at-veterans-m",
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial , Holly Springs 2,212.2 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
+      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial , Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
       "days": [
         "sat"
       ],
@@ -540,28 +481,29 @@
       ]
     },
     {
-      "id": "fri-nov-6-06-00-pm-10-00-pm-movie-night-minions-at-downtown-",
-      "title": "Fri, Nov 6, 06:00 PM - 10:00 PM Movie Night: Minions at Downtown Cary Park, Cary 2,209.7 mi away • FREE • Film Family See details →",
+      "id": "sat-nov-14-03-00-pm-ncma-movies-at-moore-square-wicked-for-g",
+      "title": "Sat, Nov 14, 03:00 PM NCMA Movies at Moore Square: Wicked: For Good at Moore Square, Downtown Raleigh 900.6 mi away • FREE • Family Film Nature & Outdoor See details →",
       "days": [
-        "fri"
+        "sat"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Cary",
+      "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/movie-night-minions-on-nov-6-2026/",
+      "url": "https://raleighparent.com/event/ncma-movies-at-moore-square-wicked-for-good-on-nov-14-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 81,
       "why": "",
       "tags": [
-        "free"
+        "free",
+        "outdoor"
       ]
     },
     {
       "id": "mon-dec-7-05-30-pm-06-15-pm-downtown-cary-park-hanukkah-meno",
-      "title": "Mon, Dec 7, 05:30 PM - 06:15 PM Downtown Cary Park Hanukkah Menorah Lighting 2026 at DCP Great Lawn Pavilion, Cary 2,209.7 mi away • FREE • Family Holiday Nature & Outdoor Hanukkah Celebrations See details →",
+      "title": "Mon, Dec 7, 05:30 PM - 06:15 PM Downtown Cary Park Hanukkah Menorah Lighting 2026 at DCP Great Lawn Pavilion, Cary 893.3 mi away • FREE • Family Holiday Nature & Outdoor Hanukkah Celebrations See details →",
       "days": [
         "sat"
       ],
@@ -582,7 +524,7 @@
     },
     {
       "id": "tue-dec-8-05-00-pm-07-00-pm-fenton-menorah-lighting-at-fento",
-      "title": "Tue, Dec 8, 05:00 PM - 07:00 PM Fenton Menorah Lighting at Fenton Square, Cary 2,210.8 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Hanukkah Celebrations See details →",
+      "title": "Tue, Dec 8, 05:00 PM - 07:00 PM Fenton Menorah Lighting at Fenton Square, Cary 894.5 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Hanukkah Celebrations See details →",
       "days": [
         "sat"
       ],
@@ -603,7 +545,7 @@
     },
     {
       "id": "wed-dec-9-05-00-pm-07-00-pm-annual-menorah-lighting-at-fento",
-      "title": "Wed, Dec 9, 05:00 PM - 07:00 PM Annual Menorah Lighting at Fenton at Fenton Square, Cary 2,210.8 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Hanukkah Celebrations See details →",
+      "title": "Wed, Dec 9, 05:00 PM - 07:00 PM Annual Menorah Lighting at Fenton at Fenton Square, Cary 894.5 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Hanukkah Celebrations See details →",
       "days": [
         "sat"
       ],
@@ -624,7 +566,7 @@
     },
     {
       "id": "thu-dec-10-05-30-pm-menorah-lighting-morrisville-2026-at-ind",
-      "title": "Thu, Dec 10, 05:30 PM Menorah Lighting Morrisville 2026 at Indian Creek Trailhead, Morrisville/RTP 2,206.0 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Hanukkah Celebrations See details →",
+      "title": "Thu, Dec 10, 05:30 PM Menorah Lighting Morrisville 2026 at Indian Creek Trailhead, Morrisville/RTP 889.7 mi away • FREE • Family Holiday Nature & Outdoor Annual Events Hanukkah Celebrations See details →",
       "days": [
         "sat"
       ],
@@ -644,28 +586,8 @@
       ]
     },
     {
-      "id": "nov-6-8-08-30-am-06-00-pm-2026-akc-agility-league-national-c",
-      "title": "Nov 6-8, 08:30 AM - 06:00 PM 2026 AKC Agility League National Championship at James B. Hunt Jr. Horse Complex at the North Carolina State Fairgrounds, West Raleigh 2,212.1 mi away • FREE • Family Sports Annual Events See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/2026-akc-agility-league-national-championship-on-nov-6-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 79,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "sat-nov-14-12-00-pm-wake-county-adoption-information-fair-at",
-      "title": "Sat, Nov 14, 12:00 PM Wake County Adoption Information Fair at John Chavis Memorial Park and Community Center, Downtown Raleigh 2,217.3 mi away • FREE • Family Education Outreach Fairs See details →",
+      "title": "Sat, Nov 14, 12:00 PM Wake County Adoption Information Fair at John Chavis Memorial Park and Community Center, Downtown Raleigh 901.1 mi away • FREE • Family Education Outreach Fairs See details →",
       "days": [
         "sat"
       ],
@@ -684,28 +606,29 @@
       ]
     },
     {
-      "id": "story-time-at-the-museum",
-      "title": "Story Time at the Museum",
+      "id": "fri-nov-20-05-00-pm-09-00-pm-cary-night-market-at-downtown-c",
+      "title": "Fri, Nov 20, 05:00 PM - 09:00 PM Cary Night Market at Downtown Cary Park, Cary 893.3 mi away • FREE • Shopping Nature & Outdoor Nightlife Farmers Markets Festival See details →",
       "days": [
-        "sat"
+        "fri"
       ],
-      "start": "11 AM",
+      "start": "See listing",
       "end": "",
-      "venue": "North Carolina Museum of Natural Sciences",
-      "city": "",
+      "venue": "",
+      "city": "Cary",
       "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/story-time-at-the-museum/",
-      "source": "stufftodoinrdu",
+      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
+      "source": "raleighparent",
       "indoor": false,
-      "family_score": 78,
+      "family_score": 79,
       "why": "",
       "tags": [
-        "free"
+        "free",
+        "outdoor"
       ]
     },
     {
       "id": "sat-nov-14-11-00-am-02-00-pm-the-grl-market-november-at-wave",
-      "title": "Sat, Nov 14, 11:00 AM - 02:00 PM The GRL Market November at Waverly Place, Cary 2,211.6 mi away • FREE • Shopping Farmers Markets See details →",
+      "title": "Sat, Nov 14, 11:00 AM - 02:00 PM The GRL Market November at Waverly Place, Cary 895.1 mi away • FREE • Shopping Farmers Markets See details →",
       "days": [
         "sat"
       ],
@@ -725,7 +648,7 @@
     },
     {
       "id": "sat-nov-21-12-00-pm-04-00-pm-harvest-fest-2026-at-good-hope-",
-      "title": "Sat, Nov 21, 12:00 PM - 04:00 PM Harvest Fest 2026 at Good Hope Farm, Cary 2,204.3 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Shopping Nature & Outdoor Annual Events Beer and Brewery Festival Farms See details →",
+      "title": "Sat, Nov 21, 12:00 PM - 04:00 PM Harvest Fest 2026 at Good Hope Farm, Cary 888.0 mi away • FREE • Family Dance Live Music & Concerts Dining and Drinks Shopping Nature & Outdoor Annual Events Beer and Brewery Festival Farms See details →",
       "days": [
         "sat"
       ],
@@ -746,7 +669,7 @@
     },
     {
       "id": "sun-dec-6-02-30-pm-05-30-pm-yarn-habit-monthly-fiber-craft-m",
-      "title": "Sun, Dec 6, 02:30 PM - 05:30 PM Yarn Habit: Monthly Fiber Craft Meetup at Craft Habit, East Raleigh 2,218.0 mi away • Free, 18+ yrs. Please RSVP • Family Arts Workshops Raleigh Locals Guide See details →",
+      "title": "Sun, Dec 6, 02:30 PM - 05:30 PM Yarn Habit: Monthly Fiber Craft Meetup at Craft Habit, East Raleigh 901.9 mi away • Free, 18+ yrs. Please RSVP • Family Arts Workshops Raleigh Locals Guide See details →",
       "days": [
         "sun"
       ],
@@ -765,17 +688,17 @@
       ]
     },
     {
-      "id": "sat-nov-14-11-00-am-01-00-pm-hot-dogs-with-heroes-autism-awa",
-      "title": "Sat, Nov 14, 11:00 AM - 01:00 PM Hot Dogs with Heroes: Autism Awareness Event with Raleigh Fire at Fire Station 12, East Raleigh 2,220.5 mi away • FREE • Family Education Outreach Fundraiser/Benefit Wellness Open Houses See details →",
+      "id": "sat-nov-14-09-00-am-12-00-pm-fall-family-funday-8715-holly-s",
+      "title": "Sat, Nov 14, 09:00 AM - 12:00 PM Fall Family Funday 8715 Holly Springs Rd, Apex, NC 27539 897.0 mi away • FREE • Family Open Houses See details →",
       "days": [
         "sat"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Raleigh",
+      "city": "Apex",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/hot-dogs-with-heroes-autism-awareness-event-with-raleigh-fire-on-nov-14-2026/",
+      "url": "https://raleighparent.com/event/fall-family-funday-on-nov-14-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 77,
@@ -785,8 +708,29 @@
       ]
     },
     {
+      "id": "nov-14-15-01-00-pm-05-00-pm-forest-park-art-walk-2026-at-for",
+      "title": "Nov 14-15, 01:00 PM - 05:00 PM Forest Park Art Walk 2026 at Forest Park neighborhood, Downtown Raleigh 899.1 mi away • FREE • Family Shopping Nature & Outdoor Annual Events Arts Open Houses See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/forest-park-art-walk-2026-on-nov-14-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
+      ]
+    },
+    {
       "id": "wed-nov-11-10-00-am-12-00-pm-veterans-day-at-new-hope-valley",
-      "title": "Wed, Nov 11, 10:00 AM - 12:00 PM Veterans Day at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 2,205.4 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Holiday Tours See details →",
+      "title": "Wed, Nov 11, 10:00 AM - 12:00 PM Veterans Day at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Holiday Tours See details →",
       "days": [
         "sat"
       ],
@@ -805,8 +749,8 @@
       ]
     },
     {
-      "id": "nov-6-7-07-00-pm-10-00-pm-37th-capital-area-handbell-festiva",
-      "title": "Nov 6-7, 07:00 PM - 10:00 PM 37th Capital Area Handbell Festival at Kerr Scott Building at North Carolina State Fairgrounds, West Raleigh 2,212.7 mi away • $50.00/person if registered or postmarked by September 30 | $60.00/person if registered or postmarked October 1 or after | Free public concert at 4 pm on Saturday November 7th. • Live Music & Concerts Annual Events Festival Workshops See details →",
+      "id": "sat-nov-14-11-00-am-01-00-pm-hot-dogs-with-heroes-autism-awa",
+      "title": "Sat, Nov 14, 11:00 AM - 01:00 PM Hot Dogs with Heroes: Autism Awareness Event with Raleigh Fire at Fire Station 12, East Raleigh 904.4 mi away • FREE • Family Education Outreach Fundraiser/Benefit Wellness Open Houses See details →",
       "days": [
         "sat"
       ],
@@ -815,10 +759,70 @@
       "venue": "",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/37th-capital-area-handbell-festival-on-nov-6-2026/",
+      "url": "https://raleighparent.com/event/hot-dogs-with-heroes-autism-awareness-event-with-raleigh-fire-on-nov-14-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "family-feud-house-party-edition-at-common-market-durham",
+      "title": "Family Feud: House Party Edition at Common Market Durham",
+      "days": [
+        "sat"
+      ],
+      "start": "7 PM",
+      "end": "",
+      "venue": "Common Market Durham",
+      "city": "Durham",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/family-feud-house-party-edition-at-common-market-durham/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 76,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "nov-21-22-10-00-am-05-00-pm-carolina-coin-and-stamp-show-at-",
+      "title": "Nov 21-22, 10:00 AM - 05:00 PM Carolina Coin and Stamp Show at Kerr Scott Building at North Carolina State Fairgrounds, West Raleigh 896.5 mi away • FREE • Shopping Fairs Festival See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/carolina-coin-and-stamp-show-on-nov-21-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 76,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "birding-with-wake-audubon",
+      "title": "Birding with Wake Audubon",
+      "days": [
+        "sat"
+      ],
+      "start": "8 AM",
+      "end": "",
+      "venue": "Williamson Farm and Nature Preserve",
+      "city": "",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/birding-with-wake-audubon/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 75,
       "why": "",
       "tags": [
         "free"
