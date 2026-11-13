@@ -25,13 +25,15 @@ NEAR_TOWNS = {"holly springs", "apex", "cary", "fuquay-varina", "morrisville",
 CORE_TOWNS = {"holly springs", "apex", "cary", "fuquay-varina", "morrisville",
               "new hill", "wake forest", "knightdale", "garner"}
 FAR_TOWNS = {"sanford", "clayton", "youngsville", "wendell", "pittsboro", "hillsborough",
-             "chapel hill", "carrboro"}
+             "chapel hill", "carrboro", "rolesville"}
 
 KID_KEYWORDS = {
     "family": 8, "kid": 8, "children": 8, "storytime": 8, "story time": 8,
     "pumpkin": 6, "halloween": 5, "trick-or-treat": 7, "trunk-or-treat": 7,
     "train": 7, "farm": 6, "animal": 6, "corn maze": 7, "festival": 5,
     "museum": 5, "movie": 4, "dance": 4, "craft": 5, "scarecrow": 7,
+    "toddler": 7, "preschool": 7, "baby": 5, "sensory": 6, "lego": 6,
+    "puppet": 6, "young children": 8,
     "market": 3, "fair": 6, "maze": 6, "skate": 5, "movie": 4, "encanto": 6,
     "moana": 6, "star wars": 5, "dog": 4, "pup": 4, "nature": 4, "hike": 4,
 }
@@ -178,7 +180,7 @@ def main():
             days = [day_hint]
         else:
             days = None
-        key = norm(title)[:60]
+        key = norm(title)[:60] + "|" + ",".join(days or []) + "|" + norm(e.get("venue", ""))[:40]
         if key in seen:
             continue
         seen.add(key)

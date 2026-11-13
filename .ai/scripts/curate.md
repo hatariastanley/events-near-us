@@ -34,3 +34,10 @@ artifact — JSON data is correct UTF-8 (S’mores uses U+2019, Axé uses U+00E9
 (serves isolation page); triangleonthecheap still 403. Live data currently
 = raleighparent (~309) + kidsoutandabout (~3). Coverage regression — worth
 revisiting sources or adding town-parks calendars.
+
+## 2026-11-13 — dedupe + towns
+
+- Dedupe key now title|days|venue so same recurring program on different
+  days survives (library storytimes).
+- Added rolesville to FAR_TOWNS; added toddler/preschool/baby/sensory/
+  lego/puppet/"young children" kid keywords (wake.gov storytimes).

@@ -38,3 +38,31 @@ entries); split blob via `RP_HEAD` regex + ` mi away` partition into
 title/venue/time_hint/time_end/cost/day_hint/date_hint. Also: `get()` now
 feeds `r.content` to BeautifulSoup (meta-charset sniffing); stufftodoinrdu
 entries get `day_hint` from the nearest preceding day heading.
+
+## Sources added — 2026-11-13 (deep research pass)
+
+New scrapers (all verified locally):
+- **wakegov** — wake.gov/events Drupal grid; all Wake County library
+  storytimes + parks programs (72/run, 4 pages).
+- **civicplus (generic)** — `scrape_civicplus(base, city)` for
+  hollyspringsnc.us, apexnc.org, fuquay-varina.org, carrboronc.gov,
+  dprplaymore.org. Prefers `?view=list` (schema.org microdata:
+  itemprop name/startDate/location); falls back to month-grid
+  `showDetailsBox` tooltips.
+- **tec (generic)** — WP "The Events Calendar" REST JSON for
+  marbleskidsmuseum.org, moreheadplanetarium.org. naturalsciences.org
+  returns 404 on REST — skip or revisit.
+- **fun4raleighkids** — JEvents day lists; structured li fields
+  (.f4us_time/.f4us_location/.f4us_cost). Dominates curation (37/40) —
+  it's a purpose-built family calendar, appropriate.
+
+Not scrapable (per research): Facebook/Instagram (login), Meetup,
+ActiveNet/RecTrac SPAs, discoverdurham (JS-gated), raleighnc.gov (403),
+carync.gov/morrisvillenc.gov/garnernc.gov (403 locally — bot walls,
+retry from CI if desired), stufftodoinrdu (blocks datacenter+local).
+
+Candidate future adds: downtowncarypark.com, fentonnc.com,
+downtownraleigh.org, downtowndurham.com (JSON-LD), dixpark.org,
+chapelhillpubliclibrary.org, durhamcountylibrary.libcal.com,
+garner.recdesk.com, wakeforestnc.recdesk.com, visitraleigh printable.
+Research report summarized in this file's earlier entries + brainstorm docs.
