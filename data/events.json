@@ -1,10 +1,270 @@
 {
-  "generated_at": "2026-11-13T18:41:31+00:00",
+  "generated_at": "2026-11-13T20:02:24+00:00",
   "weekend": {
     "fri": "2026-11-13",
     "sun": "2026-11-15"
   },
   "events": [
+    {
+      "id": "kids-marker-s-market-at-grasshopper-farm",
+      "title": "Kids Marker's Market at Grasshopper Farm",
+      "days": [
+        "sat"
+      ],
+      "start": "11:00 am",
+      "end": "",
+      "venue": "8004 Poole Road, Knightdale, NC  27545",
+      "city": "Knightdale",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192533/-/kids-marker-s-market-at-grasshopper-farm",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "western-wake-farmers-market",
+      "title": "Western Wake Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "start": "8:00 am",
+      "end": "",
+      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191758/-/western-wake-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "apex-farmers-market-at-the-depot",
+      "title": "Apex Farmers Market at The Depot",
+      "days": [
+        "sat"
+      ],
+      "start": "9:00 am",
+      "end": "",
+      "venue": "220 N Salem St, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190226/-/apex-farmers-market-at-the-depot",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "cary-farmers-market-at-downtown-cary-park",
+      "title": "Cary Farmers Market at Downtown Cary Park",
+      "days": [
+        "sat"
+      ],
+      "start": "9:00 am",
+      "end": "",
+      "venue": "160 East Park St., Cary, NC  27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193977/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "holly-springs-farmers-market",
+      "title": "Holly Springs Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "start": "9:00 am",
+      "end": "",
+      "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
+      "city": "Holly Springs",
+      "cost": "Free Entry",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190825/-/holly-springs-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186632/-/wake-forest-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "raleigh-fire-museum-is-open",
+      "title": "Raleigh Fire Museum is Open",
+      "days": [
+        "sat"
+      ],
+      "start": "10:00 am",
+      "end": "",
+      "venue": "Keeter Training Center, 105 Keeter Center Drive, Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Admission is free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196214/-/raleigh-fire-museum-is-open",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "page-158-books-storytime",
+      "title": "Page 158 Books Storytime",
+      "days": [
+        "sat"
+      ],
+      "start": "11:00 am",
+      "end": "",
+      "venue": "415 Brooks St., Suite B, Wake Forest, NC 27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191569/-/page-158-books-storytime",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
+      "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
+      "days": [
+        "fri"
+      ],
+      "start": "10:45 am",
+      "end": "",
+      "venue": "11 West Jones Street, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194632/-/nc-museum-of-natural-sciences-live-animal-feeding-ocean-habitat",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 84,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "vintage-market-days-nc-triangle-presents-a-vintage-noel",
+      "title": "Vintage Market Days® NC Triangle presents A Vintage Noel",
+      "days": [
+        "fri"
+      ],
+      "start": "10:00 am",
+      "end": "",
+      "venue": "Jim Graham Building, NC State Fairgrounds, 4285 Trinity Rd., Raleigh, NC, 27607",
+      "city": "Raleigh",
+      "cost": "$5-$21. Admission for children 12yrs and under are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193098/-/vintage-market-days-nc-triangle-presents-a-vintage-noel",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "vintage-market-days-nc-triangle-presents-a-vintage-noel",
+      "title": "Vintage Market Days® NC Triangle presents A Vintage Noel",
+      "days": [
+        "sat"
+      ],
+      "start": "10:00 am",
+      "end": "",
+      "venue": "Jim Graham Building, NC State Fairgrounds, 4285 Trinity Rd., Raleigh, NC, 27607",
+      "city": "Raleigh",
+      "cost": "$5-$21. Admission for children 12yrs and under are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193099/-/vintage-market-days-nc-triangle-presents-a-vintage-noel",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "nc-museum-of-art-movies-presents-wicked-for-good",
+      "title": "NC Museum of Art Movies presents Wicked: For Good",
+      "days": [
+        "sat"
+      ],
+      "start": "3:00 pm",
+      "end": "",
+      "venue": "Moore Square, 201 S. Blount Street, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191509/-/nc-museum-of-art-movies-presents-wicked-for-good",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "vintage-market-days-nc-triangle-presents-a-vintage-noel",
+      "title": "Vintage Market Days® NC Triangle presents A Vintage Noel",
+      "days": [
+        "sun"
+      ],
+      "start": "10:00 am",
+      "end": "",
+      "venue": "Jim Graham Building, NC State Fairgrounds, 4285 Trinity Rd., Raleigh, NC, 27607",
+      "city": "Raleigh",
+      "cost": "$5-$21.  Admission for children under 12 is free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193097/-/vintage-market-days-nc-triangle-presents-a-vintage-noel",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
     {
       "id": "kidical-mass-family-bike-ride",
       "title": "Kidical Mass Family Bike Ride",
@@ -13,7 +273,7 @@
       ],
       "start": "04:00 PM",
       "end": "05:30 PM",
-      "venue": "Jaycee Park, Midtown Raleigh 1,",
+      "venue": "Jaycee Park, Midtown Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/kidical-mass-family-bike-ride-on-nov-13-2026/",
@@ -26,8 +286,189 @@
       ]
     },
     {
-      "id": "fall-family-funday-8715-holly-springs-rd-apex-nc-27539-1",
-      "title": "Fall Family Funday 8715 Holly Springs Rd, Apex, NC 27539 1,",
+      "id": "under-the-tree-storytime-with-quail-ridge-books",
+      "title": "Under the Tree Storytime with Quail Ridge Books",
+      "days": [
+        "sat"
+      ],
+      "start": "10:30 am",
+      "end": "",
+      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/189834/-/under-the-tree-storytime-with-quail-ridge-books",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "under-the-tree-storytime-with-quail-ridge-books",
+      "title": "Under the Tree Storytime with Quail Ridge Books",
+      "days": [
+        "sun"
+      ],
+      "start": "10:30 am",
+      "end": "",
+      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190509/-/under-the-tree-storytime-with-quail-ridge-books",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "grl-market-at-waverly-place",
+      "title": "GRL Market at Waverly Place",
+      "days": [
+        "sat"
+      ],
+      "start": "11:00 am",
+      "end": "",
+      "venue": "302 Colonades Way, Cary, NC 27518",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193741/-/grl-market-at-waverly-place",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 80,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "build-a-lego-reindeer-at-the-lego-store",
+      "title": "Build a LEGO® Reindeer at The LEGO® Store",
+      "days": [
+        "fri"
+      ],
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "Crabtree Valley Mall, 4325 Glenwood Ave., Ste 1078, Raleigh, NC 27612",
+      "city": "Raleigh",
+      "cost": "Free while supplies last",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196321/-/build-a-lego-reindeer-at-the-lego-store",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 79,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "pumpkin-and-play-fall-fest-at-giggles-drop-in-childcare",
+      "title": "Pumpkin and Play Fall Fest at Giggles Drop-In Childcare",
+      "days": [
+        "sun"
+      ],
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "6504 Falls of Neuse Rd., Raleigh, NC, 27615",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196221/-/pumpkin-and-play-fall-fest-at-giggles-drop-in-childcare",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 79,
+      "why": "",
+      "tags": [
+        "free",
+        "halloween"
+      ]
+    },
+    {
+      "id": "nc-museum-of-natural-sciences-incredible-science",
+      "title": "NC Museum of Natural Sciences Incredible Science",
+      "days": [
+        "fri"
+      ],
+      "start": "1:30 pm",
+      "end": "",
+      "venue": "11 West Jones Street, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193453/-/nc-museum-of-natural-sciences-incredible-science",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "nc-museum-of-natural-sciences-incredible-science",
+      "title": "NC Museum of Natural Sciences Incredible Science",
+      "days": [
+        "sat"
+      ],
+      "start": "12:30 pm",
+      "end": "",
+      "venue": "11 West Jones Street, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193470/-/nc-museum-of-natural-sciences-incredible-science",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "art-on-the-dot-at-nc-museum-of-art",
+      "title": "Art on the Dot at NC Museum of Art",
+      "days": [
+        "sat"
+      ],
+      "start": "2:30 pm",
+      "end": "",
+      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194855/-/art-on-the-dot-at-nc-museum-of-art",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "art-on-the-dot-at-nc-museum-of-art",
+      "title": "Art on the Dot at NC Museum of Art",
+      "days": [
+        "sun"
+      ],
+      "start": "2:30 pm",
+      "end": "",
+      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194856/-/art-on-the-dot-at-nc-museum-of-art",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "fall-family-funday-8715-holly-springs-rd-apex-nc-27539",
+      "title": "Fall Family Funday 8715 Holly Springs Rd, Apex, NC 27539",
       "days": [
         "sat"
       ],
@@ -46,6 +487,222 @@
       ]
     },
     {
+      "id": "kids-bible-story-time-at-village-church-rolesville",
+      "title": "Kids Bible Story Time at Village Church Rolesville",
+      "days": [
+        "fri"
+      ],
+      "start": "10:00 am",
+      "end": "",
+      "venue": "410 Southtown Circle, Rolesville, NC  27571",
+      "city": "Rolesville",
+      "cost": "Free - No Sign-Up Required.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194516/-/kids-bible-story-time-at-village-church-rolesville",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "ken-s-korny-maze-and-pumpkin-patch",
+      "title": "Ken's Korny Maze and Pumpkin Patch",
+      "days": [
+        "fri"
+      ],
+      "start": "4:00 pm",
+      "end": "",
+      "venue": "3175 Benson Road, Garner, NC  27529",
+      "city": "Garner",
+      "cost": "$6 - $20 per person ages 3+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196546/-/ken-s-korny-maze-and-pumpkin-patch",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "halloween"
+      ]
+    },
+    {
+      "id": "fall-family-funday-with-ivybrook-academy-apex",
+      "title": "Fall Family Funday with Ivybrook Academy Apex",
+      "days": [
+        "sat"
+      ],
+      "start": "9:00 am",
+      "end": "",
+      "venue": "8715 Holly Springs Rd., Apex, NC 27539",
+      "city": "Apex",
+      "cost": "Free with Online Pre-Registration",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196395/-/fall-family-funday-with-ivybrook-academy-apex",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
+      "title": "Saturday Morning Magic with New World Toys and Collectibles",
+      "days": [
+        "sat"
+      ],
+      "start": "9:30 am",
+      "end": "",
+      "venue": "164 Bratton Dr., Garner, NC  27529",
+      "city": "Garner",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195777/-/saturday-morning-magic-with-new-world-toys-and-collectibles",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "animal-encounters-and-open-play",
+      "title": "Animal Encounters and Open Play",
+      "days": [
+        "sat"
+      ],
+      "start": "10:00 am",
+      "end": "",
+      "venue": "The Feathered Farm, 3620 Rosinburg Rd., Zebulon, NC  27597",
+      "city": "",
+      "cost": "$15 for ages 2-64.  Children under 2 are free.   $11.50 per ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192495/-/animal-encounters-and-open-play",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "ken-s-korny-maze-and-pumpkin-patch",
+      "title": "Ken's Korny Maze and Pumpkin Patch",
+      "days": [
+        "sat"
+      ],
+      "start": "10:00 am",
+      "end": "",
+      "venue": "3175 Benson Road, Garner, NC  27529",
+      "city": "Garner",
+      "cost": "$6 - $20 per person ages 3+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194336/-/ken-s-korny-maze-and-pumpkin-patch",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "halloween"
+      ]
+    },
+    {
+      "id": "sparkle-night-at-parkside-town-commons",
+      "title": "Sparkle Night at Parkside Town Commons",
+      "days": [
+        "sat"
+      ],
+      "start": "4:00 pm",
+      "end": "",
+      "venue": "7119 O’Kelly Chapel Road, Cary, NC, 27519",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/146546/-/sparkle-night-at-parkside-town-commons",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "sold-out-dorothea-dix-park-s-little-explorers",
+      "title": "*SOLD OUT* Dorothea Dix Park's Little Explorers",
+      "days": [
+        "fri"
+      ],
+      "start": "11:00 am",
+      "end": "",
+      "venue": "House of Many Porches Market of Dix Park, 701 Palmer Dr., Raleigh, NC 27603",
+      "city": "Raleigh",
+      "cost": "Free with Registration",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193197/-/sold-out-dorothea-dix-park-s-little-explorers",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 76,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "the-market-at-raleigh-iron-works",
+      "title": "The Market at Raleigh Iron Works",
+      "days": [
+        "sat"
+      ],
+      "start": "11:00 am",
+      "end": "",
+      "venue": "1101 East Whitaker Mill Road, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191392/-/the-market-at-raleigh-iron-works",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 76,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "winter-clay-animal-masks-at-children-s-art-classes-raleigh",
+      "title": "Winter Clay Animal Masks at Children's Art Classes Raleigh",
+      "days": [
+        "sun"
+      ],
+      "start": "2:00 pm",
+      "end": "",
+      "venue": "6119 Capital Blvd., Raleigh, NC  27616",
+      "city": "Raleigh",
+      "cost": "$45",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195915/-/winter-clay-animal-masks-at-children-s-art-classes-raleigh",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 75,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "evening-historic-farm-trails-hike-with-smith-farm-goat-sanct",
+      "title": "Evening Historic Farm Trails Hike with Smith Farm Goat Sanctuary",
+      "days": [
+        "sun"
+      ],
+      "start": "4:00 pm",
+      "end": "",
+      "venue": "7221 Sunset Lake Rd., Fuquay-Varina, NC 27526",
+      "city": "Fuquay-Varina",
+      "cost": "$24 plus fees",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194076/-/evening-historic-farm-trails-hike-with-smith-farm-goat-sanctuary",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 75,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "hartwell-farmer-s-market",
       "title": "Hartwell Farmer's Market",
       "days": [
@@ -53,7 +710,7 @@
       ],
       "start": "10:00 AM",
       "end": "02:00 PM",
-      "venue": "Hartwell Raleigh, Downtown Raleigh 1,",
+      "venue": "Hartwell Raleigh, Downtown Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/hartwell-farmers-market-on-nov-15-2026/",
@@ -66,711 +723,82 @@
       ]
     },
     {
-      "id": "the-grl-market-november",
-      "title": "The GRL Market November",
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
       "days": [
         "sat"
       ],
-      "start": "11:00 AM",
-      "end": "02:00 PM",
-      "venue": "Waverly Place, Cary 1,",
-      "city": "Cary",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/the-grl-market-november-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 72,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-adoption-information-fair",
-      "title": "Wake County Adoption Information Fair",
-      "days": [
-        "sat"
-      ],
-      "start": "12:00 PM",
+      "start": "10:00 am",
       "end": "",
-      "venue": "John Chavis Memorial Park and Community Center, Downtown Raleigh 1,",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
       "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/wake-county-adoption-information-fair-on-nov-14-2026/",
-      "source": "raleighparent",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187215/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 71,
+      "family_score": 74,
       "why": "",
-      "tags": [
-        "free"
-      ]
+      "tags": []
     },
     {
-      "id": "pumpkin-and-play-fall-fest",
-      "title": "Pumpkin and Play Fall Fest",
-      "days": [
-        "sun"
-      ],
-      "start": "12:00 PM",
-      "end": "",
-      "venue": "Giggles Drop In Childcare, North Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "Free, please register",
-      "url": "https://raleighparent.com/event/pumpkin-and-play-fall-fest-on-nov-15-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 71,
-      "why": "",
-      "tags": [
-        "free",
-        "halloween"
-      ]
-    },
-    {
-      "id": "member-talk-the-peruzzi-altarpiece",
-      "title": "Member Talk: The Peruzzi Altarpiece",
+      "id": "garden-story-walk-at-jc-raulston-arboretum",
+      "title": "Garden Story Walk at JC Raulston Arboretum",
       "days": [
         "fri"
       ],
-      "start": "02:00 PM",
-      "end": "03:00 PM",
-      "venue": "North Carolina Museum of Art, West Raleigh 1,",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "4415 Beryl Road, Raleigh, NC 27606",
       "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/member-talk-the-peruzzi-altarpiece-on-nov-13-2026/",
-      "source": "raleighparent",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195401/-/garden-story-walk-at-jc-raulston-arboretum",
+      "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 70,
+      "family_score": 73,
       "why": "",
       "tags": [
         "free"
       ]
     },
     {
-      "id": "exhibit-opening-the-doctor-is-in",
-      "title": "Exhibit Opening: The Doctor is in",
-      "days": [
-        "sat"
-      ],
-      "start": "10:00 AM",
-      "end": "04:00 PM",
-      "venue": "Pope House Museum, Downtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/exhibit-opening-the-doctor-is-in-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 70,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "friday-freebies-magnetic-mini-picture-frames",
-      "title": "Friday Freebies: Magnetic Mini Picture Frames",
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
       "days": [
         "fri"
       ],
-      "start": "06:00 PM",
-      "end": "08:00 PM",
-      "venue": "Craft Habit, East Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "Free, 7 &#8211; 18+ yrs. Crafters under the age of 18 must b",
-      "url": "https://raleighparent.com/event/friday-freebies-magnetic-mini-picture-frames-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 70,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "still-moving-light-of-life-as-interpreted-by-killian-manning",
-      "title": "Still. Moving: LIGHT OF LIFE as Interpreted by Killian Manning",
-      "days": [
-        "sat"
-      ],
-      "start": "11:00 AM",
+      "start": "9:15 am",
       "end": "",
-      "venue": "North Carolina Museum of Art, West Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/still-moving-light-of-life-as-interpreted-by-killian-manning-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 70,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "notes-on-view-paradox-opera",
-      "title": "Notes on View: Paradox Opera",
-      "days": [
-        "sat"
-      ],
-      "start": "11:30 AM",
-      "end": "12:45 PM",
-      "venue": "North Carolina Museum of Art, West Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/notes-on-view-paradox-opera-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 70,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "ncma-movies-at-moore-square-wicked-for-good",
-      "title": "NCMA Movies at Moore Square: Wicked: For Good",
-      "days": [
-        "sat"
-      ],
-      "start": "03:00 PM",
-      "end": "",
-      "venue": "Moore Square, Downtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/ncma-movies-at-moore-square-wicked-for-good-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 69,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "hot-dogs-with-heroes-autism-awareness-event-with-raleigh-fir",
-      "title": "Hot Dogs with Heroes: Autism Awareness Event with Raleigh Fire",
-      "days": [
-        "sat"
-      ],
-      "start": "11:00 AM",
-      "end": "01:00 PM",
-      "venue": "Fire Station 12, East Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/hot-dogs-with-heroes-autism-awareness-event-with-raleigh-fire-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 69,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "sunshine-harvest-market-a-raleigh-boutique-farmer-s-market-a",
-      "title": "Sunshine Harvest Market: A Raleigh Boutique Farmer's Market at Hayes Barton Baptist Church",
-      "days": [
-        "sat"
-      ],
-      "start": "09:00 AM",
-      "end": "01:00 PM",
-      "venue": "Five Points, Midtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/sunshine-harvest-market-a-raleigh-boutique-farmers-market-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 66,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "raleigh-holiday-tasting-pop-up-and-coop-fair",
-      "title": "Raleigh Holiday Tasting Pop Up and Coop Fair",
-      "days": [
-        "sat"
-      ],
-      "start": "11:00 AM",
-      "end": "02:00 PM",
-      "venue": "Weaver Street Market, Downtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/raleigh-holiday-tasting-pop-up-and-coop-fair-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 66,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "friday-the-13th-flash-tattoo-pop-up-at-the-davie",
-      "title": "Friday the 13th Flash Tattoo Pop-Up at The Davie",
-      "days": [
-        "fri"
-      ],
-      "start": "07:00 PM",
-      "end": "",
-      "venue": "The Davie, Downtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/friday-the-13th-flash-tattoo-pop-up-at-the-davie-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 65,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "nc-state-watch-party-wolfpack-vs-syracuse",
-      "title": "NC State Watch Party: Wolfpack vs. Syracuse",
-      "days": [
-        "sat"
-      ],
-      "start": "11:00 AM",
-      "end": "",
-      "venue": "Tin Roof Raleigh, Downtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-syracuse-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 65,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "camera-swap",
-      "title": "Camera Swap",
-      "days": [
-        "sat"
-      ],
-      "start": "11:00 AM",
-      "end": "02:00 PM",
-      "venue": "Rebus Works, Downtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/camera-swap-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 65,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "quail-hollow-artwalk-2026",
-      "title": "Quail Hollow ARTWalk 2026",
-      "days": [
-        "sat"
-      ],
-      "start": "10:00 AM",
-      "end": "02:00 PM",
-      "venue": "Quail Hollow Neighborhood, Midtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "Free. Rain Date is Sunday, November 15, 2026, 10am-2pm",
-      "url": "https://raleighparent.com/event/quail-hollow-artwalk-2026-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 65,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "raleighnc-gov-live-tour-laurel-hills-community-center-3808-e",
-      "title": "RaleighNC.gov Live Tour - Laurel Hills Community Center 3808 Edwards Mill Rd., Raleigh, NC 27612 1,",
-      "days": [
-        "sun"
-      ],
-      "start": "02:00 PM",
-      "end": "04:00 PM",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/raleighncgov-live-tour-laurel-hills-community-center-on-nov-15-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 65,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "s-mores-and-suds-at-new-hope-valley-railway",
-      "title": "S’mores and Suds at New Hope Valley Railway",
-      "days": [
-        "sat"
-      ],
-      "start": "03:30 PM",
-      "end": "",
-      "venue": "North Carolina Railway Museum & New Hope Valley Railway, Apex 1,",
-      "city": "Apex",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 62,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "live-music-emma-rae",
-      "title": "Live Music: Emma Rae",
-      "days": [
-        "sat"
-      ],
-      "start": "06:30 PM",
-      "end": "09:00 PM",
-      "venue": "Southern Peak Brewery, Apex 1,",
-      "city": "Apex",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/live-music-emma-rae-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 61,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "north-carolina-symphony-how-to-train-your-dragon",
-      "title": "North Carolina Symphony - How to Train Your Dragon",
-      "days": [
-        "fri"
-      ],
-      "start": "07:30 PM",
-      "end": "",
-      "venue": "Martin Marietta Center for the Performing Arts, Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/north-carolina-symphony-how-to-train-your-dragon-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 60,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "art-heist-dinner-mystery-of-the-nile",
-      "title": "Art Heist Dinner: Mystery of the Nile",
-      "days": [
-        "fri"
-      ],
-      "start": "06:00 PM",
-      "end": "08:30 PM",
-      "venue": "North Carolina Museum of Art - EAST Building, Level B, West Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "$175 per person, pre-paid",
-      "url": "https://raleighparent.com/event/art-heist-dinner-mystery-of-the-nile-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 58,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "elia-cecino-paderewski-piano-festival",
-      "title": "Elia Cecino: Paderewski Piano Festival",
-      "days": [
-        "sat"
-      ],
-      "start": "03:00 PM",
-      "end": "04:45 PM",
-      "venue": "SECU Auditorium, Midtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "$20-$30",
-      "url": "https://raleighparent.com/event/elia-cecino-paderewski-piano-festival-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 58,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "quilting-level-1-block-construction-shoo-fly",
-      "title": "Quilting Level 1: Block Construction - Shoo Fly",
-      "days": [
-        "sat"
-      ],
-      "start": "10:15 AM",
-      "end": "12:15 PM",
-      "venue": "Craft Habit, East Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "$47, 12+ years of age. Bring a friend - we have a 4 person m",
-      "url": "https://raleighparent.com/event/quilting-level-1-block-construction-shoo-fly-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 58,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "audio-description-tour-of-ancient-nubia",
-      "title": "Audio Description Tour of Ancient Nubia",
-      "days": [
-        "sat"
-      ],
-      "start": "12:00 PM",
-      "end": "",
-      "venue": "North Carolina Museum of Art, West Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/audio-description-tour-of-ancient-nubia-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 58,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "s-mores-and-suds",
-      "title": "S’mores and Suds",
-      "days": [
-        "sat"
-      ],
-      "start": "01:30 AM",
-      "end": "05:00 PM",
-      "venue": "New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 1,",
-      "city": "New Hill",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "broken-compass-bluegrass",
-      "title": "Broken Compass Bluegrass",
-      "days": [
-        "fri"
-      ],
-      "start": "07:30 PM",
-      "end": "",
-      "venue": "Garner Performing Arts Center, Garner 1,",
-      "city": "Garner",
-      "cost": "$27",
-      "url": "https://raleighparent.com/event/broken-compass-bluegrass-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "marvelous-music-series-hayde-bluegrass-orchestra",
-      "title": "Marvelous Music Series: Hayde Bluegrass Orchestra",
-      "days": [
-        "sat"
-      ],
-      "start": "07:30 PM",
-      "end": "09:00 PM",
-      "venue": "Cary Arts Center, Cary 1,",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/marvelous-music-series-hayde-bluegrass-orchestra-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "striking-copper-w-matt-phillips",
-      "title": "Striking Copper w/Matt Phillips",
-      "days": [
-        "fri"
-      ],
-      "start": "07:30 PM",
-      "end": "",
-      "venue": "The Wake Forest Listening Room, Wake Forest 1,",
-      "city": "Wake Forest",
-      "cost": "$20.34",
-      "url": "https://raleighparent.com/event/striking-copper-wmatt-phillips-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "indie-film-producing-understanding-film-logistics",
-      "title": "Indie Film Producing: Understanding Film Logistics",
-      "days": [
-        "sat"
-      ],
-      "start": "10:00 AM",
-      "end": "01:00 PM",
-      "venue": "The Cary Theater, Cary 1,",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/indie-film-producing-understanding-film-logistics-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "christmas-shopping-and-mahjong-at-lily-mae-s",
-      "title": "Christmas Shopping and Mahjong at Lily Mae's",
-      "days": [
-        "sun"
-      ],
-      "start": "05:30 PM",
-      "end": "",
-      "venue": "Lily Mae's, Wake Forest 1,",
-      "city": "Wake Forest",
-      "cost": "$12",
-      "url": "https://raleighparent.com/event/christmas-shopping-and-mahjong-at-lily-maes-on-nov-15-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "fall-funfest",
-      "title": "Fall FunFest",
-      "days": [
-        "sat"
-      ],
-      "start": "11:00 AM",
-      "end": "04:00 PM",
-      "venue": "Redford Place Park, Rolesville 1,",
+      "venue": "Check out your local library for specific times and dates",
       "city": "",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/fall-funfest-on-nov-14-2026/",
-      "source": "raleighparent",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187871/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 57,
+      "family_score": 73,
       "why": "",
       "tags": [
         "free"
       ]
     },
     {
-      "id": "the-dolly-diamond-experience",
-      "title": "The Dolly Diamond Experience",
+      "id": "garden-story-walk-at-jc-raulston-arboretum",
+      "title": "Garden Story Walk at JC Raulston Arboretum",
       "days": [
         "sat"
       ],
-      "start": "05:30 PM",
+      "start": "9:00 am",
       "end": "",
-      "venue": "Prestonwood Country Club, Cary 1,",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/the-dolly-diamond-experience-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "make-a-gift-open-clay-studio-session",
-      "title": "Make A Gift: Open Clay Studio Session",
-      "days": [
-        "sun"
-      ],
-      "start": "11:00 PM",
-      "end": "01:00 PM",
-      "venue": "Carolina Clay Studio, Cary 1,",
-      "city": "Cary",
-      "cost": "$65",
-      "url": "https://raleighparent.com/event/make-a-gift-open-clay-studio-session-on-nov-15-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "rain-garden-and-rain-barrel-workshop",
-      "title": "Rain Garden and Rain Barrel Workshop",
-      "days": [
-        "sat"
-      ],
-      "start": "02:30 PM",
-      "end": "04:00 PM",
-      "venue": "Tarboro Road Community Center, West Raleigh 1,",
+      "venue": "4415 Beryl Road, Raleigh, NC 27606",
       "city": "Raleigh",
-      "cost": "Free - Registration is required",
-      "url": "https://raleighparent.com/event/rain-garden-and-rain-barrel-workshop-on-nov-14-2026/",
-      "source": "raleighparent",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195402/-/garden-story-walk-at-jc-raulston-arboretum",
+      "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 57,
+      "family_score": 73,
       "why": "",
       "tags": [
         "free"
       ]
-    },
-    {
-      "id": "primer-55-sicksense-and-redefind-live-at-chapel-of-bones",
-      "title": "Primer 55, Sicksense, and Redefind Live at Chapel of Bones",
-      "days": [
-        "fri"
-      ],
-      "start": "06:00 PM",
-      "end": "",
-      "venue": "Chapel of Bones, West Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "$23.90",
-      "url": "https://raleighparent.com/event/primer-55-sicksense-and-redefind-live-at-chapel-of-bones-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 53,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "member-holiday-celebration-2026",
-      "title": "Member Holiday Celebration 2026",
-      "days": [
-        "fri"
-      ],
-      "start": "06:00 PM",
-      "end": "08:30 PM",
-      "venue": "WRAL 3D Theater, Downtown Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/member-holiday-celebration-2026-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 53,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "carolina-youth-ballet-the-nutcracker",
-      "title": "Carolina Youth Ballet: The Nutcracker",
-      "days": [
-        "fri"
-      ],
-      "start": "06:00 PM",
-      "end": "",
-      "venue": "Martin Marietta Center for the Performing Arts, Raleigh 1,",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/carolina-youth-ballet-the-nutcracker-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 53,
-      "why": "",
-      "tags": []
     }
   ]
 }
