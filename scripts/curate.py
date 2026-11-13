@@ -12,7 +12,7 @@ Usage:  python scripts/curate.py
 
 import json
 import re
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -46,6 +46,55 @@ DAY_NAMES = {
 
 def norm(s):
     return re.sub(r"\s+", " ", (s or "").lower())
+
+
+def fix_mojibake(t):
+    """Best-effort repair of U+FFFD from bad charset decoding upstream."""
+    t = re.sub(r"(?<=\w)�(?=\w)", "'", t)   # S�mores -> S'mores
+    t = re.sub(r"\s�\s", " – ", t)     # "Pop Up � Handcrafted" -> en dash
+    return t.replace("�", " ").strip()
+
+
+def clean_title(t):
+    """Strip scraper-blob debris any source might emit."""
+    t = fix_mojibake(t)
+    t = re.sub(r"^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+[A-Z][a-z]{2}\s+\d{1,2}(-\d{1,2})?,\s*", "", t)
+    t = re.sub(r"^[A-Z][a-z]{2}\s+\d{1,2}(-\d{1,2})?,\s*", "", t)
+    t = re.sub(r"^\d{1,2}:\d{2}\s*[AP]M(\s*-\s*\d{1,2}:\d{2}\s*[AP]M)?\s*", "", t, flags=re.I)
+    t = re.sub(r"\s*\d+(\.\d+)?\s*mi away.*$", "", t, flags=re.I)
+    t = re.split(r"\s[•�]\s", t)[0]
+    return re.sub(r"\s+", " ", t).strip(" -–•")
+
+
+MONTHS = {m: i + 1 for i, m in enumerate(
+    "jan feb mar apr may jun jul aug sep oct nov dec".split())}
+
+
+def weekend_day_map(raw):
+    """{(month, day): 'fri'|'sat'|'sun'} for the target weekend."""
+    wk = raw.get("weekend", {})
+    try:
+        fri, sun = date.fromisoformat(wk["fri"]), date.fromisoformat(wk["sun"])
+    except Exception:
+        return {}
+    out = {}
+    for key, off in (("fri", 0), ("sat", 1), ("sun", 2)):
+        d = fri + timedelta(days=off)
+        if d <= sun:
+            out[(d.month, d.day)] = key
+    return out
+
+
+def parse_date_hint(hint):
+    """'Nov 14' or 'Nov 14-15' -> [(m,d), ...] covering the range."""
+    m = re.match(r"([A-Za-z]{3})\s+(\d{1,2})(?:\s*-\s*(\d{1,2}))?", hint or "")
+    if not m:
+        return []
+    month = MONTHS.get(m.group(1).lower())
+    if not month:
+        return []
+    d1, d2 = int(m.group(2)), int(m.group(3) or m.group(2))
+    return [(month, d) for d in range(d1, d2 + 1)]
 
 
 def detect_days(text):
@@ -102,11 +151,33 @@ def main():
         raise SystemExit("run scripts/fetch_events.py first — no raw_events.json")
     raw = json.loads(RAW.read_text(encoding="utf-8"))
     seen, events = set(), []
+    wkmap = weekend_day_map(raw)
 
     for e in raw.get("raw_events", []):
-        title = re.sub(r"\s+", " ", e.get("title", "")).strip()
+        raw_title = e.get("title", "")
+        head = re.search(
+            r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s*([A-Za-z]{3}\s+\d{1,2}(-\d{1,2})?)",
+            raw_title[:70])
+        date_hint = e.get("date_hint")
+        if not date_hint:
+            m2 = head or re.match(
+                r"([A-Za-z]{3}\s+\d{1,2}(-\d{1,2})?)", raw_title)
+            date_hint = m2.group(2) if head else (m2.group(1) if m2 else None)
+        day_hint = e.get("day_hint") or (head.group(1).lower() if head else None)
+
+        title = clean_title(raw_title)
         if len(title) < 5:
             continue
+
+        mds = parse_date_hint(date_hint)
+        if mds:
+            days = [wkmap[md] for md in mds if md in wkmap]
+            if not days:
+                continue  # dated event outside this weekend's Fri-Sun window
+        elif day_hint in ("fri", "sat", "sun"):
+            days = [day_hint]
+        else:
+            days = None
         key = norm(title)[:60]
         if key in seen:
             continue
@@ -117,9 +188,9 @@ def main():
         events.append({
             "id": re.sub(r"[^a-z0-9]+", "-", norm(title)).strip("-")[:60],
             "title": title,
-            "days": detect_days(text),
+            "days": days or detect_days(text),
             "start": e.get("time_hint", "") or "See listing",
-            "end": "",
+            "end": e.get("time_end", ""),
             "venue": e.get("venue", ""),
             "city": e.get("city") or city,
             "cost": e.get("cost") or ("Free" if "free" in tags else "See listing"),

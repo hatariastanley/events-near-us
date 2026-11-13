@@ -50,7 +50,7 @@ def get(url):
         # Corporate TLS proxy serving an isolation wrapper instead of the page.
         # Expected behind Zscaler; works fine from non-proxied networks (CI/cloud).
         raise RuntimeError("blocked by proxy browser isolation")
-    return BeautifulSoup(r.text, "html.parser")
+    return BeautifulSoup(r.content, "html.parser")  # let bs4 sniff meta charset (avoids � mojibake)
 
 
 def scrape_stufftodoinrdu():
@@ -71,6 +71,7 @@ def scrape_stufftodoinrdu():
             "cost": "Free" if "Free" in text else "",
             "source": "stufftodoinrdu",
             "tags": vibes,
+            "day_hint": heading_day(h3),
         })
     return events
 
@@ -117,18 +118,50 @@ def scrape_triangleonthecheap():
     return events
 
 
+RP_HEAD = re.compile(
+    r"^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+([A-Z][a-z]{2}\s+\d{1,2}),\s+"
+    r"(?:(\d{1,2}:\d{2}\s*[AP]M)(?:\s*-\s*(\d{1,2}:\d{2}\s*[AP]M))?\s+)?(.*)$")
+DAY_MAP = {"mon": "mon", "tue": "tue", "wed": "wed", "thu": "thu",
+           "fri": "fri", "sat": "sat", "sun": "sun"}
+
+
 def scrape_raleighparent():
-    """Events calendar listing links."""
+    """Events calendar. Link text is a blob: 'Fri, Nov 20, 05:00 PM - 08:00 PM
+    <title> at <venue>, <city> 891.9 mi away • FREE • <categories>'.
+    Keep only date-prefixed links (drops nav junk), then split the blob."""
     events = []
     soup = get("https://raleighparent.com/events/")
     for a in soup.select("a[href*='event']"):
-        title = a.get_text(" ", strip=True)
-        if len(title) > 8:
-            events.append({
-                "title": title, "url": urljoin("https://raleighparent.com", a.get("href", "")),
-                "venue": "", "time_hint": "", "cost": "",
-                "source": "raleighparent", "tags": [],
-            })
+        blob = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+        m = RP_HEAD.match(blob)
+        if not m:
+            continue
+        wday, date_hint, start, end, rest = m.groups()
+        body, _, tail = rest.partition(" mi away")
+        body = re.sub(r"\s*\d+(\.\d+)?$", "", body).strip()
+        title, sep, venue = body.rpartition(" at ")
+        if not sep or len(title) < 4:
+            title, venue = body, ""
+        cost = ""
+        for seg in re.split(r"[•�]", tail):
+            seg = seg.strip(" -")
+            if re.match(r"(?i)(free|\$)", seg):
+                cost = seg[:60]
+                break
+        if len(title) < 5:
+            continue
+        events.append({
+            "title": title,
+            "url": urljoin("https://raleighparent.com", a.get("href", "")),
+            "venue": venue.strip(),
+            "time_hint": start or "",
+            "time_end": end or "",
+            "cost": cost,
+            "source": "raleighparent",
+            "tags": [],
+            "day_hint": DAY_MAP[wday.lower()],
+            "date_hint": date_hint,
+        })
     return events
 
 
