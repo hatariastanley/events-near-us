@@ -19,3 +19,10 @@ Fetches `data/events.json` and renders ranked event cards grouped by day, with f
 - `data/events.json` schema is THE contract (fields: `days[]`, `family_score`, `why`, `tags`, `cost`, `indoor`, `city`, `url`…). Changing names breaks the pipeline + REFRESH.md together.
 - `NEARBY_TOWNS` defines the "Near home" filter — user's core area.
 - HTML-escape everything from JSON (`escapeHtml`).
+
+## Bug fix — 2026-11-13 (Near-home sort order)
+
+**Symptom:** With a ZIP set, "Near home" cards were sorted purely by
+distance — low family-score events ranked above high-score ones.
+**Fix:** family_score desc is now primary everywhere (consistent with the
+rest of the site); distance only breaks score ties within the nearby view.

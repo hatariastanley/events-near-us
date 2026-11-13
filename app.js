@@ -53,7 +53,7 @@ const FILTERS = {
   free: (e) => /free/i.test(e.cost || ""),
   outdoor: (e) => e.indoor === false,
   indoor: (e) => e.indoor === true,
-  // With a ZIP set, "nearby" shows everything sorted by distance instead.
+  // With a ZIP set, "nearby" shows all events; distance breaks score ties.
   nearby: (e) => home ? true : NEARBY_TOWNS.includes(e.city),
   gentle: (e) => !(e.tags || []).includes("scary") && !(e.tags || []).includes("21+"),
 };
@@ -114,11 +114,12 @@ function render(filter = "all") {
     const events = allEvents
       .filter((e) => (e.days || [e.day]).includes(day) && match(e))
       .sort((a, b) => {
+        if (b.family_score !== a.family_score)
+          return b.family_score - a.family_score;
         if (filter === "nearby" && home) {
-          const da = eventDistanceMi(a) ?? 9999, db = eventDistanceMi(b) ?? 9999;
-          if (da !== db) return da - db;
+          return (eventDistanceMi(a) ?? 9999) - (eventDistanceMi(b) ?? 9999);
         }
-        return b.family_score - a.family_score;
+        return 0;
       });
     document.getElementById(`cards-${day}`).innerHTML = events.map(cardHtml).join("");
     shown += events.length;
