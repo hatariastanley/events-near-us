@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T21:14:47+00:00",
+  "fetched_at": "2026-11-13T02:27:55+00:00",
   "weekend": {
     "fri": "2026-11-13",
     "sun": "2026-11-15"
@@ -9,46 +9,39 @@
   ],
   "raw_events": [
     {
-      "title": "Trivia Night Mondays at Ponysaurus Brewing Co.",
-      "url": "https://stufftodoinrdu.com/events/trivia-night-mondays-at-ponysaurus-brewing-co/",
-      "venue": "Ponysaurus Brewing Co.",
+      "title": "Monthly Mahjong @DSSOLVR(Beginner Lessons & Guided Play Every 2nd Thursday)",
+      "url": "https://stufftodoinrdu.com/events/monthly-mahjong-dssolvrbeginner-lessons-guided-play-every-2nd-thursday-2/",
+      "venue": "DSSOLVR",
       "time_hint": "6:30 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
-        "Low impact"
+        "Good solo",
+        "Low impact",
+        "Newcomer-friendly"
       ]
     },
     {
-      "title": "SiM – HOOMAN WORLD TOUR",
-      "url": "https://stufftodoinrdu.com/events/sim-hooman-world-tour/",
-      "venue": "Lincoln Theatre",
+      "title": "Funniest in North Carolina contest",
+      "url": "https://stufftodoinrdu.com/events/funniest-in-north-carolina-contest-2/",
+      "venue": "101 Kitchen",
       "time_hint": "7:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "Low impact",
-        "Side-by-side"
-      ]
+      "tags": []
     },
     {
-      "title": "Wolf And Bear – ‘A Hill To Die On’ Tour",
-      "url": "https://stufftodoinrdu.com/events/wolf-and-bear-a-hill-to-die-on-tour/",
-      "venue": "Local 506",
+      "title": "An Evening with Darren Jessee w/Grace Lucia",
+      "url": "https://stufftodoinrdu.com/events/an-evening-with-darren-jessee/",
+      "venue": "Wake Forest Listening Room",
       "time_hint": "7:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "Low impact",
-        "Newcomer-friendly",
-        "Side-by-side"
-      ]
+      "tags": []
     },
     {
-      "title": "Beauty School Dropout with No Love for the Middle Child",
-      "url": "https://stufftodoinrdu.com/events/beauty-school-dropout-with-no-love-for-the-middle-child/",
+      "title": "Stephen Lynch: The Me Tour 2026",
+      "url": "https://stufftodoinrdu.com/events/stephen-lynch-the-me-tour-2026/",
       "venue": "Motorco",
       "time_hint": "8 PM",
       "cost": "",
@@ -61,8 +54,8 @@
       ]
     },
     {
-      "title": "Julia Jacklin with Jordan Patterson",
-      "url": "https://stufftodoinrdu.com/events/julia-jacklin-with-jordan-patterson/",
+      "title": "Charlie Parr with Maisy Owen",
+      "url": "https://stufftodoinrdu.com/events/charlie-parr-with-maisy-owen/",
       "venue": "Cat’s Cradle",
       "time_hint": "8 PM",
       "cost": "",
@@ -907,6 +900,19 @@
       ]
     },
     {
+      "title": "Morgan Page – Ages 21+",
+      "url": "https://stufftodoinrdu.com/events/morgan-page-ages-21/",
+      "venue": "Aura Lounge – Raleigh",
+      "time_hint": "10 PM",
+      "cost": "",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Good solo",
+        "Low impact",
+        "Side-by-side"
+      ]
+    },
+    {
       "title": "Overtime at E.O.’s",
       "url": "https://stufftodoinrdu.com/events/overtime-at-e-o-s/",
       "venue": "E.O.’s Athletic Club",
@@ -1042,6 +1048,23 @@
       ]
     },
     {
+      "title": "NCMA Dance Gumbo: Dance Fitness with Jordan Farrell",
+      "url": "https://stufftodoinrdu.com/events/ncma-dance-gumbo-dance-fitness-with-jordan-farrell-2/",
+      "venue": "North Carolina Museum of Art",
+      "time_hint": "9 AM",
+      "cost": "",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Family-friendly",
+        "Good solo",
+        "Low impact",
+        "Newcomer-friendly",
+        "Saturday morning",
+        "Side-by-side",
+        "Sober-friendly"
+      ]
+    },
+    {
       "title": "Saturday Outdoor Yoga",
       "url": "https://stufftodoinrdu.com/events/saturday-outdoor-yoga/",
       "venue": "Wooten Meadow Park",
@@ -1110,23 +1133,6 @@
       "source": "stufftodoinrdu",
       "tags": [
         "Saturday morning"
-      ]
-    },
-    {
-      "title": "NCMA to Go Art Kits: Sponge, Stamp, Soar / Kit de artedel NCMA para llevar: pinta con esponja, estampa … ¡y a volar!",
-      "url": "https://stufftodoinrdu.com/events/ncma-to-go-art-kits-sponge-stamp-soar-kit-de-artedel-ncma-para-llevar-pinta-con-esponja-estampa-y-a-volar/",
-      "venue": "North Carolina Museum of Art",
-      "time_hint": "10 AM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Family-friendly",
-        "Good solo",
-        "Low impact",
-        "Newcomer-friendly",
-        "Saturday morning",
-        "Side-by-side",
-        "Sober-friendly"
       ]
     },
     {
@@ -1608,57 +1614,6 @@
       ]
     },
     {
-      "title": "Sound Healing Meditation",
-      "url": "https://stufftodoinrdu.com/events/sound-healing-meditation-2/",
-      "venue": "East Regional Library",
-      "time_hint": "2 PM",
-      "cost": "Free",
-      "source": "stufftodoinrdu",
-      "tags": []
-    },
-    {
-      "title": "Botanical Still Life Drawing Workshop at the Museum of Life and Science",
-      "url": "https://stufftodoinrdu.com/events/botanical-still-life-drawing-museum-of-life-and-science-2026/",
-      "venue": "Museum of Life and Science",
-      "time_hint": "2 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "Low impact",
-        "Newcomer-friendly",
-        "Sober-friendly"
-      ]
-    },
-    {
-      "title": "$2 Off Draft Beer",
-      "url": "https://stufftodoinrdu.com/events/2-off-draft-beer/",
-      "venue": "Speakeasy",
-      "time_hint": "12 AM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "LGBTQ+",
-        "Low impact",
-        "Side-by-side"
-      ]
-    },
-    {
-      "title": "$3 Well Drinks",
-      "url": "https://stufftodoinrdu.com/events/3-well-drinks/",
-      "venue": "Speakeasy",
-      "time_hint": "12 AM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "LGBTQ+",
-        "Low impact",
-        "Side-by-side"
-      ]
-    },
-    {
       "title": "Free Board Game Rentals",
       "url": "https://stufftodoinrdu.com/events/free-board-game-rentals/",
       "venue": "Moon Dog Meadery",
@@ -1672,13 +1627,38 @@
       ]
     },
     {
-      "title": "Arts & Drafts at Beer Study",
-      "url": "https://stufftodoinrdu.com/events/arts-and-drafts/",
-      "venue": "Beer Study Durham",
-      "time_hint": "5 PM",
+      "title": "Conservation Corps – West",
+      "url": "https://stufftodoinrdu.com/events/conservation-corps-west/",
+      "venue": "",
+      "time_hint": "9 AM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
+        "Volunteer"
+      ]
+    },
+    {
+      "title": "Stroll Through History: Free Tour of Historic Oakwood Cemetery",
+      "url": "https://stufftodoinrdu.com/events/stroll-through-history-oakwood-cemetery/",
+      "venue": "Historic Oakwood Cemetery",
+      "time_hint": "10 AM",
+      "cost": "Free",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Good solo",
+        "Newcomer-friendly",
+        "Sober-friendly"
+      ]
+    },
+    {
+      "title": "Story Time at the Museum",
+      "url": "https://stufftodoinrdu.com/events/story-time-at-the-museum/",
+      "venue": "North Carolina Museum of Natural Sciences",
+      "time_hint": "11 AM",
+      "cost": "Free",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Family-friendly",
         "Good solo",
         "Low impact",
         "Newcomer-friendly",
@@ -1687,49 +1667,49 @@
       ]
     },
     {
-      "title": "Yoga in the Park",
-      "url": "https://stufftodoinrdu.com/events/yoga-in-the-park-2/",
-      "venue": "Gipson Play Plaza, Dix Park",
-      "time_hint": "5:30 PM",
-      "cost": "Free",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Family-friendly",
-        "Good solo",
-        "Sober-friendly"
-      ]
-    },
-    {
-      "title": "Yoga in the Park",
-      "url": "https://stufftodoinrdu.com/events/yoga-in-the-park/",
-      "venue": "",
-      "time_hint": "5:30 PM",
-      "cost": "Free",
-      "source": "stufftodoinrdu",
-      "tags": []
-    },
-    {
-      "title": "Community Yoga & Sound Bath – Pay what you can",
-      "url": "https://stufftodoinrdu.com/events/community-yoga-sound-bath-pay-what-you-can/",
-      "venue": "Tap Yard Raleigh",
-      "time_hint": "6 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": []
-    },
-    {
-      "title": "Beginner Printmaking Workshop",
-      "url": "https://stufftodoinrdu.com/events/beginner-printmaking-workshop/",
-      "venue": "",
-      "time_hint": "6 PM",
+      "title": "Making on the Porch at Keckly Burwell",
+      "url": "https://stufftodoinrdu.com/events/making-on-the-porch-at-keckly-burwell/",
+      "venue": "Elizabeth Keckley Center at the Burwell School",
+      "time_hint": "2 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo",
-        "LGBTQ+",
         "Low impact",
         "Newcomer-friendly",
         "Side-by-side"
+      ]
+    },
+    {
+      "title": "Walking Club with the Bull City Strollers",
+      "url": "https://stufftodoinrdu.com/events/walking-club-with-the-bull-city-strollers/",
+      "venue": "Crank Arm Brewing Co.",
+      "time_hint": "5:30 PM",
+      "cost": "Free",
+      "source": "stufftodoinrdu",
+      "tags": []
+    },
+    {
+      "title": "Thursday Vinyl Nights at Gizmo Brew Works in Durham",
+      "url": "https://stufftodoinrdu.com/events/thursday-vinyl-nights-at-gizmo-brew-works-in-durham/",
+      "venue": "Gizmo Brew Works (Durham)",
+      "time_hint": "6 PM",
+      "cost": "Free",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Low impact"
+      ]
+    },
+    {
+      "title": "Tap Yard Run Club",
+      "url": "https://stufftodoinrdu.com/events/tap-yard-run-club/",
+      "venue": "Tap Yard Raleigh",
+      "time_hint": "6 PM",
+      "cost": "Free",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Good solo",
+        "Newcomer-friendly"
       ]
     },
     {
@@ -1787,7 +1767,7 @@
       "tags": []
     },
     {
-      "title": "All 918 events",
+      "title": "All 931 events",
       "url": "https://raleighparent.com/events/",
       "venue": "",
       "time_hint": "",
@@ -1796,7 +1776,7 @@
       "tags": []
     },
     {
-      "title": "Today 5 events",
+      "title": "Today 18 events",
       "url": "https://raleighparent.com/events/today/",
       "venue": "",
       "time_hint": "",
@@ -1805,7 +1785,7 @@
       "tags": []
     },
     {
-      "title": "Tomorrow 11 events",
+      "title": "Tomorrow 38 events",
       "url": "https://raleighparent.com/events/tomorrow/",
       "venue": "",
       "time_hint": "",
@@ -1814,7 +1794,7 @@
       "tags": []
     },
     {
-      "title": "Weekend 104 events",
+      "title": "Weekend 106 events",
       "url": "https://raleighparent.com/events/weekend/",
       "venue": "",
       "time_hint": "",
@@ -1823,7 +1803,7 @@
       "tags": []
     },
     {
-      "title": "Next 30 Days 681 events",
+      "title": "Next 30 Days 767 events",
       "url": "https://raleighparent.com/events/30-days/",
       "venue": "",
       "time_hint": "",
@@ -1850,16 +1830,7 @@
       "tags": []
     },
     {
-      "title": "America’s 250th 1",
-      "url": "https://raleighparent.com/events/americas-250th/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Annual Events 62",
+      "title": "Annual Events 58",
       "url": "https://raleighparent.com/events/annual-events/",
       "venue": "",
       "time_hint": "",
@@ -1868,7 +1839,7 @@
       "tags": []
     },
     {
-      "title": "Beer & Brewery 30",
+      "title": "Beer & Brewery 26",
       "url": "https://raleighparent.com/events/beer-brewery/",
       "venue": "",
       "time_hint": "",
@@ -1877,7 +1848,7 @@
       "tags": []
     },
     {
-      "title": "Bluegrass Music 17",
+      "title": "Bluegrass Music 18",
       "url": "https://raleighparent.com/events/bluegrass/",
       "venue": "",
       "time_hint": "",
@@ -1886,7 +1857,7 @@
       "tags": []
     },
     {
-      "title": "Christmas & Holiday Events 270",
+      "title": "Christmas & Holiday Events 287",
       "url": "https://raleighparent.com/events/christmas-holiday/",
       "venue": "",
       "time_hint": "",
@@ -1895,7 +1866,7 @@
       "tags": []
     },
     {
-      "title": "Classes & Workshops 161",
+      "title": "Classes & Workshops 164",
       "url": "https://raleighparent.com/events/classes-workshops/",
       "venue": "",
       "time_hint": "",
@@ -1904,7 +1875,7 @@
       "tags": []
     },
     {
-      "title": "Colleges & Universities 43",
+      "title": "Colleges & Universities 55",
       "url": "https://raleighparent.com/events/colleges-universities/",
       "venue": "",
       "time_hint": "",
@@ -1922,16 +1893,7 @@
       "tags": []
     },
     {
-      "title": "Commencement & Graduation 1",
-      "url": "https://raleighparent.com/events/commencement-graduation/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Live Music & Concerts 196",
+      "title": "Live Music & Concerts 200",
       "url": "https://raleighparent.com/events/concerts-live-music/",
       "venue": "",
       "time_hint": "",
@@ -1940,7 +1902,7 @@
       "tags": []
     },
     {
-      "title": "Dance Performances 56",
+      "title": "Dance Performances 57",
       "url": "https://raleighparent.com/events/dance/",
       "venue": "",
       "time_hint": "",
@@ -1949,7 +1911,7 @@
       "tags": []
     },
     {
-      "title": "Dining & Drinks 100",
+      "title": "Dining & Drinks 97",
       "url": "https://raleighparent.com/events/dining-drinks/",
       "venue": "",
       "time_hint": "",
@@ -1967,7 +1929,7 @@
       "tags": []
     },
     {
-      "title": "Education Outreach 111",
+      "title": "Education Outreach 110",
       "url": "https://raleighparent.com/events/education-outreach/",
       "venue": "",
       "time_hint": "",
@@ -1976,7 +1938,7 @@
       "tags": []
     },
     {
-      "title": "Esports & Gaming 14",
+      "title": "Esports & Gaming 12",
       "url": "https://raleighparent.com/events/esports-gaming/",
       "venue": "",
       "time_hint": "",
@@ -1985,7 +1947,7 @@
       "tags": []
     },
     {
-      "title": "Community Fairs 21",
+      "title": "Community Fairs 22",
       "url": "https://raleighparent.com/events/fairs/",
       "venue": "",
       "time_hint": "",
@@ -1994,7 +1956,7 @@
       "tags": []
     },
     {
-      "title": "Family Events 192",
+      "title": "Family Events 189",
       "url": "https://raleighparent.com/events/family/",
       "venue": "",
       "time_hint": "",
@@ -2021,7 +1983,7 @@
       "tags": []
     },
     {
-      "title": "Festivals 143",
+      "title": "Festivals 146",
       "url": "https://raleighparent.com/events/festivals/",
       "venue": "",
       "time_hint": "",
@@ -2030,7 +1992,7 @@
       "tags": []
     },
     {
-      "title": "Film & Cinema 16",
+      "title": "Film & Cinema 17",
       "url": "https://raleighparent.com/events/film/",
       "venue": "",
       "time_hint": "",
@@ -2039,7 +2001,7 @@
       "tags": []
     },
     {
-      "title": "Free Events 154",
+      "title": "Free Events 147",
       "url": "https://raleighparent.com/events/free/",
       "venue": "",
       "time_hint": "",
@@ -2048,7 +2010,7 @@
       "tags": []
     },
     {
-      "title": "Free Food Events 2",
+      "title": "Free Food Events 1",
       "url": "https://raleighparent.com/events/free-food/",
       "venue": "",
       "time_hint": "",
@@ -2075,7 +2037,7 @@
       "tags": []
     },
     {
-      "title": "Historic Events 13",
+      "title": "Historic Events 10",
       "url": "https://raleighparent.com/events/historic/",
       "venue": "",
       "time_hint": "",
@@ -2084,17 +2046,8 @@
       "tags": []
     },
     {
-      "title": "Holiday Events 218",
+      "title": "Holiday Events 220",
       "url": "https://raleighparent.com/events/holiday/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Kids Night Out Events 1",
-      "url": "https://raleighparent.com/events/kids-night-out/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2129,7 +2082,7 @@
       "tags": []
     },
     {
-      "title": "Multicultural Events 98",
+      "title": "Multicultural Events 99",
       "url": "https://raleighparent.com/events/multicultural/",
       "venue": "",
       "time_hint": "",
@@ -2138,7 +2091,7 @@
       "tags": []
     },
     {
-      "title": "Museum Programs & Exhibits 40",
+      "title": "Museum Programs & Exhibits 44",
       "url": "https://raleighparent.com/events/museums/",
       "venue": "",
       "time_hint": "",
@@ -2147,7 +2100,7 @@
       "tags": []
     },
     {
-      "title": "Nature & Outdoor Events 93",
+      "title": "Nature & Outdoor Events 87",
       "url": "https://raleighparent.com/events/nature-outdoor/",
       "venue": "",
       "time_hint": "",
@@ -2192,7 +2145,7 @@
       "tags": []
     },
     {
-      "title": "Shopping Events 50",
+      "title": "Shopping Events 55",
       "url": "https://raleighparent.com/events/shopping/",
       "venue": "",
       "time_hint": "",
@@ -2201,7 +2154,7 @@
       "tags": []
     },
     {
-      "title": "Sports & Athletics 75",
+      "title": "Sports & Athletics 85",
       "url": "https://raleighparent.com/events/sports/",
       "venue": "",
       "time_hint": "",
@@ -2219,7 +2172,7 @@
       "tags": []
     },
     {
-      "title": "Team Building 16",
+      "title": "Team Building 14",
       "url": "https://raleighparent.com/events/team-building/",
       "venue": "",
       "time_hint": "",
@@ -2237,7 +2190,7 @@
       "tags": []
     },
     {
-      "title": "Wellness Events 34",
+      "title": "Wellness Events 33",
       "url": "https://raleighparent.com/events/wellness/",
       "venue": "",
       "time_hint": "",
@@ -2300,8 +2253,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:00 PM Autumn Harvest Wooden Wall Hanger Pint and Paint Class at Norse Brewing Company,\n                Wake Forest 899.6 mi away • $49 • Beer and Brewery Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/autumn-harvest-wooden-wall-hanger-pint-and-paint-class-on-nov-9-2026/",
+      "title": "Nov 11-12, 08:00 PM Francisco Ramos (in Spanish) at Goodnights Comedy Club,\n                Midtown Raleigh 899.0 mi away • $30.99 - $42.99 • Comedy See details →",
+      "url": "https://raleighparent.com/event/francisco-ramos-in-spanish-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2309,8 +2262,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:30 PM - 08:30 PM Fall Elevated Wine Pairings at Napa Bistro & Wine Bar,\n                Midtown Raleigh 897.2 mi away • $55, 21+ years of age • Education Outreach Nightlife Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/fall-elevated-wine-pairings-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 10:15 AM - 01:15 PM Sewing Level 3: Bowl Cozy at Craft Habit,\n                East Raleigh 901.9 mi away • $66, 12+ years of age • Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/sewing-level-3-bowl-cozy-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2318,8 +2271,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 07:30 PM SiM – Hooman World Tour at Lincoln Theatre,\n                Downtown Raleigh 900.6 mi away • $35.25 / Day Of : $37 • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/sim-hooman-world-tour-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom,\n                West Raleigh 895.5 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/walk-through-the-seasons-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2327,8 +2280,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 07:30 PM SiM - HOOMAN WORLD TOUR at Lincoln Theatre-NC,\n                Raleigh 900.7 mi away See details for pricing • Live Music & Concerts See details →",
-      "url": "https://raleighparent.com/event/sim-hooman-world-tour-on-nov-9-2026-Z7r9jZ/",
+      "title": "Thu, Nov 12, 02:00 PM - 03:30 PM Accessible Nature Tour at Gipson Play Plaza at Dix Park,\n                West Raleigh 900.0 mi away • FREE • Nature & Outdoor Tours See details →",
+      "url": "https://raleighparent.com/event/accessible-nature-tour-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2336,8 +2289,35 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 08:00 PM Stinking Lizaveta, Deathbird Earth, Archaos, and The Magpie at KINGS,\n                Downtown Raleigh 900.4 mi away • $15 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/stinking-lizaveta-deathbird-earth-archaos-and-the-magpie-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 06:00 PM - 08:00 PM RaleighNC.gov Live Tour - Optimist Park Community Center at Optimist Park and Community Center,\n                Midtown Raleigh 897.1 mi away • FREE • Education Outreach Tours Workshops See details →",
+      "url": "https://raleighparent.com/event/raleighncgov-live-tour-optimist-park-community-center-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 12, 06:00 PM The Elovaters at The Ritz,\n                Raleigh 899.9 mi away See details for pricing • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/the-elovaters-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 12, 06:00 PM - 08:00 PM Through Her Voice at Little Native Coffee Co.,\n                Downtown Raleigh 900.7 mi away • $10 • Arts Theater See details →",
+      "url": "https://raleighparent.com/event/through-her-voice-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Nov 12, 06:15 PM Five Points Short Film Festival at The Rialto Theatre,\n                Midtown Raleigh 899.2 mi away • $27.50+ • Film Education Outreach Festival See details →",
+      "url": "https://raleighparent.com/event/five-points-short-film-festival-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2354,8 +2334,8 @@
       "tags": []
     },
     {
-      "title": "November 10, 2026 ,\n                Tues., TBA NC State Men's Basketball vs. Presbyterian at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-presbyterian-on-nov-10-2026/",
+      "title": "Nov 12-13, 10:00 PM The Jinx at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away • FREE • Live Music & Concerts Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-jinx-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2363,8 +2343,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:00 AM - 11:00 AM Lake Lynn Loop Trail Kick-off at Lake Lynn Park and Community Center,\n                North Raleigh 893.6 mi away • Free; RSVP preferred but not required by Monday, Nov. 2 at [email protected] . • Nature & Outdoor Arts Tours Open Houses See details →",
-      "url": "https://raleighparent.com/event/lake-lynn-loop-trail-kick-off-on-nov-10-2026/",
+      "title": "November 13, 2026 ,\n                Fri., TBA NC State Men's Basketball vs. Troy at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-troy-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2372,8 +2352,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:15 AM - 12:15 PM Crochet Level 1: Square Coaster at Craft Habit,\n                East Raleigh 901.9 mi away • $46, ages 12+ years of age • Family Education Outreach Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/crochet-level-1-square-coaster-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 02:00 PM - 03:00 PM Member Talk: The Peruzzi Altarpiece at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • FREE • Museums Arts Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/member-talk-the-peruzzi-altarpiece-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2381,8 +2361,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 11:00 AM - 01:00 PM Melodies & Thankfulness — Nurtune Music x KD Play Co. iAmplify Nutrition, 102 S First Ave, Ste 6, Knightdale, NC 27545 907.5 mi away • $27 • Family Workshops Holiday Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/melodies-thankfulness-nurtune-music-x-kd-play-co-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 04:00 PM - 05:30 PM Kidical Mass Family Bike Ride at Jaycee Park,\n                Midtown Raleigh 898.4 mi away • FREE • Family Sports Team Building Nature & Outdoor See details →",
+      "url": "https://raleighparent.com/event/kidical-mass-family-bike-ride-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2390,8 +2370,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 06:30 PM Switchfoot with special guest Anberlin - Forever Now Tour at The Ritz,\n                Raleigh 899.9 mi away See details for pricing • Live Music & Concerts See details →",
-      "url": "https://raleighparent.com/event/switchfoot-with-special-guest-anberlin-forever-now-tour-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Art Heist Dinner: Mystery of the Nile at North Carolina Museum of Art - EAST Building, Level B,\n                West Raleigh 896.2 mi away • $175 per person, pre-paid • Dining and Drinks Education Outreach Nightlife Museums Theater Arts See details →",
+      "url": "https://raleighparent.com/event/art-heist-dinner-mystery-of-the-nile-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2399,8 +2379,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 07:30 PM SRIS Friendsgiving at Eastgate Park & Neighborhood Center,\n                Midtown Raleigh 898.9 mi away See details for pricing • Holiday Wellness Dining and Drinks Christmas and Holiday Events Family See details →",
+      "url": "https://raleighparent.com/event/sris-friendsgiving-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2408,8 +2388,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 07:00 PM North Carolina State Wolfpack Mens Basketball vs. Presbyterian Blue Hose Mens Basketball at Lenovo Center,\n                Raleigh 895.8 mi away See details for pricing • Sports See details →",
-      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-mens-basketball-vs-presbyterian-blue-hose-mens-basketball-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM Primer 55, Sicksense, and Redefind Live at Chapel of Bones at Chapel of Bones,\n                West Raleigh 900.0 mi away • $23.90 • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/primer-55-sicksense-and-redefind-live-at-chapel-of-bones-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2417,8 +2397,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 07:00 PM Symposia, Chlorine, Snowblinder, and Ethris Live at KINGS,\n                Downtown Raleigh 900.4 mi away • $15 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/symposia-chlorine-snowblinder-and-ethris-live-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Member Holiday Celebration 2026 at WRAL 3D Theater,\n                Downtown Raleigh 900.2 mi away • Registration opens September 2026 • Museums Nightlife Christmas and Holiday Events Holiday See details →",
+      "url": "https://raleighparent.com/event/member-holiday-celebration-2026-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2444,26 +2424,8 @@
       "tags": []
     },
     {
-      "title": "November 14, 2026 , North Carolina Tar Heels Football vs. Louisville Cardinals Football at Kenan Stadium,\n                Chapel Hill 874.1 mi away See details for pricing • Sports Colleges and Universities See details →",
-      "url": "https://raleighparent.com/event/north-carolina-tar-heels-football-vs-louisville-cardinals-football-on-nov-14-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "November 14, 2026 , College Football: N.C. State Wolfpack vs. Syracuse Orange at Carter-Finley Stadium,\n                West Raleigh 895.7 mi away • See website for ticket information • Colleges and Universities Sports See details →",
       "url": "https://raleighparent.com/event/college-football-nc-state-wolfpack-vs-syracuse-orange-on-nov-14-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "November 14, 2026 , North Carolina State Wolfpack Football vs. Syracuse University Football at Carter Finley Stadium,\n                Raleigh 895.8 mi away See details for pricing • Sports Colleges and Universities See details →",
-      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-football-vs-syracuse-university-football-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2507,6 +2469,24 @@
       "tags": []
     },
     {
+      "title": "Sat, Nov 14, 09:00 AM - 10:30 AM Bunni-lates Fundraising Event for Triangle Rabbits 1117 Corporation Pkwy Ste 104, Raleigh, NC 27610 903.1 mi away • $25 - 100% of donation goes directly to Triangle Rabbits • Family Education Outreach Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/bunni-lates-fundraising-event-for-triangle-rabbits-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 10:00 AM - 01:00 PM Holiday Engine Workshop at Lowe's 1575 US HWY 70 WEST, , NC 27529 762.6 mi away See details for pricing • Family Holiday Education Outreach Workshops Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/holiday-engine-workshop-at-lowes-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Upcoming events in the next 30 Days",
       "url": "https://raleighparent.com/events/30-days/",
       "venue": "",
@@ -2516,8 +2496,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:00 PM Autumn Harvest Wooden Wall Hanger Pint and Paint Class at Norse Brewing Company,\n                Wake Forest 899.6 mi away • $49 • Beer and Brewery Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/autumn-harvest-wooden-wall-hanger-pint-and-paint-class-on-nov-9-2026/",
+      "title": "Nov 11-12, 08:00 PM Francisco Ramos (in Spanish) at Goodnights Comedy Club,\n                Midtown Raleigh 899.0 mi away • $30.99 - $42.99 • Comedy See details →",
+      "url": "https://raleighparent.com/event/francisco-ramos-in-spanish-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2525,8 +2505,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:30 PM - 08:30 PM Fall Elevated Wine Pairings at Napa Bistro & Wine Bar,\n                Midtown Raleigh 897.2 mi away • $55, 21+ years of age • Education Outreach Nightlife Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/fall-elevated-wine-pairings-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 10:15 AM - 01:15 PM Sewing Level 3: Bowl Cozy at Craft Habit,\n                East Raleigh 901.9 mi away • $66, 12+ years of age • Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/sewing-level-3-bowl-cozy-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2534,8 +2514,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 07:30 PM SiM – Hooman World Tour at Lincoln Theatre,\n                Downtown Raleigh 900.6 mi away • $35.25 / Day Of : $37 • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/sim-hooman-world-tour-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom,\n                West Raleigh 895.5 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/walk-through-the-seasons-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2543,8 +2523,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 07:30 PM SiM - HOOMAN WORLD TOUR at Lincoln Theatre-NC,\n                Raleigh 900.7 mi away See details for pricing • Live Music & Concerts See details →",
-      "url": "https://raleighparent.com/event/sim-hooman-world-tour-on-nov-9-2026-Z7r9jZ/",
+      "title": "Thu, Nov 12, 02:00 PM - 03:30 PM Accessible Nature Tour at Gipson Play Plaza at Dix Park,\n                West Raleigh 900.0 mi away • FREE • Nature & Outdoor Tours See details →",
+      "url": "https://raleighparent.com/event/accessible-nature-tour-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2552,8 +2532,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 08:00 PM Stinking Lizaveta, Deathbird Earth, Archaos, and The Magpie at KINGS,\n                Downtown Raleigh 900.4 mi away • $15 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/stinking-lizaveta-deathbird-earth-archaos-and-the-magpie-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 06:00 PM - 08:00 PM RaleighNC.gov Live Tour - Optimist Park Community Center at Optimist Park and Community Center,\n                Midtown Raleigh 897.1 mi away • FREE • Education Outreach Tours Workshops See details →",
+      "url": "https://raleighparent.com/event/raleighncgov-live-tour-optimist-park-community-center-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2561,8 +2541,8 @@
       "tags": []
     },
     {
-      "title": "November 10, 2026 ,\n                Tues., TBA NC State Men's Basketball vs. Presbyterian at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-presbyterian-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 06:00 PM The Elovaters at The Ritz,\n                Raleigh 899.9 mi away See details for pricing • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/the-elovaters-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2570,8 +2550,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:00 AM - 11:00 AM Lake Lynn Loop Trail Kick-off at Lake Lynn Park and Community Center,\n                North Raleigh 893.6 mi away • Free; RSVP preferred but not required by Monday, Nov. 2 at [email protected] . • Nature & Outdoor Arts Tours Open Houses See details →",
-      "url": "https://raleighparent.com/event/lake-lynn-loop-trail-kick-off-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 06:00 PM - 08:00 PM Through Her Voice at Little Native Coffee Co.,\n                Downtown Raleigh 900.7 mi away • $10 • Arts Theater See details →",
+      "url": "https://raleighparent.com/event/through-her-voice-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2579,8 +2559,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:15 AM - 12:15 PM Crochet Level 1: Square Coaster at Craft Habit,\n                East Raleigh 901.9 mi away • $46, ages 12+ years of age • Family Education Outreach Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/crochet-level-1-square-coaster-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 06:15 PM Five Points Short Film Festival at The Rialto Theatre,\n                Midtown Raleigh 899.2 mi away • $27.50+ • Film Education Outreach Festival See details →",
+      "url": "https://raleighparent.com/event/five-points-short-film-festival-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2642,71 +2622,8 @@
       "tags": []
     },
     {
-      "title": "America’s 250th",
-      "url": "https://raleighparent.com/events/americas-250th/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "Annual Events",
       "url": "https://raleighparent.com/events/annual-events/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 11:00 AM - 12:00 PM Veterans Day Observance in Cary Veterans Freedom Park, 1517 N Harrison Ave, Cary, NC 27513 892.4 mi away • FREE • Holiday Annual Events See details →",
-      "url": "https://raleighparent.com/event/veterans-day-observance-in-cary-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 04:00 PM - 09:00 PM Military Appreciation Night at Golden Corral at Golden Corral,\n                East Raleigh 901.2 mi away • FREE • Family Dining and Drinks Historic Holiday Free Food Annual Events See details →",
-      "url": "https://raleighparent.com/event/military-appreciation-night-at-golden-corral-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM 2026 SEA Change North Carolina Signature Cohort Showcase at The Loading Dock - Beryl,\n                West Raleigh 897.3 mi away • Free, please register • Education Outreach Annual Events Fundraiser/Benefit Commencement/Graduation Workshops See details →",
-      "url": "https://raleighparent.com/event/2026-sea-change-north-carolina-signature-cohort-showcase-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2741,8 +2658,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:00 PM Autumn Harvest Wooden Wall Hanger Pint and Paint Class at Norse Brewing Company,\n                Wake Forest 899.6 mi away • $49 • Beer and Brewery Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/autumn-harvest-wooden-wall-hanger-pint-and-paint-class-on-nov-9-2026/",
+      "title": "Sat, Nov 14, 03:30 PM S’mores and Suds at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events See details →",
+      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2750,8 +2667,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:00 AM - 11:00 AM Lake Lynn Loop Trail Kick-off at Lake Lynn Park and Community Center,\n                North Raleigh 893.6 mi away • Free; RSVP preferred but not required by Monday, Nov. 2 at [email protected] . • Nature & Outdoor Arts Tours Open Houses See details →",
-      "url": "https://raleighparent.com/event/lake-lynn-loop-trail-kick-off-on-nov-10-2026/",
+      "title": "Sat, Nov 14, 06:00 PM Art Bash 2026: Tomorrow, Imagined at Artspace,\n                Downtown Raleigh 900.6 mi away • $175+ • Nightlife Annual Events Fundraiser/Benefit Arts See details →",
+      "url": "https://raleighparent.com/event/art-bash-2026-tomorrow-imagined-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2759,8 +2676,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:15 AM - 12:15 PM Crochet Level 1: Square Coaster at Craft Habit,\n                East Raleigh 901.9 mi away • $46, ages 12+ years of age • Family Education Outreach Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/crochet-level-1-square-coaster-on-nov-10-2026/",
+      "title": "Sun, Nov 15, 05:00 PM Raleigh Magazine's 2026 Cocktail Classic at The Exchange Raleigh,\n                Midtown Raleigh 899.3 mi away • $145 to $175 • Nightlife Annual Events Dining and Drinks Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/raleigh-magazines-2026-cocktail-classic-on-nov-15-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2768,8 +2685,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 09:00 AM - 04:00 PM Teacher Workday Camp: Craft Sampler at Craft Habit,\n                East Raleigh 901.9 mi away • $95, Kindergarten &#8211; 3rd grade • Family Education Outreach Arts Workshops Kids Night Out See details →",
-      "url": "https://raleighparent.com/event/teacher-workday-camp-craft-sampler-on-nov-11-2026/",
+      "title": "Nov 17-18, 05:00 PM - 08:00 PM 2026 Humble Heart Bazaar - Shopping for a Cause at Hayes Barton United Methodist Church,\n                Midtown Raleigh 898.8 mi away • FREE • Family Dining and Drinks Shopping Annual Events Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/2026-humble-heart-bazaar-shopping-for-a-cause-on-nov-17-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2777,8 +2694,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM Paint & Sip Workshop: Undead Poe at Chapel of Bones,\n                West Raleigh 900.0 mi away • $41.92 - $53.88 • Arts Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/paint-sip-workshop-undead-poe-on-nov-11-2026/",
+      "title": "Wed, Nov 18, 06:00 PM - 09:00 PM Mulino’s Eighth Annual Turkey Ball at Mulino Italian Kitchen & Bar,\n                Downtown Raleigh 899.9 mi away • $60-$2500.00 • Holiday Nightlife Annual Events Fundraiser/Benefit Dining and Drinks Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2813,44 +2730,53 @@
       "tags": []
     },
     {
+      "title": "Thu, Nov 12, 08:00 PM 4th Annual Slimeball Awards at The Pour House Music Hall & Record Shop,\n                Downtown Raleigh 900.5 mi away • $23+ • Live Music & Concerts Dining and Drinks Nightlife Annual Events Arts Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/4th-annual-slimeball-awards-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 02:00 PM - 03:00 PM Member Talk: The Peruzzi Altarpiece at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • FREE • Museums Arts Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/member-talk-the-peruzzi-altarpiece-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Art Heist Dinner: Mystery of the Nile at North Carolina Museum of Art - EAST Building, Level B,\n                West Raleigh 896.2 mi away • $175 per person, pre-paid • Dining and Drinks Education Outreach Nightlife Museums Theater Arts See details →",
+      "url": "https://raleighparent.com/event/art-heist-dinner-mystery-of-the-nile-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:00 PM Carolina Youth Ballet: The Nutcracker at Martin Marietta Center for the Performing Arts,\n                Raleigh 900.6 mi away See details for pricing • Arts Dance Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/carolina-youth-ballet-the-nutcracker-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:00 PM - 08:00 PM Friday Freebies: Magnetic Mini Picture Frames at Craft Habit,\n                East Raleigh 901.9 mi away • Free, 7 &#8211; 18+ yrs. Crafters under the age of 18 must be accompanied by a participating adult,  please register • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/friday-freebies-magnetic-mini-picture-frames-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Beer & Brewery",
       "url": "https://raleighparent.com/events/beer-brewery/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Mon, Nov 9, 06:00 PM Autumn Harvest Wooden Wall Hanger Pint and Paint Class at Norse Brewing Company,\n                Wake Forest 899.6 mi away • $49 • Beer and Brewery Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/autumn-harvest-wooden-wall-hanger-pint-and-paint-class-on-nov-9-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "November 10, 2026 ,\n                Tues., TBA NC State Men's Basketball vs. Presbyterian at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-presbyterian-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM Live at The Bark Bar: illoh at DCP Bark Bar,\n                Cary 893.3 mi away • FREE • Family Live Music & Concerts Nature & Outdoor Nightlife Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/live-at-the-bark-bar-illoh-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2887,6 +2813,42 @@
     {
       "title": "Sat, Nov 14, 06:30 PM - 09:00 PM Live Music: Emma Rae at Southern Peak Brewery,\n                Apex 891.7 mi away • FREE • Live Music & Concerts Nightlife Beer and Brewery See details →",
       "url": "https://raleighparent.com/event/live-music-emma-rae-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 15, 03:00 PM - 04:30 PM Pottery Painting with Cozy Panda at Compass Rose Brewery,\n                North Raleigh 899.3 mi away • $23.71 • Family Dining and Drinks Beer and Brewery Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/pottery-painting-with-cozy-panda-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 15, 04:00 PM - 05:30 PM Modern Calligraphy and Place Card Lettering Workshop at R&D Brewing Seven Saturdays Taproom,\n                North Raleigh 899.7 mi away • $65 • Arts Education Outreach Beer and Brewery Workshops See details →",
+      "url": "https://raleighparent.com/event/modern-calligraphy-and-place-card-lettering-workshop-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Nov 16, 06:30 PM - 08:30 PM Plant Bingo and Swap Night at Norse Brewing Company at Norse Brewing Company Wake Forest,\n                Wake Forest 899.6 mi away • $1 per round • Team Building Beer and Brewery Esports and Gaming Nightlife Dining and Drinks Family See details →",
+      "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Tue, Nov 17, 06:30 PM - 08:30 PM Matcha Making Workshop at Rosecomb Beer Garden ,\n                Cary 885.8 mi away • $50 • Arts Education Outreach Beer and Brewery Workshops See details →",
+      "url": "https://raleighparent.com/event/matcha-making-workshop-on-nov-17-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -2984,24 +2946,6 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 11:00 AM - 01:00 PM Melodies & Thankfulness — Nurtune Music x KD Play Co. iAmplify Nutrition, 102 S First Ave, Ste 6, Knightdale, NC 27545 907.5 mi away • $27 • Family Workshops Holiday Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/melodies-thankfulness-nurtune-music-x-kd-play-co-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "Fri, Nov 13, 06:00 PM - 07:30 PM SRIS Friendsgiving at Eastgate Park & Neighborhood Center,\n                Midtown Raleigh 898.9 mi away See details for pricing • Holiday Wellness Dining and Drinks Christmas and Holiday Events Family See details →",
       "url": "https://raleighparent.com/event/sris-friendsgiving-on-nov-13-2026/",
       "venue": "",
@@ -3056,6 +3000,24 @@
       "tags": []
     },
     {
+      "title": "Sat, Nov 14, 03:00 PM - 05:00 PM Holiday Classics: Cocktail Experience at Good Day Good Night at Good Day Good Night,\n                Downtown Raleigh 899.9 mi away • $65 per person • Holiday Education Outreach Dining and Drinks Raleigh Locals Guide Workshops Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/holiday-classics-cocktail-experience-at-good-day-good-night-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 03:30 PM Carolina Youth Ballet: The Nutcracker at Martin Marietta Center for the Performing Arts,\n                Raleigh 900.6 mi away See details for pricing • Arts Dance Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/carolina-youth-ballet-the-nutcracker-on-nov-14-2026-G5eVZ_/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Classes & Workshops",
       "url": "https://raleighparent.com/events/classes-workshops/",
       "venue": "",
@@ -3065,8 +3027,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:00 PM Autumn Harvest Wooden Wall Hanger Pint and Paint Class at Norse Brewing Company,\n                Wake Forest 899.6 mi away • $49 • Beer and Brewery Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/autumn-harvest-wooden-wall-hanger-pint-and-paint-class-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 10:15 AM - 01:15 PM Sewing Level 3: Bowl Cozy at Craft Habit,\n                East Raleigh 901.9 mi away • $66, 12+ years of age • Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/sewing-level-3-bowl-cozy-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3074,8 +3036,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:30 PM - 08:30 PM Fall Elevated Wine Pairings at Napa Bistro & Wine Bar,\n                Midtown Raleigh 897.2 mi away • $55, 21+ years of age • Education Outreach Nightlife Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/fall-elevated-wine-pairings-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 06:00 PM - 08:00 PM RaleighNC.gov Live Tour - Optimist Park Community Center at Optimist Park and Community Center,\n                Midtown Raleigh 897.1 mi away • FREE • Education Outreach Tours Workshops See details →",
+      "url": "https://raleighparent.com/event/raleighncgov-live-tour-optimist-park-community-center-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3083,8 +3045,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:15 AM - 12:15 PM Crochet Level 1: Square Coaster at Craft Habit,\n                East Raleigh 901.9 mi away • $46, ages 12+ years of age • Family Education Outreach Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/crochet-level-1-square-coaster-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 02:00 PM - 03:00 PM Member Talk: The Peruzzi Altarpiece at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • FREE • Museums Arts Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/member-talk-the-peruzzi-altarpiece-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3092,8 +3054,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 11:00 AM - 01:00 PM Melodies & Thankfulness — Nurtune Music x KD Play Co. iAmplify Nutrition, 102 S First Ave, Ste 6, Knightdale, NC 27545 907.5 mi away • $27 • Family Workshops Holiday Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/melodies-thankfulness-nurtune-music-x-kd-play-co-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:00 PM Friday Freebies: Magnetic Mini Picture Frames at Craft Habit,\n                East Raleigh 901.9 mi away • Free, 7 &#8211; 18+ yrs. Crafters under the age of 18 must be accompanied by a participating adult,  please register • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/friday-freebies-magnetic-mini-picture-frames-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3101,8 +3063,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 09:00 AM - 04:00 PM Teacher Workday Camp: Craft Sampler at Craft Habit,\n                East Raleigh 901.9 mi away • $95, Kindergarten &#8211; 3rd grade • Family Education Outreach Arts Workshops Kids Night Out See details →",
-      "url": "https://raleighparent.com/event/teacher-workday-camp-craft-sampler-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 07:30 PM Pottery Painting with Cozy Panda at Daughter’s Soft Serve,\n                Wendell 913.2 mi away • $23.71 • Family Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/pottery-painting-with-cozy-panda-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3110,8 +3072,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 02:00 PM - 02:45 PM Little Love Yoga: A Class for Kids and Their Grown-Ups at Current Wellness,\n                Downtown Raleigh 900.7 mi away • $25 for a child (ages 4-10) and caregiver ($10 for additional children) • Family Wellness Workshops See details →",
-      "url": "https://raleighparent.com/event/little-love-yoga-a-class-for-kids-and-their-grown-ups-on-nov-11-2026/",
+      "title": "Sat, Nov 14, 10:00 AM - 01:00 PM Holiday Engine Workshop at Lowe's 1575 US HWY 70 WEST, , NC 27529 762.6 mi away See details for pricing • Family Holiday Education Outreach Workshops Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/holiday-engine-workshop-at-lowes-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3119,8 +3081,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM 2026 SEA Change North Carolina Signature Cohort Showcase at The Loading Dock - Beryl,\n                West Raleigh 897.3 mi away • Free, please register • Education Outreach Annual Events Fundraiser/Benefit Commencement/Graduation Workshops See details →",
-      "url": "https://raleighparent.com/event/2026-sea-change-north-carolina-signature-cohort-showcase-on-nov-11-2026/",
+      "title": "Sat, Nov 14, 10:00 AM - 11:00 PM Trim Router Basics at ShopSpace,\n                Midtown Raleigh 899.9 mi away • $85 • Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/trim-router-basics-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3128,8 +3090,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM Paint & Sip Workshop: Undead Poe at Chapel of Bones,\n                West Raleigh 900.0 mi away • $41.92 - $53.88 • Arts Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/paint-sip-workshop-undead-poe-on-nov-11-2026/",
+      "title": "Sat, Nov 14, 10:15 AM - 12:15 PM Quilting Level 1: Block Construction - Shoo Fly at Craft Habit,\n                East Raleigh 901.9 mi away • $47, 12+ years of age. Bring a friend - we have a 4 person minimum for a class to take place! • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/quilting-level-1-block-construction-shoo-fly-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3146,24 +3108,6 @@
       "tags": []
     },
     {
-      "title": "November 10, 2026 ,\n                Tues., TBA NC State Men's Basketball vs. Presbyterian at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-presbyterian-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "November 13, 2026 , Duke Blue Devils Mens Basketball vs. SIU Edwardsville Cougars Mens Basketball at Cameron Indoor Stadium,\n                Durham 880.1 mi away See details for pricing • Sports Colleges and Universities See details →",
-      "url": "https://raleighparent.com/event/duke-blue-devils-mens-basketball-vs-siu-edwardsville-cougars-mens-basketball-on-nov-13-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "November 13, 2026 ,\n                Fri., TBA NC State Men's Basketball vs. Troy at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
       "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-troy-on-nov-13-2026/",
       "venue": "",
@@ -3173,8 +3117,26 @@
       "tags": []
     },
     {
-      "title": "November 14, 2026 , North Carolina Tar Heels Football vs. Louisville Cardinals Football at Kenan Stadium,\n                Chapel Hill 874.1 mi away See details for pricing • Sports Colleges and Universities See details →",
-      "url": "https://raleighparent.com/event/north-carolina-tar-heels-football-vs-louisville-cardinals-football-on-nov-14-2026/",
+      "title": "Fri, Nov 13, 07:00 PM North Carolina Tar Heels Mens Basketball vs. Georgia Bulldogs Mens Basketball at Dean E Smith Center,\n                Chapel Hill 875.5 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-tar-heels-mens-basketball-vs-georgia-bulldogs-mens-basketball-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 07:00 PM North Carolina State Wolfpack Womens Volleyball vs. Virginia Tech Hokies Womens Volleyball at Reynolds Coliseum,\n                Raleigh 895.8 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-womens-volleyball-vs-virginia-tech-hokies-womens-volleyball-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 08:00 PM Duke Blue Devils Mens Basketball vs. SIU Edwardsville Cougars Mens Basketball at Cameron Indoor Stadium,\n                Durham 880.1 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/duke-blue-devils-mens-basketball-vs-siu-edwardsville-cougars-mens-basketball-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3191,8 +3153,8 @@
       "tags": []
     },
     {
-      "title": "November 14, 2026 , North Carolina State Wolfpack Football vs. Syracuse University Football at Carter Finley Stadium,\n                Raleigh 895.8 mi away See details for pricing • Sports Colleges and Universities See details →",
-      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-football-vs-syracuse-university-football-on-nov-14-2026/",
+      "title": "Sat, Nov 14, 11:00 AM NC State Watch Party: Wolfpack vs. Syracuse at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-syracuse-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3200,8 +3162,8 @@
       "tags": []
     },
     {
-      "title": "Sat, Nov 14, 11:00 AM NC State Watch Party: Wolfpack vs. Syracuse at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-syracuse-on-nov-14-2026/",
+      "title": "Sat, Nov 14, 12:00 PM North Carolina State Wolfpack Football vs. Syracuse University Football at Carter Finley Stadium,\n                Raleigh 895.8 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-football-vs-syracuse-university-football-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3220,33 +3182,6 @@
     {
       "title": "Comedy Shows",
       "url": "https://raleighparent.com/events/comedy/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 07:30 PM Modi Live in Comedy at Goodnights Comedy Club,\n                Midtown Raleigh 899.0 mi away • $55.56 - $228.13 • Comedy See details →",
-      "url": "https://raleighparent.com/event/modi-live-in-comedy-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 08:00 PM An Evening of Comedy with Hunter Luke Edwards at Goodnights Comedy Club, Room 861,\n                Midtown Raleigh 899.0 mi away • $25.99 - $33.99 • Comedy See details →",
-      "url": "https://raleighparent.com/event/an-evening-of-comedy-with-hunter-luke-edwards-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 07:30 PM Will Burkart Live at Goodnights Comedy Club,\n                Midtown Raleigh 899.0 mi away • $32.99 - $184.99 • Comedy See details →",
-      "url": "https://raleighparent.com/event/will-burkart-live-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3299,8 +3234,8 @@
       "tags": []
     },
     {
-      "title": "Commencement & Graduation",
-      "url": "https://raleighparent.com/events/commencement-graduation/",
+      "title": "Sun, Nov 15, 06:00 PM Billy Gardell at Raleigh Improv,\n                Cary 885.7 mi away • $32.95 - $108.18 • Comedy See details →",
+      "url": "https://raleighparent.com/event/billy-gardell-on-nov-15-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3308,8 +3243,17 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM 2026 SEA Change North Carolina Signature Cohort Showcase at The Loading Dock - Beryl,\n                West Raleigh 897.3 mi away • Free, please register • Education Outreach Annual Events Fundraiser/Benefit Commencement/Graduation Workshops See details →",
-      "url": "https://raleighparent.com/event/2026-sea-change-north-carolina-signature-cohort-showcase-on-nov-11-2026/",
+      "title": "Sun, Nov 15, 07:00 PM Christian Johnson Live Comedy Performance at Goodnights Comedy Club,\n                Midtown Raleigh 899.0 mi away • $33+ • Comedy See details →",
+      "url": "https://raleighparent.com/event/christian-johnson-live-comedy-performance-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 15, 07:30 PM An Evening with Jonathan Van Halem at Goodnights Comedy Club, Room 861,\n                Midtown Raleigh 899.0 mi away • $30.99 - $40.99 • Comedy See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-jonathan-van-halem-on-nov-15-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3326,8 +3270,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 07:30 PM SiM – Hooman World Tour at Lincoln Theatre,\n                Downtown Raleigh 900.6 mi away • $35.25 / Day Of : $37 • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/sim-hooman-world-tour-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 06:00 PM The Elovaters at The Ritz,\n                Raleigh 899.9 mi away See details for pricing • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/the-elovaters-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3335,8 +3279,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 07:30 PM SiM - HOOMAN WORLD TOUR at Lincoln Theatre-NC,\n                Raleigh 900.7 mi away See details for pricing • Live Music & Concerts See details →",
-      "url": "https://raleighparent.com/event/sim-hooman-world-tour-on-nov-9-2026-Z7r9jZ/",
+      "title": "Thu, Nov 12, 07:00 PM - 11:00 PM Dusty Rug, Claievoayant, and Manic Third Planet Live in Concert at Neptunes Parlour,\n                Downtown Raleigh 900.4 mi away • $10 • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/dusty-rug-claievoayant-and-manic-third-planet-live-in-concert-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3344,8 +3288,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 08:00 PM Stinking Lizaveta, Deathbird Earth, Archaos, and The Magpie at KINGS,\n                Downtown Raleigh 900.4 mi away • $15 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/stinking-lizaveta-deathbird-earth-archaos-and-the-magpie-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 07:30 PM An Evening with Darren Jessee at The Wake Forest Listening Room,\n                Wake Forest 899.7 mi away • $22.60 • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/an-evening-with-darren-jessee-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3353,8 +3297,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 06:30 PM Switchfoot with special guest Anberlin - Forever Now Tour at The Ritz,\n                Raleigh 899.9 mi away See details for pricing • Live Music & Concerts See details →",
-      "url": "https://raleighparent.com/event/switchfoot-with-special-guest-anberlin-forever-now-tour-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 08:00 PM Radiator Hospital with NOUN at KINGS,\n                Downtown Raleigh 900.4 mi away • $17 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
+      "url": "https://raleighparent.com/event/radiator-hospital-with-noun-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3362,8 +3306,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 07:00 PM Symposia, Chlorine, Snowblinder, and Ethris Live at KINGS,\n                Downtown Raleigh 900.4 mi away • $15 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/symposia-chlorine-snowblinder-and-ethris-live-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 08:00 PM 4th Annual Slimeball Awards at The Pour House Music Hall & Record Shop,\n                Downtown Raleigh 900.5 mi away • $23+ • Live Music & Concerts Dining and Drinks Nightlife Annual Events Arts Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/4th-annual-slimeball-awards-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3371,8 +3315,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM Live at The Bark Bar: illoh at DCP Bark Bar,\n                Cary 893.3 mi away • FREE • Family Live Music & Concerts Nature & Outdoor Nightlife Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/live-at-the-bark-bar-illoh-on-nov-11-2026/",
+      "title": "Nov 12-13, 10:00 PM The Jinx at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away • FREE • Live Music & Concerts Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-jinx-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3380,8 +3324,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 07:00 PM Slaughter To Prevail: North America 2026 Leg 2 at The Ritz,\n                Raleigh 899.9 mi away See details for pricing • Live Music & Concerts See details →",
-      "url": "https://raleighparent.com/event/slaughter-to-prevail-north-america-2026-leg-2-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:00 PM Primer 55, Sicksense, and Redefind Live at Chapel of Bones at Chapel of Bones,\n                West Raleigh 900.0 mi away • $23.90 • Live Music & Concerts See details →",
+      "url": "https://raleighparent.com/event/primer-55-sicksense-and-redefind-live-at-chapel-of-bones-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3389,8 +3333,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 08:00 PM Spyro Gyra at Carolina Theatre - Durham,\n                Durham 880.1 mi away See details for pricing • Live Music & Concerts See details →",
-      "url": "https://raleighparent.com/event/spyro-gyra-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:30 PM The Stride at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away See details for pricing • Live Music & Concerts Running & Races & Marathons Wellness See details →",
+      "url": "https://raleighparent.com/event/the-stride-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3407,8 +3351,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 06:30 PM - 07:15 PM Boo-gie Bash Dance Party at Movement Studio,\n                Downtown Raleigh 900.7 mi away • $28 drop-in, or use membership or class pack • Dance Holiday Wellness See details →",
-      "url": "https://raleighparent.com/event/boo-gie-bash-dance-party-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:00 PM Carolina Youth Ballet: The Nutcracker at Martin Marietta Center for the Performing Arts,\n                Raleigh 900.6 mi away See details for pricing • Arts Dance Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/carolina-youth-ballet-the-nutcracker-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3416,8 +3360,8 @@
       "tags": []
     },
     {
-      "title": "Fri, Nov 13, 06:00 PM Carolina Youth Ballet: The Nutcracker at Martin Marietta Center for the Performing Arts,\n                Raleigh 900.6 mi away See details for pricing • Arts Dance Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/carolina-youth-ballet-the-nutcracker-on-nov-13-2026/",
+      "title": "Fri, Nov 13, 10:00 PM Morgan Page - Ages 21+ at Aura Lounge - Raleigh,\n                Raleigh 900.7 mi away See details for pricing • Live Music & Concerts Nightlife Dance See details →",
+      "url": "https://raleighparent.com/event/morgan-page-ages-21-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3488,60 +3432,6 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:30 PM - 08:30 PM Fall Elevated Wine Pairings at Napa Bistro & Wine Bar,\n                Midtown Raleigh 897.2 mi away • $55, 21+ years of age • Education Outreach Nightlife Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/fall-elevated-wine-pairings-on-nov-9-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "November 10, 2026 ,\n                Tues., TBA NC State Men's Basketball vs. Presbyterian at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-presbyterian-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 04:00 PM - 09:00 PM Military Appreciation Night at Golden Corral at Golden Corral,\n                East Raleigh 901.2 mi away • FREE • Family Dining and Drinks Historic Holiday Free Food Annual Events See details →",
-      "url": "https://raleighparent.com/event/military-appreciation-night-at-golden-corral-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM Paint & Sip Workshop: Undead Poe at Chapel of Bones,\n                West Raleigh 900.0 mi away • $41.92 - $53.88 • Arts Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/paint-sip-workshop-undead-poe-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 08:30 PM - 11:00 PM Beer Pong Tournament at The Davie at The Davie,\n                Downtown Raleigh 900.6 mi away • FREE • Team Building Nightlife Dining and Drinks Esports and Gaming Sports See details →",
-      "url": "https://raleighparent.com/event/beer-pong-tournament-at-the-davie-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "Thu, Nov 12, 06:30 PM - 10:00 PM TTRPG Game Night at Chapel of Bones,\n                West Raleigh 900.0 mi away • Free entry | All ages welcome • Dining and Drinks Esports and Gaming Wellness Family Nightlife See details →",
       "url": "https://raleighparent.com/event/ttrpg-game-night-on-nov-12-2026/",
       "venue": "",
@@ -3553,6 +3443,60 @@
     {
       "title": "Thu, Nov 12, 08:00 PM 4th Annual Slimeball Awards at The Pour House Music Hall & Record Shop,\n                Downtown Raleigh 900.5 mi away • $23+ • Live Music & Concerts Dining and Drinks Nightlife Annual Events Arts Raleigh Locals Guide See details →",
       "url": "https://raleighparent.com/event/4th-annual-slimeball-awards-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Nov 12-13, 10:00 PM The Jinx at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away • FREE • Live Music & Concerts Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-jinx-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "November 13, 2026 ,\n                Fri., TBA NC State Men's Basketball vs. Troy at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-troy-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Art Heist Dinner: Mystery of the Nile at North Carolina Museum of Art - EAST Building, Level B,\n                West Raleigh 896.2 mi away • $175 per person, pre-paid • Dining and Drinks Education Outreach Nightlife Museums Theater Arts See details →",
+      "url": "https://raleighparent.com/event/art-heist-dinner-mystery-of-the-nile-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:00 PM - 07:30 PM SRIS Friendsgiving at Eastgate Park & Neighborhood Center,\n                Midtown Raleigh 898.9 mi away See details for pricing • Holiday Wellness Dining and Drinks Christmas and Holiday Events Family See details →",
+      "url": "https://raleighparent.com/event/sris-friendsgiving-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 07:00 PM Friday the 13th Flash Tattoo Pop-Up at The Davie at The Davie,\n                Downtown Raleigh 900.6 mi away • FREE • Nightlife Dining and Drinks Arts See details →",
+      "url": "https://raleighparent.com/event/friday-the-13th-flash-tattoo-pop-up-at-the-davie-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 07:30 PM The Lounge at Martin Marietta Center for the Performing Arts at Martin Marietta Center for the Performing Arts,\n                Raleigh 900.6 mi away See details for pricing • Arts Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-lounge-at-martin-marietta-center-for-the-performing-arts-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3587,51 +3531,6 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:30 PM - 08:30 PM Fall Elevated Wine Pairings at Napa Bistro & Wine Bar,\n                Midtown Raleigh 897.2 mi away • $55, 21+ years of age • Education Outreach Nightlife Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/fall-elevated-wine-pairings-on-nov-9-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 10:15 AM - 12:15 PM Crochet Level 1: Square Coaster at Craft Habit,\n                East Raleigh 901.9 mi away • $46, ages 12+ years of age • Family Education Outreach Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/crochet-level-1-square-coaster-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 09:00 AM - 04:00 PM Teacher Workday Camp: Craft Sampler at Craft Habit,\n                East Raleigh 901.9 mi away • $95, Kindergarten &#8211; 3rd grade • Family Education Outreach Arts Workshops Kids Night Out See details →",
-      "url": "https://raleighparent.com/event/teacher-workday-camp-craft-sampler-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office.,\n                South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM 2026 SEA Change North Carolina Signature Cohort Showcase at The Loading Dock - Beryl,\n                West Raleigh 897.3 mi away • Free, please register • Education Outreach Annual Events Fundraiser/Benefit Commencement/Graduation Workshops See details →",
-      "url": "https://raleighparent.com/event/2026-sea-change-north-carolina-signature-cohort-showcase-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "Thu, Nov 12, 10:15 AM - 01:15 PM Sewing Level 3: Bowl Cozy at Craft Habit,\n                East Raleigh 901.9 mi away • $66, 12+ years of age • Education Outreach Arts Workshops See details →",
       "url": "https://raleighparent.com/event/sewing-level-3-bowl-cozy-on-nov-12-2026/",
       "venue": "",
@@ -3659,26 +3558,53 @@
       "tags": []
     },
     {
+      "title": "Thu, Nov 12, 06:15 PM Five Points Short Film Festival at The Rialto Theatre,\n                Midtown Raleigh 899.2 mi away • $27.50+ • Film Education Outreach Festival See details →",
+      "url": "https://raleighparent.com/event/five-points-short-film-festival-on-nov-12-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 02:00 PM - 03:00 PM Member Talk: The Peruzzi Altarpiece at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • FREE • Museums Arts Education Outreach Workshops See details →",
+      "url": "https://raleighparent.com/event/member-talk-the-peruzzi-altarpiece-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Art Heist Dinner: Mystery of the Nile at North Carolina Museum of Art - EAST Building, Level B,\n                West Raleigh 896.2 mi away • $175 per person, pre-paid • Dining and Drinks Education Outreach Nightlife Museums Theater Arts See details →",
+      "url": "https://raleighparent.com/event/art-heist-dinner-mystery-of-the-nile-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 06:00 PM - 08:00 PM Friday Freebies: Magnetic Mini Picture Frames at Craft Habit,\n                East Raleigh 901.9 mi away • Free, 7 &#8211; 18+ yrs. Crafters under the age of 18 must be accompanied by a participating adult,  please register • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/friday-freebies-magnetic-mini-picture-frames-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 09:00 AM - 10:30 AM Bunni-lates Fundraising Event for Triangle Rabbits 1117 Corporation Pkwy Ste 104, Raleigh, NC 27610 903.1 mi away • $25 - 100% of donation goes directly to Triangle Rabbits • Family Education Outreach Fundraiser/Benefit See details →",
+      "url": "https://raleighparent.com/event/bunni-lates-fundraising-event-for-triangle-rabbits-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Esports & Gaming",
       "url": "https://raleighparent.com/events/esports-gaming/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 08:30 PM - 11:00 PM Beer Pong Tournament at The Davie at The Davie,\n                Downtown Raleigh 900.6 mi away • FREE • Team Building Nightlife Dining and Drinks Esports and Gaming Sports See details →",
-      "url": "https://raleighparent.com/event/beer-pong-tournament-at-the-davie-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3733,6 +3659,24 @@
     {
       "title": "Thu, Nov 19, 06:00 PM - 08:00 PM Mahjong and Mingle at The Backyard,\n                Cary 894.6 mi away • $40 no experience, $20 experienced • Education Outreach Multicultural Esports and Gaming Workshops See details →",
       "url": "https://raleighparent.com/event/mahjong-and-mingle-on-nov-19-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 21, 02:00 PM - 04:00 PM Digital Impact Day of Fun at Peach Road Cultural Center,\n                Downtown Raleigh 900.9 mi away • FREE • Family Esports and Gaming Education Outreach Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/digital-impact-day-of-fun-on-nov-21-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 29, 02:00 PM - 04:30 PM Merry Mahjong Guided Play at Fairview Greenhouses Garden Center,\n                South Raleigh 896.8 mi away • $35 per person | Limited to 16 participants. Space is limited, and advance registration is required. • Nature & Outdoor Education Outreach Esports and Gaming Workshops Christmas and Holiday Events Holiday See details →",
+      "url": "https://raleighparent.com/event/merry-mahjong-guided-play-on-nov-29-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3830,8 +3774,8 @@
       "tags": []
     },
     {
-      "title": "November 10, 2026 ,\n                Tues., TBA NC State Men's Basketball vs. Presbyterian at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-presbyterian-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom,\n                West Raleigh 895.5 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/walk-through-the-seasons-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3839,8 +3783,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:15 AM - 12:15 PM Crochet Level 1: Square Coaster at Craft Habit,\n                East Raleigh 901.9 mi away • $46, ages 12+ years of age • Family Education Outreach Arts Workshops See details →",
-      "url": "https://raleighparent.com/event/crochet-level-1-square-coaster-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 06:30 PM - 10:00 PM TTRPG Game Night at Chapel of Bones,\n                West Raleigh 900.0 mi away • Free entry | All ages welcome • Dining and Drinks Esports and Gaming Wellness Family Nightlife See details →",
+      "url": "https://raleighparent.com/event/ttrpg-game-night-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3848,8 +3792,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 11:00 AM - 01:00 PM Melodies & Thankfulness — Nurtune Music x KD Play Co. iAmplify Nutrition, 102 S First Ave, Ste 6, Knightdale, NC 27545 907.5 mi away • $27 • Family Workshops Holiday Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/melodies-thankfulness-nurtune-music-x-kd-play-co-on-nov-10-2026/",
+      "title": "November 13, 2026 ,\n                Fri., TBA NC State Men's Basketball vs. Troy at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-troy-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3857,8 +3801,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 09:00 AM - 04:00 PM Teacher Workday Camp: Craft Sampler at Craft Habit,\n                East Raleigh 901.9 mi away • $95, Kindergarten &#8211; 3rd grade • Family Education Outreach Arts Workshops Kids Night Out See details →",
-      "url": "https://raleighparent.com/event/teacher-workday-camp-craft-sampler-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 04:00 PM - 05:30 PM Kidical Mass Family Bike Ride at Jaycee Park,\n                Midtown Raleigh 898.4 mi away • FREE • Family Sports Team Building Nature & Outdoor See details →",
+      "url": "https://raleighparent.com/event/kidical-mass-family-bike-ride-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3866,8 +3810,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office.,\n                South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 07:30 PM SRIS Friendsgiving at Eastgate Park & Neighborhood Center,\n                Midtown Raleigh 898.9 mi away See details for pricing • Holiday Wellness Dining and Drinks Christmas and Holiday Events Family See details →",
+      "url": "https://raleighparent.com/event/sris-friendsgiving-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3875,8 +3819,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:00 PM Friday Freebies: Magnetic Mini Picture Frames at Craft Habit,\n                East Raleigh 901.9 mi away • Free, 7 &#8211; 18+ yrs. Crafters under the age of 18 must be accompanied by a participating adult,  please register • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/friday-freebies-magnetic-mini-picture-frames-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3884,8 +3828,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 07:30 PM Pottery Painting with Cozy Panda at Daughter’s Soft Serve,\n                Wendell 913.2 mi away • $23.71 • Family Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/pottery-painting-with-cozy-panda-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -3893,8 +3837,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 02:00 PM - 02:45 PM Little Love Yoga: A Class for Kids and Their Grown-Ups at Current Wellness,\n                Downtown Raleigh 900.7 mi away • $25 for a child (ages 4-10) and caregiver ($10 for additional children) • Family Wellness Workshops See details →",
-      "url": "https://raleighparent.com/event/little-love-yoga-a-class-for-kids-and-their-grown-ups-on-nov-11-2026/",
+      "title": "Nov 13-14, 07:30 PM How to Train Your Dragon at Meymandi Concert Hall at Martin Marietta Center for the Performing Arts,\n                Downtown Raleigh 900.6 mi away • $71+ • Family Live Music & Concerts Film See details →",
+      "url": "https://raleighparent.com/event/how-to-train-your-dragon-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4208,8 +4152,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:00 AM - 11:00 AM Lake Lynn Loop Trail Kick-off at Lake Lynn Park and Community Center,\n                North Raleigh 893.6 mi away • Free; RSVP preferred but not required by Monday, Nov. 2 at [email protected] . • Nature & Outdoor Arts Tours Open Houses See details →",
-      "url": "https://raleighparent.com/event/lake-lynn-loop-trail-kick-off-on-nov-10-2026/",
+      "title": "Thu, Nov 12, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom,\n                West Raleigh 895.5 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
+      "url": "https://raleighparent.com/event/walk-through-the-seasons-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4217,8 +4161,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:00 AM - 12:00 PM Veterans Day at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
+      "title": "Thu, Nov 12, 06:00 PM - 08:00 PM RaleighNC.gov Live Tour - Optimist Park Community Center at Optimist Park and Community Center,\n                Midtown Raleigh 897.1 mi away • FREE • Education Outreach Tours Workshops See details →",
+      "url": "https://raleighparent.com/event/raleighncgov-live-tour-optimist-park-community-center-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4226,8 +4170,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office.,\n                South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-11-2026/",
+      "title": "Thu, Nov 12, 06:30 PM - 10:00 PM TTRPG Game Night at Chapel of Bones,\n                West Raleigh 900.0 mi away • Free entry | All ages welcome • Dining and Drinks Esports and Gaming Wellness Family Nightlife See details →",
+      "url": "https://raleighparent.com/event/ttrpg-game-night-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4235,8 +4179,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 11:00 AM - 12:00 PM Veterans Day Observance in Cary Veterans Freedom Park, 1517 N Harrison Ave, Cary, NC 27513 892.4 mi away • FREE • Holiday Annual Events See details →",
-      "url": "https://raleighparent.com/event/veterans-day-observance-in-cary-on-nov-11-2026/",
+      "title": "Nov 12-13, 10:00 PM The Jinx at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away • FREE • Live Music & Concerts Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-jinx-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4244,8 +4188,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 04:00 PM - 05:30 PM Kidical Mass Family Bike Ride at Jaycee Park,\n                Midtown Raleigh 898.4 mi away • FREE • Family Sports Team Building Nature & Outdoor See details →",
+      "url": "https://raleighparent.com/event/kidical-mass-family-bike-ride-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4253,8 +4197,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 11:00 AM - 02:00 PM Rolesville Veterans Day Celebration at Rolesville Community Center,\n                Rolesville 903.6 mi away • FREE • Holiday Nature & Outdoor See details →",
-      "url": "https://raleighparent.com/event/rolesville-veterans-day-celebration-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:00 PM Friday Freebies: Magnetic Mini Picture Frames at Craft Habit,\n                East Raleigh 901.9 mi away • Free, 7 &#8211; 18+ yrs. Crafters under the age of 18 must be accompanied by a participating adult,  please register • Family Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/friday-freebies-magnetic-mini-picture-frames-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4262,8 +4206,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 12:00 PM Veterans Day Observance at Aversboro Road Baptist Church,\n                Garner 904.6 mi away • FREE • Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-observance-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 07:00 PM Friday the 13th Flash Tattoo Pop-Up at The Davie at The Davie,\n                Downtown Raleigh 900.6 mi away • FREE • Nightlife Dining and Drinks Arts See details →",
+      "url": "https://raleighparent.com/event/friday-the-13th-flash-tattoo-pop-up-at-the-davie-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4271,8 +4215,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 04:00 PM - 09:00 PM Military Appreciation Night at Golden Corral at Golden Corral,\n                East Raleigh 901.2 mi away • FREE • Family Dining and Drinks Historic Holiday Free Food Annual Events See details →",
-      "url": "https://raleighparent.com/event/military-appreciation-night-at-golden-corral-on-nov-11-2026/",
+      "title": "RP Sat, Nov 14, 09:00 AM - 11:30 AM Celebrate National Take a Hike Day with CureSearch Ultimate Hike! Sycamore Parking, Graylyn Trail, Raleigh, NC 27617 891.7 mi away See details for pricing • Nature & Outdoor Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/celebrate-national-take-a-hike-day-with-curesearch-ultimate-hike-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4282,15 +4226,6 @@
     {
       "title": "Free Food Events",
       "url": "https://raleighparent.com/events/free-food/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 04:00 PM - 09:00 PM Military Appreciation Night at Golden Corral at Golden Corral,\n                East Raleigh 901.2 mi away • FREE • Family Dining and Drinks Historic Holiday Free Food Annual Events See details →",
-      "url": "https://raleighparent.com/event/military-appreciation-night-at-golden-corral-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4309,15 +4244,6 @@
     {
       "title": "Fundraisers & Benefits",
       "url": "https://raleighparent.com/events/fundraisers-benefits/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM 2026 SEA Change North Carolina Signature Cohort Showcase at The Loading Dock - Beryl,\n                West Raleigh 897.3 mi away • Free, please register • Education Outreach Annual Events Fundraiser/Benefit Commencement/Graduation Workshops See details →",
-      "url": "https://raleighparent.com/event/2026-sea-change-north-carolina-signature-cohort-showcase-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4381,6 +4307,15 @@
     {
       "title": "Nov 17-18, 05:00 PM - 08:00 PM 2026 Humble Heart Bazaar - Shopping for a Cause at Hayes Barton United Methodist Church,\n                Midtown Raleigh 898.8 mi away • FREE • Family Dining and Drinks Shopping Annual Events Fundraiser/Benefit See details →",
       "url": "https://raleighparent.com/event/2026-humble-heart-bazaar-shopping-for-a-cause-on-nov-17-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Nov 18, 06:00 PM - 09:00 PM Mulino’s Eighth Annual Turkey Ball at Mulino Italian Kitchen & Bar,\n                Downtown Raleigh 899.9 mi away • $60-$2500.00 • Holiday Nightlife Annual Events Fundraiser/Benefit Dining and Drinks Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4460,33 +4395,6 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 04:00 PM - 09:00 PM Military Appreciation Night at Golden Corral at Golden Corral,\n                East Raleigh 901.2 mi away • FREE • Family Dining and Drinks Historic Holiday Free Food Annual Events See details →",
-      "url": "https://raleighparent.com/event/military-appreciation-night-at-golden-corral-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "Sat, Nov 14, 12:00 PM Audio Description Tour of Ancient Nubia at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • Adult General Admission $23.60 | Military $20.38 | College Student / Youth $15.02 | Caregiver / Chaperone / Child 6 and under Free • Museums Historic Arts Tours See details →",
       "url": "https://raleighparent.com/event/audio-description-tour-of-ancient-nubia-on-nov-14-2026/",
       "venue": "",
@@ -4532,6 +4440,33 @@
       "tags": []
     },
     {
+      "title": "Mon, Nov 30, 10:00 AM - 03:00 PM Member Monday: Ancient Nubia at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • Free; members only • Museums Historic Tours Dining and Drinks Open Houses See details →",
+      "url": "https://raleighparent.com/event/member-monday-ancient-nubia-on-nov-30-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Thu, Dec 3, 12:00 PM Audio Description Tour of Ancient Nubia at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • Adult General Admission $23.60 | Military $20.38 | College Student / Youth $15.02 | Caregiver / Chaperone / Child 6 and under Free • Museums Historic Arts Tours See details →",
+      "url": "https://raleighparent.com/event/audio-description-tour-of-ancient-nubia-on-dec-3-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Dec 5, 01:00 PM - 05:00 PM Christmas Candle Tea at Raleigh Moravian Church 2026 at Raleigh Moravian Church,\n                West Raleigh 897.0 mi away • FREE • Family Holiday Annual Events Fundraiser/Benefit Christmas and Holiday Events Historic See details →",
+      "url": "https://raleighparent.com/event/christmas-candle-tea-at-raleigh-moravian-church-2026-on-dec-5-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Holiday Events",
       "url": "https://raleighparent.com/events/holiday/",
       "venue": "",
@@ -4541,8 +4476,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 11:00 AM - 01:00 PM Melodies & Thankfulness — Nurtune Music x KD Play Co. iAmplify Nutrition, 102 S First Ave, Ste 6, Knightdale, NC 27545 907.5 mi away • $27 • Family Workshops Holiday Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/melodies-thankfulness-nurtune-music-x-kd-play-co-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 07:30 PM SRIS Friendsgiving at Eastgate Park & Neighborhood Center,\n                Midtown Raleigh 898.9 mi away See details for pricing • Holiday Wellness Dining and Drinks Christmas and Holiday Events Family See details →",
+      "url": "https://raleighparent.com/event/sris-friendsgiving-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4550,8 +4485,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Member Holiday Celebration 2026 at WRAL 3D Theater,\n                Downtown Raleigh 900.2 mi away • Registration opens September 2026 • Museums Nightlife Christmas and Holiday Events Holiday See details →",
+      "url": "https://raleighparent.com/event/member-holiday-celebration-2026-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4559,8 +4494,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:00 AM - 12:00 PM Veterans Day at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
+      "title": "Sat, Nov 14, 10:00 AM - 01:00 PM Holiday Engine Workshop at Lowe's 1575 US HWY 70 WEST, , NC 27529 762.6 mi away See details for pricing • Family Holiday Education Outreach Workshops Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/holiday-engine-workshop-at-lowes-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4568,8 +4503,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
+      "title": "Sat, Nov 14, 11:00 AM - 02:00 PM Raleigh Holiday Tasting Pop Up and Coop Fair at Weaver Street Market,\n                Downtown Raleigh 900.0 mi away • FREE • Dining and Drinks Holiday Shopping Education Outreach See details →",
+      "url": "https://raleighparent.com/event/raleigh-holiday-tasting-pop-up-and-coop-fair-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4577,8 +4512,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 11:00 AM - 12:00 PM Veterans Day Observance in Cary Veterans Freedom Park, 1517 N Harrison Ave, Cary, NC 27513 892.4 mi away • FREE • Holiday Annual Events See details →",
-      "url": "https://raleighparent.com/event/veterans-day-observance-in-cary-on-nov-11-2026/",
+      "title": "Sat, Nov 14, 03:00 PM - 05:00 PM Holiday Classics: Cocktail Experience at Good Day Good Night at Good Day Good Night,\n                Downtown Raleigh 899.9 mi away • $65 per person • Holiday Education Outreach Dining and Drinks Raleigh Locals Guide Workshops Christmas and Holiday Events See details →",
+      "url": "https://raleighparent.com/event/holiday-classics-cocktail-experience-at-good-day-good-night-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4586,8 +4521,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
+      "title": "Sun, Nov 15, 11:00 PM - 01:00 PM Make A Gift: Open Clay Studio Session at Carolina Clay Studio,\n                Cary 891.0 mi away • $65 • Family Holiday Arts Wellness Workshops See details →",
+      "url": "https://raleighparent.com/event/make-a-gift-open-clay-studio-session-on-nov-15-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4595,8 +4530,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 11:00 AM - 02:00 PM Rolesville Veterans Day Celebration at Rolesville Community Center,\n                Rolesville 903.6 mi away • FREE • Holiday Nature & Outdoor See details →",
-      "url": "https://raleighparent.com/event/rolesville-veterans-day-celebration-on-nov-11-2026/",
+      "title": "Mon, Nov 16, 11:00 AM - 01:00 PM Thanksgiving Flower Arranging Class at Gather Goods Co.,\n                Cary 893.5 mi away • $75 • Holiday Education Outreach Arts Workshops See details →",
+      "url": "https://raleighparent.com/event/thanksgiving-flower-arranging-class-on-nov-16-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4604,26 +4539,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 12:00 PM Veterans Day Observance at Aversboro Road Baptist Church,\n                Garner 904.6 mi away • FREE • Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-observance-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Kids Night Out Events",
-      "url": "https://raleighparent.com/events/kids-night-out/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 09:00 AM - 04:00 PM Teacher Workday Camp: Craft Sampler at Craft Habit,\n                East Raleigh 901.9 mi away • $95, Kindergarten &#8211; 3rd grade • Family Education Outreach Arts Workshops Kids Night Out See details →",
-      "url": "https://raleighparent.com/event/teacher-workday-camp-craft-sampler-on-nov-11-2026/",
+      "title": "Wed, Nov 18, 06:00 PM - 09:00 PM Mulino’s Eighth Annual Turkey Ball at Mulino Italian Kitchen & Bar,\n                Downtown Raleigh 899.9 mi away • $60-$2500.00 • Holiday Nightlife Annual Events Fundraiser/Benefit Dining and Drinks Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -4919,15 +4836,6 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "Thu, Nov 12, 12:00 PM Walk Through the Seasons at Prairie Ridge Outdoor Classroom,\n                West Raleigh 895.5 mi away • Free, please register. This program is best for adults and children ages 5+ • Family Museums Nature & Outdoor Education Outreach See details →",
       "url": "https://raleighparent.com/event/walk-through-the-seasons-on-nov-12-2026/",
       "venue": "",
@@ -4991,62 +4899,17 @@
       "tags": []
     },
     {
+      "title": "Sat, Nov 14, 11:30 AM - 12:45 PM Notes on View: Paradox Opera at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • FREE • Live Music & Concerts Museums See details →",
+      "url": "https://raleighparent.com/event/notes-on-view-paradox-opera-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Nature & Outdoor Events",
       "url": "https://raleighparent.com/events/nature-outdoor/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 10:00 AM - 11:00 AM Lake Lynn Loop Trail Kick-off at Lake Lynn Park and Community Center,\n                North Raleigh 893.6 mi away • Free; RSVP preferred but not required by Monday, Nov. 2 at [email protected] . • Nature & Outdoor Arts Tours Open Houses See details →",
-      "url": "https://raleighparent.com/event/lake-lynn-loop-trail-kick-off-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office.,\n                South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial ,\n                Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 11:00 AM - 02:00 PM Rolesville Veterans Day Celebration at Rolesville Community Center,\n                Rolesville 903.6 mi away • FREE • Holiday Nature & Outdoor See details →",
-      "url": "https://raleighparent.com/event/rolesville-veterans-day-celebration-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM Live at The Bark Bar: illoh at DCP Bark Bar,\n                Cary 893.3 mi away • FREE • Family Live Music & Concerts Nature & Outdoor Nightlife Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/live-at-the-bark-bar-illoh-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5072,6 +4935,60 @@
       "tags": []
     },
     {
+      "title": "Fri, Nov 13, 04:00 PM - 05:30 PM Kidical Mass Family Bike Ride at Jaycee Park,\n                Midtown Raleigh 898.4 mi away • FREE • Family Sports Team Building Nature & Outdoor See details →",
+      "url": "https://raleighparent.com/event/kidical-mass-family-bike-ride-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sat, Nov 14, 09:00 AM - 11:30 AM Celebrate National Take a Hike Day with CureSearch Ultimate Hike! Sycamore Parking, Graylyn Trail, Raleigh, NC 27617 891.7 mi away See details for pricing • Nature & Outdoor Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/celebrate-national-take-a-hike-day-with-curesearch-ultimate-hike-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 10:00 AM - 02:00 PM Quail Hollow ARTWalk 2026 at Quail Hollow Neighborhood,\n                Midtown Raleigh 899.0 mi away • Free. Rain Date is Sunday, November 15, 2026, 10am-2pm • Family Shopping Nature & Outdoor Arts Festival See details →",
+      "url": "https://raleighparent.com/event/quail-hollow-artwalk-2026-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 11:00 AM - 04:00 PM Fall FunFest at Redford Place Park,\n                Rolesville 904.0 mi away • FREE • Family Live Music & Concerts Nature & Outdoor Festival See details →",
+      "url": "https://raleighparent.com/event/fall-funfest-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 12:00 PM Foam Stamp Printing Workshop at Brentwood Park,\n                Midtown Raleigh 900.5 mi away • $5 • Family Arts Nature & Outdoor Workshops See details →",
+      "url": "https://raleighparent.com/event/foam-stamp-printing-workshop-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 01:00 PM - 04:00 PM Art of Science: Himmeli and Documenting Phenology at Prairie Ridge Outdoor Classroom,\n                West Raleigh 895.5 mi away • $22, $20 Museum members • Family Museums Nature & Outdoor Education Outreach Workshops Arts See details →",
+      "url": "https://raleighparent.com/event/art-of-science-himmeli-and-documenting-phenology-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Nightlife",
       "url": "https://raleighparent.com/events/nightlife/",
       "venue": "",
@@ -5081,8 +4998,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 06:30 PM - 08:30 PM Fall Elevated Wine Pairings at Napa Bistro & Wine Bar,\n                Midtown Raleigh 897.2 mi away • $55, 21+ years of age • Education Outreach Nightlife Dining and Drinks Workshops See details →",
-      "url": "https://raleighparent.com/event/fall-elevated-wine-pairings-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 06:30 PM - 10:00 PM TTRPG Game Night at Chapel of Bones,\n                West Raleigh 900.0 mi away • Free entry | All ages welcome • Dining and Drinks Esports and Gaming Wellness Family Nightlife See details →",
+      "url": "https://raleighparent.com/event/ttrpg-game-night-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5090,8 +5007,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 07:30 PM SiM – Hooman World Tour at Lincoln Theatre,\n                Downtown Raleigh 900.6 mi away • $35.25 / Day Of : $37 • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/sim-hooman-world-tour-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 08:00 PM Radiator Hospital with NOUN at KINGS,\n                Downtown Raleigh 900.4 mi away • $17 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
+      "url": "https://raleighparent.com/event/radiator-hospital-with-noun-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5099,8 +5016,8 @@
       "tags": []
     },
     {
-      "title": "Mon, Nov 9, 08:00 PM Stinking Lizaveta, Deathbird Earth, Archaos, and The Magpie at KINGS,\n                Downtown Raleigh 900.4 mi away • $15 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/stinking-lizaveta-deathbird-earth-archaos-and-the-magpie-on-nov-9-2026/",
+      "title": "Thu, Nov 12, 08:00 PM 4th Annual Slimeball Awards at The Pour House Music Hall & Record Shop,\n                Downtown Raleigh 900.5 mi away • $23+ • Live Music & Concerts Dining and Drinks Nightlife Annual Events Arts Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/4th-annual-slimeball-awards-on-nov-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5108,8 +5025,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Art Heist Dinner: Mystery of the Nile at North Carolina Museum of Art - EAST Building, Level B,\n                West Raleigh 896.2 mi away • $175 per person, pre-paid • Dining and Drinks Education Outreach Nightlife Museums Theater Arts See details →",
+      "url": "https://raleighparent.com/event/art-heist-dinner-mystery-of-the-nile-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5117,8 +5034,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 07:00 PM Symposia, Chlorine, Snowblinder, and Ethris Live at KINGS,\n                Downtown Raleigh 900.4 mi away • $15 adv / $20 day-of • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/symposia-chlorine-snowblinder-and-ethris-live-on-nov-10-2026/",
+      "title": "Fri, Nov 13, 06:00 PM - 08:30 PM Member Holiday Celebration 2026 at WRAL 3D Theater,\n                Downtown Raleigh 900.2 mi away • Registration opens September 2026 • Museums Nightlife Christmas and Holiday Events Holiday See details →",
+      "url": "https://raleighparent.com/event/member-holiday-celebration-2026-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5126,8 +5043,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 06:00 PM - 09:00 PM Live at The Bark Bar: illoh at DCP Bark Bar,\n                Cary 893.3 mi away • FREE • Family Live Music & Concerts Nature & Outdoor Nightlife Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/live-at-the-bark-bar-illoh-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 07:00 PM Friday the 13th Flash Tattoo Pop-Up at The Davie at The Davie,\n                Downtown Raleigh 900.6 mi away • FREE • Nightlife Dining and Drinks Arts See details →",
+      "url": "https://raleighparent.com/event/friday-the-13th-flash-tattoo-pop-up-at-the-davie-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5135,8 +5052,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 08:00 PM John R. Miller with Lou Hazel at KINGS,\n                Downtown Raleigh 900.4 mi away • $20 adv / $22 day-of. • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/john-r-miller-with-lou-hazel-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 07:30 PM - 11:00 PM Oort Patrol x Overton x Bellbox at Cannonball Music Hall,\n                Midtown Raleigh 900.2 mi away • $12+ • Live Music & Concerts Nightlife See details →",
+      "url": "https://raleighparent.com/event/oort-patrol-x-overton-x-bellbox-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5144,8 +5061,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 08:00 PM Davvn with Glimmers and Pretty Pity at The Pour House Music Hall & Record Shop,\n                Downtown Raleigh 900.5 mi away • $21.64. $5 surcharge at the door for folks under 21 • Live Music & Concerts Nightlife See details →",
-      "url": "https://raleighparent.com/event/davvn-with-glimmers-and-pretty-pity-on-nov-11-2026/",
+      "title": "Fri, Nov 13, 08:00 PM Giles Corey with Kathryn Mohr and Val Acton Loper at KINGS,\n                Downtown Raleigh 900.4 mi away • $20 adv / $25 day-of. • Live Music & Concerts Nightlife See details →",
+      "url": "https://raleighparent.com/event/giles-corey-with-kathryn-mohr-and-val-acton-loper-on-nov-13-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5155,15 +5072,6 @@
     {
       "title": "Open House Events",
       "url": "https://raleighparent.com/events/open-houses/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 10:00 AM - 11:00 AM Lake Lynn Loop Trail Kick-off at Lake Lynn Park and Community Center,\n                North Raleigh 893.6 mi away • Free; RSVP preferred but not required by Monday, Nov. 2 at [email protected] . • Nature & Outdoor Arts Tours Open Houses See details →",
-      "url": "https://raleighparent.com/event/lake-lynn-loop-trail-kick-off-on-nov-10-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5200,6 +5108,15 @@
     {
       "title": "Nov 14-15, 01:00 PM - 05:00 PM Forest Park Art Walk 2026 at Forest Park neighborhood,\n                Downtown Raleigh 899.1 mi away • FREE • Family Shopping Nature & Outdoor Annual Events Arts Open Houses See details →",
       "url": "https://raleighparent.com/event/forest-park-art-walk-2026-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "RP Sun, Nov 15, 10:00 AM - 01:00 PM Come Home to South Creek 4511 S. Columbia Street, Chapel Hill, NC 27517 876.4 mi away • FREE • Open Houses Colleges and Universities Tours See details →",
+      "url": "https://raleighparent.com/event/come-home-to-south-creek-on-nov-15-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5486,42 +5403,6 @@
       "tags": []
     },
     {
-      "title": "November 10, 2026 ,\n                Tues., TBA NC State Men's Basketball vs. Presbyterian at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
-      "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-presbyterian-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 07:00 PM North Carolina State Wolfpack Mens Basketball vs. Presbyterian Blue Hose Mens Basketball at Lenovo Center,\n                Raleigh 895.8 mi away See details for pricing • Sports See details →",
-      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-mens-basketball-vs-presbyterian-blue-hose-mens-basketball-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 08:30 PM - 11:00 PM Beer Pong Tournament at The Davie at The Davie,\n                Downtown Raleigh 900.6 mi away • FREE • Team Building Nightlife Dining and Drinks Esports and Gaming Sports See details →",
-      "url": "https://raleighparent.com/event/beer-pong-tournament-at-the-davie-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "November 13, 2026 , Duke Blue Devils Mens Basketball vs. SIU Edwardsville Cougars Mens Basketball at Cameron Indoor Stadium,\n                Durham 880.1 mi away See details for pricing • Sports Colleges and Universities See details →",
-      "url": "https://raleighparent.com/event/duke-blue-devils-mens-basketball-vs-siu-edwardsville-cougars-mens-basketball-on-nov-13-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "November 13, 2026 ,\n                Fri., TBA NC State Men's Basketball vs. Troy at Lenovo Center,\n                West Raleigh 895.5 mi away • $15+ • Family Dining and Drinks Colleges and Universities Sports Beer and Brewery See details →",
       "url": "https://raleighparent.com/event/nc-state-mens-basketball-vs-troy-on-nov-13-2026/",
       "venue": "",
@@ -5540,6 +5421,15 @@
       "tags": []
     },
     {
+      "title": "Fri, Nov 13, 07:00 PM North Carolina Tar Heels Mens Basketball vs. Georgia Bulldogs Mens Basketball at Dean E Smith Center,\n                Chapel Hill 875.5 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-tar-heels-mens-basketball-vs-georgia-bulldogs-mens-basketball-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Fri, Nov 13, 07:00 PM North Carolina State Wolfpack Mens Basketball vs. Troy Trojans Mens Basketball at Lenovo Center,\n                Raleigh 895.8 mi away See details for pricing • Sports See details →",
       "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-mens-basketball-vs-troy-trojans-mens-basketball-on-nov-13-2026/",
       "venue": "",
@@ -5549,8 +5439,35 @@
       "tags": []
     },
     {
-      "title": "November 14, 2026 , North Carolina Tar Heels Football vs. Louisville Cardinals Football at Kenan Stadium,\n                Chapel Hill 874.1 mi away See details for pricing • Sports Colleges and Universities See details →",
-      "url": "https://raleighparent.com/event/north-carolina-tar-heels-football-vs-louisville-cardinals-football-on-nov-14-2026/",
+      "title": "Fri, Nov 13, 07:00 PM North Carolina State Wolfpack Womens Volleyball vs. Virginia Tech Hokies Womens Volleyball at Reynolds Coliseum,\n                Raleigh 895.8 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/north-carolina-state-wolfpack-womens-volleyball-vs-virginia-tech-hokies-womens-volleyball-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Fri, Nov 13, 08:00 PM Duke Blue Devils Mens Basketball vs. SIU Edwardsville Cougars Mens Basketball at Cameron Indoor Stadium,\n                Durham 880.1 mi away See details for pricing • Sports Colleges and Universities See details →",
+      "url": "https://raleighparent.com/event/duke-blue-devils-mens-basketball-vs-siu-edwardsville-cougars-mens-basketball-on-nov-13-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "November 14, 2026 , College Football: N.C. State Wolfpack vs. Syracuse Orange at Carter-Finley Stadium,\n                West Raleigh 895.7 mi away • See website for ticket information • Colleges and Universities Sports See details →",
+      "url": "https://raleighparent.com/event/college-football-nc-state-wolfpack-vs-syracuse-orange-on-nov-14-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Nov 14, 11:00 AM NC State Watch Party: Wolfpack vs. Syracuse at Tin Roof Raleigh,\n                Downtown Raleigh 899.7 mi away • FREE • Dining and Drinks Colleges and Universities Sports Nightlife Beer and Brewery See details →",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-syracuse-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5587,24 +5504,6 @@
     {
       "title": "Team Building",
       "url": "https://raleighparent.com/events/team-building/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 06:30 PM - 08:00 PM Friendsgiving Bingo at Norse Brewing Longhouse Zebulon,\n                Zebulon 914.5 mi away • $10 for 10 game cards, $1 extra cards • Team Building Beer and Brewery Esports and Gaming Nightlife Holiday Dining and Drinks Christmas and Holiday Events See details →",
-      "url": "https://raleighparent.com/event/friendsgiving-bingo-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 08:30 PM - 11:00 PM Beer Pong Tournament at The Davie at The Davie,\n                Downtown Raleigh 900.6 mi away • FREE • Team Building Nightlife Dining and Drinks Esports and Gaming Sports See details →",
-      "url": "https://raleighparent.com/event/beer-pong-tournament-at-the-davie-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5666,26 +5565,26 @@
       "tags": []
     },
     {
+      "title": "Thu, Nov 26, 08:00 AM Freedom Ride Rescue Turkey Day 5K at White Deer Park/Lake Benson,\n                Garner 904.4 mi away • $25+ • Family Holiday Sports Nature & Outdoor Team Building Annual Events Fundraiser/Benefit Running & Races & Marathons See details →",
+      "url": "https://raleighparent.com/event/freedom-ride-rescue-turkey-day-5k-on-nov-26-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Dec 2, 06:30 PM - 08:30 PM The Hunger Games Trivia Night at Southern Peak Brewery,\n                Apex 891.7 mi away See details for pricing • Live Music & Concerts Team Building Nature & Outdoor Beer and Brewery Nightlife Dining and Drinks See details →",
+      "url": "https://raleighparent.com/event/the-hunger-games-trivia-night-on-dec-2-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Theater & Performing Arts",
       "url": "https://raleighparent.com/events/theater/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Tue, Nov 10, 07:30 PM Death Becomes Her (Touring) at DPAC,\n                Durham 880.1 mi away See details for pricing • Theater See details →",
-      "url": "https://raleighparent.com/event/death-becomes-her-touring-on-nov-10-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 07:30 PM Death Becomes Her (Touring) at DPAC,\n                Durham 880.1 mi away See details for pricing • Theater See details →",
-      "url": "https://raleighparent.com/event/death-becomes-her-touring-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5747,8 +5646,8 @@
       "tags": []
     },
     {
-      "title": "Tue, Nov 10, 10:00 AM - 11:00 AM Lake Lynn Loop Trail Kick-off at Lake Lynn Park and Community Center,\n                North Raleigh 893.6 mi away • Free; RSVP preferred but not required by Monday, Nov. 2 at [email protected] . • Nature & Outdoor Arts Tours Open Houses See details →",
-      "url": "https://raleighparent.com/event/lake-lynn-loop-trail-kick-off-on-nov-10-2026/",
+      "title": "Sat, Nov 14, 11:00 AM Still. Moving: LIGHT OF LIFE as Interpreted by Killian Manning at North Carolina Museum of Art,\n                West Raleigh 896.2 mi away • FREE • Dance Museums Arts Theater See details →",
+      "url": "https://raleighparent.com/event/still-moving-light-of-life-as-interpreted-by-killian-manning-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5756,26 +5655,8 @@
       "tags": []
     },
     {
-      "title": "Wed, Nov 11, 10:00 AM - 12:00 PM Veterans Day at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office.,\n                South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway,\n                Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
+      "title": "Sat, Nov 14, 02:00 PM Death Becomes Her (Touring) at DPAC,\n                Durham 880.1 mi away See details for pricing • Theater See details →",
+      "url": "https://raleighparent.com/event/death-becomes-her-touring-on-nov-14-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5819,35 +5700,44 @@
       "tags": []
     },
     {
+      "title": "RP Sun, Nov 15, 10:00 AM - 01:00 PM Come Home to South Creek 4511 S. Columbia Street, Chapel Hill, NC 27517 876.4 mi away • FREE • Open Houses Colleges and Universities Tours See details →",
+      "url": "https://raleighparent.com/event/come-home-to-south-creek-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 15, 01:00 PM - 04:00 PM Jewish History Trolley Tour at Mordecai Historic Park,\n                Downtown Raleigh 900.1 mi away • $15 • Historic Nature & Outdoor Tours See details →",
+      "url": "https://raleighparent.com/event/jewish-history-trolley-tour-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 15, 02:00 PM - 04:00 PM RaleighNC.gov Live Tour - Laurel Hills Community Center 3808 Edwards Mill Rd., Raleigh, NC 27612 895.7 mi away • FREE • Education Outreach Tours Workshops Open Houses See details →",
+      "url": "https://raleighparent.com/event/raleighncgov-live-tour-laurel-hills-community-center-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Wed, Nov 18, 05:00 PM - 07:00 PM RaleighNC.gov Live Tour - Abbott's Creek Community Center at Abbott's Creek Community Center,\n                North Raleigh 895.7 mi away • FREE • Education Outreach Tours Workshops Raleigh Locals Guide See details →",
+      "url": "https://raleighparent.com/event/raleighncgov-live-tour-abbotts-creek-community-center-on-nov-18-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Wellness Events",
       "url": "https://raleighparent.com/events/wellness/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office.,\n                South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 02:00 PM - 02:45 PM Little Love Yoga: A Class for Kids and Their Grown-Ups at Current Wellness,\n                Downtown Raleigh 900.7 mi away • $25 for a child (ages 4-10) and caregiver ($10 for additional children) • Family Wellness Workshops See details →",
-      "url": "https://raleighparent.com/event/little-love-yoga-a-class-for-kids-and-their-grown-ups-on-nov-11-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
-      "title": "Wed, Nov 11, 06:30 PM - 07:15 PM Boo-gie Bash Dance Party at Movement Studio,\n                Downtown Raleigh 900.7 mi away • $28 drop-in, or use membership or class pack • Dance Holiday Wellness See details →",
-      "url": "https://raleighparent.com/event/boo-gie-bash-dance-party-on-nov-11-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",
@@ -5900,6 +5790,33 @@
       "tags": []
     },
     {
+      "title": "Sun, Nov 15, 12:00 PM Metal Yoga: Deftones Edition at Chapel of Bones,\n                West Raleigh 900.0 mi away • $29.87 • Live Music & Concerts Dining and Drinks Wellness Workshops See details →",
+      "url": "https://raleighparent.com/event/metal-yoga-deftones-edition-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sun, Nov 15, 11:00 PM - 01:00 PM Make A Gift: Open Clay Studio Session at Carolina Clay Studio,\n                Cary 891.0 mi away • $65 • Family Holiday Arts Wellness Workshops See details →",
+      "url": "https://raleighparent.com/event/make-a-gift-open-clay-studio-session-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Mon, Nov 16, 06:00 PM - 08:00 PM Candle Pouring Workshop and Tarot Card Reading at Gather Goods Co.,\n                Cary 893.5 mi away • $60 • Wellness Workshops See details →",
+      "url": "https://raleighparent.com/event/candle-pouring-workshop-and-tarot-card-reading-on-nov-16-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
       "title": "Women’s History Month Events",
       "url": "https://raleighparent.com/events/womens-history-month/",
       "venue": "",
@@ -5918,15 +5835,6 @@
       "tags": []
     },
     {
-      "title": "Sat, Dec 12, 10:00 AM - 06:00 PM Raleigh's International Holiday Market! A European Experience! Food, Desserts, Santa & More Raleigh City Plaza 400 Fayetteville St. Raleigh NC 27601",
-      "url": "https://raleighparent.com/event/raleighs-international-holiday-market-a-european-experience-food-desserts-santa-more-on-dec-12-2026/",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "raleighparent",
-      "tags": []
-    },
-    {
       "title": "Nov 14-15, 10:00 AM - 06:00 PM RenFest At Spring Haven Farm 5306 Homer Ruffin Road, Chapel Hill, North Carolina 27516",
       "url": "https://raleighparent.com/event/renfest-at-spring-haven-farm-on-nov-14-2026/",
       "venue": "",
@@ -5938,6 +5846,15 @@
     {
       "title": "Sun, Nov 15, 02:00 PM - 04:00 PM Carolina ONE Girls Basketball Clinic – Build Great Habits 1500 N Harrison Ave",
       "url": "https://raleighparent.com/event/carolina-one-girls-basketball-clinic-build-great-habits-on-nov-15-2026/",
+      "venue": "",
+      "time_hint": "",
+      "cost": "",
+      "source": "raleighparent",
+      "tags": []
+    },
+    {
+      "title": "Sat, Dec 12, 10:00 AM - 06:00 PM Raleigh's International Holiday Market! A European Experience! Food, Desserts, Santa & More Raleigh City Plaza 400 Fayetteville St. Raleigh NC 27601",
+      "url": "https://raleighparent.com/event/raleighs-international-holiday-market-a-european-experience-food-desserts-santa-more-on-dec-12-2026/",
       "venue": "",
       "time_hint": "",
       "cost": "",

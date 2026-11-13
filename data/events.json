@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T21:14:47+00:00",
+  "generated_at": "2026-11-13T02:27:55+00:00",
   "weekend": {
     "fri": "2026-11-13",
     "sun": "2026-11-15"
   },
   "events": [
     {
-      "id": "wed-nov-11-10-30-am-veterans-day-at-new-hope-valley-railway-",
-      "title": "Wed, Nov 11, 10:30 AM Veterans Day at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway, Apex 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events Holiday Tours See details →",
+      "id": "sat-nov-14-03-30-pm-s-mores-and-suds-at-new-hope-valley-rail",
+      "title": "Sat, Nov 14, 03:30 PM S’mores and Suds at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway, Apex 888.6 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events See details →",
       "days": [
         "sat"
       ],
@@ -16,7 +16,7 @@
       "venue": "",
       "city": "Apex",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
+      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 94,
@@ -48,27 +48,6 @@
       ]
     },
     {
-      "id": "sat-nov-14-03-30-pm-s-mores-and-suds-at-new-hope-valley-rail",
-      "title": "Sat, Nov 14, 03:30 PM S’mores and Suds at New Hope Valley Railway at North Carolina Railway Museum & New Hope Valley Railway, Apex 888.6 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Museums Historic Nature & Outdoor Annual Events See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Apex",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
       "id": "sat-nov-21-12-00-pm-ax-rhythm-and-dance-fest-at-ubuntu-farm-",
       "title": "Sat, Nov 21, 12:00 PM Axé Rhythm and Dance Fest at Ubuntu Farm, Knightdale 908.7 mi away • Free - Parking $5. Please RSVP • Family Dance Live Music & Concerts Dining and Drinks Festival African-American Heritage LGBT Arts Multicultural Workshops See details →",
       "days": [
@@ -84,26 +63,6 @@
       "source": "raleighparent",
       "indoor": false,
       "family_score": 92,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "sat-nov-14-01-30-am-05-00-pm-s-mores-and-suds-at-new-hope-va",
-      "title": "Sat, Nov 14, 01:30 AM - 05:00 PM S’mores and Suds at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Festival Tours Bluegrass See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "New Hill",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 90,
       "why": "",
       "tags": [
         "free"
@@ -128,6 +87,26 @@
       "tags": [
         "free",
         "outdoor"
+      ]
+    },
+    {
+      "id": "sat-nov-14-01-30-am-05-00-pm-s-mores-and-suds-at-new-hope-va",
+      "title": "Sat, Nov 14, 01:30 AM - 05:00 PM S’mores and Suds at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Family Festival Tours Bluegrass See details →",
+      "days": [
+        "sat"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "New Hill",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/smores-and-suds-at-new-hope-valley-railway-on-nov-14-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -173,24 +152,23 @@
       ]
     },
     {
-      "id": "wed-nov-11-10-00-am-11-30-am-hike-with-a-naturalist-at-histo",
-      "title": "Wed, Nov 11, 10:00 AM - 11:30 AM Hike with a Naturalist at Historic Yates Mill County Park - park office., South Raleigh 900.1 mi away • Free, registration required. Suggested for ages 8 and up; children must have adult accompaniment. • Family Nature & Outdoor Education Outreach Wellness Tours See details →",
+      "id": "tue-nov-24-04-30-pm-08-30-pm-ninja-kidz-grand-opening-at-nin",
+      "title": "Tue, Nov 24, 04:30 PM - 08:30 PM Ninja Kidz Grand Opening at Ninja Kidz Action Park Raleigh 220 Grande Heights Dr, Cary, NC 27513 892.7 mi away • $149.99 per kid; grown-ups free with a paid kid's ticket • Family Open Houses Festival Sports See details →",
       "days": [
         "sat"
       ],
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Raleigh",
+      "city": "Cary",
       "cost": "Free",
-      "url": "https://raleighparent.com/event/hike-with-a-naturalist-on-nov-11-2026/",
+      "url": "https://raleighparent.com/event/ninja-kidz-grand-opening-at-ninja-kidz-action-park-raleigh-on-nov-24-2026/",
       "source": "raleighparent",
       "indoor": false,
-      "family_score": 89,
+      "family_score": 90,
       "why": "",
       "tags": [
-        "free",
-        "outdoor"
+        "free"
       ]
     },
     {
@@ -267,26 +245,6 @@
       "city": "Raleigh",
       "cost": "Free",
       "url": "https://raleighparent.com/event/artful-story-time-happy-hanukkah-on-dec-9-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "tue-nov-24-04-30-pm-08-30-pm-ninja-kidz-grand-opening-at-nin",
-      "title": "Tue, Nov 24, 04:30 PM - 08:30 PM Ninja Kidz Grand Opening at Ninja Kidz Action Park Raleigh 220 Grande Heights Dr, Cary, NC 27513 892.7 mi away • $149.99 per kid; grown-ups free with a paid kid's ticket • Family Open Houses Festival Sports See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/ninja-kidz-grand-opening-at-ninja-kidz-action-park-raleigh-on-nov-24-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 86,
@@ -460,27 +418,6 @@
       ]
     },
     {
-      "id": "wed-nov-11-11-00-am-veterans-day-ceremony-2026-at-veterans-m",
-      "title": "Wed, Nov 11, 11:00 AM Veterans Day Ceremony 2026 at Veterans Memorial , Holly Springs 895.5 mi away • FREE • Family Historic Nature & Outdoor Annual Events America’s 250th Holiday See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Holly Springs",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/veterans-day-ceremony-2026-on-nov-11-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
       "id": "sat-nov-14-03-00-pm-ncma-movies-at-moore-square-wicked-for-g",
       "title": "Sat, Nov 14, 03:00 PM NCMA Movies at Moore Square: Wicked: For Good at Moore Square, Downtown Raleigh 900.6 mi away • FREE • Family Film Nature & Outdoor See details →",
       "days": [
@@ -627,6 +564,46 @@
       ]
     },
     {
+      "id": "story-time-at-the-museum",
+      "title": "Story Time at the Museum",
+      "days": [
+        "sat"
+      ],
+      "start": "11 AM",
+      "end": "",
+      "venue": "North Carolina Museum of Natural Sciences",
+      "city": "",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/story-time-at-the-museum/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "fri-nov-13-06-00-pm-08-00-pm-friday-freebies-magnetic-mini-p",
+      "title": "Fri, Nov 13, 06:00 PM - 08:00 PM Friday Freebies: Magnetic Mini Picture Frames at Craft Habit, East Raleigh 901.9 mi away • Free, 7 &#8211; 18+ yrs. Crafters under the age of 18 must be accompanied by a participating adult, please register • Family Education Outreach Arts Workshops See details →",
+      "days": [
+        "fri"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/friday-freebies-magnetic-mini-picture-frames-on-nov-13-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "sat-nov-14-11-00-am-02-00-pm-the-grl-market-november-at-wave",
       "title": "Sat, Nov 14, 11:00 AM - 02:00 PM The GRL Market November at Waverly Place, Cary 895.1 mi away • FREE • Shopping Farmers Markets See details →",
       "days": [
@@ -696,7 +673,7 @@
       "start": "See listing",
       "end": "",
       "venue": "",
-      "city": "Apex",
+      "city": "Holly Springs",
       "cost": "Free",
       "url": "https://raleighparent.com/event/fall-family-funday-on-nov-14-2026/",
       "source": "raleighparent",
@@ -726,26 +703,6 @@
       "tags": [
         "free",
         "outdoor"
-      ]
-    },
-    {
-      "id": "wed-nov-11-10-00-am-12-00-pm-veterans-day-at-new-hope-valley",
-      "title": "Wed, Nov 11, 10:00 AM - 12:00 PM Veterans Day at New Hope Valley Railway New Hope Valley Railway 3900 Bonsal Rd New Hill NC 27572 888.6 mi away • Active Duty and Veterans ride free. Adults $16.45, Seniors 60+ $15.37, Children 2 to 12 $13.20, Children under 2 ride free • Holiday Tours See details →",
-      "days": [
-        "sat"
-      ],
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "New Hill",
-      "cost": "Free",
-      "url": "https://raleighparent.com/event/veterans-day-at-new-hope-valley-railway-on-nov-11-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -823,6 +780,45 @@
       "source": "stufftodoinrdu",
       "indoor": false,
       "family_score": 75,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "kidz-bop-skate",
+      "title": "Kidz Bop Skate",
+      "days": [
+        "sat"
+      ],
+      "start": "10 AM",
+      "end": "",
+      "venue": "United Skates Of America Raleigh",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 74,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "sat-nov-14-09-00-am-01-00-pm-sunshine-harvest-market-a-ralei",
+      "title": "Sat, Nov 14, 09:00 AM - 01:00 PM Sunshine Harvest Market: A Raleigh Boutique Farmer's Market at Hayes Barton Baptist Church at Five Points, Midtown Raleigh 899.1 mi away • FREE • Family Shopping Farms Farmers Markets See details →",
+      "days": [
+        "sat",
+        "sun"
+      ],
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://raleighparent.com/event/sunshine-harvest-market-a-raleigh-boutique-farmers-market-on-nov-14-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 74,
       "why": "",
       "tags": [
         "free"
