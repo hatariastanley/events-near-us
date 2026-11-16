@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:08:34+00:00",
+  "generated_at": "2026-11-16T20:45:46+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sun": "2026-11-22"
@@ -393,11 +393,31 @@
       ],
       "start": "12:00 PM",
       "end": "",
-      "venue": "Ubuntu Farm, Knightdale",
+      "venue": "Ubuntu Farm, Knightdale 1,",
       "city": "Knightdale",
       "cost": "Free - Parking $5. Please RSVP",
       "url": "https://raleighparent.com/event/ax-rhythm-and-dance-fest-on-nov-21-2026/",
       "source": "raleighparent",
+      "indoor": false,
+      "family_score": 79,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "santa-and-mrs-clause-visits-shephered-s-way-farms",
+      "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
+      "days": [
+        "sun"
+      ],
+      "start": "1:00 pm",
+      "end": "",
+      "venue": "13044 Norwood Road, Raleigh, NC  27613",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196606/-/santa-and-mrs-clause-visits-shephered-s-way-farms",
+      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 79,
       "why": "",
@@ -493,7 +513,7 @@
       ],
       "start": "11:00 AM",
       "end": "04:00 PM",
-      "venue": "Fenton Square, Cary",
+      "venue": "Fenton Square, Cary 1,",
       "city": "Cary",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/triangle-pop-up-handcrafted-holiday-market-on-nov-21-2026/",
@@ -673,7 +693,7 @@
       ],
       "start": "12:00 PM",
       "end": "04:00 PM",
-      "venue": "Good Hope Farm, Cary",
+      "venue": "Good Hope Farm, Cary 1,",
       "city": "Cary",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
@@ -693,7 +713,7 @@
       ],
       "start": "10:00 AM",
       "end": "03:00 PM",
-      "venue": "Fairview Greenhouses Garden Center, South Raleigh",
+      "venue": "Fairview Greenhouses Garden Center, South Raleigh 1,",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
@@ -775,26 +795,6 @@
       "city": "Raleigh",
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191666/-/last-weekend-of-paint-the-parks-exhibit-at-blue-jay-point-county-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [
-        "sat"
-      ],
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187878/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,

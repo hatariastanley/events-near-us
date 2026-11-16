@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T15:08:34+00:00",
+  "fetched_at": "2026-11-16T20:45:46+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sun": "2026-11-22"
@@ -28,16 +28,7 @@
       "tags": []
     },
     {
-      "title": "Virtual Run Events powered by Moon Joggers",
-      "url": "https://rt.kidsoutandabout.com/content/virtual-run-events-powered-moon-joggers",
-      "venue": "",
-      "time_hint": "",
-      "cost": "",
-      "source": "kidsoutandabout",
-      "tags": []
-    },
-    {
-      "title": "Raleigh's International Holiday Celebration! A European Experience! Food, Desserts, Santa & More Raleigh City Plaza 400 Fayetteville St. Raleigh NC 27601",
+      "title": "Raleigh's International Holiday Celebration! A European Experience! Food, Desserts, Santa & More Raleigh City Plaza 400 Fayetteville St. Raleigh NC 27601 1,",
       "url": "https://raleighparent.com/event/raleighs-international-holiday-market-a-european-experience-food-desserts-santa-more-on-dec-12-2026/",
       "venue": "",
       "time_hint": "10:00 AM",
@@ -51,7 +42,7 @@
     {
       "title": "Thanksgiving Flower Arranging Class",
       "url": "https://raleighparent.com/event/thanksgiving-flower-arranging-class-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "01:00 PM",
       "cost": "$75",
@@ -63,7 +54,7 @@
     {
       "title": "Opera Showcase Recital",
       "url": "https://raleighparent.com/event/opera-showcase-recital-on-nov-16-2026/",
-      "venue": "Carswell Concert Hall, West Raleigh",
+      "venue": "Carswell Concert Hall, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:30 PM",
       "cost": "FREE",
@@ -73,33 +64,9 @@
       "date_hint": "Nov 16"
     },
     {
-      "title": "Author Event: Karen Garloch",
-      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
-      "venue": "Page 158 Books, Wake-forest",
-      "time_hint": "06:00 PM",
-      "time_end": "07:00 PM",
-      "cost": "Free, please RSVP",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Artspace x VAE Artist Critique",
-      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
-      "venue": "Jobe House, Downtown Raleigh",
-      "time_hint": "06:00 PM",
-      "time_end": "08:00 PM",
-      "cost": "FREE",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
       "title": "Candle Pouring Workshop and Tarot Card Reading",
       "url": "https://raleighparent.com/event/candle-pouring-workshop-and-tarot-card-reading-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$60",
@@ -109,9 +76,33 @@
       "date_hint": "Nov 16"
     },
     {
+      "title": "Artspace x VAE Artist Critique",
+      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
+      "venue": "Jobe House, Downtown Raleigh 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "08:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "mon",
+      "date_hint": "Nov 16"
+    },
+    {
+      "title": "Author Event: Karen Garloch",
+      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
+      "venue": "Page 158 Books, Wake-forest 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "07:00 PM",
+      "cost": "Free, please RSVP",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "mon",
+      "date_hint": "Nov 16"
+    },
+    {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -123,7 +114,7 @@
     {
       "title": "Skip the Small Talk Night",
       "url": "https://raleighparent.com/event/skip-the-small-talk-night-at-atomic-clock-brewing-on-nov-16-2026/",
-      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701",
+      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$19.00",
@@ -135,7 +126,7 @@
     {
       "title": "North Carolina Central Eagles Mens Basketball vs. Virginia University of Lynchburg Dragons Mens Bask",
       "url": "https://raleighparent.com/event/north-carolina-central-eagles-mens-basketball-vs-virginia-university-of-lynchburg-dragons-mens-bask-on-nov-16-2026/",
-      "venue": "McDougald-McLendon Arena, Durham",
+      "venue": "McDougald-McLendon Arena, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -147,7 +138,7 @@
     {
       "title": "Sewing Level 1: Machine Sewing for Absolute Beginners",
       "url": "https://raleighparent.com/event/sewing-level-1-machine-sewing-for-absolute-beginners-on-nov-17-2026/",
-      "venue": "Craft Habit, East Raleigh",
+      "venue": "Craft Habit, East Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$45, 12+ years of age. Bring a friend - we have a 4 person m",
@@ -169,21 +160,9 @@
       "date_hint": "Nov 17"
     },
     {
-      "title": "Plant Bingo and Swap Night",
-      "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
-      "time_hint": "06:30 PM",
-      "time_end": "08:00 PM",
-      "cost": "$1 card",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "tue",
-      "date_hint": "Nov 17"
-    },
-    {
       "title": "Matcha Making Workshop",
       "url": "https://raleighparent.com/event/matcha-making-workshop-on-nov-17-2026/",
-      "venue": "Rosecomb Beer Garden , Cary",
+      "venue": "Rosecomb Beer Garden , Cary 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$50",
@@ -193,9 +172,21 @@
       "date_hint": "Nov 17"
     },
     {
+      "title": "Plant Bingo and Swap Night",
+      "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
+      "time_hint": "06:30 PM",
+      "time_end": "08:00 PM",
+      "cost": "$1 card",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
       "title": "Duke Blue Devils Mens Basketball vs. Illinois Fighting Illini Mens Basketball",
       "url": "https://raleighparent.com/event/duke-blue-devils-mens-basketball-vs-illinois-fighting-illini-mens-basketball-on-nov-17-2026/",
-      "venue": "Cameron Indoor Stadium, Durham",
+      "venue": "Cameron Indoor Stadium, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -207,7 +198,7 @@
     {
       "title": "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON",
       "url": "https://raleighparent.com/event/beat-belewvailevinbozzio-performing-the-music-of-king-crimson-on-nov-17-2026/",
-      "venue": "DPAC, Durham",
+      "venue": "DPAC, Durham 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -219,7 +210,7 @@
     {
       "title": "Massa Nera / Process//Sleep / Covenant Eye / Cyprian",
       "url": "https://raleighparent.com/event/massa-nera-processsleep-covenant-eye-cyprian-on-nov-17-2026/",
-      "venue": "KINGS, Downtown Raleigh",
+      "venue": "KINGS, Downtown Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$15 adv / $18 day-of",
@@ -231,7 +222,7 @@
     {
       "title": "Annual Christmas Parade Watch Party",
       "url": "https://raleighparent.com/event/annual-christmas-parade-watch-party-on-nov-21-2026/",
-      "venue": "Taverna Agora, Downtown Raleigh",
+      "venue": "Taverna Agora, Downtown Raleigh 1,",
       "time_hint": "07:30 AM",
       "time_end": "10:45 AM",
       "cost": "$30 Adults, $15 kids 12 and under",
@@ -241,7 +232,19 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "Turkey Leg 5K 810 N. First Ave., Knightdale, NC 27545",
+      "title": "NPC North Carolina State Championships & NPC Carolina Natural Championships",
+      "url": "https://raleighparent.com/event/npc-north-carolina-state-championships-npc-carolina-natural-championships-on-nov-21-2026/",
+      "venue": "Raleigh Marriott City Center, Downtown Raleigh 1,",
+      "time_hint": "08:00 AM",
+      "time_end": "08:00 PM",
+      "cost": "$55+.Kids 10 & Under free",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
+      "title": "Turkey Leg 5K 810 N. First Ave., Knightdale, NC 27545 1,",
       "url": "https://raleighparent.com/event/turkey-leg-5k-on-nov-21-2026/",
       "venue": "",
       "time_hint": "08:00 AM",
@@ -255,7 +258,7 @@
     {
       "title": "Turkey Leg Run 5K",
       "url": "https://raleighparent.com/event/turkey-leg-run-5k-on-nov-21-2026/",
-      "venue": "Knightdale Station Park, Knightdale",
+      "venue": "Knightdale Station Park, Knightdale 1,",
       "time_hint": "08:00 AM",
       "time_end": "09:00 AM",
       "cost": "",
@@ -265,21 +268,9 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "NPC North Carolina State Championships & NPC Carolina Natural Championships",
-      "url": "https://raleighparent.com/event/npc-north-carolina-state-championships-npc-carolina-natural-championships-on-nov-21-2026/",
-      "venue": "Raleigh Marriott City Center, Downtown Raleigh",
-      "time_hint": "08:00 AM",
-      "time_end": "08:00 PM",
-      "cost": "$55+.Kids 10 & Under free",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "sat",
-      "date_hint": "Nov 21"
-    },
-    {
       "title": "Thanksgiving Flower Arranging Class",
       "url": "https://raleighparent.com/event/thanksgiving-flower-arranging-class-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "01:00 PM",
       "cost": "$75",
@@ -291,7 +282,7 @@
     {
       "title": "Opera Showcase Recital",
       "url": "https://raleighparent.com/event/opera-showcase-recital-on-nov-16-2026/",
-      "venue": "Carswell Concert Hall, West Raleigh",
+      "venue": "Carswell Concert Hall, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:30 PM",
       "cost": "FREE",
@@ -301,33 +292,9 @@
       "date_hint": "Nov 16"
     },
     {
-      "title": "Author Event: Karen Garloch",
-      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
-      "venue": "Page 158 Books, Wake-forest",
-      "time_hint": "06:00 PM",
-      "time_end": "07:00 PM",
-      "cost": "Free, please RSVP",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Artspace x VAE Artist Critique",
-      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
-      "venue": "Jobe House, Downtown Raleigh",
-      "time_hint": "06:00 PM",
-      "time_end": "08:00 PM",
-      "cost": "FREE",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
       "title": "Candle Pouring Workshop and Tarot Card Reading",
       "url": "https://raleighparent.com/event/candle-pouring-workshop-and-tarot-card-reading-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$60",
@@ -337,9 +304,33 @@
       "date_hint": "Nov 16"
     },
     {
+      "title": "Artspace x VAE Artist Critique",
+      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
+      "venue": "Jobe House, Downtown Raleigh 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "08:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "mon",
+      "date_hint": "Nov 16"
+    },
+    {
+      "title": "Author Event: Karen Garloch",
+      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
+      "venue": "Page 158 Books, Wake-forest 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "07:00 PM",
+      "cost": "Free, please RSVP",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "mon",
+      "date_hint": "Nov 16"
+    },
+    {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -351,7 +342,7 @@
     {
       "title": "Skip the Small Talk Night",
       "url": "https://raleighparent.com/event/skip-the-small-talk-night-at-atomic-clock-brewing-on-nov-16-2026/",
-      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701",
+      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$19.00",
@@ -363,7 +354,7 @@
     {
       "title": "North Carolina Central Eagles Mens Basketball vs. Virginia University of Lynchburg Dragons Mens Bask",
       "url": "https://raleighparent.com/event/north-carolina-central-eagles-mens-basketball-vs-virginia-university-of-lynchburg-dragons-mens-bask-on-nov-16-2026/",
-      "venue": "McDougald-McLendon Arena, Durham",
+      "venue": "McDougald-McLendon Arena, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -375,7 +366,7 @@
     {
       "title": "Black Trivia and Karaoke Game Night",
       "url": "https://raleighparent.com/event/black-trivia-and-karaoke-game-night-on-nov-18-2026/",
-      "venue": "101 Kitchen, Knightdale",
+      "venue": "101 Kitchen, Knightdale 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$13.42",
@@ -387,7 +378,7 @@
     {
       "title": "Axé Rhythm and Dance Fest",
       "url": "https://raleighparent.com/event/ax-rhythm-and-dance-fest-on-nov-21-2026/",
-      "venue": "Ubuntu Farm, Knightdale",
+      "venue": "Ubuntu Farm, Knightdale 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "Free - Parking $5. Please RSVP",
@@ -397,7 +388,7 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "Lit for the Culture: The Next Chapter 3801 Hillsborough St #109, Raleigh, NC 27607",
+      "title": "Lit for the Culture: The Next Chapter 3801 Hillsborough St #109, Raleigh, NC 27607 1,",
       "url": "https://raleighparent.com/event/lit-for-the-culture-the-next-chapter-on-mar-27-2027/",
       "venue": "",
       "time_hint": "02:00 PM",
@@ -411,7 +402,7 @@
     {
       "title": "Mulino’s Eighth Annual Turkey Ball",
       "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
-      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh",
+      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "$60-$2500.00",
@@ -423,7 +414,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-18-2026/",
-      "venue": "William Peace University, Downtown Raleigh",
+      "venue": "William Peace University, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -435,7 +426,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-19-2026/",
-      "venue": "William Peace University Main Lawn, Downtown Raleigh",
+      "venue": "William Peace University Main Lawn, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -447,7 +438,7 @@
     {
       "title": "American Indian Heritage Celebration Virtual Education Day",
       "url": "https://raleighparent.com/event/american-indian-heritage-celebration-virtual-education-day-on-nov-20-2026/",
-      "venue": "Online, Downtown Raleigh",
+      "venue": "Online, Downtown Raleigh 1,",
       "time_hint": "09:00 AM",
       "time_end": "02:00 PM",
       "cost": "FREE",
@@ -459,7 +450,7 @@
     {
       "title": "Annual Christmas Parade Watch Party",
       "url": "https://raleighparent.com/event/annual-christmas-parade-watch-party-on-nov-21-2026/",
-      "venue": "Taverna Agora, Downtown Raleigh",
+      "venue": "Taverna Agora, Downtown Raleigh 1,",
       "time_hint": "07:30 AM",
       "time_end": "10:45 AM",
       "cost": "$30 Adults, $15 kids 12 and under",
@@ -469,7 +460,7 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "Turkey Leg 5K 810 N. First Ave., Knightdale, NC 27545",
+      "title": "Turkey Leg 5K 810 N. First Ave., Knightdale, NC 27545 1,",
       "url": "https://raleighparent.com/event/turkey-leg-5k-on-nov-21-2026/",
       "venue": "",
       "time_hint": "08:00 AM",
@@ -483,7 +474,7 @@
     {
       "title": "Thanksgiving Flower Arranging Class",
       "url": "https://raleighparent.com/event/thanksgiving-flower-arranging-class-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "01:00 PM",
       "cost": "$75",
@@ -495,7 +486,7 @@
     {
       "title": "Opera Showcase Recital",
       "url": "https://raleighparent.com/event/opera-showcase-recital-on-nov-16-2026/",
-      "venue": "Carswell Concert Hall, West Raleigh",
+      "venue": "Carswell Concert Hall, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:30 PM",
       "cost": "FREE",
@@ -505,21 +496,9 @@
       "date_hint": "Nov 16"
     },
     {
-      "title": "Author Event: Karen Garloch",
-      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
-      "venue": "Page 158 Books, Wake-forest",
-      "time_hint": "06:00 PM",
-      "time_end": "07:00 PM",
-      "cost": "Free, please RSVP",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
       "title": "Artspace x VAE Artist Critique",
       "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
-      "venue": "Jobe House, Downtown Raleigh",
+      "venue": "Jobe House, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -529,9 +508,21 @@
       "date_hint": "Nov 16"
     },
     {
+      "title": "Author Event: Karen Garloch",
+      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
+      "venue": "Page 158 Books, Wake-forest 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "07:00 PM",
+      "cost": "Free, please RSVP",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "mon",
+      "date_hint": "Nov 16"
+    },
+    {
       "title": "Author Event: Jessica Fowler at Bright Side Books and Wine",
       "url": "https://raleighparent.com/event/author-event-jessica-fowler-at-bright-side-books-and-wine-on-nov-16-2026/",
-      "venue": "Bright Side Books & Wine, Downtown Raleigh",
+      "venue": "Bright Side Books & Wine, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$20. All author events are 18+",
@@ -543,7 +534,7 @@
     {
       "title": "Sewing Level 1: Machine Sewing for Absolute Beginners",
       "url": "https://raleighparent.com/event/sewing-level-1-machine-sewing-for-absolute-beginners-on-nov-17-2026/",
-      "venue": "Craft Habit, East Raleigh",
+      "venue": "Craft Habit, East Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$45, 12+ years of age. Bring a friend - we have a 4 person m",
@@ -555,7 +546,7 @@
     {
       "title": "Matcha Making Workshop",
       "url": "https://raleighparent.com/event/matcha-making-workshop-on-nov-17-2026/",
-      "venue": "Rosecomb Beer Garden , Cary",
+      "venue": "Rosecomb Beer Garden , Cary 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$50",
@@ -567,7 +558,7 @@
     {
       "title": "Art and Nature Story Time",
       "url": "https://raleighparent.com/event/art-and-nature-story-time-on-nov-18-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:00 AM",
       "cost": "Free (pay what you wish); best for children ages 18 months t",
@@ -579,7 +570,7 @@
     {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -589,21 +580,9 @@
       "date_hint": "Nov 16"
     },
     {
-      "title": "Plant Bingo and Swap Night",
-      "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
-      "time_hint": "06:30 PM",
-      "time_end": "08:00 PM",
-      "cost": "$1 card",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "tue",
-      "date_hint": "Nov 17"
-    },
-    {
       "title": "Matcha Making Workshop",
       "url": "https://raleighparent.com/event/matcha-making-workshop-on-nov-17-2026/",
-      "venue": "Rosecomb Beer Garden , Cary",
+      "venue": "Rosecomb Beer Garden , Cary 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$50",
@@ -613,9 +592,21 @@
       "date_hint": "Nov 17"
     },
     {
+      "title": "Plant Bingo and Swap Night",
+      "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
+      "time_hint": "06:30 PM",
+      "time_end": "08:00 PM",
+      "cost": "$1 card",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
       "title": "Bike Law NC: Know Your Rights As A Cyclist",
       "url": "https://raleighparent.com/event/bike-law-nc-know-your-rights-as-a-cyclist-on-nov-19-2026/",
-      "venue": "Maywood Hall & Garden, South Raleigh",
+      "venue": "Maywood Hall & Garden, South Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$25",
@@ -627,7 +618,7 @@
     {
       "title": "An Evening with Jared Cline",
       "url": "https://raleighparent.com/event/an-evening-with-jared-cline-on-nov-20-2026/",
-      "venue": "Crooked Hammock Brewery, Midtown Raleigh",
+      "venue": "Crooked Hammock Brewery, Midtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "FREE",
@@ -637,9 +628,9 @@
       "date_hint": "Nov 20"
     },
     {
-      "title": "Pick Your Poison Pop-up Book Market",
-      "url": "https://raleighparent.com/event/pick-your-poison-pop-up-book-market-on-nov-21-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "title": "NC State Watch Party - Wolfpack vs. Florida State",
+      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-florida-state-on-nov-21-2026/",
+      "venue": "Tin Roof Raleigh, Downtown Raleigh 1,",
       "time_hint": "11:00 AM",
       "time_end": "",
       "cost": "FREE",
@@ -649,9 +640,9 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "NC State Watch Party - Wolfpack vs. Florida State",
-      "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-florida-state-on-nov-21-2026/",
-      "venue": "Tin Roof Raleigh, Downtown Raleigh",
+      "title": "Pick Your Poison Pop-up Book Market",
+      "url": "https://raleighparent.com/event/pick-your-poison-pop-up-book-market-on-nov-21-2026/",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "11:00 AM",
       "time_end": "",
       "cost": "FREE",
@@ -663,7 +654,7 @@
     {
       "title": "Harvest Fest 2026",
       "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
-      "venue": "Good Hope Farm, Cary",
+      "venue": "Good Hope Farm, Cary 1,",
       "time_hint": "12:00 PM",
       "time_end": "04:00 PM",
       "cost": "FREE",
@@ -675,7 +666,7 @@
     {
       "title": "Ax and the Hatchetmen w/ John-Robert",
       "url": "https://raleighparent.com/event/ax-and-the-hatchetmen-w-john-robert-on-nov-16-2026/",
-      "venue": "Cat's Cradle, Carrboro",
+      "venue": "Cat's Cradle, Carrboro 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "",
@@ -687,7 +678,7 @@
     {
       "title": "An Evening with the Gravy Boys",
       "url": "https://raleighparent.com/event/an-evening-with-the-gravy-boys-on-nov-19-2026/",
-      "venue": "The Wake Forest Listening Room, Wake Forest",
+      "venue": "The Wake Forest Listening Room, Wake Forest 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$28.25",
@@ -699,7 +690,7 @@
     {
       "title": "An Evening with Sugaree String Society",
       "url": "https://raleighparent.com/event/an-evening-with-sugaree-string-society-on-nov-20-2026/",
-      "venue": "The Wake Forest Listening Room, Wake Forest",
+      "venue": "The Wake Forest Listening Room, Wake Forest 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$16.95",
@@ -711,7 +702,7 @@
     {
       "title": "Redd & The Paper Flowers",
       "url": "https://raleighparent.com/event/redd-the-paper-flowers-on-nov-22-2026/",
-      "venue": "The Pour House Music Hall & Record Shop, Downtown Raleigh",
+      "venue": "The Pour House Music Hall & Record Shop, Downtown Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "$16.30. $5 surcharge at the door for folks under 21",
@@ -723,7 +714,7 @@
     {
       "title": "An Evening with Nixon, Williams & Gage",
       "url": "https://raleighparent.com/event/an-evening-with-nixon-williams-gage-on-dec-5-2026/",
-      "venue": "The Wake Forest Listening Room, Wake Forest",
+      "venue": "The Wake Forest Listening Room, Wake Forest 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -735,7 +726,7 @@
     {
       "title": "Jessica Audiffred",
       "url": "https://raleighparent.com/event/jessica-audiffred-on-dec-5-2026/",
-      "venue": "Lincoln Theatre-NC, Raleigh",
+      "venue": "Lincoln Theatre-NC, Raleigh 1,",
       "time_hint": "08:30 PM",
       "time_end": "",
       "cost": "",
@@ -747,7 +738,7 @@
     {
       "title": "An Evening with Chatham Rabbits",
       "url": "https://raleighparent.com/event/an-evening-with-chatham-rabbits-on-dec-10-2026/",
-      "venue": "The Wake Forest Listening Room, Wake Forest",
+      "venue": "The Wake Forest Listening Room, Wake Forest 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$39.55",
@@ -759,7 +750,7 @@
     {
       "title": "Old Habits - Christmas Show",
       "url": "https://raleighparent.com/event/old-habits-christmas-show-on-dec-10-2026/",
-      "venue": "Lincoln Theatre, Downtown Raleigh",
+      "venue": "Lincoln Theatre, Downtown Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "$15.25",
@@ -771,7 +762,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-18-2026/",
-      "venue": "William Peace University, Downtown Raleigh",
+      "venue": "William Peace University, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -783,7 +774,7 @@
     {
       "title": "FestiBull of Lights",
       "url": "https://raleighparent.com/event/festibull-of-lights-on-nov-19-2026/",
-      "venue": "Durham Bulls Athletic Park, Durham",
+      "venue": "Durham Bulls Athletic Park, Durham 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "",
@@ -795,7 +786,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-19-2026/",
-      "venue": "William Peace University Main Lawn, Downtown Raleigh",
+      "venue": "William Peace University Main Lawn, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -807,7 +798,7 @@
     {
       "title": "NUTCRACKER! Magical Christmas Ballet",
       "url": "https://raleighparent.com/event/nutcracker-magical-christmas-ballet-on-nov-19-2026/",
-      "venue": "DPAC, Durham",
+      "venue": "DPAC, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -819,7 +810,7 @@
     {
       "title": "FestiBull of Lights",
       "url": "https://raleighparent.com/event/festibull-of-lights-on-nov-20-2026/",
-      "venue": "Durham Bulls Athletic Park, Durham",
+      "venue": "Durham Bulls Athletic Park, Durham 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "",
@@ -831,7 +822,7 @@
     {
       "title": "A Drag Queen Christmas",
       "url": "https://raleighparent.com/event/a-drag-queen-christmas-on-nov-20-2026/",
-      "venue": "DPAC, Durham",
+      "venue": "DPAC, Durham 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "",
@@ -843,7 +834,7 @@
     {
       "title": "Annual Christmas Parade Watch Party",
       "url": "https://raleighparent.com/event/annual-christmas-parade-watch-party-on-nov-21-2026/",
-      "venue": "Taverna Agora, Downtown Raleigh",
+      "venue": "Taverna Agora, Downtown Raleigh 1,",
       "time_hint": "07:30 AM",
       "time_end": "10:45 AM",
       "cost": "$30 Adults, $15 kids 12 and under",
@@ -855,7 +846,7 @@
     {
       "title": "Thanksgiving Flower Arranging Class",
       "url": "https://raleighparent.com/event/thanksgiving-flower-arranging-class-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "01:00 PM",
       "cost": "$75",
@@ -865,33 +856,9 @@
       "date_hint": "Nov 16"
     },
     {
-      "title": "Author Event: Karen Garloch",
-      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
-      "venue": "Page 158 Books, Wake-forest",
-      "time_hint": "06:00 PM",
-      "time_end": "07:00 PM",
-      "cost": "Free, please RSVP",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Artspace x VAE Artist Critique",
-      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
-      "venue": "Jobe House, Downtown Raleigh",
-      "time_hint": "06:00 PM",
-      "time_end": "08:00 PM",
-      "cost": "FREE",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
       "title": "Candle Pouring Workshop and Tarot Card Reading",
       "url": "https://raleighparent.com/event/candle-pouring-workshop-and-tarot-card-reading-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$60",
@@ -901,9 +868,33 @@
       "date_hint": "Nov 16"
     },
     {
+      "title": "Artspace x VAE Artist Critique",
+      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
+      "venue": "Jobe House, Downtown Raleigh 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "08:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "mon",
+      "date_hint": "Nov 16"
+    },
+    {
+      "title": "Author Event: Karen Garloch",
+      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
+      "venue": "Page 158 Books, Wake-forest 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "07:00 PM",
+      "cost": "Free, please RSVP",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "mon",
+      "date_hint": "Nov 16"
+    },
+    {
       "title": "Skip the Small Talk Night",
       "url": "https://raleighparent.com/event/skip-the-small-talk-night-at-atomic-clock-brewing-on-nov-16-2026/",
-      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701",
+      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$19.00",
@@ -915,7 +906,7 @@
     {
       "title": "Author Event: Jessica Fowler at Bright Side Books and Wine",
       "url": "https://raleighparent.com/event/author-event-jessica-fowler-at-bright-side-books-and-wine-on-nov-16-2026/",
-      "venue": "Bright Side Books & Wine, Downtown Raleigh",
+      "venue": "Bright Side Books & Wine, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$20. All author events are 18+",
@@ -927,7 +918,7 @@
     {
       "title": "Sewing Level 1: Machine Sewing for Absolute Beginners",
       "url": "https://raleighparent.com/event/sewing-level-1-machine-sewing-for-absolute-beginners-on-nov-17-2026/",
-      "venue": "Craft Habit, East Raleigh",
+      "venue": "Craft Habit, East Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$45, 12+ years of age. Bring a friend - we have a 4 person m",
@@ -951,7 +942,7 @@
     {
       "title": "North Carolina Central Eagles Mens Basketball vs. Virginia University of Lynchburg Dragons Mens Bask",
       "url": "https://raleighparent.com/event/north-carolina-central-eagles-mens-basketball-vs-virginia-university-of-lynchburg-dragons-mens-bask-on-nov-16-2026/",
-      "venue": "McDougald-McLendon Arena, Durham",
+      "venue": "McDougald-McLendon Arena, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -963,7 +954,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-18-2026/",
-      "venue": "William Peace University, Downtown Raleigh",
+      "venue": "William Peace University, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -975,7 +966,7 @@
     {
       "title": "Duke Blue Devils Womens Basketball vs. Fordham Rams Womens Basketball",
       "url": "https://raleighparent.com/event/duke-blue-devils-womens-basketball-vs-fordham-rams-womens-basketball-on-nov-19-2026/",
-      "venue": "Cameron Indoor Stadium, Durham",
+      "venue": "Cameron Indoor Stadium, Durham 1,",
       "time_hint": "11:00 AM",
       "time_end": "",
       "cost": "",
@@ -987,7 +978,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-19-2026/",
-      "venue": "William Peace University Main Lawn, Downtown Raleigh",
+      "venue": "William Peace University Main Lawn, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -999,7 +990,7 @@
     {
       "title": "Duke Blue Devils Football vs. Clemson Tigers Football",
       "url": "https://raleighparent.com/event/duke-blue-devils-football-vs-clemson-tigers-football-on-nov-20-2026/",
-      "venue": "Wallace Wade Stadium, Durham",
+      "venue": "Wallace Wade Stadium, Durham 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -1011,7 +1002,7 @@
     {
       "title": "North Carolina Tar Heels Mens Basketball vs. Marshall Thundering Herd Mens Basketball",
       "url": "https://raleighparent.com/event/north-carolina-tar-heels-mens-basketball-vs-marshall-thundering-herd-mens-basketball-on-nov-20-2026/",
-      "venue": "Dean E Smith Center, Chapel Hill",
+      "venue": "Dean E Smith Center, Chapel Hill 1,",
       "time_hint": "09:00 PM",
       "time_end": "",
       "cost": "",
@@ -1023,7 +1014,7 @@
     {
       "title": "Reem Edan Live",
       "url": "https://raleighparent.com/event/reem-edan-live-on-nov-18-2026/",
-      "venue": "Goodnights Comedy Club, Midtown Raleigh",
+      "venue": "Goodnights Comedy Club, Midtown Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$29.99 - $178.99",
@@ -1035,7 +1026,7 @@
     {
       "title": "Tiffany Haddish",
       "url": "https://raleighparent.com/event/tiffany-haddish-on-nov-19-2026/",
-      "venue": "Raleigh Improv, Cary",
+      "venue": "Raleigh Improv, Cary 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$45.73 - $121.05",
@@ -1047,7 +1038,7 @@
     {
       "title": "Wes Barker Live",
       "url": "https://raleighparent.com/event/wes-barker-live-on-nov-19-2026/",
-      "venue": "Goodnights Comedy Club, Midtown Raleigh",
+      "venue": "Goodnights Comedy Club, Midtown Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$32.99 - $184.99",
@@ -1059,7 +1050,7 @@
     {
       "title": "Riffing for Love",
       "url": "https://raleighparent.com/event/riffing-for-love-on-nov-19-2026/",
-      "venue": "Cannonball Music Hall, Downtown Raleigh",
+      "venue": "Cannonball Music Hall, Downtown Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "11:00 PM",
       "cost": "$22",
@@ -1071,7 +1062,7 @@
     {
       "title": "Tiffany Haddish",
       "url": "https://raleighparent.com/event/tiffany-haddish-on-nov-20-2026/",
-      "venue": "Raleigh Improv, Cary",
+      "venue": "Raleigh Improv, Cary 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$45.73 - $121.05",
@@ -1083,7 +1074,7 @@
     {
       "title": "Comedy Show: Lace Larrabee and Jason Allen King",
       "url": "https://raleighparent.com/event/comedy-show-lace-larrabee-and-jason-allen-king-on-nov-20-2026/",
-      "venue": "The Cary Theater, Cary",
+      "venue": "The Cary Theater, Cary 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "$15+",
@@ -1095,7 +1086,7 @@
     {
       "title": "Tiffany Haddish",
       "url": "https://raleighparent.com/event/tiffany-haddish-on-nov-20-2026-rZ7HnE/",
-      "venue": "Raleigh Improv, Cary",
+      "venue": "Raleigh Improv, Cary 1,",
       "time_hint": "09:15 PM",
       "time_end": "",
       "cost": "$45.73 - $121.05",
@@ -1107,7 +1098,7 @@
     {
       "title": "Tiffany Haddish",
       "url": "https://raleighparent.com/event/tiffany-haddish-on-nov-21-2026/",
-      "venue": "Raleigh Improv, Cary",
+      "venue": "Raleigh Improv, Cary 1,",
       "time_hint": "06:30 PM",
       "time_end": "",
       "cost": "$45.73 - $121.05",
@@ -1119,7 +1110,7 @@
     {
       "title": "Opera Showcase Recital",
       "url": "https://raleighparent.com/event/opera-showcase-recital-on-nov-16-2026/",
-      "venue": "Carswell Concert Hall, West Raleigh",
+      "venue": "Carswell Concert Hall, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:30 PM",
       "cost": "FREE",
@@ -1131,7 +1122,7 @@
     {
       "title": "Ax and the Hatchetmen w/ John-Robert",
       "url": "https://raleighparent.com/event/ax-and-the-hatchetmen-w-john-robert-on-nov-16-2026/",
-      "venue": "Cat's Cradle, Carrboro",
+      "venue": "Cat's Cradle, Carrboro 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "",
@@ -1143,7 +1134,7 @@
     {
       "title": "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON",
       "url": "https://raleighparent.com/event/beat-belewvailevinbozzio-performing-the-music-of-king-crimson-on-nov-17-2026/",
-      "venue": "DPAC, Durham",
+      "venue": "DPAC, Durham 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -1155,7 +1146,7 @@
     {
       "title": "Massa Nera / Process//Sleep / Covenant Eye / Cyprian",
       "url": "https://raleighparent.com/event/massa-nera-processsleep-covenant-eye-cyprian-on-nov-17-2026/",
-      "venue": "KINGS, Downtown Raleigh",
+      "venue": "KINGS, Downtown Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$15 adv / $18 day-of",
@@ -1167,7 +1158,7 @@
     {
       "title": "Tiny Habits Live in Concert",
       "url": "https://raleighparent.com/event/tiny-habits-live-in-concert-on-nov-17-2026/",
-      "venue": "The Lincoln Theatre - Raleigh, Downtown Raleigh",
+      "venue": "The Lincoln Theatre - Raleigh, Downtown Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "$26.75 - $101.75",
@@ -1179,7 +1170,7 @@
     {
       "title": "Periphery - A Pale White Dot US Tour",
       "url": "https://raleighparent.com/event/periphery-a-pale-white-dot-us-tour-on-nov-18-2026/",
-      "venue": "The Ritz, Raleigh",
+      "venue": "The Ritz, Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "",
@@ -1191,7 +1182,7 @@
     {
       "title": "The Queers",
       "url": "https://raleighparent.com/event/the-queers-on-nov-18-2026/",
-      "venue": "KINGS, Downtown Raleigh",
+      "venue": "KINGS, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$15 adv / $20 day-of. All Ages w/ Parent",
@@ -1203,7 +1194,7 @@
     {
       "title": "The Bends w/ Fudge",
       "url": "https://raleighparent.com/event/the-bends-w-fudge-on-nov-18-2026/",
-      "venue": "Cat's Cradle, Carrboro",
+      "venue": "Cat's Cradle, Carrboro 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "",
@@ -1215,7 +1206,7 @@
     {
       "title": "NUTCRACKER! Magical Christmas Ballet",
       "url": "https://raleighparent.com/event/nutcracker-magical-christmas-ballet-on-nov-19-2026/",
-      "venue": "DPAC, Durham",
+      "venue": "DPAC, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -1227,7 +1218,7 @@
     {
       "title": "Carolina Ballet Presents Jewels",
       "url": "https://raleighparent.com/event/carolina-ballet-presents-jewels-on-nov-19-2026/",
-      "venue": "Martin Marietta Center for the Performing Arts, Raleigh",
+      "venue": "Martin Marietta Center for the Performing Arts, Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -1239,7 +1230,7 @@
     {
       "title": "American Indian Heritage Celebration Virtual Education Day",
       "url": "https://raleighparent.com/event/american-indian-heritage-celebration-virtual-education-day-on-nov-20-2026/",
-      "venue": "Online, Downtown Raleigh",
+      "venue": "Online, Downtown Raleigh 1,",
       "time_hint": "09:00 AM",
       "time_end": "02:00 PM",
       "cost": "FREE",
@@ -1251,7 +1242,7 @@
     {
       "title": "Jazz & Jive Night",
       "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
-      "venue": "The Depot parking lot, Apex",
+      "venue": "The Depot parking lot, Apex 1,",
       "time_hint": "05:00 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -1263,7 +1254,7 @@
     {
       "title": "Carolina Ballet Presents Jewels",
       "url": "https://raleighparent.com/event/carolina-ballet-presents-jewels-on-nov-20-2026/",
-      "venue": "Martin Marietta Center for the Performing Arts, Raleigh",
+      "venue": "Martin Marietta Center for the Performing Arts, Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -1275,7 +1266,7 @@
     {
       "title": "Necromancy Goth Night",
       "url": "https://raleighparent.com/event/necromancy-goth-night-on-nov-20-2026/",
-      "venue": "Chapel of Bones, West Raleigh",
+      "venue": "Chapel of Bones, West Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "$14.37; Ages 18+",
@@ -1285,12 +1276,12 @@
       "date_hint": "Nov 20"
     },
     {
-      "title": "Axé Rhythm and Dance Fest",
-      "url": "https://raleighparent.com/event/ax-rhythm-and-dance-fest-on-nov-21-2026/",
-      "venue": "Ubuntu Farm, Knightdale",
+      "title": "Harvest Fest 2026",
+      "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
+      "venue": "Good Hope Farm, Cary 1,",
       "time_hint": "12:00 PM",
-      "time_end": "",
-      "cost": "Free - Parking $5. Please RSVP",
+      "time_end": "04:00 PM",
+      "cost": "FREE",
       "source": "raleighparent",
       "tags": [],
       "day_hint": "sat",
@@ -1299,7 +1290,7 @@
     {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -1311,7 +1302,7 @@
     {
       "title": "Author Event: Jessica Fowler at Bright Side Books and Wine",
       "url": "https://raleighparent.com/event/author-event-jessica-fowler-at-bright-side-books-and-wine-on-nov-16-2026/",
-      "venue": "Bright Side Books & Wine, Downtown Raleigh",
+      "venue": "Bright Side Books & Wine, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$20. All author events are 18+",
@@ -1323,7 +1314,7 @@
     {
       "title": "Mulino’s Eighth Annual Turkey Ball",
       "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
-      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh",
+      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "$60-$2500.00",
@@ -1335,7 +1326,7 @@
     {
       "title": "Black Trivia and Karaoke Game Night",
       "url": "https://raleighparent.com/event/black-trivia-and-karaoke-game-night-on-nov-18-2026/",
-      "venue": "101 Kitchen, Knightdale",
+      "venue": "101 Kitchen, Knightdale 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$13.42",
@@ -1347,7 +1338,7 @@
     {
       "title": "Sam Jones BBQ Pit Stop Ribbon Cutting Ceremony",
       "url": "https://raleighparent.com/event/sam-jones-bbq-pit-stop-ribbon-cutting-ceremony-on-nov-19-2026/",
-      "venue": "Morgan Street Food Hall, Downtown Raleigh",
+      "venue": "Morgan Street Food Hall, Downtown Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "",
       "cost": "FREE",
@@ -1359,7 +1350,7 @@
     {
       "title": "Wine Tasting on the Rooftop at 10th & Terrace",
       "url": "https://raleighparent.com/event/wine-tasting-on-the-rooftop-on-nov-19-2026/",
-      "venue": "Residence Inn Raleigh Downtown, Downtown Raleigh",
+      "venue": "Residence Inn Raleigh Downtown, Downtown Raleigh 1,",
       "time_hint": "05:00 PM",
       "time_end": "07:00 PM",
       "cost": "",
@@ -1371,7 +1362,7 @@
     {
       "title": "A Puzzling Affair: Jigsaw Competition at the NCMA",
       "url": "https://raleighparent.com/event/a-puzzling-affair-jigsaw-competition-at-the-ncma-on-nov-19-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "08:00 PM",
       "cost": "",
@@ -1383,7 +1374,7 @@
     {
       "title": "Grinch Candy Cane Hunt 2026",
       "url": "https://raleighparent.com/event/grinch-candy-cane-hunt-2026-on-dec-12-2026/",
-      "venue": "Fred G. Bond Metro Park and Boathouse, Cary",
+      "venue": "Fred G. Bond Metro Park and Boathouse, Cary 1,",
       "time_hint": "10:00 AM",
       "time_end": "11:00 AM",
       "cost": "$15 for residents; $19 for non-residents. Pre-registration r",
@@ -1395,7 +1386,7 @@
     {
       "title": "Thanksgiving Flower Arranging Class",
       "url": "https://raleighparent.com/event/thanksgiving-flower-arranging-class-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "01:00 PM",
       "cost": "$75",
@@ -1407,7 +1398,7 @@
     {
       "title": "Author Event: Karen Garloch",
       "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
-      "venue": "Page 158 Books, Wake-forest",
+      "venue": "Page 158 Books, Wake-forest 1,",
       "time_hint": "06:00 PM",
       "time_end": "07:00 PM",
       "cost": "Free, please RSVP",
@@ -1419,7 +1410,7 @@
     {
       "title": "Author Event: Jessica Fowler at Bright Side Books and Wine",
       "url": "https://raleighparent.com/event/author-event-jessica-fowler-at-bright-side-books-and-wine-on-nov-16-2026/",
-      "venue": "Bright Side Books & Wine, Downtown Raleigh",
+      "venue": "Bright Side Books & Wine, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$20. All author events are 18+",
@@ -1443,7 +1434,7 @@
     {
       "title": "Matcha Making Workshop",
       "url": "https://raleighparent.com/event/matcha-making-workshop-on-nov-17-2026/",
-      "venue": "Rosecomb Beer Garden , Cary",
+      "venue": "Rosecomb Beer Garden , Cary 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$50",
@@ -1455,7 +1446,7 @@
     {
       "title": "Native Plant Learn & Serve",
       "url": "https://raleighparent.com/event/native-plant-learn-serve-on-nov-18-2026/",
-      "venue": "Carpenter Park-Community Garden Gate Entrance, Cary",
+      "venue": "Carpenter Park-Community Garden Gate Entrance, Cary 1,",
       "time_hint": "10:00 AM",
       "time_end": "11:00 AM",
       "cost": "",
@@ -1467,7 +1458,7 @@
     {
       "title": "Science Detectives: Coastal Critters",
       "url": "https://raleighparent.com/event/science-detectives-coastal-critters-on-nov-18-2026/",
-      "venue": "Discovery Room, Downtown Raleigh",
+      "venue": "Discovery Room, Downtown Raleigh 1,",
       "time_hint": "10:15 AM",
       "time_end": "11:15 AM",
       "cost": "$12 per participant; $9 member participant, 5-7 years of age",
@@ -1479,7 +1470,7 @@
     {
       "title": "Science Detectives: Tropical Biodiversity",
       "url": "https://raleighparent.com/event/science-detectives-tropical-biodiversity-on-nov-18-2026/",
-      "venue": "Curiosity Classroom, Downtown Raleigh",
+      "venue": "Curiosity Classroom, Downtown Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:30 AM",
       "cost": "$12 per participant; $9 member participant, 8-10 years of ag",
@@ -1491,7 +1482,7 @@
     {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -1503,7 +1494,7 @@
     {
       "title": "Plant Bingo and Swap Night",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$1 card",
@@ -1515,7 +1506,7 @@
     {
       "title": "Black Trivia and Karaoke Game Night",
       "url": "https://raleighparent.com/event/black-trivia-and-karaoke-game-night-on-nov-18-2026/",
-      "venue": "101 Kitchen, Knightdale",
+      "venue": "101 Kitchen, Knightdale 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$13.42",
@@ -1527,7 +1518,7 @@
     {
       "title": "Mahjong and Mingle",
       "url": "https://raleighparent.com/event/mahjong-and-mingle-on-nov-19-2026/",
-      "venue": "The Backyard, Cary",
+      "venue": "The Backyard, Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$40 no experience, $20 experienced",
@@ -1539,7 +1530,7 @@
     {
       "title": "Digital Impact Day of Fun",
       "url": "https://raleighparent.com/event/digital-impact-day-of-fun-on-nov-21-2026/",
-      "venue": "Peach Road Cultural Center, Downtown Raleigh",
+      "venue": "Peach Road Cultural Center, Downtown Raleigh 1,",
       "time_hint": "02:00 PM",
       "time_end": "04:00 PM",
       "cost": "FREE",
@@ -1551,7 +1542,7 @@
     {
       "title": "Merry Mahjong Guided Play",
       "url": "https://raleighparent.com/event/merry-mahjong-guided-play-on-nov-29-2026/",
-      "venue": "Fairview Greenhouses Garden Center, South Raleigh",
+      "venue": "Fairview Greenhouses Garden Center, South Raleigh 1,",
       "time_hint": "02:00 PM",
       "time_end": "04:30 PM",
       "cost": "$35 per person | Limited to 16 participants. Space is limite",
@@ -1563,7 +1554,7 @@
     {
       "title": "RRG Triangle Town Holiday Market",
       "url": "https://raleighparent.com/event/rrg-triangle-town-holiday-market-on-dec-5-2026/",
-      "venue": "Triangle Town Center - 2nd floor in front of Macy’s and Saks, North Raleigh",
+      "venue": "Triangle Town Center - 2nd floor in front of Macy’s and Saks, North Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "FREE",
@@ -1575,7 +1566,7 @@
     {
       "title": "Dungeons & Drafthouse at Video Vortex - The Clash Before Christmas at Video Vortex",
       "url": "https://raleighparent.com/event/dungeons-drafthouse-at-video-vortex-the-clash-before-christmas-on-dec-6-2026/",
-      "venue": "Alamo Drafthouse Cinema, East Raleigh",
+      "venue": "Alamo Drafthouse Cinema, East Raleigh 1,",
       "time_hint": "02:00 PM",
       "time_end": "",
       "cost": "$36.30",
@@ -1587,7 +1578,7 @@
     {
       "title": "Respect The Culture Auto Show at Agri-Supply Exposition Center",
       "url": "https://raleighparent.com/event/respect-the-culture-auto-show-on-nov-21-2026/",
-      "venue": "North Carolina State Fairgrounds, West Raleigh",
+      "venue": "North Carolina State Fairgrounds, West Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "",
@@ -1597,7 +1588,7 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "Rock, Roar & Bounce! 3409 Hillsborough Rd Ste J3, Durham, NC 27705",
+      "title": "Rock, Roar & Bounce! 3409 Hillsborough Rd Ste J3, Durham, NC 27705 1,",
       "url": "https://raleighparent.com/event/rock-roar-bounce-on-nov-28-2026/",
       "venue": "",
       "time_hint": "11:00 AM",
@@ -1611,7 +1602,7 @@
     {
       "title": "5th Annual Kid's Holiday Craft Fair",
       "url": "https://raleighparent.com/event/5th-annual-kids-holiday-craft-fair-on-nov-29-2026/",
-      "venue": "The Halle Cultural Arts Center, Apex",
+      "venue": "The Halle Cultural Arts Center, Apex 1,",
       "time_hint": "02:30 PM",
       "time_end": "05:00 PM",
       "cost": "Free to attend; $10 to be a vendor",
@@ -1623,7 +1614,7 @@
     {
       "title": "Jurassic Quest – Raleigh, NC | North Carolina State Fairgrounds",
       "url": "https://raleighparent.com/event/jurassic-quest-raleigh-nc-north-carolina-state-fairgrounds-on-dec-4-2026/",
-      "venue": "North Carolina State Fairgrounds, Raleigh",
+      "venue": "North Carolina State Fairgrounds, Raleigh 1,",
       "time_hint": "01:00 PM",
       "time_end": "01:00 PM",
       "cost": "",
@@ -1635,7 +1626,7 @@
     {
       "title": "Jurassic Quest – Raleigh, NC | North Carolina State Fairgrounds",
       "url": "https://raleighparent.com/event/jurassic-quest-raleigh-nc-north-carolina-state-fairgrounds-on-dec-4-2026-LvZ18Q/",
-      "venue": "North Carolina State Fairgrounds, Raleigh",
+      "venue": "North Carolina State Fairgrounds, Raleigh 1,",
       "time_hint": "03:00 PM",
       "time_end": "03:00 PM",
       "cost": "",
@@ -1647,7 +1638,7 @@
     {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -1671,7 +1662,7 @@
     {
       "title": "Plant Bingo and Swap Night",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$1 card",
@@ -1683,7 +1674,7 @@
     {
       "title": "Native Plant Learn & Serve",
       "url": "https://raleighparent.com/event/native-plant-learn-serve-on-nov-18-2026/",
-      "venue": "Carpenter Park-Community Garden Gate Entrance, Cary",
+      "venue": "Carpenter Park-Community Garden Gate Entrance, Cary 1,",
       "time_hint": "10:00 AM",
       "time_end": "11:00 AM",
       "cost": "",
@@ -1695,7 +1686,7 @@
     {
       "title": "Science Detectives: Coastal Critters",
       "url": "https://raleighparent.com/event/science-detectives-coastal-critters-on-nov-18-2026/",
-      "venue": "Discovery Room, Downtown Raleigh",
+      "venue": "Discovery Room, Downtown Raleigh 1,",
       "time_hint": "10:15 AM",
       "time_end": "11:15 AM",
       "cost": "$12 per participant; $9 member participant, 5-7 years of age",
@@ -1707,7 +1698,7 @@
     {
       "title": "Art and Nature Story Time",
       "url": "https://raleighparent.com/event/art-and-nature-story-time-on-nov-18-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:00 AM",
       "cost": "Free (pay what you wish); best for children ages 18 months t",
@@ -1719,7 +1710,7 @@
     {
       "title": "Science Detectives: Tropical Biodiversity",
       "url": "https://raleighparent.com/event/science-detectives-tropical-biodiversity-on-nov-18-2026/",
-      "venue": "Curiosity Classroom, Downtown Raleigh",
+      "venue": "Curiosity Classroom, Downtown Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:30 AM",
       "cost": "$12 per participant; $9 member participant, 8-10 years of ag",
@@ -1731,7 +1722,7 @@
     {
       "title": "Cary Night Market",
       "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
-      "venue": "Downtown Cary Park, Cary",
+      "venue": "Downtown Cary Park, Cary 1,",
       "time_hint": "05:00 PM",
       "time_end": "09:00 PM",
       "cost": "FREE",
@@ -1743,7 +1734,7 @@
     {
       "title": "Holiday Vendor Market",
       "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
-      "venue": "Fairview Greenhouses Garden Center, South Raleigh",
+      "venue": "Fairview Greenhouses Garden Center, South Raleigh 1,",
       "time_hint": "10:00 AM",
       "time_end": "03:00 PM",
       "cost": "FREE",
@@ -1753,21 +1744,9 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "Pick Your Poison Pop-up Book Market",
-      "url": "https://raleighparent.com/event/pick-your-poison-pop-up-book-market-on-nov-21-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
-      "time_hint": "11:00 AM",
-      "time_end": "",
-      "cost": "FREE",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "sat",
-      "date_hint": "Nov 21"
-    },
-    {
       "title": "Triangle Pop Up – Handcrafted Holiday Market",
       "url": "https://raleighparent.com/event/triangle-pop-up-handcrafted-holiday-market-on-nov-21-2026/",
-      "venue": "Fenton Square, Cary",
+      "venue": "Fenton Square, Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "04:00 PM",
       "cost": "FREE",
@@ -1777,9 +1756,21 @@
       "date_hint": "Nov 21"
     },
     {
+      "title": "Pick Your Poison Pop-up Book Market",
+      "url": "https://raleighparent.com/event/pick-your-poison-pop-up-book-market-on-nov-21-2026/",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
+      "time_hint": "11:00 AM",
+      "time_end": "",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
       "title": "Flowers by Lola Pop-Up",
       "url": "https://raleighparent.com/event/flowers-by-lola-pop-up-on-nov-29-2026/",
-      "venue": "Blackbird Books & Coffee, Downtown Raleigh",
+      "venue": "Blackbird Books & Coffee, Downtown Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "",
@@ -1791,7 +1782,7 @@
     {
       "title": "Sip-n-Shop",
       "url": "https://raleighparent.com/event/sip-n-shop-on-dec-4-2026/",
-      "venue": "City of Raleigh Museum (COR Museum), Downtown Raleigh",
+      "venue": "City of Raleigh Museum (COR Museum), Downtown Raleigh 1,",
       "time_hint": "05:00 PM",
       "time_end": "09:00 PM",
       "cost": "FREE",
@@ -1801,21 +1792,9 @@
       "date_hint": "Dec 4"
     },
     {
-      "title": "Winter Market at Norse Brewing Company",
-      "url": "https://raleighparent.com/event/winter-market-at-norse-brewing-company-on-dec-5-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
-      "time_hint": "11:00 AM",
-      "time_end": "04:00 PM",
-      "cost": "FREE",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "sat",
-      "date_hint": "Dec 5"
-    },
-    {
       "title": "The GRL Market December",
       "url": "https://raleighparent.com/event/the-grl-market-december-on-dec-5-2026/",
-      "venue": "Waverly Place, Cary",
+      "venue": "Waverly Place, Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "02:00 PM",
       "cost": "FREE",
@@ -1825,9 +1804,21 @@
       "date_hint": "Dec 5"
     },
     {
+      "title": "Winter Market at Norse Brewing Company",
+      "url": "https://raleighparent.com/event/winter-market-at-norse-brewing-company-on-dec-5-2026/",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
+      "time_hint": "11:00 AM",
+      "time_end": "04:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "sat",
+      "date_hint": "Dec 5"
+    },
+    {
       "title": "Harvest Fest 2026",
       "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
-      "venue": "Good Hope Farm, Cary",
+      "venue": "Good Hope Farm, Cary 1,",
       "time_hint": "12:00 PM",
       "time_end": "04:00 PM",
       "cost": "FREE",
@@ -1837,7 +1828,7 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "Kids Holiday Gift-Making & Forest Play: Body Care Gift Basket (Sugar Scrub, Soap & Lotion) 3100 Damascus Church Road, Chapel Hill, NC",
+      "title": "Kids Holiday Gift-Making & Forest Play: Body Care Gift Basket (Sugar Scrub, Soap & Lotion) 3100 Damascus Church Road, Chapel Hill, NC 1,",
       "url": "https://raleighparent.com/event/kids-holiday-gift-making-forest-play-body-care-gift-basket-sugar-scrub-soap-lotion-on-dec-13-2026/",
       "venue": "",
       "time_hint": "10:00 AM",
@@ -1851,7 +1842,7 @@
     {
       "title": "Holiday Lights 2026",
       "url": "https://raleighparent.com/event/holiday-lights-2026-on-dec-16-2026/",
-      "venue": "Saving Grace Supply Company, Wake Forest",
+      "venue": "Saving Grace Supply Company, Wake Forest 1,",
       "time_hint": "05:00 PM",
       "time_end": "07:00 PM",
       "cost": "FREE",
@@ -1863,7 +1854,7 @@
     {
       "title": "FestiBull of Lights",
       "url": "https://raleighparent.com/event/festibull-of-lights-on-nov-19-2026/",
-      "venue": "Durham Bulls Athletic Park, Durham",
+      "venue": "Durham Bulls Athletic Park, Durham 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "",
@@ -1875,7 +1866,7 @@
     {
       "title": "Harvest Fest 2026",
       "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-20-2026/",
-      "venue": "Morrisville Senior Center, Morrisville/RTP",
+      "venue": "Morrisville Senior Center, Morrisville/RTP 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "$12 Residents | $17 Non-residents. 55 yrs +",
@@ -1885,21 +1876,9 @@
       "date_hint": "Nov 20"
     },
     {
-      "title": "Cary Night Market",
-      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
-      "venue": "Downtown Cary Park, Cary",
-      "time_hint": "05:00 PM",
-      "time_end": "09:00 PM",
-      "cost": "FREE",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "fri",
-      "date_hint": "Nov 20"
-    },
-    {
       "title": "Jazz & Jive Night",
       "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
-      "venue": "The Depot parking lot, Apex",
+      "venue": "The Depot parking lot, Apex 1,",
       "time_hint": "05:00 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -1909,9 +1888,21 @@
       "date_hint": "Nov 20"
     },
     {
+      "title": "Cary Night Market",
+      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
+      "venue": "Downtown Cary Park, Cary 1,",
+      "time_hint": "05:00 PM",
+      "time_end": "09:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
+    },
+    {
       "title": "FestiBull of Lights",
       "url": "https://raleighparent.com/event/festibull-of-lights-on-nov-20-2026/",
-      "venue": "Durham Bulls Athletic Park, Durham",
+      "venue": "Durham Bulls Athletic Park, Durham 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "",
@@ -1923,7 +1914,7 @@
     {
       "title": "Jazz & Jive Night",
       "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
-      "venue": "The Depot parking lot, Apex",
+      "venue": "The Depot parking lot, Apex 1,",
       "time_hint": "05:00 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -1935,7 +1926,7 @@
     {
       "title": "That Day in Dallas",
       "url": "https://raleighparent.com/event/that-day-in-dallas-on-nov-22-2026/",
-      "venue": "Theatre In The Park, West Raleigh",
+      "venue": "Theatre In The Park, West Raleigh 1,",
       "time_hint": "04:00 PM",
       "time_end": "05:00 PM",
       "cost": "$10 or Pay What You Can",
@@ -1947,7 +1938,7 @@
     {
       "title": "Thanksgiving Watch Party at Bitter Social",
       "url": "https://raleighparent.com/event/thanksgiving-watch-party-at-bitter-social-on-nov-25-2026/",
-      "venue": "Bitter Social, Downtown Raleigh",
+      "venue": "Bitter Social, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "11:00 PM",
       "cost": "FREE",
@@ -1959,7 +1950,7 @@
     {
       "title": "Being Heumann",
       "url": "https://raleighparent.com/event/being-heumann-on-nov-28-2026/",
-      "venue": "The Cary Theater, Cary",
+      "venue": "The Cary Theater, Cary 1,",
       "time_hint": "02:00 PM",
       "time_end": "",
       "cost": "$4.66+",
@@ -1971,7 +1962,7 @@
     {
       "title": "Being Heumann",
       "url": "https://raleighparent.com/event/being-heumann-on-nov-29-2026/",
-      "venue": "The Cary Theater, Cary",
+      "venue": "The Cary Theater, Cary 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "$4.66+",
@@ -1983,7 +1974,7 @@
     {
       "title": "Arthur Erickson: Beauty Between the Lines",
       "url": "https://raleighparent.com/event/arthur-erickson-beauty-between-the-lines-on-dec-2-2026/",
-      "venue": "The Rialto Theatre, Midtown Raleigh",
+      "venue": "The Rialto Theatre, Midtown Raleigh 1,",
       "time_hint": "06:15 PM",
       "time_end": "",
       "cost": "$20.90",
@@ -1995,7 +1986,7 @@
     {
       "title": "SRIS Holiday Movie Night",
       "url": "https://raleighparent.com/event/sris-holiday-movie-night-on-dec-4-2026/",
-      "venue": "Jaycee Park and Community Center, Midtown Raleigh",
+      "venue": "Jaycee Park and Community Center, Midtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "",
@@ -2007,7 +1998,7 @@
     {
       "title": "Skate the Square Outdoor Movie: Elf",
       "url": "https://raleighparent.com/event/skate-the-square-outdoor-movie-elf-on-dec-5-2026/",
-      "venue": "Paragon Theaters - Fenton Square, Cary",
+      "venue": "Paragon Theaters - Fenton Square, Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "09:00 PM",
       "cost": "FREE",
@@ -2019,7 +2010,7 @@
     {
       "title": "Opera Showcase Recital",
       "url": "https://raleighparent.com/event/opera-showcase-recital-on-nov-16-2026/",
-      "venue": "Carswell Concert Hall, West Raleigh",
+      "venue": "Carswell Concert Hall, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:30 PM",
       "cost": "FREE",
@@ -2029,24 +2020,24 @@
       "date_hint": "Nov 16"
     },
     {
-      "title": "Author Event: Karen Garloch",
-      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
-      "venue": "Page 158 Books, Wake-forest",
+      "title": "Artspace x VAE Artist Critique",
+      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
+      "venue": "Jobe House, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
-      "time_end": "07:00 PM",
-      "cost": "Free, please RSVP",
+      "time_end": "08:00 PM",
+      "cost": "FREE",
       "source": "raleighparent",
       "tags": [],
       "day_hint": "mon",
       "date_hint": "Nov 16"
     },
     {
-      "title": "Artspace x VAE Artist Critique",
-      "url": "https://raleighparent.com/event/artspace-x-vae-artist-critique-on-nov-16-2026/",
-      "venue": "Jobe House, Downtown Raleigh",
+      "title": "Author Event: Karen Garloch",
+      "url": "https://raleighparent.com/event/author-event-karen-garloch-on-nov-16-2026/",
+      "venue": "Page 158 Books, Wake-forest 1,",
       "time_hint": "06:00 PM",
-      "time_end": "08:00 PM",
-      "cost": "FREE",
+      "time_end": "07:00 PM",
+      "cost": "Free, please RSVP",
       "source": "raleighparent",
       "tags": [],
       "day_hint": "mon",
@@ -2067,7 +2058,7 @@
     {
       "title": "Art and Nature Story Time",
       "url": "https://raleighparent.com/event/art-and-nature-story-time-on-nov-18-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:00 AM",
       "cost": "Free (pay what you wish); best for children ages 18 months t",
@@ -2079,7 +2070,7 @@
     {
       "title": "Learn about Senior Games",
       "url": "https://raleighparent.com/event/learn-about-senior-games-on-nov-18-2026/",
-      "venue": "Morrisville Senior Center, Morrisville/RTP",
+      "venue": "Morrisville Senior Center, Morrisville/RTP 1,",
       "time_hint": "11:30 AM",
       "time_end": "12:30 PM",
       "cost": "Free. Please register. Ages 55+",
@@ -2091,7 +2082,7 @@
     {
       "title": "2026 GIS Day",
       "url": "https://raleighparent.com/event/2026-gis-day-on-nov-18-2026/",
-      "venue": "City of Raleigh Museum (COR Museum), Downtown Raleigh",
+      "venue": "City of Raleigh Museum (COR Museum), Downtown Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "FREE",
@@ -2103,7 +2094,7 @@
     {
       "title": "Thanksgiving at the Hammock",
       "url": "https://raleighparent.com/event/thanksgiving-at-the-hammock-on-nov-26-2026/",
-      "venue": "Crooked Hammock Brewery, West Raleigh",
+      "venue": "Crooked Hammock Brewery, West Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "Free, reservations required",
@@ -2115,7 +2106,7 @@
     {
       "title": "Mulino’s Eighth Annual Turkey Ball",
       "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
-      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh",
+      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "$60-$2500.00",
@@ -2127,7 +2118,7 @@
     {
       "title": "Bike Law NC: Know Your Rights As A Cyclist",
       "url": "https://raleighparent.com/event/bike-law-nc-know-your-rights-as-a-cyclist-on-nov-19-2026/",
-      "venue": "Maywood Hall & Garden, South Raleigh",
+      "venue": "Maywood Hall & Garden, South Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$25",
@@ -2139,7 +2130,7 @@
     {
       "title": "Wake Forest Cares Holiday Kick Off 2026",
       "url": "https://raleighparent.com/event/wake-forest-cares-holiday-kick-off-2026-on-nov-21-2026/",
-      "venue": "Downtown Wake Forest, Wake Forest",
+      "venue": "Downtown Wake Forest, Wake Forest 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "FREE",
@@ -2151,7 +2142,7 @@
     {
       "title": "Cranksgiving: Raleigh's Annual Food Drive",
       "url": "https://raleighparent.com/event/cranksgiving-raleighs-annual-food-drive-on-nov-22-2026/",
-      "venue": "Crank Arm Brewing, Downtown Raleigh",
+      "venue": "Crank Arm Brewing, Downtown Raleigh 1,",
       "time_hint": "01:00 PM",
       "time_end": "04:00 PM",
       "cost": "Free, but you’ll need $15-$25 cash to buy food at the grocer",
@@ -2163,7 +2154,7 @@
     {
       "title": "That Day in Dallas",
       "url": "https://raleighparent.com/event/that-day-in-dallas-on-nov-22-2026/",
-      "venue": "Theatre In The Park, West Raleigh",
+      "venue": "Theatre In The Park, West Raleigh 1,",
       "time_hint": "04:00 PM",
       "time_end": "05:00 PM",
       "cost": "$10 or Pay What You Can",
@@ -2175,7 +2166,7 @@
     {
       "title": "Light the Springs 2026",
       "url": "https://raleighparent.com/event/light-the-springs-2026-on-dec-5-2026/",
-      "venue": "Holly Springs Cultural Center, Holly Springs",
+      "venue": "Holly Springs Cultural Center, Holly Springs 1,",
       "time_hint": "05:00 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -2187,7 +2178,7 @@
     {
       "title": "Chanukah Festival",
       "url": "https://raleighparent.com/event/chanukah-festival-on-dec-6-2026/",
-      "venue": "Apex Senior Center, Apex",
+      "venue": "Apex Senior Center, Apex 1,",
       "time_hint": "03:00 PM",
       "time_end": "06:00 PM",
       "cost": "FREE",
@@ -2199,7 +2190,7 @@
     {
       "title": "Downtown Cary Park Hanukkah Menorah Lighting 2026",
       "url": "https://raleighparent.com/event/downtown-cary-park-hanukkah-menorah-lighting-2026-on-dec-7-2026/",
-      "venue": "DCP Great Lawn Pavilion, Cary",
+      "venue": "DCP Great Lawn Pavilion, Cary 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:15 PM",
       "cost": "FREE",
@@ -2211,7 +2202,7 @@
     {
       "title": "Fenton Menorah Lighting",
       "url": "https://raleighparent.com/event/fenton-menorah-lighting-on-dec-8-2026/",
-      "venue": "Fenton Square, Cary",
+      "venue": "Fenton Square, Cary 1,",
       "time_hint": "05:00 PM",
       "time_end": "07:00 PM",
       "cost": "FREE",
@@ -2223,7 +2214,7 @@
     {
       "title": "Artful Story Time: Happy Hanukkah!",
       "url": "https://raleighparent.com/event/artful-story-time-happy-hanukkah-on-dec-9-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:00 AM",
       "cost": "Free (pay what you wish)",
@@ -2235,7 +2226,7 @@
     {
       "title": "Annual Menorah Lighting at Fenton",
       "url": "https://raleighparent.com/event/annual-menorah-lighting-at-fenton-on-dec-9-2026/",
-      "venue": "Fenton Square, Cary",
+      "venue": "Fenton Square, Cary 1,",
       "time_hint": "05:00 PM",
       "time_end": "07:00 PM",
       "cost": "FREE",
@@ -2247,7 +2238,7 @@
     {
       "title": "Menorah Lighting Morrisville 2026",
       "url": "https://raleighparent.com/event/menorah-lighting-morrisville-2026-on-dec-10-2026/",
-      "venue": "Indian Creek Trailhead, Morrisville/RTP",
+      "venue": "Indian Creek Trailhead, Morrisville/RTP 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "FREE",
@@ -2259,7 +2250,7 @@
     {
       "title": "An Archaeologist’s Face to Feet with King Taharqa",
       "url": "https://raleighparent.com/event/an-archaeologists-face-to-feet-with-king-taharqa-on-nov-20-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "08:30 PM",
       "cost": "FREE",
@@ -2271,7 +2262,7 @@
     {
       "title": "Espresso Reads - Reading Event with Coffee 2026",
       "url": "https://raleighparent.com/event/espresso-reads-reading-event-with-coffee-2026-on-nov-21-2026/",
-      "venue": "Pugh House, Morrisville/RTP",
+      "venue": "Pugh House, Morrisville/RTP 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "$10 Residents | $14 Non-residents. Age 16+ yrs",
@@ -2283,7 +2274,7 @@
     {
       "title": "That Day in Dallas",
       "url": "https://raleighparent.com/event/that-day-in-dallas-on-nov-22-2026/",
-      "venue": "Theatre In The Park, West Raleigh",
+      "venue": "Theatre In The Park, West Raleigh 1,",
       "time_hint": "04:00 PM",
       "time_end": "05:00 PM",
       "cost": "$10 or Pay What You Can",
@@ -2295,7 +2286,7 @@
     {
       "title": "Member Monday: Ancient Nubia",
       "url": "https://raleighparent.com/event/member-monday-ancient-nubia-on-nov-30-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:00 AM",
       "time_end": "03:00 PM",
       "cost": "Free; members only",
@@ -2307,7 +2298,7 @@
     {
       "title": "Audio Description Tour of Ancient Nubia",
       "url": "https://raleighparent.com/event/audio-description-tour-of-ancient-nubia-on-dec-3-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "",
@@ -2319,7 +2310,7 @@
     {
       "title": "Christmas Candle Tea at Raleigh Moravian Church 2026",
       "url": "https://raleighparent.com/event/christmas-candle-tea-at-raleigh-moravian-church-2026-on-dec-5-2026/",
-      "venue": "Raleigh Moravian Church, West Raleigh",
+      "venue": "Raleigh Moravian Church, West Raleigh 1,",
       "time_hint": "01:00 PM",
       "time_end": "05:00 PM",
       "cost": "FREE",
@@ -2331,7 +2322,7 @@
     {
       "title": "In Motion, In Time: An Homage to Ancient Nubia",
       "url": "https://raleighparent.com/event/in-motion-in-time-an-homage-to-ancient-nubia-on-dec-12-2026/",
-      "venue": "North Carolina Museum of Art; East Building, Level B, West Raleigh",
+      "venue": "North Carolina Museum of Art; East Building, Level B, West Raleigh 1,",
       "time_hint": "04:15 PM",
       "time_end": "",
       "cost": "FREE",
@@ -2343,7 +2334,7 @@
     {
       "title": "Thanksgiving Flower Arranging Class",
       "url": "https://raleighparent.com/event/thanksgiving-flower-arranging-class-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "11:00 AM",
       "time_end": "01:00 PM",
       "cost": "$75",
@@ -2355,7 +2346,7 @@
     {
       "title": "Mulino’s Eighth Annual Turkey Ball",
       "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
-      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh",
+      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "$60-$2500.00",
@@ -2367,7 +2358,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-18-2026/",
-      "venue": "William Peace University, Downtown Raleigh",
+      "venue": "William Peace University, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -2379,7 +2370,7 @@
     {
       "title": "FestiBull of Lights",
       "url": "https://raleighparent.com/event/festibull-of-lights-on-nov-19-2026/",
-      "venue": "Durham Bulls Athletic Park, Durham",
+      "venue": "Durham Bulls Athletic Park, Durham 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "",
@@ -2391,7 +2382,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-19-2026/",
-      "venue": "William Peace University Main Lawn, Downtown Raleigh",
+      "venue": "William Peace University Main Lawn, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -2403,7 +2394,7 @@
     {
       "title": "FestiBull of Lights",
       "url": "https://raleighparent.com/event/festibull-of-lights-on-nov-20-2026/",
-      "venue": "Durham Bulls Athletic Park, Durham",
+      "venue": "Durham Bulls Athletic Park, Durham 1,",
       "time_hint": "05:30 PM",
       "time_end": "",
       "cost": "",
@@ -2415,7 +2406,7 @@
     {
       "title": "Annual Christmas Parade Watch Party",
       "url": "https://raleighparent.com/event/annual-christmas-parade-watch-party-on-nov-21-2026/",
-      "venue": "Taverna Agora, Downtown Raleigh",
+      "venue": "Taverna Agora, Downtown Raleigh 1,",
       "time_hint": "07:30 AM",
       "time_end": "10:45 AM",
       "cost": "$30 Adults, $15 kids 12 and under",
@@ -2427,7 +2418,7 @@
     {
       "title": "Sapphic Speed Dating at Blackbird Books & Coffee",
       "url": "https://raleighparent.com/event/sapphic-speed-dating-at-blackbird-books-coffee-on-nov-20-2026/",
-      "venue": "Blackbird Books & Coffee, Downtown Raleigh",
+      "venue": "Blackbird Books & Coffee, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$17.85",
@@ -2439,7 +2430,7 @@
     {
       "title": "A Drag Queen Christmas",
       "url": "https://raleighparent.com/event/a-drag-queen-christmas-on-nov-20-2026/",
-      "venue": "DPAC, Durham",
+      "venue": "DPAC, Durham 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "",
@@ -2451,7 +2442,7 @@
     {
       "title": "Axé Rhythm and Dance Fest",
       "url": "https://raleighparent.com/event/ax-rhythm-and-dance-fest-on-nov-21-2026/",
-      "venue": "Ubuntu Farm, Knightdale",
+      "venue": "Ubuntu Farm, Knightdale 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "Free - Parking $5. Please RSVP",
@@ -2463,7 +2454,7 @@
     {
       "title": "Pride Flow with Brit Guerin",
       "url": "https://raleighparent.com/event/pride-flow-with-brit-guerin-on-nov-22-2026/",
-      "venue": "Current Wellness, Downtown Raleigh",
+      "venue": "Current Wellness, Downtown Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "Free or with two donation options ($15 &#8211; suggested pri",
@@ -2473,21 +2464,9 @@
       "date_hint": "Nov 22"
     },
     {
-      "title": "Pottery Painting with Cozy Panda",
-      "url": "https://raleighparent.com/event/pottery-painting-with-cozy-panda-on-nov-22-2026/",
-      "venue": "Unhinged Coffee & Co, Knightdale",
-      "time_hint": "02:00 PM",
-      "time_end": "03:00 PM",
-      "cost": "$23.71",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "sun",
-      "date_hint": "Nov 22"
-    },
-    {
       "title": "Shrek Drag Brunch",
       "url": "https://raleighparent.com/event/shrek-drag-brunch-on-nov-22-2026/",
-      "venue": "Goodnights Comedy Club, Midtown Raleigh",
+      "venue": "Goodnights Comedy Club, Midtown Raleigh 1,",
       "time_hint": "02:00 PM",
       "time_end": "04:00 PM",
       "cost": "$28-$175",
@@ -2497,9 +2476,21 @@
       "date_hint": "Nov 22"
     },
     {
+      "title": "Pottery Painting with Cozy Panda",
+      "url": "https://raleighparent.com/event/pottery-painting-with-cozy-panda-on-nov-22-2026/",
+      "venue": "Unhinged Coffee & Co, Knightdale 1,",
+      "time_hint": "02:00 PM",
+      "time_end": "03:00 PM",
+      "cost": "$23.71",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "sun",
+      "date_hint": "Nov 22"
+    },
+    {
       "title": "Triangle Gay Men's Chorus Holiday Concert",
       "url": "https://raleighparent.com/event/triangle-gay-mens-chorus-holiday-concert-on-dec-11-2026/",
-      "venue": "Unitarian Universalist Fellowship of Raleigh, West Raleigh",
+      "venue": "Unitarian Universalist Fellowship of Raleigh, West Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "",
@@ -2511,7 +2502,7 @@
     {
       "title": "A Very Burton X-Mas! Drag & Burlesque Show",
       "url": "https://raleighparent.com/event/a-very-burton-x-mas-drag-burlesque-show-on-dec-11-2026/",
-      "venue": "Chapel of Bones, West Raleigh",
+      "venue": "Chapel of Bones, West Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "11:45 PM",
       "cost": "$18.45 - $24.60",
@@ -2523,7 +2514,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-21-2026/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "04:30 PM",
       "time_end": "",
       "cost": "",
@@ -2535,7 +2526,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-21-2026-Z7r9jZ/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "",
       "cost": "",
@@ -2547,7 +2538,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-22-2026/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "04:30 PM",
       "time_end": "",
       "cost": "",
@@ -2559,7 +2550,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-22-2026-Z7r9jZ/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "",
       "cost": "",
@@ -2571,7 +2562,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-23-2026/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "04:30 PM",
       "time_end": "",
       "cost": "",
@@ -2583,7 +2574,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-23-2026-Z7r9jZ/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "",
       "cost": "",
@@ -2595,7 +2586,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-24-2026/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "04:30 PM",
       "time_end": "",
       "cost": "",
@@ -2607,7 +2598,7 @@
     {
       "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
       "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-24-2026-Z7r9jZ/",
-      "venue": "Regency Park, Cary",
+      "venue": "Regency Park, Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "",
       "cost": "",
@@ -2619,7 +2610,7 @@
     {
       "title": "Black Trivia and Karaoke Game Night",
       "url": "https://raleighparent.com/event/black-trivia-and-karaoke-game-night-on-nov-18-2026/",
-      "venue": "101 Kitchen, Knightdale",
+      "venue": "101 Kitchen, Knightdale 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$13.42",
@@ -2629,21 +2620,9 @@
       "date_hint": "Nov 18"
     },
     {
-      "title": "Mahjong and Mingle",
-      "url": "https://raleighparent.com/event/mahjong-and-mingle-on-nov-19-2026/",
-      "venue": "The Backyard, Cary",
-      "time_hint": "06:00 PM",
-      "time_end": "08:00 PM",
-      "cost": "$40 no experience, $20 experienced",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "thu",
-      "date_hint": "Nov 19"
-    },
-    {
       "title": "Native American Tasting Experience",
       "url": "https://raleighparent.com/event/native-american-tasting-experience-on-nov-19-2026/",
-      "venue": "Apex Senior Center, Apex",
+      "venue": "Apex Senior Center, Apex 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$15",
@@ -2653,9 +2632,21 @@
       "date_hint": "Nov 19"
     },
     {
+      "title": "Mahjong and Mingle",
+      "url": "https://raleighparent.com/event/mahjong-and-mingle-on-nov-19-2026/",
+      "venue": "The Backyard, Cary 1,",
+      "time_hint": "06:00 PM",
+      "time_end": "08:00 PM",
+      "cost": "$40 no experience, $20 experienced",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "thu",
+      "date_hint": "Nov 19"
+    },
+    {
       "title": "UniverSoul Circus at Coastal Credit Union Music Park",
       "url": "https://raleighparent.com/event/universoul-circus-on-nov-19-2026/",
-      "venue": "Walnut Creek Circus Grounds, Raleigh",
+      "venue": "Walnut Creek Circus Grounds, Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -2667,7 +2658,7 @@
     {
       "title": "American Indian Heritage Celebration Virtual Education Day",
       "url": "https://raleighparent.com/event/american-indian-heritage-celebration-virtual-education-day-on-nov-20-2026/",
-      "venue": "Online, Downtown Raleigh",
+      "venue": "Online, Downtown Raleigh 1,",
       "time_hint": "09:00 AM",
       "time_end": "02:00 PM",
       "cost": "FREE",
@@ -2679,7 +2670,7 @@
     {
       "title": "UniverSoul Circus at Coastal Credit Union Music Park",
       "url": "https://raleighparent.com/event/universoul-circus-on-nov-20-2026/",
-      "venue": "Walnut Creek Circus Grounds, Raleigh",
+      "venue": "Walnut Creek Circus Grounds, Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -2691,7 +2682,7 @@
     {
       "title": "Annual Christmas Parade Watch Party",
       "url": "https://raleighparent.com/event/annual-christmas-parade-watch-party-on-nov-21-2026/",
-      "venue": "Taverna Agora, Downtown Raleigh",
+      "venue": "Taverna Agora, Downtown Raleigh 1,",
       "time_hint": "07:30 AM",
       "time_end": "10:45 AM",
       "cost": "$30 Adults, $15 kids 12 and under",
@@ -2703,7 +2694,7 @@
     {
       "title": "Science Detectives: Coastal Critters",
       "url": "https://raleighparent.com/event/science-detectives-coastal-critters-on-nov-18-2026/",
-      "venue": "Discovery Room, Downtown Raleigh",
+      "venue": "Discovery Room, Downtown Raleigh 1,",
       "time_hint": "10:15 AM",
       "time_end": "11:15 AM",
       "cost": "$12 per participant; $9 member participant, 5-7 years of age",
@@ -2715,7 +2706,7 @@
     {
       "title": "Art and Nature Story Time",
       "url": "https://raleighparent.com/event/art-and-nature-story-time-on-nov-18-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:00 AM",
       "cost": "Free (pay what you wish); best for children ages 18 months t",
@@ -2727,7 +2718,7 @@
     {
       "title": "Science Detectives: Tropical Biodiversity",
       "url": "https://raleighparent.com/event/science-detectives-tropical-biodiversity-on-nov-18-2026/",
-      "venue": "Curiosity Classroom, Downtown Raleigh",
+      "venue": "Curiosity Classroom, Downtown Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:30 AM",
       "cost": "$12 per participant; $9 member participant, 8-10 years of ag",
@@ -2739,7 +2730,7 @@
     {
       "title": "Science Detectives: Microscopic Pond Life",
       "url": "https://raleighparent.com/event/science-detectives-microscopic-pond-life-on-nov-18-2026/",
-      "venue": "Natural World Investigate Lab, Downtown Raleigh",
+      "venue": "Natural World Investigate Lab, Downtown Raleigh 1,",
       "time_hint": "10:45 AM",
       "time_end": "11:45 AM",
       "cost": "$12 per participant; $9 member participant, 11+ years of age",
@@ -2751,7 +2742,7 @@
     {
       "title": "Mindful Museum: Fall Singing Bowl Sound Bath",
       "url": "https://raleighparent.com/event/mindful-museum-fall-singing-bowl-sound-bath-on-nov-18-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "07:00 PM",
       "cost": "",
@@ -2763,7 +2754,7 @@
     {
       "title": "A Puzzling Affair: Jigsaw Competition at the NCMA",
       "url": "https://raleighparent.com/event/a-puzzling-affair-jigsaw-competition-at-the-ncma-on-nov-19-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "08:00 PM",
       "cost": "",
@@ -2775,7 +2766,7 @@
     {
       "title": "Garden Gourmet: Three Sisters Soup",
       "url": "https://raleighparent.com/event/garden-gourmet-three-sisters-soup-on-nov-19-2026/",
-      "venue": "Marbles Kids Museum, Downtown Raleigh",
+      "venue": "Marbles Kids Museum, Downtown Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:30 PM",
       "cost": "",
@@ -2787,7 +2778,7 @@
     {
       "title": "Science Café: Decoding the Lives of Sri Lanka’s Elephants",
       "url": "https://raleighparent.com/event/science-caf-decoding-the-lives-of-sri-lankas-elephants-on-nov-19-2026/",
-      "venue": "Daily Planet Cafe, Downtown Raleigh",
+      "venue": "Daily Planet Cafe, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "08:00 PM",
       "cost": "Free.",
@@ -2799,7 +2790,7 @@
     {
       "title": "Plant Bingo and Swap Night",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$1 card",
@@ -2811,7 +2802,7 @@
     {
       "title": "Native Plant Learn & Serve",
       "url": "https://raleighparent.com/event/native-plant-learn-serve-on-nov-18-2026/",
-      "venue": "Carpenter Park-Community Garden Gate Entrance, Cary",
+      "venue": "Carpenter Park-Community Garden Gate Entrance, Cary 1,",
       "time_hint": "10:00 AM",
       "time_end": "11:00 AM",
       "cost": "",
@@ -2823,7 +2814,7 @@
     {
       "title": "William Peace University Annual Tree Lighting",
       "url": "https://raleighparent.com/event/william-peace-university-annual-tree-lighting-on-nov-18-2026/",
-      "venue": "William Peace University, Downtown Raleigh",
+      "venue": "William Peace University, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -2835,7 +2826,7 @@
     {
       "title": "SRIS Campfire Cookout",
       "url": "https://raleighparent.com/event/sris-campfire-cookout-on-nov-19-2026/",
-      "venue": "Durant Nature Preserve, North Raleigh",
+      "venue": "Durant Nature Preserve, North Raleigh 1,",
       "time_hint": "03:30 PM",
       "time_end": "05:30 PM",
       "cost": "",
@@ -2847,7 +2838,7 @@
     {
       "title": "Science Café: Decoding the Lives of Sri Lanka’s Elephants",
       "url": "https://raleighparent.com/event/science-caf-decoding-the-lives-of-sri-lankas-elephants-on-nov-19-2026/",
-      "venue": "Daily Planet Cafe, Downtown Raleigh",
+      "venue": "Daily Planet Cafe, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "08:00 PM",
       "cost": "Free.",
@@ -2859,7 +2850,7 @@
     {
       "title": "Tree Camp",
       "url": "https://raleighparent.com/event/tree-camp-on-nov-20-2026/",
-      "venue": "Prairie Ridge Outdoor Classroom, West Raleigh",
+      "venue": "Prairie Ridge Outdoor Classroom, West Raleigh 1,",
       "time_hint": "01:00 PM",
       "time_end": "04:00 PM",
       "cost": "Free please register",
@@ -2869,9 +2860,21 @@
       "date_hint": "Nov 20"
     },
     {
+      "title": "Jazz & Jive Night",
+      "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
+      "venue": "The Depot parking lot, Apex 1,",
+      "time_hint": "05:00 PM",
+      "time_end": "08:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
+    },
+    {
       "title": "Cary Night Market",
       "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
-      "venue": "Downtown Cary Park, Cary",
+      "venue": "Downtown Cary Park, Cary 1,",
       "time_hint": "05:00 PM",
       "time_end": "09:00 PM",
       "cost": "FREE",
@@ -2883,7 +2886,7 @@
     {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -2895,7 +2898,7 @@
     {
       "title": "Skip the Small Talk Night",
       "url": "https://raleighparent.com/event/skip-the-small-talk-night-at-atomic-clock-brewing-on-nov-16-2026/",
-      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701",
+      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$19.00",
@@ -2907,7 +2910,7 @@
     {
       "title": "Plant Bingo and Swap Night",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$1 card",
@@ -2919,7 +2922,7 @@
     {
       "title": "Massa Nera / Process//Sleep / Covenant Eye / Cyprian",
       "url": "https://raleighparent.com/event/massa-nera-processsleep-covenant-eye-cyprian-on-nov-17-2026/",
-      "venue": "KINGS, Downtown Raleigh",
+      "venue": "KINGS, Downtown Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$15 adv / $18 day-of",
@@ -2931,7 +2934,7 @@
     {
       "title": "Mulino’s Eighth Annual Turkey Ball",
       "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
-      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh",
+      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "$60-$2500.00",
@@ -2941,21 +2944,9 @@
       "date_hint": "Nov 18"
     },
     {
-      "title": "Black Trivia and Karaoke Game Night",
-      "url": "https://raleighparent.com/event/black-trivia-and-karaoke-game-night-on-nov-18-2026/",
-      "venue": "101 Kitchen, Knightdale",
-      "time_hint": "07:00 PM",
-      "time_end": "",
-      "cost": "$13.42",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "wed",
-      "date_hint": "Nov 18"
-    },
-    {
       "title": "The Queers",
       "url": "https://raleighparent.com/event/the-queers-on-nov-18-2026/",
-      "venue": "KINGS, Downtown Raleigh",
+      "venue": "KINGS, Downtown Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "$15 adv / $20 day-of. All Ages w/ Parent",
@@ -2965,9 +2956,21 @@
       "date_hint": "Nov 18"
     },
     {
+      "title": "Black Trivia and Karaoke Game Night",
+      "url": "https://raleighparent.com/event/black-trivia-and-karaoke-game-night-on-nov-18-2026/",
+      "venue": "101 Kitchen, Knightdale 1,",
+      "time_hint": "07:00 PM",
+      "time_end": "",
+      "cost": "$13.42",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "wed",
+      "date_hint": "Nov 18"
+    },
+    {
       "title": "Snozzberries with Domocile",
       "url": "https://raleighparent.com/event/snozzberries-with-domocile-on-nov-19-2026/",
-      "venue": "The Pour House Music Hall & Record Shop, Downtown Raleigh",
+      "venue": "The Pour House Music Hall & Record Shop, Downtown Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "$19.55, 21+ years of age",
@@ -2979,7 +2982,7 @@
     {
       "title": "Sam Jones BBQ Pit Stop Ribbon Cutting Ceremony",
       "url": "https://raleighparent.com/event/sam-jones-bbq-pit-stop-ribbon-cutting-ceremony-on-nov-19-2026/",
-      "venue": "Morgan Street Food Hall, Downtown Raleigh",
+      "venue": "Morgan Street Food Hall, Downtown Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "",
       "cost": "FREE",
@@ -2991,7 +2994,7 @@
     {
       "title": "Ladybug Creamery Grand Opening",
       "url": "https://raleighparent.com/event/ladybug-creamery-grand-opening-on-nov-21-2026/",
-      "venue": "Ladybug Creamery, Midtown Raleigh",
+      "venue": "Ladybug Creamery, Midtown Raleigh 1,",
       "time_hint": "01:00 PM",
       "time_end": "05:00 PM",
       "cost": "Free and open to everyone",
@@ -3003,7 +3006,7 @@
     {
       "title": "Ninja Kidz Grand Opening",
       "url": "https://raleighparent.com/event/ninja-kidz-grand-opening-at-ninja-kidz-action-park-raleigh-on-nov-24-2026/",
-      "venue": "Ninja Kidz Action Park Raleigh 220 Grande Heights Dr, Cary, NC 27513",
+      "venue": "Ninja Kidz Action Park Raleigh 220 Grande Heights Dr, Cary, NC 27513 1,",
       "time_hint": "04:30 PM",
       "time_end": "08:30 PM",
       "cost": "$149.99 per kid; grown-ups free with a paid kid's ticket",
@@ -3015,7 +3018,7 @@
     {
       "title": "Member Monday: Ancient Nubia",
       "url": "https://raleighparent.com/event/member-monday-ancient-nubia-on-nov-30-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:00 AM",
       "time_end": "03:00 PM",
       "cost": "Free; members only",
@@ -3027,7 +3030,7 @@
     {
       "title": "After Hours",
       "url": "https://raleighparent.com/event/after-hours-on-dec-17-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "09:00 PM",
       "cost": "FREE",
@@ -3039,7 +3042,7 @@
     {
       "title": "Plant Bingo and Swap Night",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$1 card",
@@ -3051,7 +3054,7 @@
     {
       "title": "RaleighNC.gov Live Tour - Abbott's Creek Community Center",
       "url": "https://raleighparent.com/event/raleighncgov-live-tour-abbotts-creek-community-center-on-nov-18-2026/",
-      "venue": "Abbott's Creek Community Center, North Raleigh",
+      "venue": "Abbott's Creek Community Center, North Raleigh 1,",
       "time_hint": "05:00 PM",
       "time_end": "07:00 PM",
       "cost": "FREE",
@@ -3063,7 +3066,7 @@
     {
       "title": "Mulino’s Eighth Annual Turkey Ball",
       "url": "https://raleighparent.com/event/mulinos-eighth-annual-turkey-ball-on-nov-18-2026/",
-      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh",
+      "venue": "Mulino Italian Kitchen & Bar, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "$60-$2500.00",
@@ -3075,7 +3078,7 @@
     {
       "title": "Yarn Habit: Monthly Fiber Craft Meetup",
       "url": "https://raleighparent.com/event/yarn-habit-monthly-fiber-craft-meetup-on-dec-6-2026/",
-      "venue": "Craft Habit, East Raleigh",
+      "venue": "Craft Habit, East Raleigh 1,",
       "time_hint": "02:30 PM",
       "time_end": "05:30 PM",
       "cost": "Free, 18+ yrs. Please RSVP",
@@ -3087,7 +3090,7 @@
     {
       "title": "Leanne Morgan: THE TIME OF OUR LIVES TOUR",
       "url": "https://raleighparent.com/event/leanne-morgan-the-time-of-our-lives-tour-on-dec-6-2026/",
-      "venue": "Lenovo Center, Raleigh",
+      "venue": "Lenovo Center, Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -3099,7 +3102,7 @@
     {
       "title": "Christmas Cocktail Experience at Good Day Good Night",
       "url": "https://raleighparent.com/event/christmas-cocktail-experience-at-good-day-good-night-on-dec-12-2026/",
-      "venue": "Good Day Good Night, Downtown Raleigh",
+      "venue": "Good Day Good Night, Downtown Raleigh 1,",
       "time_hint": "03:00 PM",
       "time_end": "05:00 PM",
       "cost": "$65 per person",
@@ -3111,7 +3114,7 @@
     {
       "title": "Merry Mahjong Mini Tournament",
       "url": "https://raleighparent.com/event/merry-mahjong-mini-tournament-on-dec-14-2026/",
-      "venue": "Crooked Hammock Brewery, Midtown Raleigh",
+      "venue": "Crooked Hammock Brewery, Midtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$65 includes all Mahjong tiles, colorful mats, and racks.",
@@ -3123,7 +3126,7 @@
     {
       "title": "Visually Impaired Trivia Night",
       "url": "https://raleighparent.com/event/visually-impaired-trivia-night-on-dec-17-2026/",
-      "venue": "Buffalo Brothers Pizza & Wing Co., East Raleigh",
+      "venue": "Buffalo Brothers Pizza & Wing Co., East Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "09:00 PM",
       "cost": "",
@@ -3133,7 +3136,7 @@
       "date_hint": "Dec 17"
     },
     {
-      "title": "Turkey Leg 5K 810 N. First Ave., Knightdale, NC 27545",
+      "title": "Turkey Leg 5K 810 N. First Ave., Knightdale, NC 27545 1,",
       "url": "https://raleighparent.com/event/turkey-leg-5k-on-nov-21-2026/",
       "venue": "",
       "time_hint": "08:00 AM",
@@ -3147,7 +3150,7 @@
     {
       "title": "Turkey Leg Run 5K",
       "url": "https://raleighparent.com/event/turkey-leg-run-5k-on-nov-21-2026/",
-      "venue": "Knightdale Station Park, Knightdale",
+      "venue": "Knightdale Station Park, Knightdale 1,",
       "time_hint": "08:00 AM",
       "time_end": "09:00 AM",
       "cost": "",
@@ -3159,7 +3162,7 @@
     {
       "title": "Freedom Ride Rescue Turkey Day 5K",
       "url": "https://raleighparent.com/event/freedom-ride-rescue-turkey-day-5k-on-nov-26-2026/",
-      "venue": "White Deer Park/Lake Benson, Garner",
+      "venue": "White Deer Park/Lake Benson, Garner 1,",
       "time_hint": "08:00 AM",
       "time_end": "",
       "cost": "$25+",
@@ -3171,7 +3174,7 @@
     {
       "title": "Turkey Trot 2026",
       "url": "https://raleighparent.com/event/turkey-trot-2026-on-nov-26-2026/",
-      "venue": "Ridgewood Shopping Center, West Raleigh",
+      "venue": "Ridgewood Shopping Center, West Raleigh 1,",
       "time_hint": "08:30 AM",
       "time_end": "",
       "cost": "",
@@ -3183,7 +3186,7 @@
     {
       "title": "Wildfire Ride",
       "url": "https://raleighparent.com/event/wildfire-ride-on-nov-27-2026/",
-      "venue": "Tin Roof Raleigh, Downtown Raleigh",
+      "venue": "Tin Roof Raleigh, Downtown Raleigh 1,",
       "time_hint": "06:30 PM",
       "time_end": "",
       "cost": "FREE",
@@ -3195,7 +3198,7 @@
     {
       "title": "2026 Jingle Bell Run",
       "url": "https://raleighparent.com/event/2026-jingle-bell-run-on-dec-5-2026/",
-      "venue": "The Backyard, Cary",
+      "venue": "The Backyard, Cary 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "",
@@ -3205,21 +3208,9 @@
       "date_hint": "Dec 5"
     },
     {
-      "title": "Cary Night Market",
-      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
-      "venue": "Downtown Cary Park, Cary",
-      "time_hint": "05:00 PM",
-      "time_end": "09:00 PM",
-      "cost": "FREE",
-      "source": "raleighparent",
-      "tags": [],
-      "day_hint": "fri",
-      "date_hint": "Nov 20"
-    },
-    {
       "title": "Jazz & Jive Night",
       "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
-      "venue": "The Depot parking lot, Apex",
+      "venue": "The Depot parking lot, Apex 1,",
       "time_hint": "05:00 PM",
       "time_end": "08:00 PM",
       "cost": "FREE",
@@ -3229,9 +3220,21 @@
       "date_hint": "Nov 20"
     },
     {
+      "title": "Cary Night Market",
+      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
+      "venue": "Downtown Cary Park, Cary 1,",
+      "time_hint": "05:00 PM",
+      "time_end": "09:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
+    },
+    {
       "title": "Get Weird: An Art Show with Michael O'Neill and Alex McRory",
       "url": "https://raleighparent.com/event/get-weird-an-art-show-with-michael-oneill-and-alex-mcrory-on-nov-20-2026/",
-      "venue": "The Portal HQ, West Raleigh",
+      "venue": "The Portal HQ, West Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "10:30 PM",
       "cost": "$5",
@@ -3241,9 +3244,21 @@
       "date_hint": "Nov 20"
     },
     {
+      "title": "Holiday Vendor Market",
+      "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
+      "venue": "Fairview Greenhouses Garden Center, South Raleigh 1,",
+      "time_hint": "10:00 AM",
+      "time_end": "03:00 PM",
+      "cost": "FREE",
+      "source": "raleighparent",
+      "tags": [],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
       "title": "North Carolina Central Eagles Mens Basketball vs. Virginia University of Lynchburg Dragons Mens Bask",
       "url": "https://raleighparent.com/event/north-carolina-central-eagles-mens-basketball-vs-virginia-university-of-lynchburg-dragons-mens-bask-on-nov-16-2026/",
-      "venue": "McDougald-McLendon Arena, Durham",
+      "venue": "McDougald-McLendon Arena, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -3255,7 +3270,7 @@
     {
       "title": "WWE Monday Night RAW",
       "url": "https://raleighparent.com/event/wwe-monday-night-raw-on-nov-16-2026/",
-      "venue": "Lenovo Center, Raleigh",
+      "venue": "Lenovo Center, Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -3267,7 +3282,7 @@
     {
       "title": "Duke Blue Devils Mens Basketball vs. Illinois Fighting Illini Mens Basketball",
       "url": "https://raleighparent.com/event/duke-blue-devils-mens-basketball-vs-illinois-fighting-illini-mens-basketball-on-nov-17-2026/",
-      "venue": "Cameron Indoor Stadium, Durham",
+      "venue": "Cameron Indoor Stadium, Durham 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -3279,7 +3294,7 @@
     {
       "title": "Learn about Senior Games",
       "url": "https://raleighparent.com/event/learn-about-senior-games-on-nov-18-2026/",
-      "venue": "Morrisville Senior Center, Morrisville/RTP",
+      "venue": "Morrisville Senior Center, Morrisville/RTP 1,",
       "time_hint": "11:30 AM",
       "time_end": "12:30 PM",
       "cost": "Free. Please register. Ages 55+",
@@ -3291,7 +3306,7 @@
     {
       "title": "Duke Blue Devils Womens Basketball vs. Fordham Rams Womens Basketball",
       "url": "https://raleighparent.com/event/duke-blue-devils-womens-basketball-vs-fordham-rams-womens-basketball-on-nov-19-2026/",
-      "venue": "Cameron Indoor Stadium, Durham",
+      "venue": "Cameron Indoor Stadium, Durham 1,",
       "time_hint": "11:00 AM",
       "time_end": "",
       "cost": "",
@@ -3303,7 +3318,7 @@
     {
       "title": "Carolina Hurricanes vs. Montreal Canadiens",
       "url": "https://raleighparent.com/event/carolina-hurricanes-vs-montreal-canadiens-on-nov-19-2026/",
-      "venue": "Lenovo Center, Raleigh",
+      "venue": "Lenovo Center, Raleigh 1,",
       "time_hint": "07:00 PM",
       "time_end": "",
       "cost": "",
@@ -3315,7 +3330,7 @@
     {
       "title": "Duke Blue Devils Football vs. Clemson Tigers Football",
       "url": "https://raleighparent.com/event/duke-blue-devils-football-vs-clemson-tigers-football-on-nov-20-2026/",
-      "venue": "Wallace Wade Stadium, Durham",
+      "venue": "Wallace Wade Stadium, Durham 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "",
@@ -3327,7 +3342,7 @@
     {
       "title": "North Carolina Tar Heels Mens Basketball vs. Marshall Thundering Herd Mens Basketball",
       "url": "https://raleighparent.com/event/north-carolina-tar-heels-mens-basketball-vs-marshall-thundering-herd-mens-basketball-on-nov-20-2026/",
-      "venue": "Dean E Smith Center, Chapel Hill",
+      "venue": "Dean E Smith Center, Chapel Hill 1,",
       "time_hint": "09:00 PM",
       "time_end": "",
       "cost": "",
@@ -3339,7 +3354,7 @@
     {
       "title": "NC State Watch Party - Wolfpack vs. Florida State",
       "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-florida-state-on-nov-21-2026/",
-      "venue": "Tin Roof Raleigh, Downtown Raleigh",
+      "venue": "Tin Roof Raleigh, Downtown Raleigh 1,",
       "time_hint": "11:00 AM",
       "time_end": "",
       "cost": "FREE",
@@ -3351,7 +3366,7 @@
     {
       "title": "NC State Watch Party: Wolfpack vs. North Carolina",
       "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-north-carolina-on-nov-28-2026/",
-      "venue": "Tin Roof Raleigh, Downtown Raleigh",
+      "venue": "Tin Roof Raleigh, Downtown Raleigh 1,",
       "time_hint": "11:00 AM",
       "time_end": "",
       "cost": "FREE",
@@ -3363,7 +3378,7 @@
     {
       "title": "Plant Bingo and Swap Night at Norse Brewing Company",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-at-norse-brewing-company-on-nov-16-2026/",
-      "venue": "Norse Brewing Company Wake Forest, Wake Forest",
+      "venue": "Norse Brewing Company Wake Forest, Wake Forest 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "$1 per round",
@@ -3375,7 +3390,7 @@
     {
       "title": "Skip the Small Talk Night",
       "url": "https://raleighparent.com/event/skip-the-small-talk-night-at-atomic-clock-brewing-on-nov-16-2026/",
-      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701",
+      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$19.00",
@@ -3387,7 +3402,7 @@
     {
       "title": "Plant Bingo and Swap Night",
       "url": "https://raleighparent.com/event/plant-bingo-and-swap-night-on-nov-17-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:00 PM",
       "cost": "$1 card",
@@ -3399,7 +3414,7 @@
     {
       "title": "Pick Your Poison Pop-up Book Market",
       "url": "https://raleighparent.com/event/pick-your-poison-pop-up-book-market-on-nov-21-2026/",
-      "venue": "Norse Brewing Longhouse Zebulon, Zebulon",
+      "venue": "Norse Brewing Longhouse Zebulon, Zebulon 1,",
       "time_hint": "11:00 AM",
       "time_end": "",
       "cost": "FREE",
@@ -3411,7 +3426,7 @@
     {
       "title": "Cranksgiving: Raleigh's Annual Food Drive",
       "url": "https://raleighparent.com/event/cranksgiving-raleighs-annual-food-drive-on-nov-22-2026/",
-      "venue": "Crank Arm Brewing, Downtown Raleigh",
+      "venue": "Crank Arm Brewing, Downtown Raleigh 1,",
       "time_hint": "01:00 PM",
       "time_end": "04:00 PM",
       "cost": "Free, but you’ll need $15-$25 cash to buy food at the grocer",
@@ -3423,7 +3438,7 @@
     {
       "title": "Flower Design Class",
       "url": "https://raleighparent.com/event/flower-design-class-on-nov-24-2026/",
-      "venue": "Local Time Brewing, Holly Springs",
+      "venue": "Local Time Brewing, Holly Springs 1,",
       "time_hint": "06:00 PM",
       "time_end": "07:00 PM",
       "cost": "$45",
@@ -3435,7 +3450,7 @@
     {
       "title": "Freedom Ride Rescue Turkey Day 5K",
       "url": "https://raleighparent.com/event/freedom-ride-rescue-turkey-day-5k-on-nov-26-2026/",
-      "venue": "White Deer Park/Lake Benson, Garner",
+      "venue": "White Deer Park/Lake Benson, Garner 1,",
       "time_hint": "08:00 AM",
       "time_end": "",
       "cost": "$25+",
@@ -3447,7 +3462,7 @@
     {
       "title": "The Hunger Games Trivia Night",
       "url": "https://raleighparent.com/event/the-hunger-games-trivia-night-on-dec-2-2026/",
-      "venue": "Southern Peak Brewery, Apex",
+      "venue": "Southern Peak Brewery, Apex 1,",
       "time_hint": "06:30 PM",
       "time_end": "08:30 PM",
       "cost": "",
@@ -3459,7 +3474,7 @@
     {
       "title": "Opera Showcase Recital",
       "url": "https://raleighparent.com/event/opera-showcase-recital-on-nov-16-2026/",
-      "venue": "Carswell Concert Hall, West Raleigh",
+      "venue": "Carswell Concert Hall, West Raleigh 1,",
       "time_hint": "05:30 PM",
       "time_end": "06:30 PM",
       "cost": "FREE",
@@ -3471,7 +3486,7 @@
     {
       "title": "Wes Barker Live",
       "url": "https://raleighparent.com/event/wes-barker-live-on-nov-19-2026/",
-      "venue": "Goodnights Comedy Club, Midtown Raleigh",
+      "venue": "Goodnights Comedy Club, Midtown Raleigh 1,",
       "time_hint": "07:30 PM",
       "time_end": "",
       "cost": "$32.99 - $184.99",
@@ -3483,7 +3498,7 @@
     {
       "title": "Carolina Stories: Stories by the Fire",
       "url": "https://raleighparent.com/event/carolina-stories-stories-by-the-fire-on-nov-21-2026/",
-      "venue": "Gov. James G. Martin Building, West Raleigh",
+      "venue": "Gov. James G. Martin Building, West Raleigh 1,",
       "time_hint": "11:00 AM",
       "time_end": "04:00 PM",
       "cost": "",
@@ -3495,7 +3510,7 @@
     {
       "title": "THE GRAY MAN ALBUM RELEASE PARTY at Wolfe & Porter",
       "url": "https://raleighparent.com/event/the-gray-man-album-release-party-at-wolfe-porter-on-nov-21-2026/",
-      "venue": "Wolfe & Porter, Downtown Raleigh",
+      "venue": "Wolfe & Porter, Downtown Raleigh 1,",
       "time_hint": "05:00 PM",
       "time_end": "07:00 PM",
       "cost": "$20",
@@ -3507,7 +3522,7 @@
     {
       "title": "The Rialto Revue",
       "url": "https://raleighparent.com/event/the-rialto-revue-on-nov-21-2026/",
-      "venue": "The Rialto Theatre, Midtown Raleigh",
+      "venue": "The Rialto Theatre, Midtown Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "$25.70 to $34.50",
@@ -3519,7 +3534,7 @@
     {
       "title": "Shrek Drag Brunch",
       "url": "https://raleighparent.com/event/shrek-drag-brunch-on-nov-22-2026/",
-      "venue": "Goodnights Comedy Club, Midtown Raleigh",
+      "venue": "Goodnights Comedy Club, Midtown Raleigh 1,",
       "time_hint": "02:00 PM",
       "time_end": "04:00 PM",
       "cost": "$28-$175",
@@ -3531,7 +3546,7 @@
     {
       "title": "Criminal Presents: Don't Worry with Phoebe Judge",
       "url": "https://raleighparent.com/event/criminal-presents-dont-worry-with-phoebe-judge-on-nov-24-2026/",
-      "venue": "Martin Marietta Center for the Performing Arts, Raleigh",
+      "venue": "Martin Marietta Center for the Performing Arts, Raleigh 1,",
       "time_hint": "08:00 PM",
       "time_end": "",
       "cost": "",
@@ -3543,7 +3558,7 @@
     {
       "title": "The BIG Give of the Triangle",
       "url": "https://raleighparent.com/event/the-big-give-of-the-triangle-on-dec-1-2026/",
-      "venue": "Artspace, Downtown Raleigh",
+      "venue": "Artspace, Downtown Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "09:00 PM",
       "cost": "$25 to $200",
@@ -3555,7 +3570,7 @@
     {
       "title": "RaleighNC.gov Live Tour - Abbott's Creek Community Center",
       "url": "https://raleighparent.com/event/raleighncgov-live-tour-abbotts-creek-community-center-on-nov-18-2026/",
-      "venue": "Abbott's Creek Community Center, North Raleigh",
+      "venue": "Abbott's Creek Community Center, North Raleigh 1,",
       "time_hint": "05:00 PM",
       "time_end": "07:00 PM",
       "cost": "FREE",
@@ -3565,7 +3580,7 @@
       "date_hint": "Nov 18"
     },
     {
-      "title": "RaleighNC.gov Live Tour - Chavis Community Center 505 Martin Luther King Jr. Blvd., Raleigh, NC 27601",
+      "title": "RaleighNC.gov Live Tour - Chavis Community Center 505 Martin Luther King Jr. Blvd., Raleigh, NC 27601 1,",
       "url": "https://raleighparent.com/event/raleighncgov-live-tour-chavis-community-center-on-nov-20-2026/",
       "venue": "",
       "time_hint": "06:00 PM",
@@ -3579,7 +3594,7 @@
     {
       "title": "Museum Tour in ASL",
       "url": "https://raleighparent.com/event/museum-tour-in-asl-on-nov-21-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "Free (pay what you wish); registration required",
@@ -3591,7 +3606,7 @@
     {
       "title": "RaleighNC.gov Live Tour - Carolina Pines Community Center",
       "url": "https://raleighparent.com/event/raleighncgov-live-tour-carolina-pines-community-center-on-nov-21-2026/",
-      "venue": "Carolina Pines Park, West Raleigh",
+      "venue": "Carolina Pines Park, West Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "FREE",
@@ -3603,7 +3618,7 @@
     {
       "title": "RaleighNC.gov Live Tour at Carolina Pines Community Center",
       "url": "https://raleighparent.com/event/raleighncgov-live-tour-at-carolina-pines-community-center-on-nov-23-2026/",
-      "venue": "Carolina Pines Park, South Raleigh",
+      "venue": "Carolina Pines Park, South Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "12:30 PM",
       "cost": "FREE",
@@ -3615,7 +3630,7 @@
     {
       "title": "Member Monday: Ancient Nubia",
       "url": "https://raleighparent.com/event/member-monday-ancient-nubia-on-nov-30-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:00 AM",
       "time_end": "03:00 PM",
       "cost": "Free; members only",
@@ -3627,7 +3642,7 @@
     {
       "title": "Audio Description Tour of Ancient Nubia",
       "url": "https://raleighparent.com/event/audio-description-tour-of-ancient-nubia-on-dec-3-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "",
@@ -3639,7 +3654,7 @@
     {
       "title": "Candle Pouring Workshop and Tarot Card Reading",
       "url": "https://raleighparent.com/event/candle-pouring-workshop-and-tarot-card-reading-on-nov-16-2026/",
-      "venue": "Gather Goods Co., Cary",
+      "venue": "Gather Goods Co., Cary 1,",
       "time_hint": "06:00 PM",
       "time_end": "08:00 PM",
       "cost": "$60",
@@ -3651,7 +3666,7 @@
     {
       "title": "Skip the Small Talk Night",
       "url": "https://raleighparent.com/event/skip-the-small-talk-night-at-atomic-clock-brewing-on-nov-16-2026/",
-      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701",
+      "venue": "Atomic Clock Brewing Atomic Clock Brewing, 501 Washington St # A, Durham, NC 27701 1,",
       "time_hint": "07:00 PM",
       "time_end": "09:00 PM",
       "cost": "$19.00",
@@ -3663,7 +3678,7 @@
     {
       "title": "Art and Nature Story Time",
       "url": "https://raleighparent.com/event/art-and-nature-story-time-on-nov-18-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "10:30 AM",
       "time_end": "11:00 AM",
       "cost": "Free (pay what you wish); best for children ages 18 months t",
@@ -3675,7 +3690,7 @@
     {
       "title": "Learn about Senior Games",
       "url": "https://raleighparent.com/event/learn-about-senior-games-on-nov-18-2026/",
-      "venue": "Morrisville Senior Center, Morrisville/RTP",
+      "venue": "Morrisville Senior Center, Morrisville/RTP 1,",
       "time_hint": "11:30 AM",
       "time_end": "12:30 PM",
       "cost": "Free. Please register. Ages 55+",
@@ -3687,7 +3702,7 @@
     {
       "title": "Mindful Museum: Fall Singing Bowl Sound Bath",
       "url": "https://raleighparent.com/event/mindful-museum-fall-singing-bowl-sound-bath-on-nov-18-2026/",
-      "venue": "North Carolina Museum of Art, West Raleigh",
+      "venue": "North Carolina Museum of Art, West Raleigh 1,",
       "time_hint": "06:00 PM",
       "time_end": "07:00 PM",
       "cost": "",
@@ -3699,7 +3714,7 @@
     {
       "title": "Harvest Fest 2026",
       "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-20-2026/",
-      "venue": "Morrisville Senior Center, Morrisville/RTP",
+      "venue": "Morrisville Senior Center, Morrisville/RTP 1,",
       "time_hint": "12:00 PM",
       "time_end": "",
       "cost": "$12 Residents | $17 Non-residents. 55 yrs +",
@@ -3711,7 +3726,7 @@
     {
       "title": "NPC North Carolina State Championships & NPC Carolina Natural Championships",
       "url": "https://raleighparent.com/event/npc-north-carolina-state-championships-npc-carolina-natural-championships-on-nov-21-2026/",
-      "venue": "Raleigh Marriott City Center, Downtown Raleigh",
+      "venue": "Raleigh Marriott City Center, Downtown Raleigh 1,",
       "time_hint": "08:00 AM",
       "time_end": "08:00 PM",
       "cost": "$55+.Kids 10 & Under free",
@@ -3723,7 +3738,7 @@
     {
       "title": "Carolina Stories: Stories by the Fire",
       "url": "https://raleighparent.com/event/carolina-stories-stories-by-the-fire-on-nov-21-2026/",
-      "venue": "Gov. James G. Martin Building, West Raleigh",
+      "venue": "Gov. James G. Martin Building, West Raleigh 1,",
       "time_hint": "11:00 AM",
       "time_end": "04:00 PM",
       "cost": "",
@@ -3733,7 +3748,7 @@
       "date_hint": "Nov 21"
     },
     {
-      "title": "Raleigh's 5th Annual Women's Day Expo Atlantic Union Bank Convention Center (Raleigh Convention Center) 500 S. Salisbuury St. Raleigh 27601",
+      "title": "Raleigh's 5th Annual Women's Day Expo Atlantic Union Bank Convention Center (Raleigh Convention Center) 500 S. Salisbuury St. Raleigh 27601 1,",
       "url": "https://raleighparent.com/event/raleighs-5th-annual-womens-day-expo-on-mar-6-2027/",
       "venue": "",
       "time_hint": "11:00 AM",
@@ -3745,7 +3760,7 @@
       "date_hint": "Mar 6"
     },
     {
-      "title": "Lit for the Culture: The Next Chapter 3801 Hillsborough St #109, Raleigh, NC 27607",
+      "title": "Lit for the Culture: The Next Chapter 3801 Hillsborough St #109, Raleigh, NC 27607 1,",
       "url": "https://raleighparent.com/event/lit-for-the-culture-the-next-chapter-on-mar-27-2027/",
       "venue": "",
       "time_hint": "02:00 PM",
@@ -3797,202 +3812,6 @@
       "date_hint": "Nov 16"
     },
     {
-      "title": "Family Storytime",
-      "url": "https://www.wake.gov/events/family-storytime-4158",
-      "venue": "",
-      "time_hint": "10:00 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Leesville Community Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Family Storytime",
-      "url": "https://www.wake.gov/events/family-storytime-4431",
-      "venue": "",
-      "time_hint": "10:00 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Fuquay-Varina Community Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Family Storytime",
-      "url": "https://www.wake.gov/events/family-storytime-4381",
-      "venue": "",
-      "time_hint": "10:00 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Oberlin Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Preschool Storytime",
-      "url": "https://www.wake.gov/events/preschool-storytime-238",
-      "venue": "",
-      "time_hint": "10:15 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "East Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Family Storytime",
-      "url": "https://www.wake.gov/events/family-storytime-4235",
-      "venue": "",
-      "time_hint": "10:30 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Cary Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Family Storytime",
-      "url": "https://www.wake.gov/events/family-storytime-4344",
-      "venue": "",
-      "time_hint": "10:30 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "North Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Family Storytime",
-      "url": "https://www.wake.gov/events/family-storytime-3050",
-      "venue": "",
-      "time_hint": "10:30 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "West Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Baby Storytime",
-      "url": "https://www.wake.gov/events/baby-storytime-1071",
-      "venue": "",
-      "time_hint": "11:00 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Southeast Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Baby Storytime",
-      "url": "https://www.wake.gov/events/baby-storytime-1169",
-      "venue": "",
-      "time_hint": "11:00 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Wendell Community Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Baby Storytime",
-      "url": "https://www.wake.gov/events/baby-storytime-1163",
-      "venue": "",
-      "time_hint": "11:00 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Oberlin Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Family Storytime",
-      "url": "https://www.wake.gov/events/family-storytime-4734",
-      "venue": "",
-      "time_hint": "11:00 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Wake Forest Community Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "ABC Craft and Learn",
-      "url": "https://www.wake.gov/events/abc-craft-and-learn-559",
-      "venue": "",
-      "time_hint": "11:15 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "East Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "ABC Craft and Learn",
-      "url": "https://www.wake.gov/events/abc-craft-and-learn-594",
-      "venue": "",
-      "time_hint": "11:30 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "North Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Baby Storytime",
-      "url": "https://www.wake.gov/events/baby-storytime-1214",
-      "venue": "",
-      "time_hint": "11:30 am",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Eva Perry Regional Library Libraries"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
       "title": "Wake County Board of Commissioners - Regular Meeting",
       "url": "https://www.wake.gov/events/wake-county-board-commissioners-regular-meeting-27",
       "venue": "",
@@ -4002,20 +3821,6 @@
       "source": "wakegov",
       "tags": [
         "Wake County Justice Center Board of Commissioners"
-      ],
-      "day_hint": "mon",
-      "date_hint": "Nov 16"
-    },
-    {
-      "title": "Caregivers Connect",
-      "url": "https://www.wake.gov/events/caregivers-connect-7",
-      "venue": "",
-      "time_hint": "2:30 pm",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "East Regional Library Libraries"
       ],
       "day_hint": "mon",
       "date_hint": "Nov 16"
@@ -4743,7 +4548,7 @@
       "cost": "",
       "source": "wakegov",
       "tags": [
-        "Leesville Community Library All - General"
+        "Leesville Community Library Libraries"
       ],
       "day_hint": "tue",
       "date_hint": "Nov 17"
@@ -4772,6 +4577,216 @@
       "source": "wakegov",
       "tags": [
         "Zebulon Community Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Pine Cone Turkeys: K-5th Adventures",
+      "url": "https://www.wake.gov/events/pine-cone-turkeys-k-5th-adventures",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Green Road Community Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "3rd-5th Adventures: Winterween",
+      "url": "https://www.wake.gov/events/3rd-5th-adventures-winterween",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Northeast Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Fall Holidays around the World : K-5th Adventures",
+      "url": "https://www.wake.gov/events/fall-holidays-around-world-k-5th-adventures",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "East Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Fall!: K-2nd Adventures",
+      "url": "https://www.wake.gov/events/fall-k-2nd-adventures",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Cary Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Family Storytime",
+      "url": "https://www.wake.gov/events/family-storytime-4061",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Athens Drive Community Library Community Services Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "K-5th Adventures: Cloud Lab (Rescheduled)",
+      "url": "https://www.wake.gov/events/k-5th-adventures-cloud-lab-rescheduled",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Southeast Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Learning with Lego",
+      "url": "https://www.wake.gov/events/learning-lego-202",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Oberlin Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Learning with Legos",
+      "url": "https://www.wake.gov/events/learning-legos-75",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Morrisville Community Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Learning with LEGOs",
+      "url": "https://www.wake.gov/events/learning-legos-94",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Eva Perry Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "STEAM Lab for 3rd-5th Graders: Popcorn",
+      "url": "https://www.wake.gov/events/steam-lab-3rd-5th-graders-popcorn",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Middle Creek Community Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Strega Nona: K-5th Adventures",
+      "url": "https://www.wake.gov/events/strega-nona-k-5th-adventures-0",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "North Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Tuesdays @ the Library",
+      "url": "https://www.wake.gov/events/tuesdays-library-35",
+      "venue": "",
+      "time_hint": "4:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Leesville Community Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Stay and Play",
+      "url": "https://www.wake.gov/events/stay-and-play-17",
+      "venue": "",
+      "time_hint": "5:00 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Athens Drive Community Library Community Services Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Teens: It's All Greek To Me",
+      "url": "https://www.wake.gov/events/teens-its-all-greek-me",
+      "venue": "",
+      "time_hint": "5:00 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "West Regional Library Libraries"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 17"
+    },
+    {
+      "title": "Flu Vaccine Clinic",
+      "url": "https://www.wake.gov/events/flu-vaccine-clinic",
+      "venue": "",
+      "time_hint": "5:30 pm",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Wake County Public Health Center Public Health"
       ],
       "day_hint": "tue",
       "date_hint": "Nov 17"
@@ -5807,6 +5822,20 @@
       "date_hint": "Nov 21"
     },
     {
+      "title": "Oakwood24 Run/Walk at Lakeside Retreats",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196605/-/oakwood24-run-walk-at-lakeside-retreats",
+      "venue": "4521 Mial Plantation Rd., Raleigh, NC  27610",
+      "time_hint": "8:00 am",
+      "time_end": "",
+      "cost": "from $50 to Race",
+      "source": "fun4raleighkids",
+      "tags": [
+        "family"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
       "title": "Sensory Friendly Event - Urban Air Raleigh",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/194938/-/sensory-friendly-event-urban-air-raleigh",
       "venue": "7810 Poyner Pond Circle, Raleigh, NC 27616",
@@ -6031,12 +6060,40 @@
       "date_hint": "Nov 21"
     },
     {
+      "title": "North Hills Shop & Stroll",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196610/-/north-hills-shop-stroll",
+      "venue": "4321 Lassiter at North Hills Ave., Raleigh, NC  27609",
+      "time_hint": "10:00 am",
+      "time_end": "",
+      "cost": "Free Admission",
+      "source": "fun4raleighkids",
+      "tags": [
+        "family"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
       "title": "Page 158 Book's Holiday Market",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/186353/-/page-158-book-s-holiday-market",
       "venue": "415 Brooks Street, Ste B,  Wake Forest, NC  27587",
       "time_hint": "10:00 am",
       "time_end": "",
       "cost": "Free Admission",
+      "source": "fun4raleighkids",
+      "tags": [
+        "family"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
+      "title": "Thanksgiving Meal Distribution at Baptist Grove Church",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/173302/-/thanksgiving-meal-distribution-at-baptist-grove-church",
+      "venue": "7109 Leesville Rd., Raleigh, NC 27613",
+      "time_hint": "10:00 am",
+      "time_end": "",
+      "cost": "Free with Registration",
       "source": "fun4raleighkids",
       "tags": [
         "family"
@@ -6367,6 +6424,20 @@
       "date_hint": "Nov 21"
     },
     {
+      "title": "North Hills Christmas Tree Lighting Celebration",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/137253/-/north-hills-christmas-tree-lighting-celebration",
+      "venue": "4321 Lassiter at North Hills Avenue, Raleigh, NC 27609",
+      "time_hint": "4:00 pm",
+      "time_end": "",
+      "cost": "Free Admission",
+      "source": "fun4raleighkids",
+      "tags": [
+        "family"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
       "title": "Zebulon's Candy Cane Lane and Tree Lighting",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/196434/-/zebulon-s-candy-cane-lane-and-tree-lighting",
       "venue": "Arendell Avenue between Vance and Sycamore Street, Zebulon, NC, 27597",
@@ -6597,6 +6668,20 @@
       "time_hint": "1:00 pm",
       "time_end": "",
       "cost": "Admission $13 online or $15 at the door.  Non Skating Chaper",
+      "source": "fun4raleighkids",
+      "tags": [
+        "family"
+      ],
+      "day_hint": "sun",
+      "date_hint": "Nov 22"
+    },
+    {
+      "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196606/-/santa-and-mrs-clause-visits-shephered-s-way-farms",
+      "venue": "13044 Norwood Road, Raleigh, NC  27613",
+      "time_hint": "1:00 pm",
+      "time_end": "",
+      "cost": "Free Admission",
       "source": "fun4raleighkids",
       "tags": [
         "family"
