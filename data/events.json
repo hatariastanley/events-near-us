@@ -1,33 +1,53 @@
 {
-  "generated_at": "2026-11-13T20:02:24+00:00",
+  "generated_at": "2026-11-16T15:08:34+00:00",
   "weekend": {
-    "fri": "2026-11-13",
-    "sun": "2026-11-15"
+    "fri": "2026-11-20",
+    "sun": "2026-11-22"
   },
   "events": [
     {
-      "id": "kids-marker-s-market-at-grasshopper-farm",
-      "title": "Kids Marker's Market at Grasshopper Farm",
+      "id": "salem-baptist-preschool-holiday-market",
+      "title": "Salem Baptist Preschool Holiday Market",
       "days": [
-        "sat"
+        "fri"
       ],
-      "start": "11:00 am",
+      "start": "9:00 am",
       "end": "",
-      "venue": "8004 Poole Road, Knightdale, NC  27545",
-      "city": "Knightdale",
+      "venue": "1821 North Salem Street, Apex, NC 27523",
+      "city": "Apex",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/192533/-/kids-marker-s-market-at-grasshopper-farm",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196575/-/salem-baptist-preschool-holiday-market",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 94,
+      "family_score": 87,
       "why": "",
       "tags": [
         "free"
       ]
     },
     {
-      "id": "western-wake-farmers-market",
-      "title": "Western Wake Farmers Market",
+      "id": "salem-baptist-preschool-holiday-market",
+      "title": "Salem Baptist Preschool Holiday Market",
+      "days": [
+        "sat"
+      ],
+      "start": "9:00 am",
+      "end": "",
+      "venue": "1821 North Salem Street, Apex, NC 27523",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196576/-/salem-baptist-preschool-holiday-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 87,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "thanksgiving-food-drive-at-western-wake-farmers-market",
+      "title": "Thanksgiving Food Drive at Western Wake Farmers Market",
       "days": [
         "sat"
       ],
@@ -36,7 +56,7 @@
       "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
       "city": "Morrisville",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191758/-/western-wake-farmers-market",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191759/-/thanksgiving-food-drive-at-western-wake-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 86,
@@ -56,7 +76,7 @@
       "venue": "220 N Salem St, Apex, NC 27502",
       "city": "Apex",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190226/-/apex-farmers-market-at-the-depot",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190227/-/apex-farmers-market-at-the-depot",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 86,
@@ -76,7 +96,7 @@
       "venue": "160 East Park St., Cary, NC  27511",
       "city": "Cary",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193977/-/cary-farmers-market-at-downtown-cary-park",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193978/-/cary-farmers-market-at-downtown-cary-park",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 86,
@@ -96,7 +116,7 @@
       "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
       "city": "Holly Springs",
       "cost": "Free Entry",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190825/-/holly-springs-farmers-market",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190826/-/holly-springs-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 86,
@@ -116,7 +136,7 @@
       "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
       "city": "Wake Forest",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186632/-/wake-forest-farmers-market",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186633/-/wake-forest-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 86,
@@ -126,20 +146,20 @@
       ]
     },
     {
-      "id": "raleigh-fire-museum-is-open",
-      "title": "Raleigh Fire Museum is Open",
+      "id": "marker-s-market-at-grasshopper-farm",
+      "title": "Marker's Market at Grasshopper Farm",
       "days": [
         "sat"
       ],
-      "start": "10:00 am",
+      "start": "11:00 am",
       "end": "",
-      "venue": "Keeter Training Center, 105 Keeter Center Drive, Raleigh, NC  27603",
-      "city": "Raleigh",
-      "cost": "Admission is free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196214/-/raleigh-fire-museum-is-open",
+      "venue": "8004 Poole Road, Knightdale, NC  27545",
+      "city": "Knightdale",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193957/-/marker-s-market-at-grasshopper-farm",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 85,
+      "family_score": 86,
       "why": "",
       "tags": [
         "free"
@@ -156,7 +176,7 @@
       "venue": "415 Brooks St., Suite B, Wake Forest, NC 27587",
       "city": "Wake Forest",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191569/-/page-158-books-storytime",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191571/-/page-158-books-storytime",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 85,
@@ -176,7 +196,7 @@
       "venue": "11 West Jones Street, Raleigh, NC 27601",
       "city": "Raleigh",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194632/-/nc-museum-of-natural-sciences-live-animal-feeding-ocean-habitat",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194634/-/nc-museum-of-natural-sciences-live-animal-feeding-ocean-habitat",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 84,
@@ -186,157 +206,117 @@
       ]
     },
     {
-      "id": "vintage-market-days-nc-triangle-presents-a-vintage-noel",
-      "title": "Vintage Market Days® NC Triangle presents A Vintage Noel",
-      "days": [
-        "fri"
-      ],
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Jim Graham Building, NC State Fairgrounds, 4285 Trinity Rd., Raleigh, NC, 27607",
-      "city": "Raleigh",
-      "cost": "$5-$21. Admission for children 12yrs and under are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193098/-/vintage-market-days-nc-triangle-presents-a-vintage-noel",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 82,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "vintage-market-days-nc-triangle-presents-a-vintage-noel",
-      "title": "Vintage Market Days® NC Triangle presents A Vintage Noel",
+      "id": "harvest-fest-at-good-hope-farm",
+      "title": "Harvest Fest at Good Hope Farm",
       "days": [
         "sat"
       ],
-      "start": "10:00 am",
+      "start": "12:00 pm",
       "end": "",
-      "venue": "Jim Graham Building, NC State Fairgrounds, 4285 Trinity Rd., Raleigh, NC, 27607",
-      "city": "Raleigh",
-      "cost": "$5-$21. Admission for children 12yrs and under are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193099/-/vintage-market-days-nc-triangle-presents-a-vintage-noel",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 82,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "nc-museum-of-art-movies-presents-wicked-for-good",
-      "title": "NC Museum of Art Movies presents Wicked: For Good",
-      "days": [
-        "sat"
-      ],
-      "start": "3:00 pm",
-      "end": "",
-      "venue": "Moore Square, 201 S. Blount Street, Raleigh, NC 27601",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191509/-/nc-museum-of-art-movies-presents-wicked-for-good",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 82,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "vintage-market-days-nc-triangle-presents-a-vintage-noel",
-      "title": "Vintage Market Days® NC Triangle presents A Vintage Noel",
-      "days": [
-        "sun"
-      ],
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Jim Graham Building, NC State Fairgrounds, 4285 Trinity Rd., Raleigh, NC, 27607",
-      "city": "Raleigh",
-      "cost": "$5-$21.  Admission for children under 12 is free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193097/-/vintage-market-days-nc-triangle-presents-a-vintage-noel",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 82,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "kidical-mass-family-bike-ride",
-      "title": "Kidical Mass Family Bike Ride",
-      "days": [
-        "fri"
-      ],
-      "start": "04:00 PM",
-      "end": "05:30 PM",
-      "venue": "Jaycee Park, Midtown Raleigh",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/kidical-mass-family-bike-ride-on-nov-13-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "under-the-tree-storytime-with-quail-ridge-books",
-      "title": "Under the Tree Storytime with Quail Ridge Books",
-      "days": [
-        "sat"
-      ],
-      "start": "10:30 am",
-      "end": "",
-      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/189834/-/under-the-tree-storytime-with-quail-ridge-books",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "under-the-tree-storytime-with-quail-ridge-books",
-      "title": "Under the Tree Storytime with Quail Ridge Books",
-      "days": [
-        "sun"
-      ],
-      "start": "10:30 am",
-      "end": "",
-      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190509/-/under-the-tree-storytime-with-quail-ridge-books",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "grl-market-at-waverly-place",
-      "title": "GRL Market at Waverly Place",
-      "days": [
-        "sat"
-      ],
-      "start": "11:00 am",
-      "end": "",
-      "venue": "302 Colonades Way, Cary, NC 27518",
+      "venue": "Satellite Parking Lot, 2500 Carpenter Upchurch Rd., Cary, NC  27519",
       "city": "Cary",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193741/-/grl-market-at-waverly-place",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194455/-/harvest-fest-at-good-hope-farm",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 83,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth",
+      "title": "Opening weekend of NC Chinese Lantern Festival at Koka Booth Amphitheatre",
+      "days": [
+        "sat"
+      ],
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "8003 Regency Parkway Cary, NC  27518",
+      "city": "Cary",
+      "cost": "from $19 for 3yrs+. Children 2yrs and under are free. Genera",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196392/-/opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth-amphitheatre",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth",
+      "title": "Opening weekend of NC Chinese Lantern Festival at Koka Booth Amphitheatre",
+      "days": [
+        "sun"
+      ],
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "8003 Regency Parkway Cary, NC  27518",
+      "city": "Cary",
+      "cost": "from $19 for 3yrs+. Children 2yrs and under are free. Genera",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196393/-/opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth-amphitheatre",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "under-the-tree-storytime-with-quail-ridge-books",
+      "title": "Under the Tree Storytime with Quail Ridge Books",
+      "days": [
+        "sat"
+      ],
+      "start": "10:30 am",
+      "end": "",
+      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/189835/-/under-the-tree-storytime-with-quail-ridge-books",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "under-the-tree-storytime-with-quail-ridge-books",
+      "title": "Under the Tree Storytime with Quail Ridge Books",
+      "days": [
+        "sun"
+      ],
+      "start": "10:30 am",
+      "end": "",
+      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190511/-/under-the-tree-storytime-with-quail-ridge-books",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "cary-night-market",
+      "title": "Cary Night Market",
+      "days": [
+        "fri"
+      ],
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "Downtown Cary Park, Pavilion 327 S Academy St., Cary, NC 27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190076/-/cary-night-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 80,
@@ -346,44 +326,83 @@
       ]
     },
     {
-      "id": "build-a-lego-reindeer-at-the-lego-store",
-      "title": "Build a LEGO® Reindeer at The LEGO® Store",
+      "id": "park-west-village-s-winter-wonderland",
+      "title": "Park West Village's Winter Wonderland",
       "days": [
         "fri"
       ],
-      "start": "5:00 pm",
+      "start": "5:30 pm",
       "end": "",
-      "venue": "Crabtree Valley Mall, 4325 Glenwood Ave., Ste 1078, Raleigh, NC 27612",
-      "city": "Raleigh",
-      "cost": "Free while supplies last",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196321/-/build-a-lego-reindeer-at-the-lego-store",
+      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196430/-/park-west-village-s-winter-wonderland",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 79,
+      "family_score": 80,
       "why": "",
       "tags": [
         "free"
       ]
     },
     {
-      "id": "pumpkin-and-play-fall-fest-at-giggles-drop-in-childcare",
-      "title": "Pumpkin and Play Fall Fest at Giggles Drop-In Childcare",
+      "id": "page-158-book-s-holiday-market",
+      "title": "Page 158 Book's Holiday Market",
       "days": [
-        "sun"
+        "sat"
       ],
-      "start": "12:00 pm",
+      "start": "10:00 am",
       "end": "",
-      "venue": "6504 Falls of Neuse Rd., Raleigh, NC, 27615",
-      "city": "Raleigh",
+      "venue": "415 Brooks Street, Ste B,  Wake Forest, NC  27587",
+      "city": "Wake Forest",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196221/-/pumpkin-and-play-fall-fest-at-giggles-drop-in-childcare",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186353/-/page-158-book-s-holiday-market",
       "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 80,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "park-west-village-s-winter-wonderland",
+      "title": "Park West Village's Winter Wonderland",
+      "days": [
+        "sat"
+      ],
+      "start": "5:30 pm",
+      "end": "",
+      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196431/-/park-west-village-s-winter-wonderland",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 80,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "ax-rhythm-and-dance-fest",
+      "title": "Axé Rhythm and Dance Fest",
+      "days": [
+        "sat"
+      ],
+      "start": "12:00 PM",
+      "end": "",
+      "venue": "Ubuntu Farm, Knightdale",
+      "city": "Knightdale",
+      "cost": "Free - Parking $5. Please RSVP",
+      "url": "https://raleighparent.com/event/ax-rhythm-and-dance-fest-on-nov-21-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 79,
       "why": "",
       "tags": [
-        "free",
-        "halloween"
+        "free"
       ]
     },
     {
@@ -397,7 +416,7 @@
       "venue": "11 West Jones Street, Raleigh, NC 27601",
       "city": "Raleigh",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193453/-/nc-museum-of-natural-sciences-incredible-science",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193456/-/nc-museum-of-natural-sciences-incredible-science",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 78,
@@ -417,7 +436,7 @@
       "venue": "11 West Jones Street, Raleigh, NC 27601",
       "city": "Raleigh",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193470/-/nc-museum-of-natural-sciences-incredible-science",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193471/-/nc-museum-of-natural-sciences-incredible-science",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 78,
@@ -437,7 +456,7 @@
       "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194855/-/art-on-the-dot-at-nc-museum-of-art",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194857/-/art-on-the-dot-at-nc-museum-of-art",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 78,
@@ -457,7 +476,7 @@
       "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194856/-/art-on-the-dot-at-nc-museum-of-art",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194858/-/art-on-the-dot-at-nc-museum-of-art",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 78,
@@ -467,17 +486,17 @@
       ]
     },
     {
-      "id": "fall-family-funday-8715-holly-springs-rd-apex-nc-27539",
-      "title": "Fall Family Funday 8715 Holly Springs Rd, Apex, NC 27539",
+      "id": "triangle-pop-up-handcrafted-holiday-market",
+      "title": "Triangle Pop Up – Handcrafted Holiday Market",
       "days": [
         "sat"
       ],
-      "start": "09:00 AM",
-      "end": "12:00 PM",
-      "venue": "",
-      "city": "Apex",
+      "start": "11:00 AM",
+      "end": "04:00 PM",
+      "venue": "Fenton Square, Cary",
+      "city": "Cary",
       "cost": "FREE",
-      "url": "https://raleighparent.com/event/fall-family-funday-on-nov-14-2026/",
+      "url": "https://raleighparent.com/event/triangle-pop-up-handcrafted-holiday-market-on-nov-21-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 77,
@@ -497,7 +516,7 @@
       "venue": "410 Southtown Circle, Rolesville, NC  27571",
       "city": "Rolesville",
       "cost": "Free - No Sign-Up Required.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194516/-/kids-bible-story-time-at-village-church-rolesville",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194517/-/kids-bible-story-time-at-village-church-rolesville",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -507,37 +526,37 @@
       ]
     },
     {
-      "id": "ken-s-korny-maze-and-pumpkin-patch",
-      "title": "Ken's Korny Maze and Pumpkin Patch",
+      "id": "jazz-jive-night-at-the-depot",
+      "title": "Jazz & Jive Night at The Depot",
       "days": [
         "fri"
       ],
-      "start": "4:00 pm",
+      "start": "5:00 pm",
       "end": "",
-      "venue": "3175 Benson Road, Garner, NC  27529",
-      "city": "Garner",
-      "cost": "$6 - $20 per person ages 3+",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196546/-/ken-s-korny-maze-and-pumpkin-patch",
+      "venue": "The Depot parking lot, 220 N. Salem St.,  Apex, NC  27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194012/-/jazz-jive-night-at-the-depot",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
       "why": "",
       "tags": [
-        "halloween"
+        "free"
       ]
     },
     {
-      "id": "fall-family-funday-with-ivybrook-academy-apex",
-      "title": "Fall Family Funday with Ivybrook Academy Apex",
+      "id": "waverly-tree-lighting",
+      "title": "Waverly Tree Lighting",
       "days": [
-        "sat"
+        "fri"
       ],
-      "start": "9:00 am",
+      "start": "5:00 pm",
       "end": "",
-      "venue": "8715 Holly Springs Rd., Apex, NC 27539",
-      "city": "Apex",
-      "cost": "Free with Online Pre-Registration",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196395/-/fall-family-funday-with-ivybrook-academy-apex",
+      "venue": "302 Colonades Way, Cary, NC 27518",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/137959/-/waverly-tree-lighting",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -557,7 +576,7 @@
       "venue": "164 Bratton Dr., Garner, NC  27529",
       "city": "Garner",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195777/-/saturday-morning-magic-with-new-world-toys-and-collectibles",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195778/-/saturday-morning-magic-with-new-world-toys-and-collectibles",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -577,7 +596,7 @@
       "venue": "The Feathered Farm, 3620 Rosinburg Rd., Zebulon, NC  27597",
       "city": "",
       "cost": "$15 for ages 2-64.  Children under 2 are free.   $11.50 per ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/192495/-/animal-encounters-and-open-play",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192496/-/animal-encounters-and-open-play",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -587,37 +606,37 @@
       ]
     },
     {
-      "id": "ken-s-korny-maze-and-pumpkin-patch",
-      "title": "Ken's Korny Maze and Pumpkin Patch",
+      "id": "superfun-saturday-at-halle-cultural-arts-center",
+      "title": "SuperFun Saturday at Halle Cultural Arts Center",
       "days": [
         "sat"
       ],
-      "start": "10:00 am",
+      "start": "10:30 am",
       "end": "",
-      "venue": "3175 Benson Road, Garner, NC  27529",
-      "city": "Garner",
-      "cost": "$6 - $20 per person ages 3+",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194336/-/ken-s-korny-maze-and-pumpkin-patch",
+      "venue": "237 N. Salem Street, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192864/-/superfun-saturday-at-halle-cultural-arts-center",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
       "why": "",
       "tags": [
-        "halloween"
+        "free"
       ]
     },
     {
-      "id": "sparkle-night-at-parkside-town-commons",
-      "title": "Sparkle Night at Parkside Town Commons",
+      "id": "fenton-lights-the-square",
+      "title": "Fenton Lights the Square",
       "days": [
         "sat"
       ],
-      "start": "4:00 pm",
+      "start": "3:00 pm",
       "end": "",
-      "venue": "7119 O’Kelly Chapel Road, Cary, NC, 27519",
+      "venue": "201 Fenton Gateway Drive, Cary, NC 27511",
       "city": "Cary",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/146546/-/sparkle-night-at-parkside-town-commons",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/146044/-/fenton-lights-the-square",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -627,17 +646,17 @@
       ]
     },
     {
-      "id": "sold-out-dorothea-dix-park-s-little-explorers",
-      "title": "*SOLD OUT* Dorothea Dix Park's Little Explorers",
+      "id": "music-in-the-market-at-dix-park",
+      "title": "Music in the Market at Dix Park",
       "days": [
-        "fri"
+        "sat"
       ],
       "start": "11:00 am",
       "end": "",
       "venue": "House of Many Porches Market of Dix Park, 701 Palmer Dr., Raleigh, NC 27603",
       "city": "Raleigh",
-      "cost": "Free with Registration",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193197/-/sold-out-dorothea-dix-park-s-little-explorers",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193201/-/music-in-the-market-at-dix-park",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 76,
@@ -647,73 +666,37 @@
       ]
     },
     {
-      "id": "the-market-at-raleigh-iron-works",
-      "title": "The Market at Raleigh Iron Works",
+      "id": "harvest-fest-2026",
+      "title": "Harvest Fest 2026",
       "days": [
         "sat"
       ],
-      "start": "11:00 am",
-      "end": "",
-      "venue": "1101 East Whitaker Mill Road, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191392/-/the-market-at-raleigh-iron-works",
-      "source": "fun4raleighkids",
+      "start": "12:00 PM",
+      "end": "04:00 PM",
+      "venue": "Good Hope Farm, Cary",
+      "city": "Cary",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
+      "source": "raleighparent",
       "indoor": false,
-      "family_score": 76,
+      "family_score": 75,
       "why": "",
       "tags": [
         "free"
       ]
     },
     {
-      "id": "winter-clay-animal-masks-at-children-s-art-classes-raleigh",
-      "title": "Winter Clay Animal Masks at Children's Art Classes Raleigh",
+      "id": "holiday-vendor-market",
+      "title": "Holiday Vendor Market",
       "days": [
-        "sun"
-      ],
-      "start": "2:00 pm",
-      "end": "",
-      "venue": "6119 Capital Blvd., Raleigh, NC  27616",
-      "city": "Raleigh",
-      "cost": "$45",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195915/-/winter-clay-animal-masks-at-children-s-art-classes-raleigh",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 75,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "evening-historic-farm-trails-hike-with-smith-farm-goat-sanct",
-      "title": "Evening Historic Farm Trails Hike with Smith Farm Goat Sanctuary",
-      "days": [
-        "sun"
-      ],
-      "start": "4:00 pm",
-      "end": "",
-      "venue": "7221 Sunset Lake Rd., Fuquay-Varina, NC 27526",
-      "city": "Fuquay-Varina",
-      "cost": "$24 plus fees",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194076/-/evening-historic-farm-trails-hike-with-smith-farm-goat-sanctuary",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 75,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "hartwell-farmer-s-market",
-      "title": "Hartwell Farmer's Market",
-      "days": [
-        "sun"
+        "sat"
       ],
       "start": "10:00 AM",
-      "end": "02:00 PM",
-      "venue": "Hartwell Raleigh, Downtown Raleigh",
+      "end": "03:00 PM",
+      "venue": "Fairview Greenhouses Garden Center, South Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
-      "url": "https://raleighparent.com/event/hartwell-farmers-market-on-nov-15-2026/",
+      "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
       "source": "raleighparent",
       "indoor": false,
       "family_score": 74,
@@ -733,7 +716,7 @@
       "venue": "2901 Trawick Rd, Raleigh, NC 27604",
       "city": "Raleigh",
       "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187215/-/united-skates-kidz-bop",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187216/-/united-skates-kidz-bop",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 74,
@@ -741,17 +724,17 @@
       "tags": []
     },
     {
-      "id": "garden-story-walk-at-jc-raulston-arboretum",
-      "title": "Garden Story Walk at JC Raulston Arboretum",
+      "id": "last-weekend-of-paint-the-parks-exhibit-at-blue-jay-point-co",
+      "title": "Last Weekend of Paint the Parks Exhibit at Blue Jay Point County Park",
       "days": [
         "fri"
       ],
-      "start": "9:00 am",
+      "start": "8:00 am",
       "end": "",
-      "venue": "4415 Beryl Road, Raleigh, NC 27606",
+      "venue": "3200 Pleasant Union Church Rd, Raleigh, NC 27614",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195401/-/garden-story-walk-at-jc-raulston-arboretum",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191665/-/last-weekend-of-paint-the-parks-exhibit-at-blue-jay-point-county-park",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -771,7 +754,7 @@
       "venue": "Check out your local library for specific times and dates",
       "city": "",
       "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187871/-/wake-county-library-storytimes-and-programs",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187877/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -781,17 +764,37 @@
       ]
     },
     {
-      "id": "garden-story-walk-at-jc-raulston-arboretum",
-      "title": "Garden Story Walk at JC Raulston Arboretum",
+      "id": "last-weekend-of-paint-the-parks-exhibit-at-blue-jay-point-co",
+      "title": "Last Weekend of Paint the Parks Exhibit at Blue Jay Point County Park",
       "days": [
         "sat"
       ],
-      "start": "9:00 am",
+      "start": "8:00 am",
       "end": "",
-      "venue": "4415 Beryl Road, Raleigh, NC 27606",
+      "venue": "3200 Pleasant Union Church Rd, Raleigh, NC 27614",
       "city": "Raleigh",
       "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195402/-/garden-story-walk-at-jc-raulston-arboretum",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191666/-/last-weekend-of-paint-the-parks-exhibit-at-blue-jay-point-county-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [
+        "sat"
+      ],
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187878/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
