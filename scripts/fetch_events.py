@@ -306,25 +306,35 @@ def scrape_wakegov(pages=4):
     return events
 
 
-def scrape_tec(source_name, base, per_page=30):
+def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
     """WordPress 'The Events Calendar' REST API — clean JSON.
     /wp-json/tribe/events/v1/events?start_date&end_date"""
-    fri, sun = upcoming_weekend()
+    if start_date is None or end_date is None:
+        fri, sun = upcoming_weekend()
+        start_date, end_date = fri, sun
     r = requests.get(
         f"{base}/wp-json/tribe/events/v1/events",
-        params={"start_date": fri.isoformat(), "end_date": sun.isoformat(),
+        params={"start_date": start_date.isoformat(), "end_date": end_date.isoformat(),
                 "per_page": per_page, "status": "publish"},
         headers=UA, timeout=TIMEOUT)
     r.raise_for_status()
     events = []
     for e in r.json().get("events", []):
         start = e.get("start_date", "")
-        day_hint = date_hint = time_hint = ""
+        end_str = e.get("end_date", "")
+        day_hint = date_hint = time_hint = time_end = ""
+        event_date = None
         try:
             dt = datetime.fromisoformat(start.replace(" ", "T"))
+            event_date = dt.date()
             day_hint = dt.strftime("%a").lower()[:3]
             date_hint = _date_hint(dt.date())
             time_hint = dt.strftime("%I:%M %p").lstrip("0") if (dt.hour or dt.minute) else ""
+        except Exception:
+            pass
+        try:
+            dt_end = datetime.fromisoformat(end_str.replace(" ", "T"))
+            time_end = dt_end.strftime("%I:%M %p").lstrip("0") if (dt_end.hour or dt_end.minute) else ""
         except Exception:
             pass
         venue = e.get("venue") or {}
@@ -336,11 +346,12 @@ def scrape_tec(source_name, base, per_page=30):
             "title": BeautifulSoup(e.get("title", ""), "html.parser").get_text(),
             "url": e.get("url", ""),
             "venue": venue.get("venue", "") if isinstance(venue, dict) else "",
-            "time_hint": time_hint, "time_end": "", "cost": str(cost),
+            "time_hint": time_hint, "time_end": time_end, "cost": str(cost),
             "source": source_name,
             "city": venue.get("city", "") if isinstance(venue, dict) else "",
             "tags": [t for t in cats if t],
             "day_hint": day_hint, "date_hint": date_hint,
+            "event_date": event_date.isoformat() if event_date else "",
         })
     return events
 
@@ -394,21 +405,42 @@ def _civic(name):
     return lambda: scrape_civicplus(name, base, city)
 
 
+TEC_SITES = {
+    "marbles": "https://www.marbleskidsmuseum.org",
+    "morehead": "https://moreheadplanetarium.org",
+    "dukegardens": "https://gardens.duke.edu",
+}
+
 SOURCES = {
     "stufftodoinrdu": scrape_stufftodoinrdu,
     "kidsoutandabout": scrape_kidsoutandabout,
     "triangleonthecheap": scrape_triangleonthecheap,
     "raleighparent": scrape_raleighparent,
     "wakegov": scrape_wakegov,
-    "marbles": lambda: scrape_tec("marbles", "https://www.marbleskidsmuseum.org"),
-    "morehead": lambda: scrape_tec("morehead", "https://moreheadplanetarium.org"),
     "fun4raleighkids": scrape_fun4raleighkids,
+    **{name: (lambda n=name, b=base: scrape_tec(n, b)) for name, base in TEC_SITES.items()},
     **{name: _civic(name) for name in CIVICPLUS_SITES},
 }
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Fetch Triangle area events")
+    parser.add_argument("--days", type=int, default=3,
+                        help="Number of days to fetch (default: 3 for weekend)")
+    args = parser.parse_args()
+
+    today = date.today()
     fri, sun = upcoming_weekend()
+    
+    if args.days <= 3:
+        start_date, end_date = fri, sun
+        range_mode = "weekend"
+    else:
+        start_date = today
+        end_date = today + timedelta(days=args.days)
+        range_mode = f"{args.days}days"
+
     collected, failed = [], []
     for name, fn in SOURCES.items():
         try:
@@ -424,6 +456,7 @@ def main():
     OUT.write_text(json.dumps({
         "fetched_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "weekend": {"fri": fri.isoformat(), "sat": sat.isoformat(), "sun": sun.isoformat()},
+        "range": {"start": start_date.isoformat(), "end": end_date.isoformat(), "mode": range_mode},
         "failed_sources": failed,
         "raw_events": collected,
     }, indent=2, ensure_ascii=False), encoding="utf-8")

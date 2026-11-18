@@ -1,0 +1,54 @@
+{
+  "source_info": {
+    "source": "email",
+    "source_name": "Woodcreek Weekly Newsletter: 11/16 - 11/22",
+    "sender": "Communications@mc.fsresidential.com",
+    "organizer": "Woodcreek HOA"
+  },
+  "events": [
+    {
+      "id": "woodcreek-small-business-meetup-2026-11-18",
+      "title": "Small Business Meetup",
+      "date": "2026-11-18",
+      "day_of_week": "wed",
+      "start": "6:30 PM",
+      "end": "",
+      "venue": "",
+      "cost": "",
+      "description": "Networking evening for business owners, entrepreneurs, freelancers and local professionals."
+    },
+    {
+      "id": "woodcreek-adult-card-night-2026-11-20",
+      "title": "Adult Card Night",
+      "date": "2026-11-20",
+      "day_of_week": "fri",
+      "start": "7:00 PM",
+      "end": "",
+      "venue": "Woodcreek Clubhouse",
+      "cost": "",
+      "description": "Bring your own cards for a relaxed evening of card games with neighbors."
+    },
+    {
+      "id": "woodcreek-clubhouse-christmas-tree-decorating-party-2026-11-22",
+      "title": "Clubhouse & Christmas Tree Decorating Party",
+      "date": "2026-11-22",
+      "day_of_week": "sun",
+      "start": "6:30 PM",
+      "end": "8:30 PM",
+      "venue": "Woodcreek Clubhouse",
+      "cost": "",
+      "description": "Decorate the clubhouse and community Christmas tree; hot cocoa, festive music, Christmas sweater fun. Sign up to help decorate via the Woodcreek App."
+    },
+    {
+      "id": "woodcreek-cookies-with-santa-2026-12-06",
+      "title": "Cookies With Santa & Christmas Cookie Decorating Contest",
+      "date": "2026-12-06",
+      "day_of_week": "sun",
+      "start": "2:00 PM",
+      "end": "",
+      "venue": "Woodcreek Clubhouse",
+      "cost": "",
+      "description": "Photos with Santa, cookie decorating contest, hot cocoa, holiday activities for all ages."
+    }
+  ]
+}

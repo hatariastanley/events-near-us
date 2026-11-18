@@ -43,3 +43,4 @@ Two refresh tiers:
 - Always verify a suspicious listing against its source page before including it.
 - Prefer ~25–40 events: broad coverage, ranked, not a firehose.
 - If the scraper output looks empty/broken, still produce the list by reading sources directly — the scraper is a convenience, not a dependency.
+- **Never touch `data/woodcreek_events.json`** — it's hand-edited for HOA community events and is completely separate from the scraper/curation pipeline.
