@@ -34,6 +34,7 @@ OUT = ROOT / "data" / "raw_events.json"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 TIMEOUT = 20
+PARTIAL_SOURCES = set()
 
 
 def upcoming_weekend(today=None):
@@ -274,6 +275,8 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
                 "day_hint": ev.strftime("%a").lower()[:3],
                 "date_hint": _date_hint(ev),
             })
+    if failed_months and (events or failed_months < len(months)):
+        PARTIAL_SOURCES.add(source_name)
     if not events and months and failed_months == len(months):
         raise RuntimeError("all calendar months failed")
     return events
@@ -348,6 +351,8 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
         except Exception as exc:
             if first_exc is None:
                 first_exc = exc
+            if raw_events:
+                PARTIAL_SOURCES.add(source_name)
             break
         raw_events.extend(batch)
         try:
@@ -495,6 +500,7 @@ def main():
         end_date = today + timedelta(days=args.days)
         range_mode = f"{args.days}days"
 
+    PARTIAL_SOURCES.clear()
     collected, failed = [], []
     for name, fn in SOURCES.items():
         try:
@@ -511,6 +517,10 @@ def main():
             print(f"{name}: FAILED ({exc})", file=sys.stderr)
             failed.append(name)
 
+    partial = sorted(PARTIAL_SOURCES)
+    if partial:
+        print(f"partial sources: {', '.join(partial)}", file=sys.stderr)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     sat = fri + timedelta(days=1)
     OUT.write_text(json.dumps({
@@ -518,6 +528,7 @@ def main():
         "weekend": {"fri": fri.isoformat(), "sat": sat.isoformat(), "sun": sun.isoformat()},
         "range": {"start": start_date.isoformat(), "end": end_date.isoformat(), "mode": range_mode},
         "failed_sources": failed,
+        "partial_sources": partial,
         "raw_events": collected,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {OUT} ({len(collected)} raw listings, {len(failed)} failed sources)")

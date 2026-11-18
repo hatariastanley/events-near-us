@@ -12,7 +12,7 @@ Two refresh tiers:
    pip install -r requirements.txt   # first run only
    python scripts/fetch_events.py --days 90
    ```
-   Check `data/raw_events.json`. If `failed_sources` is non-empty, note which sources broke — the curation step compensates by reading them directly.
+   Check `data/raw_events.json`. If `failed_sources` is non-empty, note which sources broke — the curation step compensates by reading them directly. If `partial_sources` is non-empty, treat that source's coverage as incomplete and fill gaps directly.
 
 2. **Read non-scraped sources directly** (these publish late-week or resist scraping):
    - Axios Raleigh "what to do this weekend" — search `site:axios.com/local/raleigh what to do this weekend`
