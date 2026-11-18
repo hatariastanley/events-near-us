@@ -314,20 +314,33 @@ def scrape_wakegov(pages=4):
     return events
 
 
-def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
+def scrape_tec(source_name, base, per_page=100, start_date=None, end_date=None):
     """WordPress 'The Events Calendar' REST API — clean JSON.
     /wp-json/tribe/events/v1/events?start_date&end_date"""
     if start_date is None or end_date is None:
         fri, sun = upcoming_weekend()
         start_date, end_date = fri, sun
-    r = requests.get(
-        f"{base}/wp-json/tribe/events/v1/events",
-        params={"start_date": start_date.isoformat(), "end_date": end_date.isoformat(),
-                "per_page": per_page, "status": "publish"},
-        headers=UA, timeout=TIMEOUT)
-    r.raise_for_status()
+    raw_events = []
+    page = 1
+    total_pages = 1
+    while True:
+        r = requests.get(
+            f"{base}/wp-json/tribe/events/v1/events",
+            params={"start_date": start_date.isoformat(), "end_date": end_date.isoformat(),
+                    "per_page": per_page, "status": "publish", "page": page},
+            headers=UA, timeout=TIMEOUT)
+        r.raise_for_status()
+        batch = r.json().get("events", [])
+        raw_events.extend(batch)
+        try:
+            total_pages = int(r.headers.get("X-WP-TotalPages", total_pages))
+        except (TypeError, ValueError):
+            pass
+        if len(batch) < per_page or page >= total_pages or page >= 10:
+            break
+        page += 1
     events = []
-    for e in r.json().get("events", []):
+    for e in raw_events:
         start = e.get("start_date", "")
         end_str = e.get("end_date", "")
         day_hint = date_hint = time_hint = time_end = ""
