@@ -108,11 +108,15 @@ def detect_days(text):
 
 
 def detect_city(text):
-    towns = NEAR_TOWNS | FAR_TOWNS | {"carrboro", "pittsboro"}
-    for t in towns:
-        if t in text:
-            return t.title()
-    return ""
+    hay = norm(text)
+    best = None
+    for t in NEAR_TOWNS | FAR_TOWNS | {"carrboro", "pittsboro"}:
+        idx = hay.find(t)
+        if idx == -1:
+            continue
+        if best is None or idx < best[0] or (idx == best[0] and len(t) > len(best[1])):
+            best = (idx, t)
+    return best[1].title() if best else ""
 
 
 def score(e):
@@ -131,7 +135,8 @@ def score(e):
     if re.search(r"\bhalloween\b|pumpkin|scarecrow|trunk-or-treat|trick-or-treat", text):
         tags.add("halloween")
 
-    city = norm(e.get("city", "")) or norm(detect_city(text))
+    venue_text = e.get("venue", "") or ""
+    city = norm(e.get("city", "")) or norm(detect_city(venue_text)) or norm(detect_city(text))
     if city in CORE_TOWNS:
         s += 12
     elif city in NEAR_TOWNS:
