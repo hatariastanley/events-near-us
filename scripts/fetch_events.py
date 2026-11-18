@@ -420,9 +420,10 @@ def main():
             failed.append(name)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    sat = fri + timedelta(days=1)
     OUT.write_text(json.dumps({
         "fetched_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-        "weekend": {"fri": fri.isoformat(), "sun": sun.isoformat()},
+        "weekend": {"fri": fri.isoformat(), "sat": sat.isoformat(), "sun": sun.isoformat()},
         "failed_sources": failed,
         "raw_events": collected,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
