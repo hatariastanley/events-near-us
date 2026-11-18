@@ -86,7 +86,7 @@ function tagChip(tag) {
   return `<span class="tag${cls}">${escapeHtml(tag)}</span>`;
 }
 
-function cardHtml(e, dateStr) {
+function cardHtml(e, dateStr, showDate = false) {
   const time = e.end ? `${e.start}–${e.end}` : e.start || "All day";
   const place = [e.venue, e.city].filter(Boolean).join(", ");
   const link = e.url
@@ -94,16 +94,17 @@ function cardHtml(e, dateStr) {
     : "";
   const dist = eventDistanceMi(e);
   const distChip = dist != null ? `<span class="tag distance">${dist} mi</span>` : "";
-  const evtKey = `${e.id}-${dateStr}`;
+  const evtKey = eventKey(e, dateStr);
   window._evtMap[evtKey] = e;
+  const dateLabel = showDate && dateStr ? `${escapeHtml(fmtCardDate(dateStr))} · ` : "";
   return `<article class="card">
     ${scoreBadge(e.family_score)}
     <div class="card-body">
       <h3>${escapeHtml(e.title)}</h3>
-      <p class="meta"><strong>${escapeHtml(time)}</strong>${place ? ` · ${escapeHtml(place)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
+      <p class="meta">${dateLabel}<strong>${escapeHtml(time)}</strong>${place ? ` · ${escapeHtml(place)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
       ${e.why ? `<p class="why">${escapeHtml(e.why)}</p>` : ""}
       <div class="tags">${distChip}${(e.tags || []).map(tagChip).join("")}${link}</div>
-      ${calendarLinks(e, dateStr)}
+      ${calendarLinks(e, dateStr, evtKey)}
     </div>
   </article>`;
 }
@@ -112,6 +113,13 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 const escapeAttr = escapeHtml;
+
+function eventKey(e, dateStr) {
+  const base = [e.id || "", e.title || "", dateStr, e.source || "", e.venue || "", e.url || ""].join("|");
+  let h = 5381;
+  for (let i = 0; i < base.length; i++) h = ((h << 5) + h + base.charCodeAt(i)) >>> 0;
+  return `${e.id || "event"}-${dateStr}-${h.toString(36)}`;
+}
 
 function parseTime(timeStr) {
   if (!timeStr) return null;
@@ -219,7 +227,7 @@ function buildIcsContent(event, dateStr) {
   const title = event.title || "Event";
   const location = [event.venue, event.city].filter(Boolean).join(", ");
   const description = [event.why || event.description || "", event.url ? `Details: ${event.url}` : ""].filter(Boolean).join("\\n\\n");
-  const uid = `${event.id || Math.random().toString(36).slice(2)}-${dateStr}@trianglefamilyweekend`;
+  const uid = `${eventKey(event, dateStr)}@trianglefamilyweekend`;
   
   const startTime = event.start;
   const endTime = event.end;
@@ -278,12 +286,13 @@ function downloadIcs(event, dateStr) {
   URL.revokeObjectURL(url);
 }
 
-function calendarLinks(event, dateStr) {
+function calendarLinks(event, dateStr, evtKey) {
   const gcalUrl = buildGoogleCalUrl(event, dateStr);
   if (!gcalUrl) return "";
+  const key = evtKey || eventKey(event, dateStr);
   return `<div class="cal-links">
     <a href="${escapeAttr(gcalUrl)}" target="_blank" rel="noopener" class="cal-btn gcal" title="Add to Google Calendar">📅 Google</a>
-    <button type="button" class="cal-btn ics" onclick="downloadIcs(window._evtMap['${event.id}-${dateStr}'], '${dateStr}')" title="Download .ics for Apple/Outlook">📥 .ics</button>
+    <button type="button" class="cal-btn ics" onclick="downloadIcs(window._evtMap['${key}'], '${dateStr}')" title="Download .ics for Apple/Outlook">📥 .ics</button>
   </div>`;
 }
 
@@ -293,8 +302,12 @@ function fmtDate(iso) {
   return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric" });
 }
 
+function fmtCardDate(iso) {
+  return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+}
+
 function fmtWeekRange(startDate) {
-  const end = new Date(startDate.getTime() + 6 * 86400000);
+  const end = new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + 6);
   const startMonth = startDate.toLocaleDateString("en-US", { month: "short" });
   const endMonth = end.toLocaleDateString("en-US", { month: "short" });
   if (startMonth === endMonth) {
@@ -303,94 +316,112 @@ function fmtWeekRange(startDate) {
   return `${startMonth} ${startDate.getDate()} – ${endMonth} ${end.getDate()}`;
 }
 
-let weekendDates = {};
-let activeRange = "weekend";
+const WEEKEND_COUNT = 6;
 
-function render(filter = "all") {
+function fmtShortDate(iso) {
+  return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+
+function addDaysISO(iso, days) {
+  const d = new Date(iso + "T12:00:00");
+  d.setDate(d.getDate() + days);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function todayISO() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function currentWeekendDates() {
+  if (!weekendDates.fri) return {};
+  const fri = weekendDates.fri;
+  const satOff = weekendDates.sat
+    ? Math.round((new Date(weekendDates.sat + "T12:00:00") - new Date(fri + "T12:00:00")) / 86400000)
+    : 1;
+  const sunOff = weekendDates.sun
+    ? Math.round((new Date(weekendDates.sun + "T12:00:00") - new Date(fri + "T12:00:00")) / 86400000)
+    : 2;
+  const today = todayISO();
+  let weeks = 0;
+  let sun = addDaysISO(fri, sunOff);
+  while (sun < today) {
+    weeks += 1;
+    sun = addDaysISO(fri, sunOff + weeks * 7);
+  }
+  const baseFri = addDaysISO(fri, weeks * 7);
+  return { fri: baseFri, sat: addDaysISO(baseFri, satOff), sun: addDaysISO(baseFri, sunOff) };
+}
+
+function weekendForOffset(offset) {
+  const base = currentWeekendDates();
+  if (!base.fri) return {};
+  const shift = offset * 7;
+  return {
+    fri: addDaysISO(base.fri, shift),
+    sat: addDaysISO(base.sat || addDaysISO(base.fri, 1), shift),
+    sun: addDaysISO(base.sun || addDaysISO(base.fri, 2), shift),
+  };
+}
+
+function weekendOptionLabel(offset, dates) {
+  const start = new Date(dates.fri + "T12:00:00");
+  const end = new Date(dates.sun + "T12:00:00");
+  const startMonth = start.toLocaleDateString("en-US", { month: "short" });
+  const endMonth = end.toLocaleDateString("en-US", { month: "short" });
+  const range = startMonth === endMonth && start.getFullYear() === end.getFullYear()
+    ? `${startMonth} ${start.getDate()}–${end.getDate()}`
+    : `${fmtShortDate(dates.fri)}–${fmtShortDate(dates.sun)}`;
+  if (offset === 0) return `This weekend · ${range}`;
+  if (offset === 1) return `Next weekend · ${range}`;
+  return `Weekend of ${range}`;
+}
+
+function sortEventsForFilter(events, filter) {
+  return events.sort((a, b) => {
+    if (b.family_score !== a.family_score) return b.family_score - a.family_score;
+    if (filter === "nearby" && home) {
+      return (eventDistanceMi(a) ?? 9999) - (eventDistanceMi(b) ?? 9999);
+    }
+    return 0;
+  });
+}
+
+let weekendDates = {};
+let activeWeekend = 0;
+
+function eventDays(e) {
+  return e.days || (e.day ? [e.day] : []);
+}
+
+function renderWeekend(offset, filter = "all") {
+  const dates = weekendForOffset(offset);
+  restoreWeekendView(dates);
   const match = FILTERS[filter] || FILTERS.all;
+  const feedSun = weekendDates.sun || (weekendDates.fri ? addDaysISO(weekendDates.fri, 2) : "");
+  const isFeedWeekend = weekendDates.fri && dates.fri === weekendDates.fri && dates.sun === feedSun;
   let shown = 0;
   for (const day of ["fri", "sat", "sun"]) {
-    const dateStr = weekendDates[day] || "";
-    const events = allEvents
-      .filter((e) => (e.days || [e.day]).includes(day) && match(e))
-      .sort((a, b) => {
-        if (b.family_score !== a.family_score)
-          return b.family_score - a.family_score;
-        if (filter === "nearby" && home) {
-          return (eventDistanceMi(a) ?? 9999) - (eventDistanceMi(b) ?? 9999);
-        }
-        return 0;
-      });
+    const dateStr = dates[day] || "";
+    const events = allEvents.filter((e) => {
+      const inWeekend = e.date
+        ? e.date === dateStr
+        : Boolean(isFeedWeekend) && eventDays(e).includes(day);
+      return inWeekend && match(e);
+    });
+    sortEventsForFilter(events, filter);
     document.getElementById(`cards-${day}`).innerHTML = events.map((e) => cardHtml(e, dateStr)).join("");
     shown += events.length;
   }
-  document.getElementById("empty-state").hidden = shown > 0;
-}
-
-function renderExtendedView(days, filter = "all") {
-  const match = FILTERS[filter] || FILTERS.all;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const endDate = new Date(today.getTime() + days * 86400000);
-  
-  const eventsWithDates = allEvents
-    .filter((e) => {
-      if (!match(e)) return false;
-      if (e.date) {
-        const d = new Date(e.date + "T12:00:00");
-        return d >= today && d <= endDate;
-      }
-      return true;
-    })
-    .map((e) => {
-      let eventDate = e.date ? new Date(e.date + "T12:00:00") : null;
-      if (!eventDate && e.days && e.days.length > 0) {
-        const dayMap = { fri: weekendDates.fri, sat: weekendDates.sat, sun: weekendDates.sun };
-        const firstDay = e.days[0];
-        if (dayMap[firstDay]) {
-          eventDate = new Date(dayMap[firstDay] + "T12:00:00");
-        }
-      }
-      return { ...e, _sortDate: eventDate || new Date(today.getTime() + 365 * 86400000) };
-    })
-    .sort((a, b) => {
-      const dateDiff = a._sortDate - b._sortDate;
-      if (dateDiff !== 0) return dateDiff;
-      return b.family_score - a.family_score;
-    });
-
-  const weeks = {};
-  eventsWithDates.forEach((e) => {
-    const d = e._sortDate;
-    const weekStart = new Date(d);
-    weekStart.setDate(d.getDate() - d.getDay());
-    const weekKey = weekStart.toISOString().slice(0, 10);
-    if (!weeks[weekKey]) weeks[weekKey] = { start: weekStart, events: [] };
-    weeks[weekKey].events.push(e);
-  });
-
-  const container = document.getElementById("events-root");
-  const weekKeys = Object.keys(weeks).sort();
-  
-  if (weekKeys.length === 0) {
-    container.innerHTML = `<p class="empty-state">No events found in the next ${days} days.</p>`;
-    return;
-  }
-
-  let html = "";
-  weekKeys.forEach((weekKey) => {
-    const week = weeks[weekKey];
-    const weekLabel = fmtWeekRange(week.start);
-    html += `<section class="week-section">
-      <h2 class="week-heading">${weekLabel}</h2>
-      <div class="cards">${week.events.map((e) => {
-        const dateStr = e.date || (e.days && e.days[0] ? weekendDates[e.days[0]] : "") || "";
-        return cardHtml(e, dateStr);
-      }).join("")}</div>
-    </section>`;
-  });
-  
-  container.innerHTML = html;
+  const empty = document.getElementById("empty-state");
+  empty.textContent = `No events found for ${weekendOptionLabel(offset, dates)}.`;
+  empty.hidden = shown > 0;
 }
 
 let activeFilter = "all";
@@ -404,14 +435,14 @@ function fmtFullDate(iso) {
 function woodcreekCardHtml(e) {
   const time = e.end ? `${e.start}–${e.end}` : e.start || "";
   const dateStrDisplay = fmtFullDate(e.date);
-  const evtKey = `${e.id}-${e.date}`;
+  const evtKey = eventKey(e, e.date);
   window._evtMap[evtKey] = e;
   return `<article class="card woodcreek-card">
     <div class="card-body">
       <h3>${escapeHtml(e.title)}</h3>
       <p class="meta"><strong>${escapeHtml(dateStrDisplay)}</strong>${time ? ` · ${escapeHtml(time)}` : ""}${e.venue ? ` · ${escapeHtml(e.venue)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
       ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ""}
-      ${calendarLinks(e, e.date)}
+      ${calendarLinks(e, e.date, evtKey)}
     </div>
   </article>`;
 }
@@ -462,12 +493,7 @@ function switchTab(tab) {
     woodcreekRoot.hidden = true;
     filters.hidden = false;
     rangeSelector.hidden = false;
-    if (activeRange === "weekend") {
-      restoreWeekendView();
-      render(activeFilter);
-    } else {
-      renderExtendedView(parseInt(activeRange, 10), activeFilter);
-    }
+    renderWeekend(activeWeekend, activeFilter);
   } else if (tab === "woodcreek") {
     weekendRoot.hidden = true;
     woodcreekRoot.hidden = false;
@@ -477,19 +503,19 @@ function switchTab(tab) {
   }
 }
 
-function restoreWeekendView() {
+function restoreWeekendView(dates = weekendDates) {
   const container = document.getElementById("events-root");
   container.innerHTML = `
     <section class="day-section" data-day="fri" aria-labelledby="day-fri">
-      <h2 id="day-fri"><span class="day-name">Friday</span><span class="day-date" id="date-fri">${fmtDate(weekendDates.fri || "")}</span></h2>
+      <h2 id="day-fri"><span class="day-name">Friday</span><span class="day-date" id="date-fri">${fmtDate(dates.fri || "")}</span></h2>
       <div class="cards" id="cards-fri"></div>
     </section>
     <section class="day-section" data-day="sat" aria-labelledby="day-sat">
-      <h2 id="day-sat"><span class="day-name">Saturday</span><span class="day-date" id="date-sat">${fmtDate(weekendDates.sat || "")}</span></h2>
+      <h2 id="day-sat"><span class="day-name">Saturday</span><span class="day-date" id="date-sat">${fmtDate(dates.sat || "")}</span></h2>
       <div class="cards" id="cards-sat"></div>
     </section>
     <section class="day-section" data-day="sun" aria-labelledby="day-sun">
-      <h2 id="day-sun"><span class="day-name">Sunday</span><span class="day-date" id="date-sun">${fmtDate(weekendDates.sun || "")}</span></h2>
+      <h2 id="day-sun"><span class="day-name">Sunday</span><span class="day-date" id="date-sun">${fmtDate(dates.sun || "")}</span></h2>
       <div class="cards" id="cards-sun"></div>
     </section>
     <p class="empty-state" id="empty-state" hidden>No events match those filters this weekend.</p>
@@ -504,20 +530,25 @@ function bindTabs() {
   });
 }
 
+function populateWeekendSelect() {
+  const select = document.getElementById("range-select");
+  if (!select) return;
+  select.innerHTML = "";
+  for (let i = 0; i < WEEKEND_COUNT; i++) {
+    const dates = weekendForOffset(i);
+    const option = document.createElement("option");
+    option.value = String(i);
+    option.textContent = weekendOptionLabel(i, dates);
+    select.appendChild(option);
+  }
+  select.value = String(activeWeekend);
+}
+
 function bindRangeSelector() {
-  document.getElementById("range-selector").addEventListener("click", (ev) => {
-    const btn = ev.target.closest(".range-btn");
-    if (!btn) return;
-    document.querySelectorAll(".range-btn").forEach((b) => {
-      b.classList.toggle("is-active", b === btn);
-    });
-    activeRange = btn.dataset.range;
-    if (activeRange === "weekend") {
-      restoreWeekendView();
-      render(activeFilter);
-    } else {
-      renderExtendedView(parseInt(activeRange, 10), activeFilter);
-    }
+  const select = document.getElementById("range-select");
+  select.addEventListener("change", () => {
+    activeWeekend = parseInt(select.value, 10) || 0;
+    renderWeekend(activeWeekend, activeFilter);
   });
 }
 
@@ -529,11 +560,7 @@ function bindFilters() {
       if (!c.classList.contains("zip-btn")) c.classList.toggle("is-active", c === btn);
     });
     activeFilter = btn.dataset.filter;
-    if (activeRange === "weekend") {
-      render(activeFilter);
-    } else {
-      renderExtendedView(parseInt(activeRange, 10), activeFilter);
-    }
+    renderWeekend(activeWeekend, activeFilter);
   });
 
   document.getElementById("zip-form").addEventListener("submit", async (ev) => {
@@ -558,7 +585,7 @@ function bindFilters() {
           c.classList.toggle("is-active", c.dataset.filter === "nearby");
       });
       activeFilter = "nearby";
-      render("nearby");
+      renderWeekend(activeWeekend, "nearby");
     } catch {
       status.textContent = "ZIP not recognized";
       status.classList.add("error");
@@ -575,6 +602,7 @@ async function main() {
     for (const day of ["fri", "sat", "sun"]) {
       if (wk[day]) document.getElementById(`date-${day}`).textContent = fmtDate(wk[day]);
     }
+    populateWeekendSelect();
     if (data.generated_at) {
       const when = new Date(data.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
       document.getElementById("updated-stamp").textContent = `Updated ${when} · ${allEvents.length} events`;
@@ -597,7 +625,7 @@ async function main() {
     bindTabs();
     bindRangeSelector();
     bindFilters();
-    render();
+    renderWeekend(activeWeekend, activeFilter);
   } catch (err) {
     document.getElementById("events-root").innerHTML =
       `<p class="empty-state">Couldn't load events (${escapeHtml(err.message)}). Check back soon.</p>`;

@@ -81,6 +81,10 @@ EXCLUDE_PATTERNS = [
     r"\bdepartment(?:al)?\s+(?:meeting|seminar|colloquium)\b",
     r"\bboard\s+(?:of\s+)?(?:directors|trustees|commissioners)\b",
     r"\bpublic\s+hearing\b", r"\bzoning\s+(?:board|hearing)\b",
+    r"\bclosed\b", r"\bclosure\b",
+    r"\bsolid waste\b", r"\bwaste (?:collection|schedule|pickup)\b",
+    r"\btrash (?:collection|schedule|pickup)\b", r"\brecycling (?:collection|schedule|pickup)\b",
+    r"\bschedule delayed\b", r"\bholiday observed\b", r"\bno (?:trash|garbage|collection)\b",
 ]
 
 # Keywords that boost family-friendliness score
@@ -182,17 +186,43 @@ def parse_date_hint(hint):
     return [(month, d) for d in range(d1, d2 + 1)]
 
 
+def resolve_dates(hint, start, end):
+    """Resolve 'Nov 14' / 'Nov 14-15' to ISO dates inside [start, end]."""
+    out = []
+    for month, day in parse_date_hint(hint):
+        for year in range(start.year - 1, end.year + 2):
+            try:
+                d = date(year, month, day)
+            except ValueError:
+                continue
+            if start <= d <= end and d not in out:
+                out.append(d)
+    return sorted(out)
+
+
 def detect_days(text):
     days = [d for d, names in DAY_NAMES.items() if any(n in text for n in names)]
     return days or ["sat"]
 
 
 def detect_city(text):
-    towns = NEAR_TOWNS | FAR_TOWNS | {"carrboro", "pittsboro"}
-    for t in towns:
-        if t in text:
-            return t.title()
-    return ""
+    hay = norm(text)
+    best = None
+    for t in NEAR_TOWNS | FAR_TOWNS | {"carrboro", "pittsboro"}:
+        idx = hay.find(t)
+        if idx == -1:
+            continue
+        if best is None or idx < best[0] or (idx == best[0] and len(t) > len(best[1])):
+            best = (idx, t)
+    return best[1].title() if best else ""
+
+
+def title_key(title):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", norm(title))).strip()
+
+
+def titles_match(a, b):
+    return bool(a and b and min(len(a), len(b)) >= 8 and (a in b or b in a))
 
 
 def score(e):
@@ -215,7 +245,8 @@ def score(e):
     if re.search(r"\bchristmas\b|santa|holiday\s+market|tree\s+lighting", text):
         tags.add("holiday")
 
-    city = norm(e.get("city", "")) or norm(detect_city(text))
+    venue_text = e.get("venue", "") or ""
+    city = norm(e.get("city", "")) or norm(detect_city(venue_text)) or norm(detect_city(text))
     if city in CORE_TOWNS:
         s += 12
     elif city in NEAR_TOWNS:
@@ -297,6 +328,12 @@ def main():
     seen, events = set(), []
     wkmap = weekend_day_map(raw)
     today = date.today()
+    range_info = raw.get("range", {})
+    try:
+        range_start = date.fromisoformat(range_info["start"]) if range_info.get("start") else today
+        range_end = date.fromisoformat(range_info["end"]) if range_info.get("end") else today + timedelta(days=90)
+    except Exception:
+        range_start, range_end = today, today + timedelta(days=90)
     
     excluded_count = 0
     
@@ -323,41 +360,72 @@ def main():
         if len(title) < 5:
             continue
 
-        mds = parse_date_hint(date_hint)
-        if mds:
-            days = [wkmap[md] for md in mds if md in wkmap]
-            if not days and not event_date:
-                days = None
+        candidates = []  # (date_obj|None, days[]|None, date_iso)
+        event_date = str(event_date or "")[:10]
+        if event_date:
+            try:
+                d0 = date.fromisoformat(event_date)
+            except ValueError:
+                d0 = None
+            if d0 and range_start <= d0 <= range_end and d0.weekday() in (4, 5, 6):
+                md = (d0.month, d0.day)
+                candidates.append((d0, [wkmap[md]] if md in wkmap else [], d0.isoformat()))
+        elif date_hint:
+            for d0 in resolve_dates(date_hint, range_start, range_end):
+                if d0.weekday() not in (4, 5, 6):
+                    continue
+                md = (d0.month, d0.day)
+                candidates.append((d0, [wkmap[md]] if md in wkmap else [], d0.isoformat()))
+            if not candidates:
+                continue  # dated listing outside the fetch range
         elif day_hint in ("fri", "sat", "sun"):
-            days = [day_hint]
+            candidates.append((None, [day_hint], ""))
         else:
-            days = None
-        
-        key = norm(title)[:60] + "|" + ",".join(days or []) + "|" + norm(e.get("venue", ""))[:40]
-        if key in seen:
-            continue
-        seen.add(key)
+            candidates.append((None, None, ""))
 
         text = norm(" ".join([title, e.get("venue", "")]))
         s, tags, city = score(e)
-        
-        events.append({
-            "id": re.sub(r"[^a-z0-9]+", "-", norm(title)).strip("-")[:60],
-            "title": title,
-            "days": days or detect_days(text),
-            "date": event_date,
-            "start": e.get("time_hint", "") or "See listing",
-            "end": e.get("time_end", ""),
-            "venue": e.get("venue", ""),
-            "city": e.get("city") or city,
-            "cost": e.get("cost") or ("Free" if "free" in tags else "See listing"),
-            "url": e.get("url", ""),
-            "source": e.get("source", ""),
-            "indoor": "indoor" in tags,
-            "family_score": s,
-            "why": "",
-            "tags": sorted(tags),
-        })
+
+        for _, days, date_iso in candidates:
+            day_list = days if days is not None else detect_days(text)
+            key = norm(title)[:60] + "|" + (date_iso or ",".join(day_list)) + "|" + norm(e.get("venue", ""))[:40]
+            if key in seen:
+                continue
+            seen.add(key)
+            events.append({
+                "id": re.sub(r"[^a-z0-9]+", "-", norm(title)).strip("-")[:60],
+                "title": title,
+                "days": day_list,
+                "date": date_iso,
+                "start": e.get("time_hint", "") or "See listing",
+                "end": e.get("time_end", ""),
+                "venue": e.get("venue", ""),
+                "city": e.get("city") or city,
+                "cost": e.get("cost") or ("Free" if "free" in tags else "See listing"),
+                "url": e.get("url", ""),
+                "source": e.get("source", ""),
+                "indoor": "indoor" in tags,
+                "family_score": s,
+                "why": "",
+                "tags": sorted(tags),
+            })
+
+    feed_dates = set()
+    wk = raw.get("weekend", {})
+    try:
+        feed_fri = date.fromisoformat(wk["fri"])
+        feed_dates = {(feed_fri + timedelta(days=i)).isoformat() for i in range(3)}
+    except Exception:
+        feed_dates = set()
+    if feed_dates:
+        dated_keys = [title_key(e["title"]) for e in events if e.get("date") in feed_dates]
+        if dated_keys:
+            kept = []
+            for e in events:
+                if not e.get("date") and any(titles_match(title_key(e["title"]), dk) for dk in dated_keys):
+                    continue
+                kept.append(e)
+            events = kept
 
     # Apply week-based distribution for extended ranges
     range_info = raw.get("range", {})

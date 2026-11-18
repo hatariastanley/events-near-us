@@ -33,6 +33,7 @@ OUT = ROOT / "data" / "raw_events.json"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 TIMEOUT = 20
+PARTIAL_SOURCES = set()
 
 FETCH_DAYS = 3  # default, overridden by --days
 
@@ -187,53 +188,80 @@ def scrape_raleighparent():
 
 
 def scrape_civicplus(source_name, base, city, months_ahead=3):
-    """CivicPlus month-grid calendar. Fetches multiple months for extended ranges."""
+    """CivicPlus calendar. Combines the list view with month grids for extended ranges."""
     events = []
+    seen_keys = {}
     start_date, end_date = get_date_range()
-    
-    # Try list view first
-    soup = get(f"{base}/calendar.aspx?view=list")
-    items = soup.select(".calendars .calendar ol li")
-    if items:
-        for li in items:
-            nm = li.select_one('[itemprop="name"]')
-            st = li.select_one('[itemprop="startDate"]')
-            a = li.select_one("h3 a[href]")
-            if not (nm and a):
-                continue
-            title = nm.get_text(" ", strip=True)
-            if len(title) < 5:
-                continue
-            day_hint = date_hint = time_hint = ""
-            event_date = None
-            if st:
-                try:
-                    dt = datetime.fromisoformat(st.get_text(strip=True))
-                    event_date = dt.date()
-                    if not _day_in_range(event_date, start_date, end_date):
-                        continue
-                    day_hint = dt.strftime("%a").lower()[:3]
-                    date_hint = _date_hint(dt.date())
-                    time_hint = dt.strftime("%I:%M %p").lstrip("0")
-                except Exception:
-                    pass
-            loc = li.select_one('span[itemprop="location"] [itemprop="name"]')
-            group = li.find_parent(class_="calendar")
-            gtitle = group.select_one("h2.title").get_text(strip=True) if group and group.select_one("h2.title") else ""
-            events.append({
-                "title": title,
-                "url": urljoin(base, a["href"]),
-                "venue": loc.get_text(" ", strip=True) if loc else "",
-                "time_hint": time_hint, "time_end": "",
-                "cost": "", "source": source_name, "city": city,
-                "tags": [gtitle] if gtitle else [],
-                "day_hint": day_hint, "date_hint": date_hint,
-                "event_date": event_date.isoformat() if event_date else "",
-            })
-        if events:
-            return events
-    
-    # Fallback to month grid - fetch multiple months for extended ranges
+
+    def add_event(title, url, venue, time_hint, time_end, tags, day_hint, date_hint, event_date):
+        item = {
+            "title": title,
+            "url": url,
+            "venue": venue,
+            "time_hint": time_hint,
+            "time_end": time_end,
+            "cost": "",
+            "source": source_name,
+            "city": city,
+            "tags": tags,
+            "day_hint": day_hint,
+            "date_hint": date_hint,
+            "event_date": event_date,
+        }
+        key = (re.sub(r"\s+", " ", title.lower()).strip(), event_date or "")
+        if key in seen_keys:
+            idx = seen_keys[key]
+            old = events[idx]
+            generic_venues = {"", "event location"}
+            new_venue = (venue or "").strip().lower()
+            old_venue = (old.get("venue") or "").strip().lower()
+            if (new_venue not in generic_venues and old_venue in generic_venues) or (time_end and not old.get("time_end")):
+                events[idx] = item
+            return
+        seen_keys[key] = len(events)
+        events.append(item)
+
+    # List view has cleaner titles when present, but month grids catch events it omits.
+    try:
+        soup = get(f"{base}/calendar.aspx?view=list")
+        items = soup.select(".calendars .calendar ol li")
+    except Exception:
+        items = []
+    for li in items:
+        nm = li.select_one('[itemprop="name"]')
+        st = li.select_one('[itemprop="startDate"]')
+        a = li.select_one("h3 a[href]")
+        if not (nm and st and a):
+            continue
+        title = nm.get_text(" ", strip=True)
+        if len(title) < 5:
+            continue
+        try:
+            dt = datetime.fromisoformat(st.get_text(strip=True))
+            event_date = dt.date()
+        except Exception:
+            continue
+        if not _day_in_range(event_date, start_date, end_date):
+            continue
+        day_hint = dt.strftime("%a").lower()[:3]
+        date_hint = _date_hint(dt.date())
+        time_hint = dt.strftime("%I:%M %p").lstrip("0")
+        loc = li.select_one('span[itemprop="location"] [itemprop="name"]')
+        group = li.find_parent(class_="calendar")
+        gtitle = group.select_one("h2.title").get_text(strip=True) if group and group.select_one("h2.title") else ""
+        add_event(
+            title,
+            urljoin(base, a["href"]),
+            loc.get_text(" ", strip=True) if loc else "",
+            time_hint,
+            "",
+            [gtitle] if gtitle else [],
+            day_hint,
+            date_hint,
+            event_date.isoformat(),
+        )
+
+    # Month grids cover the full range, including cities whose list view is empty.
     months_to_fetch = set()
     current = start_date.replace(day=1)
     while current <= end_date:
@@ -241,11 +269,13 @@ def scrape_civicplus(source_name, base, city, months_ahead=3):
         next_month = current.month % 12 + 1
         next_year = current.year + (1 if current.month == 12 else 0)
         current = current.replace(year=next_year, month=next_month)
-    
-    for month, year in months_to_fetch:
+
+    failed_months = 0
+    for month, year in sorted(months_to_fetch):
         try:
             soup = get(f"{base}/calendar.aspx?month={month}&year={year}")
         except Exception:
+            failed_months += 1
             continue
         for tip in soup.select('div[name="showDetailsBox"]'):
             a = tip.find("a", href=re.compile(r"EID=\d+"))
@@ -278,18 +308,22 @@ def scrape_civicplus(source_name, base, city, months_ahead=3):
                 vh = prev.find(class_="visuallyHidden")
                 if vh:
                     cat = vh.get_text(strip=True).replace("Category:", "").strip()
-            events.append({
-                "title": title,
-                "url": urljoin(base, a["href"]) if a else base + "/calendar.aspx",
-                "venue": meta.get("Location", ""),
-                "time_hint": tm.group(1) if tm else "",
-                "time_end": te.group(1) if te else "",
-                "cost": "", "source": source_name, "city": city,
-                "tags": [cat] if cat else [],
-                "day_hint": ev.strftime("%a").lower()[:3],
-                "date_hint": _date_hint(ev),
-                "event_date": ev.isoformat(),
-            })
+            add_event(
+                title,
+                urljoin(base, a["href"]) if a else base + "/calendar.aspx",
+                meta.get("Location", ""),
+                tm.group(1) if tm else "",
+                te.group(1) if te else "",
+                [cat] if cat else [],
+                ev.strftime("%a").lower()[:3],
+                _date_hint(ev),
+                ev.isoformat(),
+            )
+
+    if failed_months and (events or failed_months < len(months_to_fetch)):
+        PARTIAL_SOURCES.add(source_name)
+    if not events and months_to_fetch and failed_months == len(months_to_fetch):
+        raise RuntimeError("all calendar months failed")
     return events
 
 
@@ -345,17 +379,43 @@ def scrape_wakegov(pages=8):
     return events
 
 
-def scrape_tec(source_name, base, per_page=100):
-    """WordPress 'The Events Calendar' REST API — supports extended date ranges."""
+def scrape_tec(source_name, base, per_page=50):
+    """WordPress 'The Events Calendar' REST API — paginates extended date ranges."""
     start_date, end_date = get_date_range()
-    r = requests.get(
-        f"{base}/wp-json/tribe/events/v1/events",
-        params={"start_date": start_date.isoformat(), "end_date": end_date.isoformat(),
-                "per_page": per_page, "status": "publish"},
-        headers=UA, timeout=TIMEOUT)
-    r.raise_for_status()
+    raw_events = []
+    page = 1
+    total_pages = None
+    first_exc = None
+    while True:
+        try:
+            r = requests.get(
+                f"{base}/wp-json/tribe/events/v1/events",
+                params={"start_date": start_date.isoformat(), "end_date": end_date.isoformat(),
+                        "per_page": per_page, "status": "publish", "page": page},
+                headers=UA, timeout=TIMEOUT)
+            r.raise_for_status()
+            batch = r.json().get("events", [])
+        except Exception as exc:
+            if first_exc is None:
+                first_exc = exc
+            if raw_events:
+                PARTIAL_SOURCES.add(source_name)
+            break
+        raw_events.extend(batch)
+        try:
+            header_pages = r.headers.get("X-WP-TotalPages")
+            if header_pages:
+                total_pages = int(header_pages)
+        except (TypeError, ValueError):
+            pass
+        if len(batch) < per_page or (total_pages is not None and page >= total_pages) or page >= 10:
+            break
+        page += 1
+    if not raw_events and first_exc is not None:
+        raise first_exc
+
     events = []
-    for e in r.json().get("events", []):
+    for e in raw_events:
         start = e.get("start_date", "")
         end_str = e.get("end_date", "")
         day_hint = date_hint = time_hint = time_end = ""
@@ -552,6 +612,7 @@ def main():
     start_date, end_date = get_date_range()
     range_mode = "weekend" if FETCH_DAYS <= 3 else f"{FETCH_DAYS}days"
 
+    PARTIAL_SOURCES.clear()
     collected, failed = [], []
     for name, fn in SOURCES.items():
         try:
@@ -562,6 +623,10 @@ def main():
             print(f"{name}: FAILED ({exc})", file=sys.stderr)
             failed.append(name)
 
+    partial = sorted(PARTIAL_SOURCES)
+    if partial:
+        print(f"partial sources: {', '.join(partial)}", file=sys.stderr)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     sat = fri + timedelta(days=1)
     OUT.write_text(json.dumps({
@@ -569,6 +634,7 @@ def main():
         "weekend": {"fri": fri.isoformat(), "sat": sat.isoformat(), "sun": sun.isoformat()},
         "range": {"start": start_date.isoformat(), "end": end_date.isoformat(), "mode": range_mode},
         "failed_sources": failed,
+        "partial_sources": partial,
         "raw_events": collected,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
     
