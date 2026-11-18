@@ -23,7 +23,7 @@ Two refresh tiers:
 
 4. **Normalize + rank** into the `data/events.json` schema (see `docs/plans/`). For each event write:
    - `days` — array subset of `["fri","sat","sun"]` for weekend events; use `[]` for dated events outside this weekend
-   - `date` — ISO `YYYY-MM-DD` for every event with a known date (required for the 30/60/90-day views)
+   - `date` — ISO `YYYY-MM-DD` for every event with a known date (required for the upcoming-weekend views)
    - `family_score` — per the rubric in `docs/brainstorms/` (kid appeal ~5–10: 35, whole-family appeal: 20, cost: 15, ease/drop-in: 15, proximity to Holly Springs/Apex/Cary: 15)
    - `why` — one sentence, the honest family sell (mention trade-offs: cost, scare factor, crowds)
    - `tags` — include `scary` for haunts/spooky events and `free` where applicable
@@ -42,6 +42,6 @@ Two refresh tiers:
 ## Guardrails
 
 - Always verify a suspicious listing against its source page before including it.
-- Prefer broad coverage: enough dated events to make the 30/60/90-day views useful, ranked, not a firehose.
+- Prefer broad coverage: enough dated weekend events to make the upcoming-weekend selector useful, ranked, not a firehose.
 - If the scraper output looks empty/broken, still produce the list by reading sources directly — the scraper is a convenience, not a dependency.
 - **Never touch `data/woodcreek_events.json`** — it's hand-edited for HOA community events and is completely separate from the scraper/curation pipeline.

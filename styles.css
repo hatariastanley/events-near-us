@@ -118,28 +118,23 @@ body {
   margin-right: 4px;
 }
 
-.range-btn {
+.range-select {
   font: inherit;
-  font-size: 0.8rem;
-  font-weight: 500;
-  padding: 5px 12px;
-  border-radius: 6px;
-  border: 1px solid var(--line);
-  background: transparent;
-  color: var(--ink-soft);
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1.5px solid var(--line);
+  background: #fffdf8;
+  color: var(--ink);
 }
 
-.range-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
+.range-select:hover { border-color: var(--accent); }
 
-.range-btn.is-active {
-  background: var(--accent);
+.range-select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
   border-color: var(--accent);
-  color: #fff;
 }
 
 /* ---------- Filters ---------- */

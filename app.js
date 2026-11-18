@@ -308,8 +308,56 @@ function fmtWeekRange(startDate) {
   return `${startMonth} ${startDate.getDate()} – ${endMonth} ${end.getDate()}`;
 }
 
+const WEEKEND_COUNT = 6;
+
+function fmtShortDate(iso) {
+  return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+
+function addDaysISO(iso, days) {
+  const d = new Date(iso + "T12:00:00");
+  d.setDate(d.getDate() + days);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function weekendForOffset(offset) {
+  if (!weekendDates.fri) return {};
+  if (offset === 0) return weekendDates;
+  const fri = weekendDates.fri;
+  const sat = weekendDates.sat || addDaysISO(fri, 1);
+  const sun = weekendDates.sun || addDaysISO(fri, 2);
+  const shift = offset * 7;
+  return { fri: addDaysISO(fri, shift), sat: addDaysISO(sat, shift), sun: addDaysISO(sun, shift) };
+}
+
+function weekendOptionLabel(offset, dates) {
+  const start = new Date(dates.fri + "T12:00:00");
+  const end = new Date(dates.sun + "T12:00:00");
+  const startMonth = start.toLocaleDateString("en-US", { month: "short" });
+  const endMonth = end.toLocaleDateString("en-US", { month: "short" });
+  const range = startMonth === endMonth && start.getFullYear() === end.getFullYear()
+    ? `${startMonth} ${start.getDate()}–${end.getDate()}`
+    : `${fmtShortDate(dates.fri)}–${fmtShortDate(dates.sun)}`;
+  if (offset === 0) return `This weekend · ${range}`;
+  if (offset === 1) return `Next weekend · ${range}`;
+  return `Weekend of ${range}`;
+}
+
+function sortEventsForFilter(events, filter) {
+  return events.sort((a, b) => {
+    if (b.family_score !== a.family_score) return b.family_score - a.family_score;
+    if (filter === "nearby" && home) {
+      return (eventDistanceMi(a) ?? 9999) - (eventDistanceMi(b) ?? 9999);
+    }
+    return 0;
+  });
+}
+
 let weekendDates = {};
-let activeRange = "weekend";
+let activeWeekend = 0;
 
 function render(filter = "all") {
   const match = FILTERS[filter] || FILTERS.all;
@@ -317,76 +365,35 @@ function render(filter = "all") {
   for (const day of ["fri", "sat", "sun"]) {
     const dateStr = weekendDates[day] || "";
     const events = allEvents
-      .filter((e) => (e.days || [e.day]).includes(day) && match(e))
-      .sort((a, b) => {
-        if (b.family_score !== a.family_score)
-          return b.family_score - a.family_score;
-        if (filter === "nearby" && home) {
-          return (eventDistanceMi(a) ?? 9999) - (eventDistanceMi(b) ?? 9999);
-        }
-        return 0;
-      });
+      .filter((e) => (e.days || [e.day]).includes(day) && match(e));
+    sortEventsForFilter(events, filter);
     document.getElementById(`cards-${day}`).innerHTML = events.map((e) => cardHtml(e, dateStr)).join("");
     shown += events.length;
   }
   document.getElementById("empty-state").hidden = shown > 0;
 }
 
-function renderExtendedView(days, filter = "all") {
-  const match = FILTERS[filter] || FILTERS.all;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const endDate = new Date(today.getTime() + days * 86400000);
-
-  const eventsWithDates = [];
-  for (const e of allEvents) {
-    if (!match(e)) continue;
-    let iso = e.date || "";
-    if (!iso && e.days && e.days.length) {
-      const day = ["fri", "sat", "sun"].find((d) => e.days.includes(d));
-      iso = day ? weekendDates[day] : "";
-    }
-    if (!iso) continue;
-    const d = new Date(iso + "T12:00:00");
-    if (Number.isNaN(d.getTime()) || d < today || d > endDate) continue;
-    eventsWithDates.push({ ...e, _sortDate: d, _dateISO: iso });
-  }
-
-  eventsWithDates.sort((a, b) => {
-    const dateDiff = a._sortDate - b._sortDate;
-    if (dateDiff !== 0) return dateDiff;
-    if (b.family_score !== a.family_score) return b.family_score - a.family_score;
-    if (filter === "nearby" && home) {
-      return (eventDistanceMi(a) ?? 9999) - (eventDistanceMi(b) ?? 9999);
-    }
-    return 0;
-  });
-
-  const weeks = {};
-  for (const e of eventsWithDates) {
-    const d = e._sortDate;
-    const weekStart = new Date(d.getFullYear(), d.getMonth(), d.getDate() - d.getDay());
-    const weekKey = `${weekStart.getFullYear()}-${String(weekStart.getMonth() + 1).padStart(2, "0")}-${String(weekStart.getDate()).padStart(2, "0")}`;
-    if (!weeks[weekKey]) weeks[weekKey] = { start: weekStart, events: [] };
-    weeks[weekKey].events.push(e);
-  }
-
-  const container = document.getElementById("events-root");
-  const weekKeys = Object.keys(weeks).sort();
-  if (weekKeys.length === 0) {
-    container.innerHTML = `<p class="empty-state">No events found in the next ${days} days.</p>`;
+function renderWeekend(offset, filter = "all") {
+  if (offset === 0) {
+    restoreWeekendView(weekendDates);
+    render(filter);
     return;
   }
 
-  let html = "";
-  for (const weekKey of weekKeys) {
-    const week = weeks[weekKey];
-    html += `<section class="week-section">
-      <h2 class="week-heading">${fmtWeekRange(week.start)}</h2>
-      <div class="cards">${week.events.map((e) => cardHtml(e, e._dateISO, true)).join("")}</div>
-    </section>`;
+  const dates = weekendForOffset(offset);
+  restoreWeekendView(dates);
+  const match = FILTERS[filter] || FILTERS.all;
+  let shown = 0;
+  for (const day of ["fri", "sat", "sun"]) {
+    const dateStr = dates[day] || "";
+    const events = allEvents.filter((e) => e.date === dateStr && match(e));
+    sortEventsForFilter(events, filter);
+    document.getElementById(`cards-${day}`).innerHTML = events.map((e) => cardHtml(e, dateStr)).join("");
+    shown += events.length;
   }
-  container.innerHTML = html;
+  const empty = document.getElementById("empty-state");
+  empty.textContent = `No events found for ${weekendOptionLabel(offset, dates)}.`;
+  empty.hidden = shown > 0;
 }
 
 let activeFilter = "all";
@@ -458,12 +465,7 @@ function switchTab(tab) {
     woodcreekRoot.hidden = true;
     filters.hidden = false;
     rangeSelector.hidden = false;
-    if (activeRange === "weekend") {
-      restoreWeekendView();
-      render(activeFilter);
-    } else {
-      renderExtendedView(parseInt(activeRange, 10), activeFilter);
-    }
+    renderWeekend(activeWeekend, activeFilter);
   } else if (tab === "woodcreek") {
     weekendRoot.hidden = true;
     woodcreekRoot.hidden = false;
@@ -473,19 +475,19 @@ function switchTab(tab) {
   }
 }
 
-function restoreWeekendView() {
+function restoreWeekendView(dates = weekendDates) {
   const container = document.getElementById("events-root");
   container.innerHTML = `
     <section class="day-section" data-day="fri" aria-labelledby="day-fri">
-      <h2 id="day-fri"><span class="day-name">Friday</span><span class="day-date" id="date-fri">${fmtDate(weekendDates.fri || "")}</span></h2>
+      <h2 id="day-fri"><span class="day-name">Friday</span><span class="day-date" id="date-fri">${fmtDate(dates.fri || "")}</span></h2>
       <div class="cards" id="cards-fri"></div>
     </section>
     <section class="day-section" data-day="sat" aria-labelledby="day-sat">
-      <h2 id="day-sat"><span class="day-name">Saturday</span><span class="day-date" id="date-sat">${fmtDate(weekendDates.sat || "")}</span></h2>
+      <h2 id="day-sat"><span class="day-name">Saturday</span><span class="day-date" id="date-sat">${fmtDate(dates.sat || "")}</span></h2>
       <div class="cards" id="cards-sat"></div>
     </section>
     <section class="day-section" data-day="sun" aria-labelledby="day-sun">
-      <h2 id="day-sun"><span class="day-name">Sunday</span><span class="day-date" id="date-sun">${fmtDate(weekendDates.sun || "")}</span></h2>
+      <h2 id="day-sun"><span class="day-name">Sunday</span><span class="day-date" id="date-sun">${fmtDate(dates.sun || "")}</span></h2>
       <div class="cards" id="cards-sun"></div>
     </section>
     <p class="empty-state" id="empty-state" hidden>No events match those filters this weekend.</p>
@@ -500,20 +502,25 @@ function bindTabs() {
   });
 }
 
+function populateWeekendSelect() {
+  const select = document.getElementById("range-select");
+  if (!select) return;
+  select.innerHTML = "";
+  for (let i = 0; i < WEEKEND_COUNT; i++) {
+    const dates = weekendForOffset(i);
+    const option = document.createElement("option");
+    option.value = String(i);
+    option.textContent = weekendOptionLabel(i, dates);
+    select.appendChild(option);
+  }
+  select.value = String(activeWeekend);
+}
+
 function bindRangeSelector() {
-  document.getElementById("range-selector").addEventListener("click", (ev) => {
-    const btn = ev.target.closest(".range-btn");
-    if (!btn) return;
-    document.querySelectorAll(".range-btn").forEach((b) => {
-      b.classList.toggle("is-active", b === btn);
-    });
-    activeRange = btn.dataset.range;
-    if (activeRange === "weekend") {
-      restoreWeekendView();
-      render(activeFilter);
-    } else {
-      renderExtendedView(parseInt(activeRange, 10), activeFilter);
-    }
+  const select = document.getElementById("range-select");
+  select.addEventListener("change", () => {
+    activeWeekend = parseInt(select.value, 10) || 0;
+    renderWeekend(activeWeekend, activeFilter);
   });
 }
 
@@ -525,11 +532,7 @@ function bindFilters() {
       if (!c.classList.contains("zip-btn")) c.classList.toggle("is-active", c === btn);
     });
     activeFilter = btn.dataset.filter;
-    if (activeRange === "weekend") {
-      render(activeFilter);
-    } else {
-      renderExtendedView(parseInt(activeRange, 10), activeFilter);
-    }
+    renderWeekend(activeWeekend, activeFilter);
   });
 
   document.getElementById("zip-form").addEventListener("submit", async (ev) => {
@@ -554,11 +557,7 @@ function bindFilters() {
           c.classList.toggle("is-active", c.dataset.filter === "nearby");
       });
       activeFilter = "nearby";
-      if (activeRange === "weekend") {
-        render("nearby");
-      } else {
-        renderExtendedView(parseInt(activeRange, 10), "nearby");
-      }
+      renderWeekend(activeWeekend, "nearby");
     } catch {
       status.textContent = "ZIP not recognized";
       status.classList.add("error");
@@ -575,6 +574,7 @@ async function main() {
     for (const day of ["fri", "sat", "sun"]) {
       if (wk[day]) document.getElementById(`date-${day}`).textContent = fmtDate(wk[day]);
     }
+    populateWeekendSelect();
     if (data.generated_at) {
       const when = new Date(data.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
       document.getElementById("updated-stamp").textContent = `Updated ${when} · ${allEvents.length} events`;
@@ -597,7 +597,7 @@ async function main() {
     bindTabs();
     bindRangeSelector();
     bindFilters();
-    render();
+    renderWeekend(activeWeekend, activeFilter);
   } catch (err) {
     document.getElementById("events-root").innerHTML =
       `<p class="empty-state">Couldn't load events (${escapeHtml(err.message)}). Check back soon.</p>`;

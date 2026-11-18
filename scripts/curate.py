@@ -258,7 +258,7 @@ def main():
             })
 
     events.sort(key=lambda e: (-e["family_score"], e.get("date") or "9999"))
-    events = events[:300]
+    events = events[:500]
     OUT.write_text(json.dumps({
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "weekend": {k: v.isoformat() for k, v in wk_dates.items()} if wk_dates else raw.get("weekend", {}),
