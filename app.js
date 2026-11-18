@@ -214,15 +214,12 @@ function buildGoogleCalUrl(event, dateStr) {
     if (!start) return null;
     let end;
     const endParsed = endTime ? parseTime(endTime) : null;
-    if (endParsed) {
-      const st = parseTime(startTime);
-      const endMinutes = endParsed.h * 60 + endParsed.min;
-      const startMinutes = st ? st.h * 60 + st.min : 0;
-      const endDate = st && endMinutes <= startMinutes ? nextDateStr(dateStr) : dateStr;
-      end = toGcalDateTime(endDate, endTime);
-    } else {
-      end = addHours(start, 2);
-    }
+    const st = parseTime(startTime);
+    const endMinutes = endParsed ? endParsed.h * 60 + endParsed.min : null;
+    const startMinutes = st ? st.h * 60 + st.min : 0;
+    const useParsedEnd = endParsed && !(st && endMinutes === startMinutes);
+    const endDate = useParsedEnd && st && endMinutes < startMinutes ? nextDateStr(dateStr) : dateStr;
+    end = useParsedEnd ? toGcalDateTime(endDate, endTime) : addHours(start, 2);
     dates = `${start}/${end}`;
   }
   
@@ -260,15 +257,12 @@ function buildIcsContent(event, dateStr) {
     if (!start) return null;
     let end;
     const endParsed = endTime ? parseTime(endTime) : null;
-    if (endParsed) {
-      const st = parseTime(startTime);
-      const endMinutes = endParsed.h * 60 + endParsed.min;
-      const startMinutes = st ? st.h * 60 + st.min : 0;
-      const endDate = st && endMinutes <= startMinutes ? nextDateStr(dateStr) : dateStr;
-      end = toIcsDateTime(endDate, endTime);
-    } else {
-      end = addHours(start, 2);
-    }
+    const st = parseTime(startTime);
+    const endMinutes = endParsed ? endParsed.h * 60 + endParsed.min : null;
+    const startMinutes = st ? st.h * 60 + st.min : 0;
+    const useParsedEnd = endParsed && !(st && endMinutes === startMinutes);
+    const endDate = useParsedEnd && st && endMinutes < startMinutes ? nextDateStr(dateStr) : dateStr;
+    end = useParsedEnd ? toIcsDateTime(endDate, endTime) : addHours(start, 2);
     dtstart = `DTSTART;TZID=America/New_York:${start}`;
     dtend = `DTEND;TZID=America/New_York:${end}`;
   }
