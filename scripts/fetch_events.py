@@ -177,11 +177,9 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
     ?EID=&month=&year=&day=. Category lives in the grid anchor's
     .visuallyHidden span right before the tooltip."""
     events = []
-    use_list_view = not (start_date and end_date and (end_date - start_date).days > 3)
-    items = []
-    if use_list_view:
-        soup = get(f"{base}/calendar.aspx?view=list")
-        items = soup.select(".calendars .calendar ol li")
+    range_mode = bool(start_date and end_date and (end_date - start_date).days > 3)
+    soup = get(f"{base}/calendar.aspx?view=list")
+    items = soup.select(".calendars .calendar ol li")
     if items:
         for li in items:
             nm = li.select_one('[itemprop="name"]')
@@ -213,7 +211,7 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
                 "tags": [gtitle] if gtitle else [],
                 "day_hint": day_hint, "date_hint": date_hint,
             })
-        if events:
+        if events and not range_mode:
             return events
     if start_date and end_date:
         months = set()
