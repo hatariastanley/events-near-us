@@ -317,7 +317,7 @@ def scrape_wakegov(pages=4):
     return events
 
 
-def scrape_tec(source_name, base, per_page=100, start_date=None, end_date=None):
+def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
     """WordPress 'The Events Calendar' REST API — clean JSON.
     /wp-json/tribe/events/v1/events?start_date&end_date"""
     if start_date is None or end_date is None:
