@@ -259,13 +259,60 @@ def titles_match(a, b):
 
 
 def time_key(value):
-    m = re.search(r"(\d{1,2}):(\d{2})\s*([AP]M)", (value or "").upper())
+    m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([AP]M)", (value or "").upper())
     if not m:
         return ""
     hour = int(m.group(1)) % 12
     if m.group(3) == "PM":
         hour += 12
-    return f"{hour:02d}:{m.group(2)}"
+    return f"{hour:02d}:{m.group(2) or '00'}"
+
+
+def merge_duplicate_events(events):
+    """Merge cross-source duplicates that share date, start time, city, and title."""
+    def title_similar(a, b):
+        ta, tb = title_key(a), title_key(b)
+        if not ta or not tb:
+            return False
+        if ta == tb:
+            return True
+        short, long = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+        return len(short) >= 12 and short in long
+
+    groups = defaultdict(list)
+    for e in events:
+        if not e.get("date"):
+            continue
+        groups[(e["date"], time_key(e.get("start", "")))].append(e)
+
+    merged = []
+    for members in groups.values():
+        clusters = []
+        for e in sorted(members, key=lambda x: (-x["family_score"], len(x["title"]))):
+            for cluster in clusters:
+                ca = norm(cluster[0].get("city", "")).strip()
+                cb = norm(e.get("city", "")).strip()
+                if (not ca or not cb or ca == cb) and title_similar(cluster[0]["title"], e["title"]):
+                    cluster.append(e)
+                    break
+            else:
+                clusters.append([e])
+        for cluster in clusters:
+            ordered = sorted(cluster, key=lambda x: (-x["family_score"], len(x["title"]), 0 if x.get("end") else 1, 0 if x.get("venue") else 1))
+            primary = ordered[0]
+            for donor in ordered[1:]:
+                if not primary.get("end") and donor.get("end"):
+                    primary["end"] = donor["end"]
+                if not primary.get("venue") and donor.get("venue"):
+                    primary["venue"] = donor["venue"]
+                if (not primary.get("cost") or primary.get("cost") == "See listing") and donor.get("cost"):
+                    primary["cost"] = donor["cost"]
+                tags = set(primary.get("tags", [])) | set(donor.get("tags", []))
+                if tags:
+                    primary["tags"] = sorted(tags)
+            merged.append(primary)
+    merged.extend(e for e in events if not e.get("date"))
+    return merged
 
 
 def keyword_hits(text, mapping):
@@ -478,6 +525,8 @@ def main():
                 "why": "",
                 "tags": sorted(tags),
             })
+
+    events = merge_duplicate_events(events)
 
     feed_dates = set()
     wk = raw.get("weekend", {})
