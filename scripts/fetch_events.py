@@ -432,72 +432,6 @@ def scrape_fun4raleighkids():
     return events
 
 
-def scrape_localist(source_name, base, city="", per_page=100):
-    """Localist API (NC State, UNC, etc.) — supports extended date ranges."""
-    start_date, end_date = get_date_range()
-    days = (end_date - start_date).days
-    events = []
-    page = 1
-    while True:
-        try:
-            r = requests.get(
-                f"{base}/api/2/events",
-                params={"page": page, "pp": per_page, "days": days},
-                headers=UA, timeout=TIMEOUT)
-            r.raise_for_status()
-            data = r.json()
-        except Exception:
-            break
-        
-        event_list = data.get("events", [])
-        if not event_list:
-            break
-        
-        for item in event_list:
-            e = item.get("event", {})
-            title = e.get("title", "")
-            if len(title) < 5:
-                continue
-            first_date = e.get("first_date", "")
-            event_date = None
-            day_hint = date_hint = ""
-            if first_date:
-                try:
-                    event_date = datetime.strptime(first_date, "%Y-%m-%d").date()
-                    if not _day_in_range(event_date, start_date, end_date):
-                        continue
-                    day_hint = event_date.strftime("%a").lower()[:3]
-                    date_hint = _date_hint(event_date)
-                except Exception:
-                    pass
-            
-            location = e.get("location_name", "") or e.get("location", "")
-            address = e.get("address", "")
-            cost = e.get("ticket_cost", "") or ("Free" if e.get("free") else "")
-            tags = e.get("tags", []) or []
-            
-            events.append({
-                "title": title,
-                "url": f"{base}/event/{e.get('urlname', e.get('id', ''))}",
-                "venue": location,
-                "city": city,
-                "time_hint": "",
-                "time_end": "",
-                "cost": str(cost)[:60],
-                "source": source_name,
-                "tags": tags[:5],
-                "day_hint": day_hint,
-                "date_hint": date_hint,
-                "event_date": event_date.isoformat() if event_date else "",
-            })
-        
-        page += 1
-        if page > 5:  # Limit pages
-            break
-    
-    return events
-
-
 def scrape_raleigh_api():
     """City of Raleigh JSON API — returns all events, filter by date range."""
     events = []
@@ -569,10 +503,7 @@ TEC_SITES = {
     "dukegardens": "https://gardens.duke.edu",
 }
 
-LOCALIST_SITES = {
-    "ncstate": ("https://calendar.ncsu.edu", "Raleigh"),
-    "unc": ("https://calendar.unc.edu", "Chapel Hill"),
-}
+# Removed: LOCALIST_SITES (NC State, UNC) - university events not family-focused
 
 
 def _civic(name):
@@ -585,31 +516,25 @@ def _tec(name):
     return lambda: scrape_tec(name, base)
 
 
-def _localist(name):
-    base, city = LOCALIST_SITES[name]
-    return lambda: scrape_localist(name, base, city)
-
-
 SOURCES = {
-    # Aggregator sites
+    # Family-focused aggregator sites
     "stufftodoinrdu": scrape_stufftodoinrdu,
     "kidsoutandabout": scrape_kidsoutandabout,
     # triangleonthecheap: blocked by Cloudflare (403)
     "raleighparent": scrape_raleighparent,
     "fun4raleighkids": scrape_fun4raleighkids,
     
-    # Government / Regional
+    # Government / Regional (family events)
     "wakegov": scrape_wakegov,
     "raleighnc": scrape_raleigh_api,
     
-    # CivicPlus town calendars
+    # CivicPlus town calendars (community/family events)
     **{name: _civic(name) for name in CIVICPLUS_SITES},
     
-    # The Events Calendar (WordPress) sites
+    # Family venues (The Events Calendar)
     **{name: _tec(name) for name in TEC_SITES},
     
-    # Localist university calendars
-    **{name: _localist(name) for name in LOCALIST_SITES},
+    # Removed: NC State/UNC Localist - university/campus events not family-focused
 }
 
 
