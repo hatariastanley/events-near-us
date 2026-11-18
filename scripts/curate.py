@@ -221,8 +221,38 @@ def title_key(title):
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", norm(title))).strip()
 
 
+TITLE_MATCH_IGNORE = set(
+    "jan january feb february mar march apr april may jun june jul july "
+    "aug august sep sept september oct october nov november dec december annual".split()
+)
+
+
 def titles_match(a, b):
-    return bool(a and b and min(len(a), len(b)) >= 8 and (a in b or b in a))
+    if not a or not b or min(len(a), len(b)) < 8:
+        return False
+    ta, tb = a.split(), b.split()
+    if min(len(ta), len(tb)) < 2:
+        return False
+
+    def contains(longer, shorter):
+        n = len(shorter)
+        return any(longer[i:i + n] == shorter for i in range(len(longer) - n + 1))
+
+    if contains(tb, ta):
+        shorter, longer = ta, tb
+    elif contains(ta, tb):
+        shorter, longer = tb, ta
+    else:
+        return False
+
+    n = len(shorter)
+    for i in range(len(longer) - n + 1):
+        if longer[i:i + n] == shorter:
+            extra = longer[:i] + longer[i + n:]
+            break
+    else:
+        extra = []
+    return all(t in TITLE_MATCH_IGNORE for t in extra)
 
 
 def score(e):

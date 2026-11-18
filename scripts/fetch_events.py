@@ -73,6 +73,16 @@ def _day_in_range(d, start, end):
     return start <= d <= end
 
 
+def _time_key(value):
+    m = re.search(r"(\d{1,2}):(\d{2})\s*([AP]M)", (value or "").upper())
+    if not m:
+        return ""
+    hour = int(m.group(1)) % 12
+    if m.group(3) == "PM":
+        hour += 12
+    return f"{hour:02d}:{m.group(2)}"
+
+
 # ============================================================================
 # Source scrapers - all updated to respect date range when possible
 # ============================================================================
@@ -208,7 +218,7 @@ def scrape_civicplus(source_name, base, city, months_ahead=3):
             "date_hint": date_hint,
             "event_date": event_date,
         }
-        key = (re.sub(r"\s+", " ", title.lower()).strip(), event_date or "")
+        key = (re.sub(r"\s+", " ", title.lower()).strip(), event_date or "", _time_key(time_hint))
         if key in seen_keys:
             idx = seen_keys[key]
             old = events[idx]

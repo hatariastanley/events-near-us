@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T19:32:44+00:00",
+  "fetched_at": "2026-11-18T19:40:31+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -14024,21 +14024,6 @@
       "event_date": "2026-12-12"
     },
     {
-      "title": "Holiday Food Drive at Western Wake Farmers Market",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194896/-/holiday-food-drive-at-western-wake-farmers-market",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "time_hint": "9:30 am",
-      "time_end": "",
-      "cost": "Free Admission",
-      "source": "fun4raleighkids",
-      "tags": [
-        "family"
-      ],
-      "day_hint": "sat",
-      "date_hint": "Dec 12",
-      "event_date": "2026-12-12"
-    },
-    {
       "title": "Marbles Gingerbread Jamboree",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/192933/-/marbles-gingerbread-jamboree",
       "venue": "IMAX Building (Venture Hall), 201 East Hargett Street, Raleigh, NC 27601",
@@ -14069,8 +14054,8 @@
       "event_date": "2026-12-12"
     },
     {
-      "title": "Winter Wonderalnd Craft Fair at Western Wake Farmers Market",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-at-western-wake-farmers-market",
+      "title": "Winter Wonderalnd Craft Fair and Holiday Food Drive at Western Wake Farmers Market",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-and-holiday-food-drive-at-western-wake-farmers-market",
       "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
       "time_hint": "9:30 am",
       "time_end": "",
@@ -24035,8 +24020,8 @@
       "event_date": "2026-12-09"
     },
     {
-      "title": "Police Advisory Board Subcommittee Meeting",
-      "url": "https://raleighnc.gov/government/events/police-advisory-board-subcommittee-meeting-4",
+      "title": "City of Raleigh Budget Listening Session (in-person)",
+      "url": "https://raleighnc.gov/government/events/city-raleigh-budget-listening-session-person",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -24051,8 +24036,8 @@
       "event_date": "2026-12-09"
     },
     {
-      "title": "City of Raleigh Budget Listening Session (in-person)",
-      "url": "https://raleighnc.gov/government/events/city-raleigh-budget-listening-session-person",
+      "title": "Police Advisory Board Subcommittee Meeting",
+      "url": "https://raleighnc.gov/government/events/police-advisory-board-subcommittee-meeting-4",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -24099,6 +24084,22 @@
       "event_date": "2026-12-10"
     },
     {
+      "title": "RHDC Certificate of Appropriateness Committee",
+      "url": "https://raleighnc.gov/government/events/rhdc-certificate-appropriateness-committee-33",
+      "venue": "",
+      "city": "Raleigh",
+      "time_hint": "11:00 PM",
+      "time_end": "",
+      "cost": "",
+      "source": "raleighnc",
+      "tags": [
+        "city"
+      ],
+      "day_hint": "thu",
+      "date_hint": "Dec 10",
+      "event_date": "2026-12-10"
+    },
+    {
       "title": "City of Raleigh Budget Listening Session (in-person)",
       "url": "https://raleighnc.gov/government/events/city-raleigh-budget-listening-session-person-0",
       "venue": "",
@@ -24117,22 +24118,6 @@
     {
       "title": "Canceled - Human Relations Commission Meeting",
       "url": "https://raleighnc.gov/government/events/canceled-human-relations-commission-meeting",
-      "venue": "",
-      "city": "Raleigh",
-      "time_hint": "11:00 PM",
-      "time_end": "",
-      "cost": "",
-      "source": "raleighnc",
-      "tags": [
-        "city"
-      ],
-      "day_hint": "thu",
-      "date_hint": "Dec 10",
-      "event_date": "2026-12-10"
-    },
-    {
-      "title": "RHDC Certificate of Appropriateness Committee",
-      "url": "https://raleighnc.gov/government/events/rhdc-certificate-appropriateness-committee-33",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -30915,6 +30900,22 @@
       "event_date": "2026-11-24"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13393&month=11&year=2026&day=24&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 24",
+      "event_date": "2026-11-24"
+    },
+    {
       "title": "Level Up",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15223&month=11&year=2026&day=25&calType=0",
       "venue": "W.E. Hunt Recreation Center",
@@ -31288,6 +31289,22 @@
       "venue": "W.E. Hunt Recreation Center",
       "time_hint": "5:00 PM",
       "time_end": "5:45 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 1",
+      "event_date": "2026-12-01"
+    },
+    {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13394&month=12&year=2026&day=1&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
       "cost": "",
       "source": "hollysprings",
       "city": "Holly Springs",
@@ -32083,6 +32100,22 @@
       "event_date": "2026-12-08"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13395&month=12&year=2026&day=8&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 8",
+      "event_date": "2026-12-08"
+    },
+    {
       "title": "Holly Springs Town Council Workshop (at Operations Campus)",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16065&month=12&year=2026&day=8&calType=0",
       "venue": "Holly Springs Operations Campus",
@@ -32867,6 +32900,22 @@
       "event_date": "2026-12-15"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13396&month=12&year=2026&day=15&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 15",
+      "event_date": "2026-12-15"
+    },
+    {
       "title": "Freedom Tour",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15972&month=12&year=2026&day=15&calType=0",
       "venue": "",
@@ -33635,6 +33684,22 @@
       "event_date": "2026-12-22"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13397&month=12&year=2026&day=22&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 22",
+      "event_date": "2026-12-22"
+    },
+    {
       "title": "Horseshoes Club, 9A-10:30A, Womble Park",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=14328&month=12&year=2026&day=22&calType=0",
       "venue": "Womble Park Horseshoe Pits",
@@ -34008,6 +34073,22 @@
       "venue": "W.E. Hunt Recreation Center",
       "time_hint": "5:00 PM",
       "time_end": "5:45 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 29",
+      "event_date": "2026-12-29"
+    },
+    {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13398&month=12&year=2026&day=29&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
       "cost": "",
       "source": "hollysprings",
       "city": "Holly Springs",
@@ -34628,6 +34709,22 @@
     },
     {
       "title": "Thanksgiving Holiday Observed (Solid Waste Schedule Delayed)",
+      "url": "https://www.apexnc.org/Calendar.aspx?EID=4619&month=11&year=2026&day=26&calType=0",
+      "venue": "",
+      "time_hint": "",
+      "time_end": "",
+      "cost": "",
+      "source": "apex",
+      "city": "Apex",
+      "tags": [
+        "Holidays"
+      ],
+      "day_hint": "thu",
+      "date_hint": "Nov 26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "Thanksgiving Holiday Observed (Solid Waste Schedule Delayed)",
       "url": "https://www.apexnc.org/Calendar.aspx?EID=4619&month=11&year=2026&day=27&calType=0",
       "venue": "",
       "time_hint": "",
@@ -34771,6 +34868,22 @@
       "event_date": "2026-12-06"
     },
     {
+      "title": "Infinity Ballet: \"Nutcracker Dances\"",
+      "url": "https://www.apexnc.org/Calendar.aspx?EID=4776&month=12&year=2026&day=6&calType=0",
+      "venue": "The Halle Cultural Arts Center",
+      "time_hint": "4:00 PM",
+      "time_end": "5:00 PM",
+      "cost": "",
+      "source": "apex",
+      "city": "Apex",
+      "tags": [
+        "Halle Cultural Arts Center Upcoming Events"
+      ],
+      "day_hint": "sun",
+      "date_hint": "Dec 6",
+      "event_date": "2026-12-06"
+    },
+    {
       "title": "West Williams St Sidewalk & Vision Zero Upgrades Open House",
       "url": "https://www.apexnc.org/Calendar.aspx?EID=4942&month=12&year=2026&day=8&calType=0",
       "venue": "Town Hall",
@@ -34872,6 +34985,22 @@
       "venue": "The Halle Cultural Arts Center",
       "time_hint": "3:00 PM",
       "time_end": "4:30 PM",
+      "cost": "",
+      "source": "apex",
+      "city": "Apex",
+      "tags": [
+        "Halle Cultural Arts Center Upcoming Events"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Dec 12",
+      "event_date": "2026-12-12"
+    },
+    {
+      "title": "Christmas Play & Musical",
+      "url": "https://www.apexnc.org/Calendar.aspx?EID=4770&month=12&year=2026&day=12&calType=0",
+      "venue": "The Halle Cultural Arts Center",
+      "time_hint": "7:30 PM",
+      "time_end": "9:00 PM",
       "cost": "",
       "source": "apex",
       "city": "Apex",

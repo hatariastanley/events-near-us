@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:32:45+00:00",
+  "generated_at": "2026-11-18T19:40:31+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -158,6 +158,27 @@
       "why": "",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "id": "raleigh-christmas-parade-watch-party-at-taverna-agora",
+      "title": "Raleigh Christmas Parade Watch Party at Taverna Agora",
+      "days": [
+        "sat"
+      ],
+      "date": "",
+      "start": "7:30 AM",
+      "end": "",
+      "venue": "Taverna Agora",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-watch-party-taverna-agora-2026/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 83,
+      "why": "",
+      "tags": [
+        "holiday"
       ]
     },
     {
@@ -428,27 +449,6 @@
       "source": "raleighparent",
       "indoor": false,
       "family_score": 78,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "jazz-jive-night",
-      "title": "Jazz & Jive Night",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "05:00 PM",
-      "end": "08:00 PM",
-      "venue": "The Depot parking lot, Apex 2,",
-      "city": "Apex",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 77,
       "why": "",
       "tags": [
         "free"
@@ -2764,8 +2764,27 @@
       ]
     },
     {
-      "id": "winter-wonderalnd-craft-fair-at-western-wake-farmers-market",
-      "title": "Winter Wonderalnd Craft Fair at Western Wake Farmers Market",
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-11",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187895/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 75,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "winter-wonderalnd-craft-fair-and-holiday-food-drive-at-weste",
+      "title": "Winter Wonderalnd Craft Fair and Holiday Food Drive at Western Wake Farmers Market",
       "days": [],
       "date": "2026-12-12",
       "start": "9:30 am",
@@ -2773,10 +2792,10 @@
       "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
       "city": "Morrisville",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-at-western-wake-farmers-market",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-and-holiday-food-drive-at-western-wake-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 98,
+      "family_score": 99,
       "why": "",
       "tags": [
         "free"
@@ -2800,25 +2819,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "holiday-food-drive-at-western-wake-farmers-market",
-      "title": "Holiday Food Drive at Western Wake Farmers Market",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194896/-/holiday-food-drive-at-western-wake-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 91,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
