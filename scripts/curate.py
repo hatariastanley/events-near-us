@@ -177,8 +177,9 @@ def main():
         mds = parse_date_hint(date_hint)
         if mds:
             days = [wkmap[md] for md in mds if md in wkmap]
-            if not days:
-                continue  # dated event outside this weekend's Fri-Sun window
+            # For extended ranges, don't filter out events by weekend
+            if not days and not event_date:
+                days = None  # Will use detect_days fallback
         elif day_hint in ("fri", "sat", "sun"):
             days = [day_hint]
         else:
@@ -210,7 +211,10 @@ def main():
         })
 
     events.sort(key=lambda e: (-e["family_score"], e.get("date", "")))
-    events = events[:100]
+    # Keep more events for extended ranges
+    range_info = raw.get("range", {})
+    max_events = 500 if "days" in range_info.get("mode", "") else 100
+    events = events[:max_events]
     OUT.write_text(json.dumps({
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "weekend": raw.get("weekend", {}),
