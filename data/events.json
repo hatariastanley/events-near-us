@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:52:27+00:00",
+  "generated_at": "2026-11-18T19:07:29+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -1825,7 +1825,7 @@
       "start": "3:30 pm",
       "end": "",
       "venue": "Apex Senior Center, 63 Hunter St., Apex, NC, 27502",
-      "city": "Cary",
+      "city": "Apex",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/137540/-/apex-chanukah-festival-with-chabad-of-cary",
       "source": "fun4raleighkids",
@@ -2078,6 +2078,25 @@
       ]
     },
     {
+      "id": "free-children-s-movies-at-the-holly-springs-cultural-center",
+      "title": "Free Children's Movies at the Holly Springs Cultural Center",
+      "days": [],
+      "date": "2026-12-02",
+      "start": "10:00 AM",
+      "end": "",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "Free",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15995&month=12&year=2026&day=2&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "the-market-at-nc-museum-of-art",
       "title": "The Market at NC Museum of Art",
       "days": [],
@@ -2089,6 +2108,25 @@
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191630/-/the-market-at-nc-museum-of-art",
       "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "free-children-s-movies-at-the-holly-springs-cultural-center",
+      "title": "Free Children's Movies at the Holly Springs Cultural Center",
+      "days": [],
+      "date": "2026-12-09",
+      "start": "10:00 AM",
+      "end": "",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "Free",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15996&month=12&year=2026&day=9&calType=0",
+      "source": "hollysprings",
       "indoor": false,
       "family_score": 81,
       "why": "",
@@ -2127,6 +2165,25 @@
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/194005/-/wednesday-morning-movies-at-halle-cultural-arts-center",
       "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "free-children-s-movies-at-the-holly-springs-cultural-center",
+      "title": "Free Children's Movies at the Holly Springs Cultural Center",
+      "days": [],
+      "date": "2026-12-30",
+      "start": "10:00 AM",
+      "end": "",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "Free",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15999&month=12&year=2026&day=30&calType=0",
+      "source": "hollysprings",
       "indoor": false,
       "family_score": 81,
       "why": "",
@@ -2878,25 +2935,6 @@
       ]
     },
     {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2026-11-18",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191782/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "downtown-cary-park-s-art-cart",
       "title": "Downtown Cary Park's Art Cart",
       "days": [],
@@ -3103,25 +3141,6 @@
       ]
     },
     {
-      "id": "ninja-kidz-grand-opening",
-      "title": "Ninja Kidz Grand Opening",
-      "days": [],
-      "date": "2026-11-24",
-      "start": "04:30 PM",
-      "end": "08:30 PM",
-      "venue": "Ninja Kidz Action Park Raleigh 220 Grande Heights Dr, Cary, NC 27513 2,",
-      "city": "Cary",
-      "cost": "$149.99 per kid; grown-ups free with a paid kid's ticket",
-      "url": "https://raleighparent.com/event/ninja-kidz-grand-opening-at-ninja-kidz-action-park-raleigh-on-nov-24-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "downtown-cary-park-s-art-cart",
       "title": "Downtown Cary Park's Art Cart",
       "days": [],
@@ -3151,25 +3170,6 @@
       "city": "Cary",
       "cost": "Free with Reservations",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/196343/-/christmas-tales-with-santa-at-bass-pro-shops",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2026-11-25",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191783/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -3293,25 +3293,6 @@
       ]
     },
     {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2026-12-02",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191784/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "downtown-cary-park-s-art-cart",
       "title": "Downtown Cary Park's Art Cart",
       "days": [],
@@ -3360,6 +3341,25 @@
       "city": "Knightdale",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/195306/-/christmas-tree-lighting-on-first-avenue",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 77,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "morrisville-s-christmas-tree-lighting",
+      "title": "Morrisville's Christmas Tree Lighting",
+      "days": [],
+      "date": "2026-12-04",
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196639/-/morrisville-s-christmas-tree-lighting",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -3597,25 +3597,6 @@
       ]
     },
     {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2026-12-09",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191785/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "chanukah-on-ice-at-fenton",
       "title": "Chanukah on Ice at Fenton",
       "days": [],
@@ -3844,25 +3825,6 @@
       ]
     },
     {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2026-12-16",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191786/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "downtown-cary-park-s-art-cart",
       "title": "Downtown Cary Park's Art Cart",
       "days": [],
@@ -4015,25 +3977,6 @@
       ]
     },
     {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2026-12-23",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191787/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
       "title": "Saturday Morning Magic with New World Toys and Collectibles",
       "days": [],
@@ -4063,25 +4006,6 @@
       "city": "Cary",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/192420/-/downtown-cary-park-s-art-cart",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2026-12-30",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191788/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -4129,44 +4053,6 @@
       ]
     },
     {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2027-01-06",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191789/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2027-01-13",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191790/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "superfun-saturday-at-halle-cultural-arts-center",
       "title": "SuperFun Saturday at Halle Cultural Arts Center",
       "days": [],
@@ -4177,25 +4063,6 @@
       "city": "Apex",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/196271/-/superfun-saturday-at-halle-cultural-arts-center",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2027-01-20",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191791/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -4224,44 +4091,6 @@
       ]
     },
     {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2027-01-27",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191792/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2027-02-03",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191793/-/little-gym-of-north-raleigh-wake-forest-open-gym",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "superfun-saturday-at-halle-cultural-arts-center",
       "title": "SuperFun Saturday at Halle Cultural Arts Center",
       "days": [],
@@ -4272,25 +4101,6 @@
       "city": "Apex",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/196272/-/superfun-saturday-at-halle-cultural-arts-center",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 77,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
-      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
-      "days": [],
-      "date": "2027-02-10",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
-      "city": "Wake Forest",
-      "cost": "$15 per Non-member.  Members are free.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191794/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
@@ -4759,6 +4569,25 @@
       ]
     },
     {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2026-11-18",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191782/-/little-gym-of-north-raleigh-wake-forest-open-gym",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "math-makers-at-gipson-play-plaza",
       "title": "Math Makers at Gipson Play Plaza",
       "days": [],
@@ -4789,6 +4618,25 @@
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187876/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "discovery-drop-in-storytime",
+      "title": "Discovery Drop-In & Storytime",
+      "days": [],
+      "date": "2026-11-19",
+      "start": "10:00 AM",
+      "end": "12:00 PM",
+      "venue": "Duke Gardens &#8211; Charlotte Brody Discovery Garden",
+      "city": "Durham",
+      "cost": "Free",
+      "url": "https://gardens.duke.edu/event/discovery-drop-in-storytime-26/",
+      "source": "dukegardens",
       "indoor": false,
       "family_score": 73,
       "why": "",
@@ -4872,6 +4720,27 @@
       "city": "",
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187878/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "raleigh-christmas-parade",
+      "title": "Raleigh Christmas Parade",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:30 am",
+      "end": "",
+      "venue": "Downtown Raleigh, Hillsborough Street and Fayetteville St., Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/136354/-/raleigh-christmas-parade",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -5152,6 +5021,25 @@
       ]
     },
     {
+      "id": "ninja-kidz-grand-opening",
+      "title": "Ninja Kidz Grand Opening",
+      "days": [],
+      "date": "2026-11-24",
+      "start": "04:30 PM",
+      "end": "08:30 PM",
+      "venue": "Ninja Kidz Action Park Raleigh 220 Grande Heights Dr, Cary, NC 27513 2,",
+      "city": "Raleigh",
+      "cost": "$149.99 per kid; grown-ups free with a paid kid's ticket",
+      "url": "https://raleighparent.com/event/ninja-kidz-grand-opening-at-ninja-kidz-action-park-raleigh-on-nov-24-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "wake-county-library-storytimes-and-programs",
       "title": "Wake County Library Storytimes and Programs",
       "days": [],
@@ -5251,6 +5139,25 @@
       "city": "",
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/195531/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2026-11-25",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191783/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -5422,6 +5329,25 @@
       "city": "",
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187887/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2026-12-02",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191784/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -5621,6 +5547,25 @@
       ]
     },
     {
+      "id": "downtown-raleigh-s-menorah-lighting",
+      "title": "Downtown Raleigh's Menorah Lighting",
+      "days": [],
+      "date": "2026-12-06",
+      "start": "5:30 pm",
+      "end": "",
+      "venue": "Moore  Square,  201 S. Blount St.,  Raleigh, NC  27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/165286/-/downtown-raleigh-s-menorah-lighting",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "jc-raulston-arboretum-s-garden-story-walk",
       "title": "JC Raulston Arboretum's Garden Story Walk",
       "days": [],
@@ -5745,6 +5690,25 @@
       "city": "",
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187893/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2026-12-09",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191785/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -6144,6 +6108,25 @@
       "city": "",
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187899/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2026-12-16",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191786/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -6565,6 +6548,25 @@
       ]
     },
     {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2026-12-23",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191787/-/little-gym-of-north-raleigh-wake-forest-open-gym",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "must-see-raleigh-holiday-edition-with-the-great-raleigh-trol",
       "title": "Must See Raleigh Holiday Edition with the Great Raleigh Trolley Ride Begins",
       "days": [],
@@ -6698,6 +6700,25 @@
       ]
     },
     {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2026-12-30",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191788/-/little-gym-of-north-raleigh-wake-forest-open-gym",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "wake-county-library-storytimes-and-programs",
       "title": "Wake County Library Storytimes and Programs",
       "days": [],
@@ -6774,6 +6795,25 @@
       ]
     },
     {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2027-01-06",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191789/-/little-gym-of-north-raleigh-wake-forest-open-gym",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -6784,6 +6824,25 @@
       "city": "Raleigh",
       "cost": "Free with Registration",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/193120/-/artspace-open-studio",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2027-01-13",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191790/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -6848,6 +6907,25 @@
       "tags": []
     },
     {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2027-01-20",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191791/-/little-gym-of-north-raleigh-wake-forest-open-gym",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -6884,6 +6962,25 @@
       "tags": []
     },
     {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2027-01-27",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191792/-/little-gym-of-north-raleigh-wake-forest-open-gym",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -6894,6 +6991,25 @@
       "city": "Raleigh",
       "cost": "Free with Registration",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/193123/-/artspace-open-studio",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2027-02-03",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191793/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -6932,6 +7048,25 @@
       "city": "Raleigh",
       "cost": "Free with Registration",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/193124/-/artspace-open-studio",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-gym-of-north-raleigh-wake-forest-open-gym",
+      "title": "Little Gym of North Raleigh/Wake Forest Open Gym",
+      "days": [],
+      "date": "2027-02-10",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "8320 Litchford Rd., Raleigh, NC 27615-3830",
+      "city": "Raleigh",
+      "cost": "$15 per Non-member.  Members are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191794/-/little-gym-of-north-raleigh-wake-forest-open-gym",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -7119,6 +7254,25 @@
       "tags": []
     },
     {
+      "id": "sensory-friendly-playtime",
+      "title": "Sensory Friendly Playtime",
+      "days": [],
+      "date": "2026-11-18",
+      "start": "5:30 PM",
+      "end": "7:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "Free",
+      "url": "https://marbleskidsmuseum.org/event/46815/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 71,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "sensory-storytime",
       "title": "Sensory Storytime",
       "days": [],
@@ -7219,6 +7373,25 @@
       "family_score": 71,
       "why": "",
       "tags": []
+    },
+    {
+      "id": "sensory-friendly-playtime",
+      "title": "Sensory Friendly Playtime",
+      "days": [],
+      "date": "2026-12-09",
+      "start": "5:30 PM",
+      "end": "7:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "Free",
+      "url": "https://marbleskidsmuseum.org/event/46817/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 71,
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
       "id": "frosty-fairytale-ball-with-party-like-a-princess",
@@ -9192,159 +9365,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "planet-peace-farm-club",
-      "title": "Planet Peace Farm Club",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "10:30 am",
-      "end": "",
-      "venue": "6121 Forestville Rd., Raleigh NC, 27604",
-      "city": "Raleigh",
-      "cost": "$15 per session.  Discount for multiple children available. ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195889/-/planet-peace-farm-club",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "sensory-santa-at-crabtree-valley-mall",
-      "title": "Sensory Santa at Crabtree Valley Mall",
-      "days": [],
-      "date": "2026-12-13",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "4325 Glenwood Ave., Raleigh, NC, 27612",
-      "city": "Raleigh",
-      "cost": "from $45 photo packages",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196330/-/sensory-santa-at-crabtree-valley-mall",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "sensory-friendly-holiday-express-at-pullen-park",
-      "title": "Sensory Friendly Holiday Express at Pullen Park",
-      "days": [],
-      "date": "2026-12-13",
-      "start": "1:00 pm",
-      "end": "",
-      "venue": "520 Ashe Ave., Raleigh, NC, 27606",
-      "city": "Raleigh",
-      "cost": "$21 (plus tax and fees) per person 1yr or older",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195423/-/sensory-friendly-holiday-express-at-pullen-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "sensory-friendly-event-urban-air-raleigh",
-      "title": "Sensory Friendly Event - Urban Air Raleigh",
-      "days": [],
-      "date": "2026-12-19",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "7810 Poyner Pond Circle, Raleigh, NC 27616",
-      "city": "Raleigh",
-      "cost": "$17.99",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194939/-/sensory-friendly-event-urban-air-raleigh",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "planet-peace-farm-club",
-      "title": "Planet Peace Farm Club",
-      "days": [],
-      "date": "2026-12-19",
-      "start": "10:30 am",
-      "end": "",
-      "venue": "6121 Forestville Rd., Raleigh NC, 27604",
-      "city": "Raleigh",
-      "cost": "$15 per session.  Discount for multiple children available. ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195890/-/planet-peace-farm-club",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "sensory-explorers-with-keta-dezi-play-co",
-      "title": "Sensory Explorers with Keta & Dezi Play Co.",
-      "days": [],
-      "date": "2026-12-20",
-      "start": "2:00 pm",
-      "end": "",
-      "venue": "Brier Creek Community Center, 10810 Globe Rd., Raleigh, NC  27617",
-      "city": "Raleigh",
-      "cost": "$10 per child per session",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196378/-/sensory-explorers-with-keta-dezi-play-co",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "planet-peace-farm-club",
-      "title": "Planet Peace Farm Club",
-      "days": [],
-      "date": "2026-12-26",
-      "start": "10:30 am",
-      "end": "",
-      "venue": "6121 Forestville Rd., Raleigh NC, 27604",
-      "city": "Raleigh",
-      "cost": "$15 per session.  Discount for multiple children available. ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195891/-/planet-peace-farm-club",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "sensory-friendly-event-urban-air-raleigh",
-      "title": "Sensory Friendly Event - Urban Air Raleigh",
-      "days": [],
-      "date": "2027-01-16",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "7810 Poyner Pond Circle, Raleigh, NC 27616",
-      "city": "Raleigh",
-      "cost": "$17.99",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194940/-/sensory-friendly-event-urban-air-raleigh",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 67,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "garden-gourmet-three-sisters-soup",
-      "title": "Garden Gourmet: Three Sisters Soup",
-      "days": [],
-      "date": "2026-11-19",
-      "start": "05:30 PM",
-      "end": "06:30 PM",
-      "venue": "Marbles Kids Museum, Downtown Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://raleighparent.com/event/garden-gourmet-three-sisters-soup-on-nov-19-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 66,
       "why": "",
       "tags": []
     }
