@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:59:05+00:00",
+  "generated_at": "2026-11-18T20:01:33+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -201,6 +201,25 @@
       "tags": []
     },
     {
+      "id": "nature-storytime-forest-detectives",
+      "title": "Nature Storytime: Forest Detectives",
+      "days": [
+        "sat"
+      ],
+      "date": "",
+      "start": "10 AM",
+      "end": "",
+      "venue": "Brumley South Nature Preserve",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/nature-storytime-forest-detectives/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 89,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "true-crime-curious-tales-raleigh-walking-tour",
       "title": "True Crime & Curious Tales Raleigh Walking Tour",
       "days": [
@@ -287,6 +306,27 @@
       ]
     },
     {
+      "id": "kids-bible-story-time-at-village-church-rolesville",
+      "title": "Kids Bible Story Time at Village Church Rolesville",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "410 Southtown Circle, Rolesville, NC  27571",
+      "city": "Rolesville",
+      "cost": "Free - No Sign-Up Required.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194517/-/kids-bible-story-time-at-village-church-rolesville",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 97,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "nc-museum-of-natural-sciences-incredible-science",
       "title": "NC Museum of Natural Sciences Incredible Science",
       "days": [
@@ -302,27 +342,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "kids-bible-story-time-at-village-church-rolesville",
-      "title": "Kids Bible Story Time at Village Church Rolesville",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "410 Southtown Circle, Rolesville, NC  27571",
-      "city": "Rolesville",
-      "cost": "Free - No Sign-Up Required.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194517/-/kids-bible-story-time-at-village-church-rolesville",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 93,
       "why": "",
       "tags": [
         "free"
@@ -351,27 +370,6 @@
       ]
     },
     {
-      "id": "an-archaeologist-s-face-to-feet-with-king-taharqa",
-      "title": "An Archaeologist’s Face to Feet with King Taharqa",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "07:00 PM",
-      "end": "08:30 PM",
-      "venue": "North Carolina Museum of Art, West Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/an-archaeologists-face-to-feet-with-king-taharqa-on-nov-20-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "wake-county-library-storytimes-and-programs",
       "title": "Wake County Library Storytimes and Programs",
       "days": [
@@ -385,6 +383,27 @@
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187877/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "an-archaeologist-s-face-to-feet-with-king-taharqa",
+      "title": "An Archaeologist’s Face to Feet with King Taharqa",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "07:00 PM",
+      "end": "08:30 PM",
+      "venue": "North Carolina Museum of Art, West Raleigh 2,",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/an-archaeologists-face-to-feet-with-king-taharqa-on-nov-20-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 87,
       "why": "",
@@ -471,6 +490,27 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191571/-/page-158-books-storytime",
       "source": "fun4raleighkids",
       "indoor": false,
+      "family_score": 100,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "under-the-tree-storytime-with-quail-ridge-books",
+      "title": "Under the Tree Storytime with Quail Ridge Books",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10:30 am",
+      "end": "",
+      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/189835/-/under-the-tree-storytime-with-quail-ridge-books",
+      "source": "fun4raleighkids",
+      "indoor": false,
       "family_score": 99,
       "why": "",
       "tags": [
@@ -493,27 +533,6 @@
       "source": "raleighparent",
       "indoor": false,
       "family_score": 97,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "under-the-tree-storytime-with-quail-ridge-books",
-      "title": "Under the Tree Storytime with Quail Ridge Books",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:30 am",
-      "end": "",
-      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/189835/-/under-the-tree-storytime-with-quail-ridge-books",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 95,
       "why": "",
       "tags": [
         "free"
@@ -664,6 +683,27 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 93,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187878/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -903,27 +943,6 @@
       ]
     },
     {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187878/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "art-on-the-dot-at-nc-museum-of-art",
       "title": "Art on the Dot at NC Museum of Art",
       "days": [
@@ -945,21 +964,21 @@
       ]
     },
     {
-      "id": "holiday-vendor-market",
-      "title": "Holiday Vendor Market",
+      "id": "under-the-tree-storytime-with-quail-ridge-books",
+      "title": "Under the Tree Storytime with Quail Ridge Books",
       "days": [
-        "sat"
+        "sun"
       ],
-      "date": "2026-11-21",
-      "start": "10:00 AM",
-      "end": "03:00 PM",
-      "venue": "Fairview Greenhouses Garden Center, South Raleigh 2,",
+      "date": "2026-11-22",
+      "start": "10:30 am",
+      "end": "",
+      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
       "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
-      "source": "raleighparent",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190511/-/under-the-tree-storytime-with-quail-ridge-books",
+      "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 86,
+      "family_score": 99,
       "why": "",
       "tags": [
         "free"
@@ -988,21 +1007,21 @@
       ]
     },
     {
-      "id": "under-the-tree-storytime-with-quail-ridge-books",
-      "title": "Under the Tree Storytime with Quail Ridge Books",
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
       "days": [
         "sun"
       ],
       "date": "2026-11-22",
-      "start": "10:30 am",
+      "start": "9:15 am",
       "end": "",
-      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190511/-/under-the-tree-storytime-with-quail-ridge-books",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195530/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 95,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -1045,27 +1064,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 88,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195530/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
       "why": "",
       "tags": [
         "free"
@@ -1286,7 +1284,7 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191573/-/page-158-books-storytime",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 99,
+      "family_score": 100,
       "why": "",
       "tags": [
         "free"
@@ -1306,6 +1304,25 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 96,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187884/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -1386,25 +1403,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187884/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -1845,6 +1843,25 @@
       ]
     },
     {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-11-29",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195534/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "hidden-holiday-raleigh-christmas-past-with-heather-leah",
       "title": "Hidden Holiday: Raleigh Christmas Past with Heather Leah",
       "days": [],
@@ -1862,25 +1879,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-11-29",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195534/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -2161,6 +2159,25 @@
       ]
     },
     {
+      "id": "kids-bible-story-time-at-village-church-rolesville",
+      "title": "Kids Bible Story Time at Village Church Rolesville",
+      "days": [],
+      "date": "2026-12-04",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "410 Southtown Circle, Rolesville, NC  27571",
+      "city": "Rolesville",
+      "cost": "Free - No Sign-Up Required.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194519/-/kids-bible-story-time-at-village-church-rolesville",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 97,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "holiday-model-train-show-with-little-world-charity",
       "title": "Holiday Model Train Show with Little WORLD Charity",
       "days": [],
@@ -2199,19 +2216,19 @@
       ]
     },
     {
-      "id": "kids-bible-story-time-at-village-church-rolesville",
-      "title": "Kids Bible Story Time at Village Church Rolesville",
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
       "days": [],
       "date": "2026-12-04",
-      "start": "10:00 am",
+      "start": "9:15 am",
       "end": "",
-      "venue": "410 Southtown Circle, Rolesville, NC  27571",
-      "city": "Rolesville",
-      "cost": "Free - No Sign-Up Required.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194519/-/kids-bible-story-time-at-village-church-rolesville",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187889/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 93,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -2229,25 +2246,6 @@
       "cost": "FREE",
       "url": "https://raleighparent.com/event/sip-n-shop-on-dec-4-2026/",
       "source": "raleighparent",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-04",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187889/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
       "why": "",
@@ -2308,7 +2306,7 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191575/-/page-158-books-storytime",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 99,
+      "family_score": 100,
       "why": "",
       "tags": [
         "free"
@@ -2472,6 +2470,25 @@
       ]
     },
     {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187890/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "apex-farmers-market-at-the-depot",
       "title": "Apex Farmers Market at The Depot",
       "days": [],
@@ -2529,6 +2546,25 @@
       ]
     },
     {
+      "id": "smith-s-nursery-storytime-with-santa",
+      "title": "Smith's Nursery Storytime with Santa",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "2:00 pm",
+      "end": "",
+      "venue": "443 Sanders Rd., Benson, NC 27504",
+      "city": "",
+      "cost": "$12 per person",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/185269/-/smith-s-nursery-storytime-with-santa",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 89,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "the-market-at-nc-museum-of-art",
       "title": "The Market at NC Museum of Art",
       "days": [],
@@ -2542,25 +2578,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 88,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-05",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187890/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
       "why": "",
       "tags": [
         "free"
@@ -2684,6 +2701,25 @@
       ]
     },
     {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-06",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195535/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "sensory-santa-at-crabtree-valley-mall",
       "title": "Sensory Santa at Crabtree Valley Mall",
       "days": [],
@@ -2779,44 +2815,6 @@
       ]
     },
     {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-06",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195535/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "art-on-the-dot-at-nc-museum-of-art",
-      "title": "Art on the Dot at NC Museum of Art",
-      "days": [],
-      "date": "2026-12-06",
-      "start": "2:30 pm",
-      "end": "",
-      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194862/-/art-on-the-dot-at-nc-museum-of-art",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
       "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
       "days": [],
@@ -2848,7 +2846,26 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/194520/-/kids-bible-story-time-at-village-church-rolesville",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 93,
+      "family_score": 97,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-11",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187895/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -2868,25 +2885,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 89,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-11",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187895/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
       "why": "",
       "tags": [
         "free"
@@ -2982,7 +2980,7 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191577/-/page-158-books-storytime",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 99,
+      "family_score": 100,
       "why": "",
       "tags": [
         "free"
@@ -3062,6 +3060,25 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 93,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187896/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -3175,25 +3192,6 @@
       "cost": "FREE",
       "url": "https://raleighparent.com/event/in-motion-in-time-an-homage-to-ancient-nubia-on-dec-12-2026/",
       "source": "raleighparent",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187896/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
       "why": "",
@@ -3376,6 +3374,25 @@
       ]
     },
     {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-13",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195536/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "sensory-santa-at-crabtree-valley-mall",
       "title": "Sensory Santa at Crabtree Valley Mall",
       "days": [],
@@ -3431,25 +3448,6 @@
       "why": "",
       "tags": [
         "holiday"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-13",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195536/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -3520,7 +3518,7 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/194521/-/kids-bible-story-time-at-village-church-rolesville",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 93,
+      "family_score": 97,
       "why": "",
       "tags": [
         "free"
@@ -3539,7 +3537,7 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187901/-/wake-county-library-storytimes-and-programs",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 87,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -3596,7 +3594,7 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191579/-/page-158-books-storytime",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 99,
+      "family_score": 100,
       "why": "",
       "tags": [
         "free"
@@ -3636,6 +3634,25 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 94,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187902/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -3716,25 +3733,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-19",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187902/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -3926,6 +3924,25 @@
       ]
     },
     {
+      "id": "wake-county-library-storytimes-and-programs",
+      "title": "Wake County Library Storytimes and Programs",
+      "days": [],
+      "date": "2026-12-20",
+      "start": "9:15 am",
+      "end": "",
+      "venue": "Check out your local library for specific times and dates",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195537/-/wake-county-library-storytimes-and-programs",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "hidden-holiday-raleigh-christmas-past-with-heather-leah",
       "title": "Hidden Holiday: Raleigh Christmas Past with Heather Leah",
       "days": [],
@@ -3943,25 +3960,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [],
-      "date": "2026-12-20",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195537/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -4248,7 +4246,7 @@
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191581/-/page-158-books-storytime",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 99,
+      "family_score": 100,
       "why": "",
       "tags": [
         "free"

@@ -89,7 +89,7 @@ EXCLUDE_PATTERNS = [
 
 # Keywords that boost family-friendliness score
 KID_KEYWORDS = {
-    "family": 4, "kid": 10, "kidz": 10, "children": 10, "storytime": 14, "story time": 14,
+    "family": 4, "kid": 10, "kidz": 10, "children": 10, "storytime": 18, "story time": 18,
     "pumpkin": 8, "halloween": 6, "trick-or-treat": 14, "trunk-or-treat": 14,
     "train": 8, "farm": 8, "animal": 7, "corn maze": 10, "festival": 3,
     "museum": 6, "movie": 4, "dance": 4, "craft": 6, "scarecrow": 8,
