@@ -2,7 +2,8 @@
   "generated_at": "2026-11-16T20:45:46+00:00",
   "weekend": {
     "fri": "2026-11-20",
-    "sun": "2026-11-22"
+    "sun": "2026-11-22",
+    "sat": "2026-11-21"
   },
   "events": [
     {
@@ -235,15 +236,13 @@
       "end": "",
       "venue": "8003 Regency Parkway Cary, NC  27518",
       "city": "Cary",
-      "cost": "from $19 for 3yrs+. Children 2yrs and under are free. Genera",
+      "cost": "from $19 for 3yrs+; 2 and under free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/196392/-/opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth-amphitheatre",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 82,
       "why": "",
-      "tags": [
-        "free"
-      ]
+      "tags": []
     },
     {
       "id": "opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth",
@@ -255,15 +254,13 @@
       "end": "",
       "venue": "8003 Regency Parkway Cary, NC  27518",
       "city": "Cary",
-      "cost": "from $19 for 3yrs+. Children 2yrs and under are free. Genera",
+      "cost": "from $19 for 3yrs+; 2 and under free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/196393/-/opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth-amphitheatre",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 82,
       "why": "",
-      "tags": [
-        "free"
-      ]
+      "tags": []
     },
     {
       "id": "under-the-tree-storytime-with-quail-ridge-books",
@@ -407,7 +404,7 @@
     },
     {
       "id": "santa-and-mrs-clause-visits-shephered-s-way-farms",
-      "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
+      "title": "Santa and Mrs. Claus visits Shepherd's Way Farms",
       "days": [
         "sun"
       ],
@@ -615,15 +612,13 @@
       "end": "",
       "venue": "The Feathered Farm, 3620 Rosinburg Rd., Zebulon, NC  27597",
       "city": "",
-      "cost": "$15 for ages 2-64.  Children under 2 are free.   $11.50 per ",
+      "cost": "$15 for ages 2-64; under 2 free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/192496/-/animal-encounters-and-open-play",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 77,
       "why": "",
-      "tags": [
-        "free"
-      ]
+      "tags": []
     },
     {
       "id": "superfun-saturday-at-halle-cultural-arts-center",
@@ -735,7 +730,7 @@
       "end": "",
       "venue": "2901 Trawick Rd, Raleigh, NC 27604",
       "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "cost": "$14 online / $15 at door",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/187216/-/united-skates-kidz-bop",
       "source": "fun4raleighkids",
       "indoor": false,
