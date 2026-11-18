@@ -221,9 +221,7 @@ def main():
             if d0 and start <= d0 <= end:
                 key_day = wk_by_date.get(d0)
                 candidates.append((d0, [key_day] if key_day else [], d0.isoformat()))
-            continue
-
-        if date_hint:
+        elif date_hint:
             for d0 in resolve_dates(date_hint, start, end):
                 key_day = wk_by_date.get(d0)
                 candidates.append((d0, [key_day] if key_day else [], d0.isoformat()))
