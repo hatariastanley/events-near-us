@@ -86,7 +86,7 @@ function tagChip(tag) {
   return `<span class="tag${cls}">${escapeHtml(tag)}</span>`;
 }
 
-function cardHtml(e, dateStr) {
+function cardHtml(e, dateStr, showDate = false) {
   const time = e.end ? `${e.start}–${e.end}` : e.start || "All day";
   const place = [e.venue, e.city].filter(Boolean).join(", ");
   const link = e.url
@@ -96,11 +96,12 @@ function cardHtml(e, dateStr) {
   const distChip = dist != null ? `<span class="tag distance">${dist} mi</span>` : "";
   const evtKey = `${e.id}-${dateStr}`;
   window._evtMap[evtKey] = e;
+  const dateLabel = showDate && dateStr ? `${escapeHtml(fmtCardDate(dateStr))} · ` : "";
   return `<article class="card">
     ${scoreBadge(e.family_score)}
     <div class="card-body">
       <h3>${escapeHtml(e.title)}</h3>
-      <p class="meta"><strong>${escapeHtml(time)}</strong>${place ? ` · ${escapeHtml(place)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
+      <p class="meta">${dateLabel}<strong>${escapeHtml(time)}</strong>${place ? ` · ${escapeHtml(place)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
       ${e.why ? `<p class="why">${escapeHtml(e.why)}</p>` : ""}
       <div class="tags">${distChip}${(e.tags || []).map(tagChip).join("")}${link}</div>
       ${calendarLinks(e, dateStr)}
@@ -293,8 +294,12 @@ function fmtDate(iso) {
   return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric" });
 }
 
+function fmtCardDate(iso) {
+  return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+}
+
 function fmtWeekRange(startDate) {
-  const end = new Date(startDate.getTime() + 6 * 86400000);
+  const end = new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + 6);
   const startMonth = startDate.toLocaleDateString("en-US", { month: "short" });
   const endMonth = end.toLocaleDateString("en-US", { month: "short" });
   if (startMonth === endMonth) {
@@ -332,64 +337,55 @@ function renderExtendedView(days, filter = "all") {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   const endDate = new Date(today.getTime() + days * 86400000);
-  
-  const eventsWithDates = allEvents
-    .filter((e) => {
-      if (!match(e)) return false;
-      if (e.date) {
-        const d = new Date(e.date + "T12:00:00");
-        return d >= today && d <= endDate;
-      }
-      return true;
-    })
-    .map((e) => {
-      let eventDate = e.date ? new Date(e.date + "T12:00:00") : null;
-      if (!eventDate && e.days && e.days.length > 0) {
-        const dayMap = { fri: weekendDates.fri, sat: weekendDates.sat, sun: weekendDates.sun };
-        const firstDay = e.days[0];
-        if (dayMap[firstDay]) {
-          eventDate = new Date(dayMap[firstDay] + "T12:00:00");
-        }
-      }
-      return { ...e, _sortDate: eventDate || new Date(today.getTime() + 365 * 86400000) };
-    })
-    .sort((a, b) => {
-      const dateDiff = a._sortDate - b._sortDate;
-      if (dateDiff !== 0) return dateDiff;
-      return b.family_score - a.family_score;
-    });
+
+  const eventsWithDates = [];
+  for (const e of allEvents) {
+    if (!match(e)) continue;
+    let iso = e.date || "";
+    if (!iso && e.days && e.days.length) {
+      const day = ["fri", "sat", "sun"].find((d) => e.days.includes(d));
+      iso = day ? weekendDates[day] : "";
+    }
+    if (!iso) continue;
+    const d = new Date(iso + "T12:00:00");
+    if (Number.isNaN(d.getTime()) || d < today || d > endDate) continue;
+    eventsWithDates.push({ ...e, _sortDate: d, _dateISO: iso });
+  }
+
+  eventsWithDates.sort((a, b) => {
+    const dateDiff = a._sortDate - b._sortDate;
+    if (dateDiff !== 0) return dateDiff;
+    if (b.family_score !== a.family_score) return b.family_score - a.family_score;
+    if (filter === "nearby" && home) {
+      return (eventDistanceMi(a) ?? 9999) - (eventDistanceMi(b) ?? 9999);
+    }
+    return 0;
+  });
 
   const weeks = {};
-  eventsWithDates.forEach((e) => {
+  for (const e of eventsWithDates) {
     const d = e._sortDate;
-    const weekStart = new Date(d);
-    weekStart.setDate(d.getDate() - d.getDay());
-    const weekKey = weekStart.toISOString().slice(0, 10);
+    const weekStart = new Date(d.getFullYear(), d.getMonth(), d.getDate() - d.getDay());
+    const weekKey = `${weekStart.getFullYear()}-${String(weekStart.getMonth() + 1).padStart(2, "0")}-${String(weekStart.getDate()).padStart(2, "0")}`;
     if (!weeks[weekKey]) weeks[weekKey] = { start: weekStart, events: [] };
     weeks[weekKey].events.push(e);
-  });
+  }
 
   const container = document.getElementById("events-root");
   const weekKeys = Object.keys(weeks).sort();
-  
   if (weekKeys.length === 0) {
     container.innerHTML = `<p class="empty-state">No events found in the next ${days} days.</p>`;
     return;
   }
 
   let html = "";
-  weekKeys.forEach((weekKey) => {
+  for (const weekKey of weekKeys) {
     const week = weeks[weekKey];
-    const weekLabel = fmtWeekRange(week.start);
     html += `<section class="week-section">
-      <h2 class="week-heading">${weekLabel}</h2>
-      <div class="cards">${week.events.map((e) => {
-        const dateStr = e.date || (e.days && e.days[0] ? weekendDates[e.days[0]] : "") || "";
-        return cardHtml(e, dateStr);
-      }).join("")}</div>
+      <h2 class="week-heading">${fmtWeekRange(week.start)}</h2>
+      <div class="cards">${week.events.map((e) => cardHtml(e, e._dateISO, true)).join("")}</div>
     </section>`;
-  });
-  
+  }
   container.innerHTML = html;
 }
 
@@ -558,7 +554,11 @@ function bindFilters() {
           c.classList.toggle("is-active", c.dataset.filter === "nearby");
       });
       activeFilter = "nearby";
-      render("nearby");
+      if (activeRange === "weekend") {
+        render("nearby");
+      } else {
+        renderExtendedView(parseInt(activeRange, 10), "nearby");
+      }
     } catch {
       status.textContent = "ZIP not recognized";
       status.classList.add("error");

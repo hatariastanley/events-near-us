@@ -9,6 +9,7 @@ Usage:  python scripts/fetch_events.py
 Deps:   pip install -r requirements.txt
 """
 
+import inspect
 import json
 import re
 import sys
@@ -169,7 +170,7 @@ def _date_hint(d):
     return f"{d.strftime('%b')} {d.day}"
 
 
-def scrape_civicplus(source_name, base, city):
+def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
     """CivicPlus month-grid calendar. Each day cell links an eventDetails
     tooltip: <div name="showDetailsBox" id="showDetails<EID>_<n>"> with
     h3 title, dt/dd When+Location, and a 'More Details' href carrying
@@ -211,10 +212,17 @@ def scrape_civicplus(source_name, base, city):
             })
         if events:
             return events
-    fri, _ = upcoming_weekend()
-    months = {(fri.month, fri.year), ((fri + timedelta(days=2)).month,
-                                      (fri + timedelta(days=2)).year)}
-    for month, year in months:
+    if start_date and end_date:
+        months = set()
+        d = start_date.replace(day=1)
+        while d <= end_date:
+            months.add((d.month, d.year))
+            d = (d.replace(day=28) + timedelta(days=7)).replace(day=1)
+    else:
+        fri, _ = upcoming_weekend()
+        months = {(fri.month, fri.year), ((fri + timedelta(days=2)).month,
+                                          (fri + timedelta(days=2)).year)}
+    for month, year in sorted(months):
         soup = get(f"{base}/calendar.aspx?month={month}&year={year}")
         for tip in soup.select('div[name="showDetailsBox"]'):
             a = tip.find("a", href=re.compile(r"EID=\d+"))
@@ -356,12 +364,19 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
     return events
 
 
-def scrape_fun4raleighkids():
+def scrape_fun4raleighkids(start_date=None, end_date=None):
     """fun4raleighkids.com — Joomla JEvents. Day-list pages are server
     rendered: /calendar/day.listevents/YYYY/M/D/- with .jev_listrow rows."""
     events = []
-    fri, _ = upcoming_weekend()
-    days = [fri, fri + timedelta(days=1), fri + timedelta(days=2)]
+    if start_date and end_date:
+        days = []
+        d = start_date
+        while d <= end_date:
+            days.append(d)
+            d += timedelta(days=1)
+    else:
+        fri, _ = upcoming_weekend()
+        days = [fri, fri + timedelta(days=1), fri + timedelta(days=2)]
     for day in days:
         soup = get(f"https://fun4raleighkids.com/calendar/day.listevents/{day.year}/{day.month}/{day.day}/-")
         for row in soup.select(".jev_listrow"):
@@ -402,7 +417,11 @@ CIVICPLUS_SITES = {
 
 def _civic(name):
     base, city = CIVICPLUS_SITES[name]
-    return lambda: scrape_civicplus(name, base, city)
+    return lambda start_date=None, end_date=None: scrape_civicplus(name, base, city, start_date, end_date)
+
+
+def _tec(name):
+    return lambda start_date=None, end_date=None: scrape_tec(name, TEC_SITES[name], start_date=start_date, end_date=end_date)
 
 
 TEC_SITES = {
@@ -418,7 +437,7 @@ SOURCES = {
     "raleighparent": scrape_raleighparent,
     "wakegov": scrape_wakegov,
     "fun4raleighkids": scrape_fun4raleighkids,
-    **{name: (lambda n=name, b=base: scrape_tec(n, b)) for name, base in TEC_SITES.items()},
+    **{name: _tec(name) for name in TEC_SITES},
     **{name: _civic(name) for name in CIVICPLUS_SITES},
 }
 
@@ -444,7 +463,13 @@ def main():
     collected, failed = [], []
     for name, fn in SOURCES.items():
         try:
-            found = fn()
+            params = inspect.signature(fn).parameters
+            kwargs = {}
+            if "start_date" in params:
+                kwargs["start_date"] = start_date
+            if "end_date" in params:
+                kwargs["end_date"] = end_date
+            found = fn(**kwargs)
             print(f"{name}: {len(found)} listings")
             collected.extend(found)
         except Exception as exc:

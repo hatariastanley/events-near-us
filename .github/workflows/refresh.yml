@@ -24,7 +24,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Fetch raw listings
-        run: python scripts/fetch_events.py
+        run: python scripts/fetch_events.py --days 90
 
       - name: Curate + rank into events.json
         run: python scripts/curate.py

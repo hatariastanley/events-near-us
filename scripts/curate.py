@@ -151,12 +151,46 @@ def score(e):
     return max(0, min(100, round(s))), tags, city.title()
 
 
+def weekend_dates(raw):
+    wk = raw.get("weekend", {})
+    try:
+        fri = date.fromisoformat(wk["fri"])
+        sun = date.fromisoformat(wk["sun"])
+    except Exception:
+        return {}
+    out = {"fri": fri, "sat": fri + timedelta(days=1), "sun": sun}
+    if wk.get("sat"):
+        try:
+            out["sat"] = date.fromisoformat(wk["sat"])
+        except Exception:
+            pass
+    return out
+
+
+def resolve_dates(hint, start, end):
+    """Resolve 'Nov 14' / 'Nov 14-15' to ISO dates inside [start, end]."""
+    out = []
+    for month, day in parse_date_hint(hint):
+        for year in range(start.year - 1, end.year + 2):
+            try:
+                d = date(year, month, day)
+            except ValueError:
+                continue
+            if start <= d <= end and d not in out:
+                out.append(d)
+    return sorted(out)
+
+
 def main():
     if not RAW.exists():
         raise SystemExit("run scripts/fetch_events.py first — no raw_events.json")
     raw = json.loads(RAW.read_text(encoding="utf-8"))
     seen, events = set(), []
-    wkmap = weekend_day_map(raw)
+    wk_dates = weekend_dates(raw)
+    wk_by_date = {d: k for k, d in wk_dates.items()}
+
+    today = date.today()
+    start, end = today, today + timedelta(days=90)
 
     for e in raw.get("raw_events", []):
         raw_title = e.get("title", "")
@@ -174,47 +208,61 @@ def main():
         if len(title) < 5:
             continue
 
-        mds = parse_date_hint(date_hint)
-        if mds:
-            days = [wkmap[md] for md in mds if md in wkmap]
-            if not days:
-                continue  # dated event outside this weekend's Fri-Sun window
-        elif day_hint in ("fri", "sat", "sun"):
-            days = [day_hint]
-        else:
-            days = None
-        key = norm(title)[:60] + "|" + ",".join(days or []) + "|" + norm(e.get("venue", ""))[:40]
-        if key in seen:
-            continue
-        seen.add(key)
-
         text = norm(" ".join([title, e.get("venue", "")]))
         s, tags, city = score(e)
-        event_date = e.get("event_date", "")
-        events.append({
-            "id": re.sub(r"[^a-z0-9]+", "-", norm(title)).strip("-")[:60],
-            "title": title,
-            "days": days or detect_days(text),
-            "date": event_date,
-            "start": e.get("time_hint", "") or "See listing",
-            "end": e.get("time_end", ""),
-            "venue": e.get("venue", ""),
-            "city": e.get("city") or city,
-            "cost": e.get("cost") or ("Free" if "free" in tags else "See listing"),
-            "url": e.get("url", ""),
-            "source": e.get("source", ""),
-            "indoor": "indoor" in tags,
-            "family_score": s,
-            "why": "",
-            "tags": sorted(tags),
-        })
 
-    events.sort(key=lambda e: (-e["family_score"], e.get("date", "")))
-    events = events[:100]
+        candidates = []  # (date_obj|None, days[], date_iso)
+        event_date = str(e.get("event_date") or "")[:10]
+        if event_date:
+            try:
+                d0 = date.fromisoformat(event_date)
+            except ValueError:
+                d0 = None
+            if d0 and start <= d0 <= end:
+                key_day = wk_by_date.get(d0)
+                candidates.append((d0, [key_day] if key_day else [], d0.isoformat()))
+            continue
+
+        if date_hint:
+            for d0 in resolve_dates(date_hint, start, end):
+                key_day = wk_by_date.get(d0)
+                candidates.append((d0, [key_day] if key_day else [], d0.isoformat()))
+            if not candidates:
+                continue  # dated event outside the next 90 days
+        elif day_hint in ("fri", "sat", "sun") and day_hint in wk_dates:
+            candidates.append((None, [day_hint], ""))
+        else:
+            candidates.append((None, detect_days(text), ""))
+
+        for _, days, date_iso in candidates:
+            key = norm(title)[:60] + "|" + (date_iso or ",".join(days)) + "|" + norm(e.get("venue", ""))[:40]
+            if key in seen:
+                continue
+            seen.add(key)
+            events.append({
+                "id": re.sub(r"[^a-z0-9]+", "-", norm(title)).strip("-")[:60],
+                "title": title,
+                "days": days,
+                "date": date_iso,
+                "start": e.get("time_hint", "") or "See listing",
+                "end": e.get("time_end", ""),
+                "venue": e.get("venue", ""),
+                "city": e.get("city") or city,
+                "cost": e.get("cost") or ("Free" if "free" in tags else "See listing"),
+                "url": e.get("url", ""),
+                "source": e.get("source", ""),
+                "indoor": "indoor" in tags,
+                "family_score": s,
+                "why": "",
+                "tags": sorted(tags),
+            })
+
+    events.sort(key=lambda e: (-e["family_score"], e.get("date") or "9999"))
+    events = events[:300]
     OUT.write_text(json.dumps({
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-        "weekend": raw.get("weekend", {}),
-        "range": raw.get("range", {}),
+        "weekend": {k: v.isoformat() for k, v in wk_dates.items()} if wk_dates else raw.get("weekend", {}),
+        "range": {"start": start.isoformat(), "end": end.isoformat(), "mode": "90days"},
         "events": events,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {OUT} ({len(events)} events)")
