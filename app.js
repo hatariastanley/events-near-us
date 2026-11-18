@@ -86,7 +86,7 @@ function tagChip(tag) {
   return `<span class="tag${cls}">${escapeHtml(tag)}</span>`;
 }
 
-function cardHtml(e) {
+function cardHtml(e, dateStr) {
   const time = e.end ? `${e.start}–${e.end}` : e.start || "All day";
   const place = [e.venue, e.city].filter(Boolean).join(", ");
   const link = e.url
@@ -94,6 +94,8 @@ function cardHtml(e) {
     : "";
   const dist = eventDistanceMi(e);
   const distChip = dist != null ? `<span class="tag distance">${dist} mi</span>` : "";
+  const evtKey = `${e.id}-${dateStr}`;
+  window._evtMap[evtKey] = e;
   return `<article class="card">
     ${scoreBadge(e.family_score)}
     <div class="card-body">
@@ -101,6 +103,7 @@ function cardHtml(e) {
       <p class="meta"><strong>${escapeHtml(time)}</strong>${place ? ` · ${escapeHtml(place)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
       ${e.why ? `<p class="why">${escapeHtml(e.why)}</p>` : ""}
       <div class="tags">${distChip}${(e.tags || []).map(tagChip).join("")}${link}</div>
+      ${calendarLinks(e, dateStr)}
     </div>
   </article>`;
 }
@@ -110,14 +113,204 @@ function escapeHtml(s) {
 }
 const escapeAttr = escapeHtml;
 
+function parseTime(timeStr) {
+  if (!timeStr) return null;
+  const m = timeStr.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
+  if (!m) return null;
+  let h = parseInt(m[1], 10);
+  const min = m[2] ? parseInt(m[2], 10) : 0;
+  const ampm = (m[3] || "").toLowerCase();
+  if (ampm === "pm" && h < 12) h += 12;
+  if (ampm === "am" && h === 12) h = 0;
+  return { h, min };
+}
+
+function toIcsDateTime(dateStr, timeStr, allDay = false) {
+  const d = new Date(dateStr + "T12:00:00");
+  if (allDay) {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    return `${y}${m}${day}`;
+  }
+  const t = parseTime(timeStr);
+  if (!t) return null;
+  d.setHours(t.h, t.min, 0, 0);
+  const y = d.getFullYear();
+  const mo = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  const hr = String(t.h).padStart(2, "0");
+  const mi = String(t.min).padStart(2, "0");
+  return `${y}${mo}${day}T${hr}${mi}00`;
+}
+
+function toGcalDateTime(dateStr, timeStr) {
+  const d = new Date(dateStr + "T12:00:00");
+  const t = parseTime(timeStr);
+  if (!t) return null;
+  d.setHours(t.h, t.min, 0, 0);
+  const y = d.getFullYear();
+  const mo = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  const hr = String(t.h).padStart(2, "0");
+  const mi = String(t.min).padStart(2, "0");
+  return `${y}${mo}${day}T${hr}${mi}00`;
+}
+
+function addHours(dateTimeStr, hours) {
+  const y = parseInt(dateTimeStr.slice(0, 4), 10);
+  const mo = parseInt(dateTimeStr.slice(4, 6), 10) - 1;
+  const d = parseInt(dateTimeStr.slice(6, 8), 10);
+  const h = parseInt(dateTimeStr.slice(9, 11), 10);
+  const mi = parseInt(dateTimeStr.slice(11, 13), 10);
+  const dt = new Date(y, mo, d, h + hours, mi);
+  const ny = dt.getFullYear();
+  const nm = String(dt.getMonth() + 1).padStart(2, "0");
+  const nd = String(dt.getDate()).padStart(2, "0");
+  const nh = String(dt.getHours()).padStart(2, "0");
+  const nmi = String(dt.getMinutes()).padStart(2, "0");
+  return `${ny}${nm}${nd}T${nh}${nmi}00`;
+}
+
+function buildGoogleCalUrl(event, dateStr) {
+  const title = event.title || "Event";
+  const location = [event.venue, event.city].filter(Boolean).join(", ");
+  const description = [event.why || event.description || "", event.url ? `Details: ${event.url}` : ""].filter(Boolean).join("\n\n");
+  
+  let dates;
+  const startTime = event.start;
+  const endTime = event.end;
+  const isAllDay = !startTime || /all\s*day/i.test(startTime);
+  
+  if (isAllDay) {
+    const d = new Date(dateStr + "T12:00:00");
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    const nextDay = new Date(d.getTime() + 86400000);
+    const ny = nextDay.getFullYear();
+    const nm = String(nextDay.getMonth() + 1).padStart(2, "0");
+    const nd = String(nextDay.getDate()).padStart(2, "0");
+    dates = `${y}${m}${day}/${ny}${nm}${nd}`;
+  } else {
+    const start = toGcalDateTime(dateStr, startTime);
+    if (!start) return null;
+    let end;
+    if (endTime && parseTime(endTime)) {
+      end = toGcalDateTime(dateStr, endTime);
+    } else {
+      end = addHours(start, 2);
+    }
+    dates = `${start}/${end}`;
+  }
+  
+  const params = new URLSearchParams({
+    action: "TEMPLATE",
+    text: title,
+    dates: dates,
+    location: location,
+    details: description,
+    ctz: "America/New_York"
+  });
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
+function buildIcsContent(event, dateStr) {
+  const title = event.title || "Event";
+  const location = [event.venue, event.city].filter(Boolean).join(", ");
+  const description = [event.why || event.description || "", event.url ? `Details: ${event.url}` : ""].filter(Boolean).join("\\n\\n");
+  const uid = `${event.id || Math.random().toString(36).slice(2)}-${dateStr}@trianglefamilyweekend`;
+  
+  const startTime = event.start;
+  const endTime = event.end;
+  const isAllDay = !startTime || /all\s*day/i.test(startTime);
+  
+  let dtstart, dtend;
+  if (isAllDay) {
+    dtstart = `DTSTART;VALUE=DATE:${toIcsDateTime(dateStr, null, true)}`;
+    const nextDay = new Date(new Date(dateStr + "T12:00:00").getTime() + 86400000);
+    const ny = nextDay.getFullYear();
+    const nm = String(nextDay.getMonth() + 1).padStart(2, "0");
+    const nd = String(nextDay.getDate()).padStart(2, "0");
+    dtend = `DTEND;VALUE=DATE:${ny}${nm}${nd}`;
+  } else {
+    const start = toIcsDateTime(dateStr, startTime);
+    if (!start) return null;
+    let end;
+    if (endTime && parseTime(endTime)) {
+      end = toIcsDateTime(dateStr, endTime);
+    } else {
+      end = addHours(start, 2);
+    }
+    dtstart = `DTSTART;TZID=America/New_York:${start}`;
+    dtend = `DTEND;TZID=America/New_York:${end}`;
+  }
+  
+  const now = new Date();
+  const stamp = `${now.getUTCFullYear()}${String(now.getUTCMonth() + 1).padStart(2, "0")}${String(now.getUTCDate()).padStart(2, "0")}T${String(now.getUTCHours()).padStart(2, "0")}${String(now.getUTCMinutes()).padStart(2, "0")}${String(now.getUTCSeconds()).padStart(2, "0")}Z`;
+  
+  return `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Triangle Family Weekend//EN
+BEGIN:VEVENT
+UID:${uid}
+DTSTAMP:${stamp}
+${dtstart}
+${dtend}
+SUMMARY:${title.replace(/[,;]/g, "\\$&")}
+LOCATION:${location.replace(/[,;]/g, "\\$&")}
+DESCRIPTION:${description.replace(/[,;]/g, "\\$&")}
+END:VEVENT
+END:VCALENDAR`;
+}
+
+function downloadIcs(event, dateStr) {
+  const ics = buildIcsContent(event, dateStr);
+  if (!ics) return;
+  const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${(event.title || "event").replace(/[^a-z0-9]+/gi, "-").toLowerCase()}.ics`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function calendarLinks(event, dateStr) {
+  const gcalUrl = buildGoogleCalUrl(event, dateStr);
+  if (!gcalUrl) return "";
+  return `<div class="cal-links">
+    <a href="${escapeAttr(gcalUrl)}" target="_blank" rel="noopener" class="cal-btn gcal" title="Add to Google Calendar">📅 Google</a>
+    <button type="button" class="cal-btn ics" onclick="downloadIcs(window._evtMap['${event.id}-${dateStr}'], '${dateStr}')" title="Download .ics for Apple/Outlook">📥 .ics</button>
+  </div>`;
+}
+
+window._evtMap = {};
+
 function fmtDate(iso) {
   return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric" });
 }
+
+function fmtWeekRange(startDate) {
+  const end = new Date(startDate.getTime() + 6 * 86400000);
+  const startMonth = startDate.toLocaleDateString("en-US", { month: "short" });
+  const endMonth = end.toLocaleDateString("en-US", { month: "short" });
+  if (startMonth === endMonth) {
+    return `${startMonth} ${startDate.getDate()}–${end.getDate()}`;
+  }
+  return `${startMonth} ${startDate.getDate()} – ${endMonth} ${end.getDate()}`;
+}
+
+let weekendDates = {};
+let activeRange = "weekend";
 
 function render(filter = "all") {
   const match = FILTERS[filter] || FILTERS.all;
   let shown = 0;
   for (const day of ["fri", "sat", "sun"]) {
+    const dateStr = weekendDates[day] || "";
     const events = allEvents
       .filter((e) => (e.days || [e.day]).includes(day) && match(e))
       .sort((a, b) => {
@@ -128,10 +321,76 @@ function render(filter = "all") {
         }
         return 0;
       });
-    document.getElementById(`cards-${day}`).innerHTML = events.map(cardHtml).join("");
+    document.getElementById(`cards-${day}`).innerHTML = events.map((e) => cardHtml(e, dateStr)).join("");
     shown += events.length;
   }
   document.getElementById("empty-state").hidden = shown > 0;
+}
+
+function renderExtendedView(days, filter = "all") {
+  const match = FILTERS[filter] || FILTERS.all;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const endDate = new Date(today.getTime() + days * 86400000);
+  
+  const eventsWithDates = allEvents
+    .filter((e) => {
+      if (!match(e)) return false;
+      if (e.date) {
+        const d = new Date(e.date + "T12:00:00");
+        return d >= today && d <= endDate;
+      }
+      return true;
+    })
+    .map((e) => {
+      let eventDate = e.date ? new Date(e.date + "T12:00:00") : null;
+      if (!eventDate && e.days && e.days.length > 0) {
+        const dayMap = { fri: weekendDates.fri, sat: weekendDates.sat, sun: weekendDates.sun };
+        const firstDay = e.days[0];
+        if (dayMap[firstDay]) {
+          eventDate = new Date(dayMap[firstDay] + "T12:00:00");
+        }
+      }
+      return { ...e, _sortDate: eventDate || new Date(today.getTime() + 365 * 86400000) };
+    })
+    .sort((a, b) => {
+      const dateDiff = a._sortDate - b._sortDate;
+      if (dateDiff !== 0) return dateDiff;
+      return b.family_score - a.family_score;
+    });
+
+  const weeks = {};
+  eventsWithDates.forEach((e) => {
+    const d = e._sortDate;
+    const weekStart = new Date(d);
+    weekStart.setDate(d.getDate() - d.getDay());
+    const weekKey = weekStart.toISOString().slice(0, 10);
+    if (!weeks[weekKey]) weeks[weekKey] = { start: weekStart, events: [] };
+    weeks[weekKey].events.push(e);
+  });
+
+  const container = document.getElementById("events-root");
+  const weekKeys = Object.keys(weeks).sort();
+  
+  if (weekKeys.length === 0) {
+    container.innerHTML = `<p class="empty-state">No events found in the next ${days} days.</p>`;
+    return;
+  }
+
+  let html = "";
+  weekKeys.forEach((weekKey) => {
+    const week = weeks[weekKey];
+    const weekLabel = fmtWeekRange(week.start);
+    html += `<section class="week-section">
+      <h2 class="week-heading">${weekLabel}</h2>
+      <div class="cards">${week.events.map((e) => {
+        const dateStr = e.date || (e.days && e.days[0] ? weekendDates[e.days[0]] : "") || "";
+        return cardHtml(e, dateStr);
+      }).join("")}</div>
+    </section>`;
+  });
+  
+  container.innerHTML = html;
 }
 
 let activeFilter = "all";
@@ -144,12 +403,15 @@ function fmtFullDate(iso) {
 
 function woodcreekCardHtml(e) {
   const time = e.end ? `${e.start}–${e.end}` : e.start || "";
-  const dateStr = fmtFullDate(e.date);
+  const dateStrDisplay = fmtFullDate(e.date);
+  const evtKey = `${e.id}-${e.date}`;
+  window._evtMap[evtKey] = e;
   return `<article class="card woodcreek-card">
     <div class="card-body">
       <h3>${escapeHtml(e.title)}</h3>
-      <p class="meta"><strong>${escapeHtml(dateStr)}</strong>${time ? ` · ${escapeHtml(time)}` : ""}${e.venue ? ` · ${escapeHtml(e.venue)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
+      <p class="meta"><strong>${escapeHtml(dateStrDisplay)}</strong>${time ? ` · ${escapeHtml(time)}` : ""}${e.venue ? ` · ${escapeHtml(e.venue)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
       ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ""}
+      ${calendarLinks(e, e.date)}
     </div>
   </article>`;
 }
@@ -193,17 +455,45 @@ function switchTab(tab) {
   const weekendRoot = document.getElementById("events-root");
   const woodcreekRoot = document.getElementById("woodcreek-root");
   const filters = document.getElementById("filters");
+  const rangeSelector = document.getElementById("range-selector");
 
   if (tab === "weekend") {
     weekendRoot.hidden = false;
     woodcreekRoot.hidden = true;
     filters.hidden = false;
+    rangeSelector.hidden = false;
+    if (activeRange === "weekend") {
+      restoreWeekendView();
+      render(activeFilter);
+    } else {
+      renderExtendedView(parseInt(activeRange, 10), activeFilter);
+    }
   } else if (tab === "woodcreek") {
     weekendRoot.hidden = true;
     woodcreekRoot.hidden = false;
     filters.hidden = true;
+    rangeSelector.hidden = true;
     renderWoodcreek();
   }
+}
+
+function restoreWeekendView() {
+  const container = document.getElementById("events-root");
+  container.innerHTML = `
+    <section class="day-section" data-day="fri" aria-labelledby="day-fri">
+      <h2 id="day-fri"><span class="day-name">Friday</span><span class="day-date" id="date-fri">${fmtDate(weekendDates.fri || "")}</span></h2>
+      <div class="cards" id="cards-fri"></div>
+    </section>
+    <section class="day-section" data-day="sat" aria-labelledby="day-sat">
+      <h2 id="day-sat"><span class="day-name">Saturday</span><span class="day-date" id="date-sat">${fmtDate(weekendDates.sat || "")}</span></h2>
+      <div class="cards" id="cards-sat"></div>
+    </section>
+    <section class="day-section" data-day="sun" aria-labelledby="day-sun">
+      <h2 id="day-sun"><span class="day-name">Sunday</span><span class="day-date" id="date-sun">${fmtDate(weekendDates.sun || "")}</span></h2>
+      <div class="cards" id="cards-sun"></div>
+    </section>
+    <p class="empty-state" id="empty-state" hidden>No events match those filters this weekend.</p>
+  `;
 }
 
 function bindTabs() {
@@ -211,6 +501,23 @@ function bindTabs() {
     const btn = ev.target.closest(".tab");
     if (!btn) return;
     switchTab(btn.dataset.tab);
+  });
+}
+
+function bindRangeSelector() {
+  document.getElementById("range-selector").addEventListener("click", (ev) => {
+    const btn = ev.target.closest(".range-btn");
+    if (!btn) return;
+    document.querySelectorAll(".range-btn").forEach((b) => {
+      b.classList.toggle("is-active", b === btn);
+    });
+    activeRange = btn.dataset.range;
+    if (activeRange === "weekend") {
+      restoreWeekendView();
+      render(activeFilter);
+    } else {
+      renderExtendedView(parseInt(activeRange, 10), activeFilter);
+    }
   });
 }
 
@@ -222,7 +529,11 @@ function bindFilters() {
       if (!c.classList.contains("zip-btn")) c.classList.toggle("is-active", c === btn);
     });
     activeFilter = btn.dataset.filter;
-    render(activeFilter);
+    if (activeRange === "weekend") {
+      render(activeFilter);
+    } else {
+      renderExtendedView(parseInt(activeRange, 10), activeFilter);
+    }
   });
 
   document.getElementById("zip-form").addEventListener("submit", async (ev) => {
@@ -260,6 +571,7 @@ async function main() {
     const data = await loadEvents();
     allEvents = data.events || [];
     const wk = data.weekend || {};
+    weekendDates = wk;
     for (const day of ["fri", "sat", "sun"]) {
       if (wk[day]) document.getElementById(`date-${day}`).textContent = fmtDate(wk[day]);
     }
@@ -283,6 +595,7 @@ async function main() {
     }
 
     bindTabs();
+    bindRangeSelector();
     bindFilters();
     render();
   } catch (err) {

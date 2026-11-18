@@ -99,6 +99,49 @@ body {
   border-bottom-color: var(--accent);
 }
 
+/* ---------- Range selector ---------- */
+
+.range-selector {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px 24px 0;
+}
+
+.range-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-right: 4px;
+}
+
+.range-btn {
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.range-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.range-btn.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 /* ---------- Filters ---------- */
 
 .filters {
@@ -108,7 +151,7 @@ body {
   gap: 8px;
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px 24px 4px;
+  padding: 12px 24px 4px;
 }
 
 .filters-label {
@@ -195,6 +238,23 @@ main {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--ink-soft);
+}
+
+.week-section {
+  margin-bottom: 32px;
+}
+
+.week-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 28px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
 }
 
 /* ---------- Event cards ---------- */
@@ -355,6 +415,46 @@ main {
   color: var(--ink);
 }
 
+/* ---------- Calendar links ---------- */
+
+.cal-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.cal-btn {
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink-soft);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.cal-btn:hover {
+  background: var(--paper-deep);
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+
+.cal-btn.gcal:hover {
+  border-color: #4285f4;
+  color: #4285f4;
+}
+
+.cal-btn.ics:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
@@ -376,8 +476,11 @@ main {
 
 @media (max-width: 560px) {
   .masthead { padding: 40px 20px 32px; }
-  .filters { padding: 16px 20px 4px; }
+  .range-selector { padding: 12px 20px 0; gap: 6px; }
+  .range-btn { font-size: 0.75rem; padding: 4px 10px; }
+  .filters { padding: 10px 20px 4px; }
   main { padding: 8px 20px 48px; }
   .card { grid-template-columns: 52px 1fr; gap: 12px; padding: 16px; }
   .score-num { font-size: 1.25rem; }
+  .cal-links { flex-wrap: wrap; }
 }

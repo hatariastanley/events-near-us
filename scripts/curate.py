@@ -190,10 +190,12 @@ def main():
 
         text = norm(" ".join([title, e.get("venue", "")]))
         s, tags, city = score(e)
+        event_date = e.get("event_date", "")
         events.append({
             "id": re.sub(r"[^a-z0-9]+", "-", norm(title)).strip("-")[:60],
             "title": title,
             "days": days or detect_days(text),
+            "date": event_date,
             "start": e.get("time_hint", "") or "See listing",
             "end": e.get("time_end", ""),
             "venue": e.get("venue", ""),
@@ -207,11 +209,12 @@ def main():
             "tags": sorted(tags),
         })
 
-    events.sort(key=lambda e: e["family_score"], reverse=True)
-    events = events[:40]
+    events.sort(key=lambda e: (-e["family_score"], e.get("date", "")))
+    events = events[:100]
     OUT.write_text(json.dumps({
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "weekend": raw.get("weekend", {}),
+        "range": raw.get("range", {}),
         "events": events,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {OUT} ({len(events)} events)")
