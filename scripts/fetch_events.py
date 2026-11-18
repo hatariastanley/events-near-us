@@ -5,11 +5,10 @@ Best-effort, tolerant scraping: one broken source never kills the run.
 The agent curation step (REFRESH.md) cleans, dedupes, and ranks this output —
 this script only needs to produce reasonable candidates.
 
-Usage:  python scripts/fetch_events.py
+Usage:  python scripts/fetch_events.py [--days N]
 Deps:   pip install -r requirements.txt
 """
 
-import inspect
 import json
 import re
 import sys
@@ -25,7 +24,7 @@ except ImportError:
 
 try:
     import truststore
-    truststore.inject_into_ssl()  # corporate TLS-inspection proxies: use the OS cert store
+    truststore.inject_into_ssl()
 except ImportError:
     pass
 
@@ -36,24 +35,47 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 TIMEOUT = 20
 PARTIAL_SOURCES = set()
 
+FETCH_DAYS = 3  # default, overridden by --days
+
 
 def upcoming_weekend(today=None):
     """Return (fri, sun) date objects for the coming/current weekend."""
     today = today or date.today()
-    days_to_fri = (4 - today.weekday()) % 7  # Mon=0 ... Sun=6
+    days_to_fri = (4 - today.weekday()) % 7
     fri = today + timedelta(days=days_to_fri)
     return fri, fri + timedelta(days=2)
+
+
+def get_date_range():
+    """Return (start_date, end_date) based on FETCH_DAYS."""
+    today = date.today()
+    if FETCH_DAYS <= 3:
+        return upcoming_weekend()
+    return today, today + timedelta(days=FETCH_DAYS)
 
 
 def get(url):
     r = requests.get(url, headers=UA, timeout=TIMEOUT)
     r.raise_for_status()
     if "Browser Isolation" in r.text or "Zscaler" in r.text[:5000]:
-        # Corporate TLS proxy serving an isolation wrapper instead of the page.
-        # Expected behind Zscaler; works fine from non-proxied networks (CI/cloud).
         raise RuntimeError("blocked by proxy browser isolation")
-    return BeautifulSoup(r.content, "html.parser")  # let bs4 sniff meta charset (avoids � mojibake)
+    return BeautifulSoup(r.content, "html.parser")
 
+
+def _date_hint(d):
+    return f"{d.strftime('%b')} {d.day}"
+
+
+def _day_in_range(d, start, end):
+    """Check if date d falls within the fetch range."""
+    if isinstance(d, datetime):
+        d = d.date()
+    return start <= d <= end
+
+
+# ============================================================================
+# Source scrapers - all updated to respect date range when possible
+# ============================================================================
 
 def scrape_stufftodoinrdu():
     """Weekend page: event blocks with h3 title links, time, venue, vibes."""
@@ -73,13 +95,13 @@ def scrape_stufftodoinrdu():
             "cost": "Free" if "Free" in text else "",
             "source": "stufftodoinrdu",
             "tags": vibes,
-            "day_hint": heading_day(h3),
+            "day_hint": "",
         })
     return events
 
 
 def scrape_kidsoutandabout():
-    """Weekend roundup highlights (full list lives behind an iframe/ajax view)."""
+    """Weekend roundup highlights."""
     events = []
     for url in (
         "https://rt.kidsoutandabout.com/koaa_ajax_view/events/weekend-view",
@@ -95,7 +117,7 @@ def scrape_kidsoutandabout():
                 events.append({
                     "title": title, "url": urljoin(url, a.get("href", "")),
                     "venue": "", "time_hint": "", "cost": "",
-                    "source": "kidsoutandabout", "tags": [],
+                    "source": "kidsoutandabout", "tags": ["family"],
                 })
         if events:
             break
@@ -103,7 +125,7 @@ def scrape_kidsoutandabout():
 
 
 def scrape_triangleonthecheap():
-    """Day tables: event | time | price | location. Needs browser UA."""
+    """Day tables: event | time | price | location."""
     events = []
     soup = get("https://triangleonthecheap.com/events/view-all/")
     for row in soup.select("table tr"):
@@ -115,7 +137,7 @@ def scrape_triangleonthecheap():
             "title": cells[0], "url": urljoin("https://triangleonthecheap.com", link["href"]) if link else "",
             "venue": cells[-1], "time_hint": cells[1] if len(cells) > 1 else "",
             "cost": cells[2] if len(cells) > 2 else "",
-            "source": "triangleonthecheap", "tags": [],
+            "source": "triangleonthecheap", "tags": ["budget"],
         })
     return events
 
@@ -128,9 +150,7 @@ DAY_MAP = {"mon": "mon", "tue": "tue", "wed": "wed", "thu": "thu",
 
 
 def scrape_raleighparent():
-    """Events calendar. Link text is a blob: 'Fri, Nov 20, 05:00 PM - 08:00 PM
-    <title> at <venue>, <city> 891.9 mi away • FREE • <categories>'.
-    Keep only date-prefixed links (drops nav junk), then split the blob."""
+    """Events calendar with date-prefixed links."""
     events = []
     soup = get("https://raleighparent.com/events/")
     for a in soup.select("a[href*='event']"):
@@ -160,76 +180,90 @@ def scrape_raleighparent():
             "time_end": end or "",
             "cost": cost,
             "source": "raleighparent",
-            "tags": [],
+            "tags": ["family"],
             "day_hint": DAY_MAP[wday.lower()],
             "date_hint": date_hint,
         })
     return events
 
 
-def _date_hint(d):
-    return f"{d.strftime('%b')} {d.day}"
-
-
-def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
-    """CivicPlus month-grid calendar. Each day cell links an eventDetails
-    tooltip: <div name="showDetailsBox" id="showDetails<EID>_<n>"> with
-    h3 title, dt/dd When+Location, and a 'More Details' href carrying
-    ?EID=&month=&year=&day=. Category lives in the grid anchor's
-    .visuallyHidden span right before the tooltip."""
+def scrape_civicplus(source_name, base, city, months_ahead=3):
+    """CivicPlus calendar. Combines the list view with month grids for extended ranges."""
     events = []
-    range_mode = bool(start_date and end_date and (end_date - start_date).days > 3)
-    items = []
+    seen_keys = set()
+    start_date, end_date = get_date_range()
+
+    def add_event(title, url, venue, time_hint, time_end, tags, day_hint, date_hint, event_date):
+        key = (title, event_date or "", venue)
+        if key in seen_keys:
+            return
+        seen_keys.add(key)
+        events.append({
+            "title": title,
+            "url": url,
+            "venue": venue,
+            "time_hint": time_hint,
+            "time_end": time_end,
+            "cost": "",
+            "source": source_name,
+            "city": city,
+            "tags": tags,
+            "day_hint": day_hint,
+            "date_hint": date_hint,
+            "event_date": event_date,
+        })
+
+    # List view has cleaner titles when present, but month grids catch events it omits.
     try:
         soup = get(f"{base}/calendar.aspx?view=list")
         items = soup.select(".calendars .calendar ol li")
     except Exception:
         items = []
-    if items:
-        for li in items:
-            nm = li.select_one('[itemprop="name"]')
-            st = li.select_one('[itemprop="startDate"]')
-            a = li.select_one("h3 a[href]")
-            if not (nm and a):
-                continue
-            title = nm.get_text(" ", strip=True)
-            if len(title) < 5:
-                continue
-            day_hint = date_hint = time_hint = ""
-            if st:
-                try:
-                    dt = datetime.fromisoformat(st.get_text(strip=True))
-                    day_hint = dt.strftime("%a").lower()[:3]
-                    date_hint = _date_hint(dt.date())
-                    time_hint = dt.strftime("%I:%M %p").lstrip("0")
-                except Exception:
-                    pass
-            loc = li.select_one('span[itemprop="location"] [itemprop="name"]')
-            group = li.find_parent(class_="calendar")
-            gtitle = group.select_one("h2.title").get_text(strip=True)                 if group and group.select_one("h2.title") else ""
-            events.append({
-                "title": title,
-                "url": urljoin(base, a["href"]),
-                "venue": loc.get_text(" ", strip=True) if loc else "",
-                "time_hint": time_hint, "time_end": "",
-                "cost": "", "source": source_name, "city": city,
-                "tags": [gtitle] if gtitle else [],
-                "day_hint": day_hint, "date_hint": date_hint,
-            })
-        if events and not range_mode:
-            return events
-    if start_date and end_date:
-        months = set()
-        d = start_date.replace(day=1)
-        while d <= end_date:
-            months.add((d.month, d.year))
-            d = (d.replace(day=28) + timedelta(days=7)).replace(day=1)
-    else:
-        fri, _ = upcoming_weekend()
-        months = {(fri.month, fri.year), ((fri + timedelta(days=2)).month,
-                                          (fri + timedelta(days=2)).year)}
+    for li in items:
+        nm = li.select_one('[itemprop="name"]')
+        st = li.select_one('[itemprop="startDate"]')
+        a = li.select_one("h3 a[href]")
+        if not (nm and st and a):
+            continue
+        title = nm.get_text(" ", strip=True)
+        if len(title) < 5:
+            continue
+        try:
+            dt = datetime.fromisoformat(st.get_text(strip=True))
+            event_date = dt.date()
+        except Exception:
+            continue
+        if not _day_in_range(event_date, start_date, end_date):
+            continue
+        day_hint = dt.strftime("%a").lower()[:3]
+        date_hint = _date_hint(dt.date())
+        time_hint = dt.strftime("%I:%M %p").lstrip("0")
+        loc = li.select_one('span[itemprop="location"] [itemprop="name"]')
+        group = li.find_parent(class_="calendar")
+        gtitle = group.select_one("h2.title").get_text(strip=True) if group and group.select_one("h2.title") else ""
+        add_event(
+            title,
+            urljoin(base, a["href"]),
+            loc.get_text(" ", strip=True) if loc else "",
+            time_hint,
+            "",
+            [gtitle] if gtitle else [],
+            day_hint,
+            date_hint,
+            event_date.isoformat(),
+        )
+
+    # Month grids cover the full range, including cities whose list view is empty.
+    months_to_fetch = set()
+    current = start_date.replace(day=1)
+    while current <= end_date:
+        months_to_fetch.add((current.month, current.year))
+        next_month = current.month % 12 + 1
+        next_year = current.year + (1 if current.month == 12 else 0)
+        current = current.replace(year=next_year, month=next_month)
+
     failed_months = 0
-    for month, year in sorted(months):
+    for month, year in sorted(months_to_fetch):
         try:
             soup = get(f"{base}/calendar.aspx?month={month}&year={year}")
         except Exception:
@@ -246,6 +280,8 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
             try:
                 ev = date(int(q["year"]), int(q["month"]), int(q["day"]))
             except Exception:
+                continue
+            if not _day_in_range(ev, start_date, end_date):
                 continue
             h3 = tip.find("h3")
             title = h3.get_text(" ", strip=True) if h3 else ""
@@ -264,32 +300,34 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
                 vh = prev.find(class_="visuallyHidden")
                 if vh:
                     cat = vh.get_text(strip=True).replace("Category:", "").strip()
-            events.append({
-                "title": title,
-                "url": urljoin(base, a["href"]) if a else base + "/calendar.aspx",
-                "venue": meta.get("Location", ""),
-                "time_hint": tm.group(1) if tm else "",
-                "time_end": te.group(1) if te else "",
-                "cost": "", "source": source_name, "city": city,
-                "tags": [cat] if cat else [],
-                "day_hint": ev.strftime("%a").lower()[:3],
-                "date_hint": _date_hint(ev),
-            })
-    if failed_months and (events or failed_months < len(months)):
+            add_event(
+                title,
+                urljoin(base, a["href"]) if a else base + "/calendar.aspx",
+                meta.get("Location", ""),
+                tm.group(1) if tm else "",
+                te.group(1) if te else "",
+                [cat] if cat else [],
+                ev.strftime("%a").lower()[:3],
+                _date_hint(ev),
+                ev.isoformat(),
+            )
+
+    if failed_months and (events or failed_months < len(months_to_fetch)):
         PARTIAL_SOURCES.add(source_name)
-    if not events and months and failed_months == len(months):
+    if not events and months_to_fetch and failed_months == len(months_to_fetch):
         raise RuntimeError("all calendar months failed")
     return events
 
 
-def scrape_wakegov(pages=4):
-    """wake.gov/events — Drupal responsive-grid cards covering ALL Wake
-    County events incl. every library branch's storytimes and county park
-    programs. Card: h2 a title/link, .date-time range text, trailing
-    dept/audience text."""
+def scrape_wakegov(pages=8):
+    """wake.gov/events — Drupal responsive-grid cards."""
     events = []
+    start_date, end_date = get_date_range()
     for pg in range(pages):
-        soup = get(f"https://www.wake.gov/events?page={pg}")
+        try:
+            soup = get(f"https://www.wake.gov/events?page={pg}")
+        except Exception:
+            break
         grid = soup.select_one(".views-view-responsive-grid")
         if not grid:
             break
@@ -310,31 +348,32 @@ def scrape_wakegov(pages=4):
             tail = card.get_text(" ", strip=True)
             tail = tail.replace(title, "", 1).replace(dt_text, "").strip()
             day_hint = date_hint = ""
+            event_date = None
             if dm:
                 mon = {"january": 1, "february": 2, "march": 3, "april": 4,
                        "may": 5, "june": 6, "july": 7, "august": 8,
                        "september": 9, "october": 10, "november": 11,
                        "december": 12}.get(dm.group(2).lower())
                 if mon:
-                    ev = date(int(dm.group(4)), mon, int(dm.group(3)))
-                    day_hint = ev.strftime("%a").lower()[:3]
-                    date_hint = _date_hint(ev)
+                    event_date = date(int(dm.group(4)), mon, int(dm.group(3)))
+                    if not _day_in_range(event_date, start_date, end_date):
+                        continue
+                    day_hint = event_date.strftime("%a").lower()[:3]
+                    date_hint = _date_hint(event_date)
             events.append({
                 "title": title, "url": url,
                 "venue": "", "time_hint": tm.group(1) if tm else "",
                 "time_end": "", "cost": "", "source": "wakegov",
                 "tags": [tail] if tail else [],
                 "day_hint": day_hint, "date_hint": date_hint,
+                "event_date": event_date.isoformat() if event_date else "",
             })
     return events
 
 
-def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
-    """WordPress 'The Events Calendar' REST API — clean JSON.
-    /wp-json/tribe/events/v1/events?start_date&end_date"""
-    if start_date is None or end_date is None:
-        fri, sun = upcoming_weekend()
-        start_date, end_date = fri, sun
+def scrape_tec(source_name, base, per_page=50):
+    """WordPress 'The Events Calendar' REST API — paginates extended date ranges."""
+    start_date, end_date = get_date_range()
     raw_events = []
     page = 1
     total_pages = None
@@ -366,6 +405,7 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
         page += 1
     if not raw_events and first_exc is not None:
         raise first_exc
+
     events = []
     for e in raw_events:
         start = e.get("start_date", "")
@@ -404,21 +444,18 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
     return events
 
 
-def scrape_fun4raleighkids(start_date=None, end_date=None):
-    """fun4raleighkids.com — Joomla JEvents. Day-list pages are server
-    rendered: /calendar/day.listevents/YYYY/M/D/- with .jev_listrow rows."""
+def scrape_fun4raleighkids():
+    """fun4raleighkids.com — Joomla JEvents. Fetches each day in range."""
     events = []
-    if start_date and end_date:
-        days = []
-        d = start_date
-        while d <= end_date:
-            days.append(d)
-            d += timedelta(days=1)
-    else:
-        fri, _ = upcoming_weekend()
-        days = [fri, fri + timedelta(days=1), fri + timedelta(days=2)]
-    for day in days:
-        soup = get(f"https://fun4raleighkids.com/calendar/day.listevents/{day.year}/{day.month}/{day.day}/-")
+    start_date, end_date = get_date_range()
+    days_to_fetch = min((end_date - start_date).days + 1, 90)
+    
+    for i in range(days_to_fetch):
+        day = start_date + timedelta(days=i)
+        try:
+            soup = get(f"https://fun4raleighkids.com/calendar/day.listevents/{day.year}/{day.month}/{day.day}/-")
+        except Exception:
+            continue
         for row in soup.select(".jev_listrow"):
             a = row.select_one("h2 a[href]")
             if not a:
@@ -442,27 +479,75 @@ def scrape_fun4raleighkids(start_date=None, end_date=None):
                 "source": "fun4raleighkids", "tags": ["family"],
                 "day_hint": day.strftime("%a").lower()[:3],
                 "date_hint": _date_hint(day),
+                "event_date": day.isoformat(),
             })
     return events
 
 
+def scrape_raleigh_api():
+    """City of Raleigh JSON API — returns all events, filter by date range."""
+    events = []
+    start_date, end_date = get_date_range()
+    try:
+        r = requests.get("https://raleighnc.gov/api/events", headers=UA, timeout=TIMEOUT)
+        r.raise_for_status()
+        data = r.json()
+    except Exception:
+        return events
+    
+    for e in data:
+        title = e.get("title", "")
+        if len(title) < 5:
+            continue
+        start_str = e.get("start", "")
+        event_date = None
+        day_hint = date_hint = time_hint = ""
+        if start_str:
+            try:
+                dt = datetime.fromisoformat(start_str.replace("Z", "+00:00"))
+                event_date = dt.date()
+                if not _day_in_range(event_date, start_date, end_date):
+                    continue
+                day_hint = event_date.strftime("%a").lower()[:3]
+                date_hint = _date_hint(event_date)
+                if dt.hour or dt.minute:
+                    time_hint = dt.strftime("%I:%M %p").lstrip("0")
+            except Exception:
+                pass
+        
+        events.append({
+            "title": title,
+            "url": e.get("url", ""),
+            "venue": "",
+            "city": "Raleigh",
+            "time_hint": time_hint,
+            "time_end": "",
+            "cost": "",
+            "source": "raleighnc",
+            "tags": ["city"],
+            "day_hint": day_hint,
+            "date_hint": date_hint,
+            "event_date": event_date.isoformat() if event_date else "",
+        })
+    
+    return events
+
+
+# ============================================================================
+# Source registry
+# ============================================================================
+
 CIVICPLUS_SITES = {
+    # Working CivicPlus sites with accessible calendars
     "hollysprings":   ("https://www.hollyspringsnc.us", "Holly Springs"),
     "apex":           ("https://www.apexnc.org", "Apex"),
     "fuquayvarina":   ("https://www.fuquay-varina.org", "Fuquay-Varina"),
     "carrboro":       ("https://www.carrboronc.gov", "Carrboro"),
-    "durhamdpr":      ("https://www.dprplaymore.org", "Durham"),
+    "clayton":        ("https://www.townofclaytonnc.org", "Clayton"),
+    "orangecounty":   ("https://www.orangecountync.gov", "Orange County"),
+    # Blocked by WAF/firewall: wendell, morrisville, garner, knightdale, 
+    # wakeforest, chapelhill, hillsborough, durhamdpr
 }
-
-
-def _civic(name):
-    base, city = CIVICPLUS_SITES[name]
-    return lambda start_date=None, end_date=None: scrape_civicplus(name, base, city, start_date, end_date)
-
-
-def _tec(name):
-    return lambda start_date=None, end_date=None: scrape_tec(name, TEC_SITES[name], start_date=start_date, end_date=end_date)
-
 
 TEC_SITES = {
     "marbles": "https://www.marbleskidsmuseum.org",
@@ -470,47 +555,60 @@ TEC_SITES = {
     "dukegardens": "https://gardens.duke.edu",
 }
 
+# Removed: LOCALIST_SITES (NC State, UNC) - university events not family-focused
+
+
+def _civic(name):
+    base, city = CIVICPLUS_SITES[name]
+    return lambda: scrape_civicplus(name, base, city)
+
+
+def _tec(name):
+    base = TEC_SITES[name]
+    return lambda: scrape_tec(name, base)
+
+
 SOURCES = {
+    # Family-focused aggregator sites
     "stufftodoinrdu": scrape_stufftodoinrdu,
     "kidsoutandabout": scrape_kidsoutandabout,
-    "triangleonthecheap": scrape_triangleonthecheap,
+    # triangleonthecheap: blocked by Cloudflare (403)
     "raleighparent": scrape_raleighparent,
-    "wakegov": scrape_wakegov,
     "fun4raleighkids": scrape_fun4raleighkids,
-    **{name: _tec(name) for name in TEC_SITES},
+    
+    # Government / Regional (family events)
+    "wakegov": scrape_wakegov,
+    "raleighnc": scrape_raleigh_api,
+    
+    # CivicPlus town calendars (community/family events)
     **{name: _civic(name) for name in CIVICPLUS_SITES},
+    
+    # Family venues (The Events Calendar)
+    **{name: _tec(name) for name in TEC_SITES},
+    
+    # Removed: NC State/UNC Localist - university/campus events not family-focused
 }
 
 
 def main():
+    global FETCH_DAYS
     import argparse
     parser = argparse.ArgumentParser(description="Fetch Triangle area events")
-    parser.add_argument("--days", type=int, default=3,
-                        help="Number of days to fetch (default: 3 for weekend)")
+    parser.add_argument("--days", type=int, default=90,
+                        help="Number of days to fetch (default: 90)")
     args = parser.parse_args()
+    FETCH_DAYS = args.days
 
     today = date.today()
     fri, sun = upcoming_weekend()
-    
-    if args.days <= 3:
-        start_date, end_date = fri, sun
-        range_mode = "weekend"
-    else:
-        start_date = today
-        end_date = today + timedelta(days=args.days)
-        range_mode = f"{args.days}days"
+    start_date, end_date = get_date_range()
+    range_mode = "weekend" if FETCH_DAYS <= 3 else f"{FETCH_DAYS}days"
 
     PARTIAL_SOURCES.clear()
     collected, failed = [], []
     for name, fn in SOURCES.items():
         try:
-            params = inspect.signature(fn).parameters
-            kwargs = {}
-            if "start_date" in params:
-                kwargs["start_date"] = start_date
-            if "end_date" in params:
-                kwargs["end_date"] = end_date
-            found = fn(**kwargs)
+            found = fn()
             print(f"{name}: {len(found)} listings")
             collected.extend(found)
         except Exception as exc:
@@ -531,7 +629,28 @@ def main():
         "partial_sources": partial,
         "raw_events": collected,
     }, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"wrote {OUT} ({len(collected)} raw listings, {len(failed)} failed sources)")
+    
+    # Print stats by date range
+    from collections import Counter
+    date_counts = Counter()
+    for e in collected:
+        ed = e.get("event_date", "")
+        if ed:
+            try:
+                d = datetime.strptime(ed, "%Y-%m-%d").date()
+                if d <= today + timedelta(days=7):
+                    date_counts["This week"] += 1
+                elif d <= today + timedelta(days=30):
+                    date_counts["30 days"] += 1
+                elif d <= today + timedelta(days=60):
+                    date_counts["60 days"] += 1
+                elif d <= today + timedelta(days=90):
+                    date_counts["90 days"] += 1
+            except:
+                pass
+    
+    print(f"\nwrote {OUT} ({len(collected)} raw listings, {len(failed)} failed sources)")
+    print(f"Date distribution: {dict(date_counts)}")
 
 
 if __name__ == "__main__":
