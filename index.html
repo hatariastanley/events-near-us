@@ -26,6 +26,11 @@
     </div>
   </header>
 
+  <nav class="tabs" id="tabs" aria-label="Content tabs">
+    <button type="button" class="tab is-active" data-tab="weekend">Weekend Events</button>
+    <button type="button" class="tab" data-tab="woodcreek">Woodcreek</button>
+  </nav>
+
   <nav class="filters" id="filters" aria-label="Event filters">
     <span class="filters-label">Show:</span>
     <button type="button" class="chip is-active" data-filter="all">Everything</button>
@@ -56,6 +61,15 @@
       <div class="cards" id="cards-sun"></div>
     </section>
     <p class="empty-state" id="empty-state" hidden>No events match those filters this weekend.</p>
+  </main>
+
+  <main id="woodcreek-root" hidden>
+    <section class="woodcreek-section" aria-labelledby="woodcreek-heading">
+      <h2 id="woodcreek-heading">Woodcreek HOA Events</h2>
+      <p class="woodcreek-source" id="woodcreek-source"></p>
+      <div class="woodcreek-cards" id="woodcreek-cards"></div>
+    </section>
+    <p class="empty-state" id="woodcreek-empty" hidden>No Woodcreek events listed.</p>
   </main>
 
   <footer class="site-footer">

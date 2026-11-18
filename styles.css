@@ -68,6 +68,37 @@ body {
   color: var(--ink-soft);
 }
 
+/* ---------- Tabs ---------- */
+
+.tabs {
+  display: flex;
+  gap: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 24px 0;
+}
+
+.tab {
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab:hover { color: var(--ink); }
+.tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.tab.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
 /* ---------- Filters ---------- */
 
 .filters {
@@ -285,6 +316,43 @@ main {
   padding: 48px 0;
   text-align: center;
   color: var(--ink-soft);
+}
+
+/* ---------- Woodcreek ---------- */
+
+.woodcreek-section h2 {
+  margin: 36px 0 12px;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 10px;
+}
+
+.woodcreek-source {
+  margin: 0 0 20px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.woodcreek-cards {
+  display: grid;
+  gap: 14px;
+}
+
+.woodcreek-card {
+  display: block;
+  grid-template-columns: 1fr;
+}
+
+.woodcreek-card .card-body h3 {
+  margin: 0 0 6px;
+}
+
+.woodcreek-card .description {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+  color: var(--ink);
 }
 
 /* ---------- Footer ---------- */

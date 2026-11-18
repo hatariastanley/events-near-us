@@ -59,10 +59,17 @@ const FILTERS = {
 };
 
 let allEvents = [];
+let woodcreekData = null;
 
 async function loadEvents() {
   const res = await fetch("data/events.json");
   if (!res.ok) throw new Error(`events.json: ${res.status}`);
+  return res.json();
+}
+
+async function loadWoodcreekEvents() {
+  const res = await fetch("data/woodcreek_events.json");
+  if (!res.ok) throw new Error(`woodcreek_events.json: ${res.status}`);
   return res.json();
 }
 
@@ -128,6 +135,76 @@ function render(filter = "all") {
 }
 
 let activeFilter = "all";
+let activeTab = "weekend";
+
+function fmtFullDate(iso) {
+  const d = new Date(iso + "T12:00:00");
+  return d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+}
+
+function woodcreekCardHtml(e) {
+  const time = e.end ? `${e.start}–${e.end}` : e.start || "";
+  const dateStr = fmtFullDate(e.date);
+  return `<article class="card woodcreek-card">
+    <div class="card-body">
+      <h3>${escapeHtml(e.title)}</h3>
+      <p class="meta"><strong>${escapeHtml(dateStr)}</strong>${time ? ` · ${escapeHtml(time)}` : ""}${e.venue ? ` · ${escapeHtml(e.venue)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
+      ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ""}
+    </div>
+  </article>`;
+}
+
+function renderWoodcreek() {
+  if (!woodcreekData) return;
+  const events = woodcreekData.events || [];
+  const container = document.getElementById("woodcreek-cards");
+  const sourceEl = document.getElementById("woodcreek-source");
+  const emptyEl = document.getElementById("woodcreek-empty");
+
+  if (woodcreekData.source_info) {
+    const info = woodcreekData.source_info;
+    sourceEl.textContent = `Source: ${info.source_name || "Woodcreek Newsletter"} (${info.organizer || "Woodcreek HOA"})`;
+  }
+
+  if (events.length === 0) {
+    container.innerHTML = "";
+    emptyEl.hidden = false;
+  } else {
+    const sorted = [...events].sort((a, b) => new Date(a.date) - new Date(b.date));
+    container.innerHTML = sorted.map(woodcreekCardHtml).join("");
+    emptyEl.hidden = true;
+  }
+}
+
+function switchTab(tab) {
+  activeTab = tab;
+  document.querySelectorAll(".tab").forEach((t) => {
+    t.classList.toggle("is-active", t.dataset.tab === tab);
+  });
+
+  const weekendRoot = document.getElementById("events-root");
+  const woodcreekRoot = document.getElementById("woodcreek-root");
+  const filters = document.getElementById("filters");
+
+  if (tab === "weekend") {
+    weekendRoot.hidden = false;
+    woodcreekRoot.hidden = true;
+    filters.hidden = false;
+  } else if (tab === "woodcreek") {
+    weekendRoot.hidden = true;
+    woodcreekRoot.hidden = false;
+    filters.hidden = true;
+    renderWoodcreek();
+  }
+}
+
+function bindTabs() {
+  document.getElementById("tabs").addEventListener("click", (ev) => {
+    const btn = ev.target.closest(".tab");
+    if (!btn) return;
+    switchTab(btn.dataset.tab);
+  });
+}
 
 function bindFilters() {
   document.getElementById("filters").addEventListener("click", (ev) => {
@@ -190,6 +267,14 @@ async function main() {
         document.getElementById("zip-status").textContent = `Sorting from ${home.zip}`;
       } catch { localStorage.removeItem("home"); home = null; }
     }
+
+    try {
+      woodcreekData = await loadWoodcreekEvents();
+    } catch {
+      woodcreekData = { events: [] };
+    }
+
+    bindTabs();
     bindFilters();
     render();
   } catch (err) {
