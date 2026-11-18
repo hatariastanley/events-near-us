@@ -335,25 +335,35 @@ def distribute_by_week(events, today, max_total=400):
     }
     DEFAULT_QUOTA = 20  # For weeks beyond 12
     
+    def occurrence_key(e):
+        when = e.get("date") or ",".join(e.get("days") or [])
+        return (norm(e.get("title", ""))[:80], when)
+
     # Group events by week
     by_week = defaultdict(list)
     for e in events:
         week = get_week_key(e.get("date", ""), today)
         by_week[week].append(e)
-    
-    # Sort each week by score (descending)
-    for week in by_week:
-        by_week[week].sort(key=lambda x: -x["family_score"])
-    
-    # Select events respecting quotas
+
+    # Select event occurrences respecting quotas; keep every session in a chosen occurrence.
     selected = []
     for week in sorted(by_week.keys()):
         quota = WEEK_QUOTAS.get(week, DEFAULT_QUOTA)
-        week_events = by_week[week][:quota]
-        selected.extend(week_events)
+        groups = defaultdict(list)
+        for e in by_week[week]:
+            groups[occurrence_key(e)].append(e)
+        ordered = sorted(groups.values(), key=lambda g: -max(x["family_score"] for x in g))
+        week_groups = 0
+        for group in ordered:
+            if week_groups >= quota:
+                break
+            if len(selected) + len(group) > max_total:
+                continue
+            selected.extend(group)
+            week_groups += 1
         if len(selected) >= max_total:
             break
-    
+
     # Sort final list by date, then score
     selected.sort(key=lambda e: (e.get("date", "9999-99-99"), -e["family_score"]))
     return selected[:max_total]
