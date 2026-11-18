@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:01:33+00:00",
+  "generated_at": "2026-11-18T20:07:40+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -15,9 +15,9 @@
       "id": "downtown-raleigh-tree-lighting-holiday-market",
       "title": "Downtown Raleigh Tree Lighting & Holiday Market",
       "days": [
-        "sat"
+        "fri"
       ],
-      "date": "",
+      "date": "2026-11-20",
       "start": "5:30 PM",
       "end": "",
       "venue": "Moore Square",
@@ -27,235 +27,6 @@
       "source": "stufftodoinrdu",
       "indoor": false,
       "family_score": 100,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "free-children-s-movies-at-the-holly-springs-cultural-center",
-      "title": "Free Children’s Movies at the Holly Springs Cultural Center",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "10 AM",
-      "end": "",
-      "venue": "Holly Springs Cultural Center",
-      "city": "Holly Springs",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/free-childrens-movies-at-the-holly-springs-cultural-center/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-downtown-farmers-market",
-      "title": "Cary Downtown Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "9 AM",
-      "end": "",
-      "venue": "Downtown Cary Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 98,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "durham-craft-market",
-      "title": "Durham Craft Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "8 AM",
-      "end": "",
-      "venue": "Durham Central Park",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/durham-craft-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 96,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "durham-farmers-market",
-      "title": "Durham Farmers’ Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "8 AM",
-      "end": "",
-      "venue": "Durham Central Park",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/durham-farmers-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "durham-art-walk-holiday-market",
-      "title": "Durham Art Walk Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "10 AM",
-      "end": "",
-      "venue": "",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/durham-art-walk-holiday-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "trail-talks-with-tlc-williamson",
-      "title": "Trail Talks with TLC: Williamson",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "9:30 AM",
-      "end": "",
-      "venue": "Williamson Farm and Nature Preserve",
-      "city": "",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/trail-talks-with-tlc-williamson/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 91,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "raleigh-christmas-parade-watch-party-at-taverna-agora",
-      "title": "Raleigh Christmas Parade Watch Party at Taverna Agora",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "7:30 AM",
-      "end": "",
-      "venue": "Taverna Agora",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-watch-party-taverna-agora-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "kidz-bop-skate",
-      "title": "Kidz Bop Skate",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "10 AM",
-      "end": "",
-      "venue": "United Skates Of America Raleigh",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "nature-storytime-forest-detectives",
-      "title": "Nature Storytime: Forest Detectives",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "10 AM",
-      "end": "",
-      "venue": "Brumley South Nature Preserve",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/nature-storytime-forest-detectives/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "true-crime-curious-tales-raleigh-walking-tour",
-      "title": "True Crime & Curious Tales Raleigh Walking Tour",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "4 PM",
-      "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/true-crime-curious-tales-raleigh-walking-tour/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "rag-alley-2-holiday-market",
-      "title": "Rag Alley 2 + Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "12 PM",
-      "end": "",
-      "venue": "Phelps Phine Art",
-      "city": "",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/rag-alley-2-holiday-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 86,
       "why": "",
       "tags": [
         "free",
@@ -327,6 +98,27 @@
       ]
     },
     {
+      "id": "cary-night-market-november",
+      "title": "Cary Night Market (November)",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "5 PM",
+      "end": "",
+      "venue": "Downtown Cary Park",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/cary-night-market-november-2026/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "nc-museum-of-natural-sciences-incredible-science",
       "title": "NC Museum of Natural Sciences Incredible Science",
       "days": [
@@ -370,6 +162,27 @@
       ]
     },
     {
+      "id": "trail-talks-with-tlc-williamson",
+      "title": "Trail Talks with TLC: Williamson",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "9:30 AM",
+      "end": "",
+      "venue": "Williamson Farm and Nature Preserve",
+      "city": "",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/trail-talks-with-tlc-williamson/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "wake-county-library-storytimes-and-programs",
       "title": "Wake County Library Storytimes and Programs",
       "days": [
@@ -389,6 +202,25 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "nature-storytime-forest-detectives",
+      "title": "Nature Storytime: Forest Detectives",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "10 AM",
+      "end": "",
+      "venue": "Brumley South Nature Preserve",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/nature-storytime-forest-detectives/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 89,
+      "why": "",
+      "tags": []
     },
     {
       "id": "an-archaeologist-s-face-to-feet-with-king-taharqa",
@@ -412,42 +244,40 @@
       ]
     },
     {
-      "id": "cary-night-market",
-      "title": "Cary Night Market",
+      "id": "an-archaeologist-s-face-to-feet-with-king-taharqa",
+      "title": "An Archaeologist’s Face to Feet with King Taharqa",
       "days": [
         "fri"
       ],
       "date": "2026-11-20",
-      "start": "05:00 PM",
-      "end": "09:00 PM",
-      "venue": "Downtown Cary Park, Cary 2,",
-      "city": "Cary",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
-      "source": "raleighparent",
+      "start": "7 PM",
+      "end": "",
+      "venue": "North Carolina Museum of Art",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/an-archaeologists-face-to-feet-with-king-taharqa/",
+      "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 86,
+      "family_score": 75,
       "why": "",
-      "tags": [
-        "free"
-      ]
+      "tags": []
     },
     {
-      "id": "cary-night-market",
-      "title": "Cary Night Market",
+      "id": "free-children-s-movies-at-the-holly-springs-cultural-center",
+      "title": "Free Children’s Movies at the Holly Springs Cultural Center",
       "days": [
-        "fri"
+        "sat"
       ],
-      "date": "2026-11-20",
-      "start": "5:00 pm",
+      "date": "2026-11-21",
+      "start": "10 AM",
       "end": "",
-      "venue": "Downtown Cary Park, Pavilion 327 S Academy St., Cary, NC 27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190076/-/cary-night-market",
-      "source": "fun4raleighkids",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/free-childrens-movies-at-the-holly-springs-cultural-center/",
+      "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 86,
+      "family_score": 100,
       "why": "",
       "tags": [
         "free"
@@ -518,6 +348,27 @@
       ]
     },
     {
+      "id": "cary-downtown-farmers-market",
+      "title": "Cary Downtown Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9 AM",
+      "end": "",
+      "venue": "Downtown Cary Park",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "ax-rhythm-and-dance-fest",
       "title": "Axé Rhythm and Dance Fest",
       "days": [
@@ -539,25 +390,45 @@
       ]
     },
     {
-      "id": "82nd-annual-raleigh-christmas-parade-0-500-fayetteville-st-r",
-      "title": "82nd Annual Raleigh Christmas Parade 0-500 Fayetteville St, Raleigh, NC 27601 2,",
+      "id": "durham-craft-market",
+      "title": "Durham Craft Market",
       "days": [
         "sat"
       ],
       "date": "2026-11-21",
-      "start": "09:30 AM",
+      "start": "8 AM",
       "end": "",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/82nd-annual-raleigh-christmas-parade-on-nov-21-2026/",
-      "source": "raleighparent",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/durham-craft-market/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 96,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "durham-farmers-market",
+      "title": "Durham Farmers’ Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "8 AM",
+      "end": "",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/durham-farmers-market/",
+      "source": "stufftodoinrdu",
       "indoor": false,
       "family_score": 94,
       "why": "",
       "tags": [
-        "free",
-        "holiday"
+        "free"
       ]
     },
     {
@@ -574,6 +445,50 @@
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/136354/-/raleigh-christmas-parade",
       "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "durham-art-walk-holiday-market",
+      "title": "Durham Art Walk Holiday Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10 AM",
+      "end": "",
+      "venue": "",
+      "city": "Durham",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/durham-art-walk-holiday-market/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "82nd-annual-raleigh-christmas-parade-0-500-fayetteville-st-r",
+      "title": "82nd Annual Raleigh Christmas Parade 0-500 Fayetteville St, Raleigh, NC 27601 2,",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "09:30 AM",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/82nd-annual-raleigh-christmas-parade-on-nov-21-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 94,
       "why": "",
@@ -708,6 +623,86 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "raleigh-christmas-parade",
+      "title": "Raleigh Christmas Parade",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:30 AM",
+      "end": "",
+      "venue": "Fayetteville Street, Downtown Raleigh",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-2026/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "raleigh-christmas-parade-watch-party-at-taverna-agora",
+      "title": "Raleigh Christmas Parade Watch Party at Taverna Agora",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "7:30 AM",
+      "end": "",
+      "venue": "Taverna Agora",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-watch-party-taverna-agora-2026/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "kidz-bop-skate",
+      "title": "Kidz Bop Skate",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10 AM",
+      "end": "",
+      "venue": "United Skates Of America Raleigh",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "jupiter-ball",
+      "title": "Jupiter Ball",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "6 PM",
+      "end": "",
+      "venue": "Morehead Planetarium and Science Center",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/jupiter-ball/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": []
     },
     {
       "id": "triangle-pop-up-handcrafted-holiday-market",
@@ -859,6 +854,27 @@
       ]
     },
     {
+      "id": "true-crime-curious-tales-raleigh-walking-tour",
+      "title": "True Crime & Curious Tales Raleigh Walking Tour",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "4 PM",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/true-crime-curious-tales-raleigh-walking-tour/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 89,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "wake-forest-cares-holiday-kick-off-2026",
       "title": "Wake Forest Cares Holiday Kick Off 2026",
       "days": [
@@ -962,6 +978,44 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "museum-tour-in-asl",
+      "title": "Museum Tour in ASL",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10 AM",
+      "end": "",
+      "venue": "North Carolina Museum of Art",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/museum-tour-in-asl/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 75,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "jupiter-ball",
+      "title": "Jupiter Ball",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "6:00 PM",
+      "end": "11:30 PM",
+      "venue": "Morehead Planetarium and Science Center",
+      "city": "Chapel Hill",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/jupiter-ball-2026/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 62,
+      "why": "",
+      "tags": []
     },
     {
       "id": "under-the-tree-storytime-with-quail-ridge-books",
@@ -7081,40 +7135,6 @@
       "tags": []
     },
     {
-      "id": "power-circuit-bootcamp",
-      "title": "Power Circuit Bootcamp",
-      "days": [],
-      "date": "2027-01-29",
-      "start": "5:15 AM",
-      "end": "6:15 AM",
-      "venue": "",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15285&month=1&year=2027&day=29&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "freedom-tour",
-      "title": "Freedom Tour",
-      "days": [],
-      "date": "2027-01-29",
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16338&month=1&year=2027&day=29&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "directory-community-book-drive-benefiting-wake-up-and-read",
       "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
       "days": [],
@@ -7348,23 +7368,6 @@
       "city": "",
       "cost": "See listing",
       "url": "https://moreheadplanetarium.org/calendar/the-longest-night-a-winters-tale-161/",
-      "source": "morehead",
-      "indoor": false,
-      "family_score": 59,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "carolina-skies",
-      "title": "Carolina Skies",
-      "days": [],
-      "date": "2027-01-31",
-      "start": "4:30 PM",
-      "end": "5:30 PM",
-      "venue": "",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://moreheadplanetarium.org/calendar/carolina-skies-567/",
       "source": "morehead",
       "indoor": false,
       "family_score": 59,

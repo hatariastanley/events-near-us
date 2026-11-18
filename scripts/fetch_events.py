@@ -88,10 +88,22 @@ def _time_key(value):
 # ============================================================================
 
 def scrape_stufftodoinrdu():
-    """Weekend page: event blocks with h3 title links, time, venue, vibes."""
+    """Weekend page: event cards grouped under Friday/Saturday/Sunday day bars."""
     events = []
     soup = get("https://stufftodoinrdu.com/")
+    daybar_re = re.compile(
+        r"^(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\s*,\s*"
+        r"(\d{1,2})\s+([A-Za-z]{3})", re.I)
+    weekend_days = {"friday": "fri", "saturday": "sat", "sunday": "sun"}
     for h3 in soup.select("h3 a[href*='/events/']"):
+        daybar = h3.find_previous("h2", class_="te-daybar")
+        m = daybar_re.match(daybar.get_text(" ", strip=True)) if daybar else None
+        if not m:
+            continue
+        day_hint = weekend_days.get(m.group(1).lower(), "")
+        if not day_hint:
+            continue
+        date_hint = f"{m.group(3).capitalize()} {int(m.group(2))}"
         block = h3.find_parent(["li", "article", "div"])
         text = block.get_text(" ", strip=True) if block else ""
         venue = block.select_one("a[href*='/venues/']") if block else None
@@ -105,7 +117,8 @@ def scrape_stufftodoinrdu():
             "cost": "Free" if "Free" in text else "",
             "source": "stufftodoinrdu",
             "tags": vibes,
-            "day_hint": "",
+            "day_hint": day_hint,
+            "date_hint": date_hint,
         })
     return events
 

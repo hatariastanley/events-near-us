@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T19:40:31+00:00",
+  "fetched_at": "2026-11-18T20:07:40+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -14,74 +14,6 @@
   "partial_sources": [],
   "raw_events": [
     {
-      "title": "Knock, Knock at Raleigh Little Theatre",
-      "url": "https://stufftodoinrdu.com/events/knock-knock-raleigh-little-theatre-2026/",
-      "venue": "Raleigh Little Theatre",
-      "time_hint": "10 AM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Family-friendly",
-        "Low impact",
-        "Sober-friendly"
-      ],
-      "day_hint": ""
-    },
-    {
-      "title": "There’s An App For That",
-      "url": "https://stufftodoinrdu.com/events/theres-an-app-for-that/",
-      "venue": "Eva Perry Regional Library",
-      "time_hint": "3 PM",
-      "cost": "Free",
-      "source": "stufftodoinrdu",
-      "tags": [],
-      "day_hint": ""
-    },
-    {
-      "title": "Periphery – A Pale White Dot US Tour",
-      "url": "https://stufftodoinrdu.com/events/periphery-a-pale-white-dot-us-tour/",
-      "venue": "The Ritz",
-      "time_hint": "5:30 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Family-friendly",
-        "Good solo",
-        "Low impact",
-        "Side-by-side"
-      ],
-      "day_hint": ""
-    },
-    {
-      "title": "Ballet BC at Memorial Hall",
-      "url": "https://stufftodoinrdu.com/events/ballet-bc-memorial-hall-2026/",
-      "venue": "Memorial Hall (UNC)",
-      "time_hint": "7 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "Low impact",
-        "Newcomer-friendly",
-        "Sober-friendly"
-      ],
-      "day_hint": ""
-    },
-    {
-      "title": "Daniel Sloss: BITTER  (Brand New Tour!)",
-      "url": "https://stufftodoinrdu.com/events/daniel-sloss-bitter-brand-new-tour/",
-      "venue": "Carolina Theatre of Durham",
-      "time_hint": "7 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "Low impact",
-        "Side-by-side"
-      ],
-      "day_hint": ""
-    },
-    {
       "title": "Trail Talks with TLC: Williamson",
       "url": "https://stufftodoinrdu.com/events/trail-talks-with-tlc-williamson/",
       "venue": "Williamson Farm and Nature Preserve",
@@ -95,7 +27,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Bingo, Books and Bites",
@@ -107,7 +40,8 @@
       "tags": [
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Nature Storytime: Forest Detectives",
@@ -123,7 +57,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Tasting at Ten – Durham",
@@ -135,7 +70,8 @@
       "tags": [
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Mahjong",
@@ -149,7 +85,8 @@
         "Low impact",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Gobble Waddle Bar Crawl",
@@ -159,7 +96,8 @@
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Triangle Orchid Society Fall for Orchids Show",
@@ -175,7 +113,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Tree Camp",
@@ -190,7 +129,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Historic Oakwood and North Blount: Architecture and History Tour",
@@ -200,7 +140,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "UNC Jazz Combos 4, 5, 6 with Brian Miller",
@@ -214,7 +155,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Spades Card Club",
@@ -224,7 +166,8 @@
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Invasive Plant Removal at Old Chapel Hill Rd Park",
@@ -241,7 +184,8 @@
         "Sober-friendly",
         "Volunteer"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "You Can See Everything",
@@ -256,7 +200,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Cary Night Market (November)",
@@ -271,7 +216,8 @@
         "Low impact",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Intro to Linoprinting – Create a seamless pattern",
@@ -283,7 +229,8 @@
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Foodie Fare",
@@ -299,7 +246,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Downtown Raleigh Tree Lighting & Holiday Market",
@@ -314,7 +262,8 @@
         "Low impact",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "World Kindness Day Storytelling Event",
@@ -324,7 +273,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Friday Art Opening – Mike Benson",
@@ -339,7 +289,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "8th Black Light! (ArtWalk)",
@@ -355,7 +306,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "KING NOBUYOSHI GODWIN: 5 POINTS GALLERY FEATURED ARTIST – Third Friday Opening Reception November",
@@ -370,7 +322,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Friday Zine Swap",
@@ -385,7 +338,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Imprint of Faith: Exhibition Opening at Zeitgeist Gallery & Bar",
@@ -401,7 +355,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Live Music Fridays at Gizmo Brew Works Raleigh",
@@ -414,7 +369,8 @@
         "Good solo",
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Friday Art Walk",
@@ -430,7 +386,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Art of Gratitude",
@@ -445,7 +402,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Raleigh International Folk Dancers",
@@ -460,7 +418,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "An Archaeologist’s Face to Feet with King Taharqa",
@@ -477,7 +436,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Jam Series – Celtic Jam",
@@ -492,7 +452,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Princess Bride & Ladyhawke",
@@ -507,7 +468,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Sapphic Speed Dating @ Blackbird Books and Coffee",
@@ -520,7 +482,8 @@
         "LGBTQ+",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Space Open Mic Night",
@@ -535,7 +498,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Chase Petra with Jer, Leisure Hour, & Sewing Club",
@@ -550,7 +514,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "3rd Friday After Dark: ALIGNMENT",
@@ -565,7 +530,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Space Open Mic at Lanza’s",
@@ -581,7 +547,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "An Evening with Sugaree String Society",
@@ -596,7 +563,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "On The Steps with Kate McGarry & Keith Ganz",
@@ -606,7 +574,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Charanga Carolina",
@@ -620,7 +589,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "November Dances 2026 at Duke",
@@ -634,7 +604,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Easter in Alexandria at The ArtsCenter",
@@ -647,7 +618,8 @@
         "Good solo",
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "A Drag Queen Christmas",
@@ -663,7 +635,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "North Carolina Symphony – Beethoven Piano Concerto No. 1",
@@ -677,7 +650,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Heavy Heavy – Durham",
@@ -687,7 +661,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Liana Flores",
@@ -701,7 +676,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Carbon Leaf",
@@ -715,7 +691,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Lace Larrabee and Jason Allen King at The Cary",
@@ -728,7 +705,8 @@
         "Good solo",
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Fire + Frequency",
@@ -738,7 +716,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Last Waltz 50th Anniversary Tribute with Buzzard Company at Kings",
@@ -750,7 +729,8 @@
       "tags": [
         "Good solo"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Myles Morgan at the Pour House",
@@ -762,7 +742,8 @@
       "tags": [
         "Good solo"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Blue Cactus with Ramona and the Holy Smokes at The Pinhook",
@@ -775,7 +756,8 @@
         "Good solo",
         "LGBTQ+"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Dead Rat Disco with The Rufftons, Lot Lizards and Manic Third Planet at Local 506",
@@ -787,7 +769,8 @@
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Raleigh True Crime Walking Tour",
@@ -802,7 +785,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Raleigh True Crime Walking Tour",
@@ -817,7 +801,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Stand-up Comedy Open Mic at Durty Bull",
@@ -831,7 +816,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Orange County All-Stars",
@@ -846,7 +832,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Hush Hush: Improv Comedy Based on Your Secrets",
@@ -860,7 +847,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Bachata Fixation with DJ Numinus",
@@ -874,7 +862,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Space Laces – Ages 21+",
@@ -888,7 +877,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Overtime at E.O.’s",
@@ -898,7 +888,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Holly Springs Half Marathon",
@@ -912,7 +903,8 @@
         "Newcomer-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Christmas Parade Watch Party at Taverna Agora",
@@ -926,7 +918,8 @@
         "Good solo",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Durham Craft Market",
@@ -943,7 +936,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Durham Farmers’ Market",
@@ -960,7 +954,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Stewardship Workday: Restoration at Rocky Branch!",
@@ -973,7 +968,8 @@
         "Saturday morning",
         "Volunteer"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Holly Springs Farmers Market – Thanksgiving Market",
@@ -991,7 +987,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Saturday Outdoor Yoga",
@@ -1004,7 +1001,8 @@
         "Newcomer-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Carrboro Farmers’ Market (Saturday)",
@@ -1021,7 +1019,8 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Chapel Hill Farmers’ Market (Saturday)",
@@ -1038,7 +1037,8 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Cary Downtown Farmers Market",
@@ -1055,7 +1055,8 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Christmas Parade",
@@ -1070,7 +1071,8 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Museum Tour in ASL",
@@ -1088,7 +1090,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Durham Art Walk Holiday Market",
@@ -1105,7 +1108,8 @@
         "Saturday morning",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "A World of Weird and Wonderful Plants: Duke Research Greenhouse Tour",
@@ -1122,7 +1126,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Year-Round Gardening: Plant Garlic, Onions and Shallots – Oh My!",
@@ -1134,7 +1139,8 @@
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Crochet and Conversation",
@@ -1147,7 +1153,8 @@
         "Newcomer-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Plantmania Tropical Plant Expo at Dorton Arena",
@@ -1162,7 +1169,8 @@
         "Newcomer-friendly",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Hillsborough Holiday Bazaar",
@@ -1175,7 +1183,8 @@
         "Family-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Ecotones: Transitional Zones Where Ecosystems Meet",
@@ -1192,7 +1201,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Sandy Creek Park Boardwalk Restoration",
@@ -1209,7 +1219,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Kidz Bop Skate",
@@ -1226,7 +1237,8 @@
         "Saturday morning",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Holiday Kickoff Party with Matt Tavares!",
@@ -1238,7 +1250,8 @@
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "SuperFun Saturday",
@@ -1250,7 +1263,8 @@
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Ratatouille",
@@ -1267,7 +1281,8 @@
         "Saturday morning",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "American Indian Heritage Celebration",
@@ -1284,7 +1299,8 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Thanksgiving: Culinary & Cultural History",
@@ -1296,7 +1312,8 @@
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Orchids 101: Growing Orchids at Home",
@@ -1313,7 +1330,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Saturdaze: DJ Proto J",
@@ -1330,7 +1348,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Fall Fest with Triangle Canine Club",
@@ -1347,7 +1366,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Ponysaurus Wonderland Lighting and Fun Run",
@@ -1360,7 +1380,8 @@
         "Good solo",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Rag Alley 2 + Holiday Market",
@@ -1376,7 +1397,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Carolina Hurricanes vs. Edmonton Oilers",
@@ -1388,7 +1410,8 @@
       "tags": [
         "Good solo"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "A Fleetwood Mac Candlelight Experience",
@@ -1402,7 +1425,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Saturday Afternoon Family Skate",
@@ -1417,7 +1441,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Drafts of the Bull: Durham’s Craft Beer & History Walking Tour",
@@ -1432,7 +1457,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Storytelling Open Mic",
@@ -1446,7 +1472,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Poetry Café & Open Mic",
@@ -1461,7 +1488,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Downtown Durham Historian-Guided Tour",
@@ -1471,7 +1499,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Live and Local!: Triangle Youth Jazz Orchestra and Triangle Youth Jazz Ensemble",
@@ -1487,7 +1516,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Singles Event: Speed Dating (Ages 30-45) at Coffee Shop",
@@ -1499,7 +1529,8 @@
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Light the Square at Fenton",
@@ -1512,7 +1543,8 @@
         "Family-friendly",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Irish Jam at Moon Dog Meadery",
@@ -1526,7 +1558,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Christmas at North Hills Tree Lighting",
@@ -1539,7 +1572,8 @@
         "Family-friendly",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "True Crime & Curious Tales Raleigh Walking Tour",
@@ -1555,7 +1589,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Holiday Tree Lighting",
@@ -1567,7 +1602,8 @@
       "tags": [
         "Family-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Messiah Sing-Along",
@@ -1581,7 +1617,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Downtown Durham African American Historian-Guided Tour",
@@ -1591,7 +1628,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "AW SHUCKS! IT’S AN OYSTERS & WINE NIGHT!",
@@ -1601,7 +1639,8 @@
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "T.J. Mannix in LimboLand",
@@ -1617,7 +1656,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Twilight Market at Smoky Hollow (November)",
@@ -1630,7 +1670,8 @@
         "Good solo",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Jupiter Ball",
@@ -1647,7 +1688,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "NC Chinese Lantern Festival",
@@ -1662,7 +1704,8 @@
         "Low impact",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Downtown Durham True Crime Walking Tour",
@@ -1678,7 +1721,8 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Imminence – Axis Mundi Tour: North America 2026",
@@ -1693,7 +1737,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Carolina Choir and UNC Chamber Singers | MFE 26-27",
@@ -1707,7 +1752,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Singles Event: Sunset Speed Dating (Ages 30–45)",
@@ -1719,7 +1765,8 @@
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Bingo, Books, and Bagels for Seniors",
@@ -1731,7 +1778,8 @@
       "tags": [
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Free Children’s Movies at the Holly Springs Cultural Center",
@@ -1747,7 +1795,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Wine Down Wednesday & Live Music | Durham",
@@ -1761,7 +1810,8 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Board Game Night @ Gizmo Brew Works in Durham",
@@ -1776,7 +1826,8 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "K-5th Adventures",
@@ -1786,7 +1837,23 @@
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
+    },
+    {
+      "title": "Live Irish Music at Doherty’s",
+      "url": "https://stufftodoinrdu.com/events/live-irish-music-at-dohertys/",
+      "venue": "Doherty’s Irish Pub & Restaurant",
+      "time_hint": "6 PM",
+      "cost": "Free",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Good solo",
+        "Low impact",
+        "Side-by-side"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Events next weekend >>",
@@ -21299,36 +21366,6 @@
       "event_date": "2027-02-15"
     },
     {
-      "title": "ABC Craft & Learn",
-      "url": "https://www.wake.gov/events/abc-craft-learn-165",
-      "venue": "",
-      "time_hint": "2:00 pm",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Morrisville Community Library Libraries"
-      ],
-      "day_hint": "wed",
-      "date_hint": "Nov 18",
-      "event_date": "2026-11-18"
-    },
-    {
-      "title": "ABC Craft & Learn",
-      "url": "https://www.wake.gov/events/abc-craft-learn-193",
-      "venue": "",
-      "time_hint": "2:00 pm",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Fuquay-Varina Community Library Libraries"
-      ],
-      "day_hint": "wed",
-      "date_hint": "Nov 18",
-      "event_date": "2026-11-18"
-    },
-    {
       "title": "Read and Discuss The Mighty Red by Louise Erdrich",
       "url": "https://www.wake.gov/events/read-and-discuss-mighty-red-louise-erdrich",
       "venue": "",
@@ -23444,6 +23481,36 @@
       "event_date": "2026-11-21"
     },
     {
+      "title": "Stay and Play",
+      "url": "https://www.wake.gov/events/stay-and-play-23",
+      "venue": "",
+      "time_hint": "11:00 am",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Athens Drive Community Library Community Services Libraries"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "ABC Craft and Learn",
+      "url": "https://www.wake.gov/events/abc-craft-and-learn-642",
+      "venue": "",
+      "time_hint": "11:30 am",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Zebulon Community Library Libraries"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21",
+      "event_date": "2026-11-21"
+    },
+    {
       "title": "Planning Commission Text Change Committee",
       "url": "https://raleighnc.gov/planning/events/planning-commission-text-change-committee-37",
       "venue": "",
@@ -24564,8 +24631,8 @@
       "event_date": "2027-01-13"
     },
     {
-      "title": "Parks, Recreation, and Greenway Advisory Board",
-      "url": "https://raleighnc.gov/parks-and-recreation/events/parks-recreation-and-greenway-advisory-board-9",
+      "title": "Human Relations Commission Meeting ",
+      "url": "https://raleighnc.gov/government/events/human-relations-commission-meeting-10",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -24580,8 +24647,8 @@
       "event_date": "2027-01-14"
     },
     {
-      "title": "Human Relations Commission Meeting ",
-      "url": "https://raleighnc.gov/government/events/human-relations-commission-meeting-10",
+      "title": "Parks, Recreation, and Greenway Advisory Board",
+      "url": "https://raleighnc.gov/parks-and-recreation/events/parks-recreation-and-greenway-advisory-board-9",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
