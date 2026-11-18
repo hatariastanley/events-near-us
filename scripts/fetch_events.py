@@ -178,8 +178,12 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
     .visuallyHidden span right before the tooltip."""
     events = []
     range_mode = bool(start_date and end_date and (end_date - start_date).days > 3)
-    soup = get(f"{base}/calendar.aspx?view=list")
-    items = soup.select(".calendars .calendar ol li")
+    items = []
+    try:
+        soup = get(f"{base}/calendar.aspx?view=list")
+        items = soup.select(".calendars .calendar ol li")
+    except Exception:
+        items = []
     if items:
         for li in items:
             nm = li.select_one('[itemprop="name"]')
@@ -223,8 +227,13 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
         fri, _ = upcoming_weekend()
         months = {(fri.month, fri.year), ((fri + timedelta(days=2)).month,
                                           (fri + timedelta(days=2)).year)}
+    failed_months = 0
     for month, year in sorted(months):
-        soup = get(f"{base}/calendar.aspx?month={month}&year={year}")
+        try:
+            soup = get(f"{base}/calendar.aspx?month={month}&year={year}")
+        except Exception:
+            failed_months += 1
+            continue
         for tip in soup.select('div[name="showDetailsBox"]'):
             a = tip.find("a", href=re.compile(r"EID=\d+"))
             q = {}
@@ -265,6 +274,8 @@ def scrape_civicplus(source_name, base, city, start_date=None, end_date=None):
                 "day_hint": ev.strftime("%a").lower()[:3],
                 "date_hint": _date_hint(ev),
             })
+    if not events and months and failed_months == len(months):
+        raise RuntimeError("all calendar months failed")
     return events
 
 
@@ -324,14 +335,20 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
     raw_events = []
     page = 1
     total_pages = None
+    first_exc = None
     while True:
-        r = requests.get(
-            f"{base}/wp-json/tribe/events/v1/events",
-            params={"start_date": start_date.isoformat(), "end_date": end_date.isoformat(),
-                    "per_page": per_page, "status": "publish", "page": page},
-            headers=UA, timeout=TIMEOUT)
-        r.raise_for_status()
-        batch = r.json().get("events", [])
+        try:
+            r = requests.get(
+                f"{base}/wp-json/tribe/events/v1/events",
+                params={"start_date": start_date.isoformat(), "end_date": end_date.isoformat(),
+                        "per_page": per_page, "status": "publish", "page": page},
+                headers=UA, timeout=TIMEOUT)
+            r.raise_for_status()
+            batch = r.json().get("events", [])
+        except Exception as exc:
+            if first_exc is None:
+                first_exc = exc
+            break
         raw_events.extend(batch)
         try:
             header_pages = r.headers.get("X-WP-TotalPages")
@@ -342,6 +359,8 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
         if len(batch) < per_page or (total_pages is not None and page >= total_pages) or page >= 10:
             break
         page += 1
+    if not raw_events and first_exc is not None:
+        raise first_exc
     events = []
     for e in raw_events:
         start = e.get("start_date", "")
