@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T20:25:49+00:00",
+  "fetched_at": "2026-11-18T20:33:26+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -878,7 +878,7 @@
       "url": "https://stufftodoinrdu.com/events/orange-county-all-stars/",
       "venue": "Speakeasy",
       "time_hint": "9 PM",
-      "time_end": "",
+      "time_end": "12 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -911,7 +911,7 @@
       "url": "https://stufftodoinrdu.com/events/bachata-fixation-with-dj-numinus-2/",
       "venue": "Flying Bull Restaurant and Brewery",
       "time_hint": "9:30 PM",
-      "time_end": "",
+      "time_end": "12 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -943,7 +943,7 @@
       "url": "https://stufftodoinrdu.com/events/overtime-at-e-o-s/",
       "venue": "E.O.’s Athletic Club",
       "time_hint": "11 PM",
-      "time_end": "",
+      "time_end": "2 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
@@ -35870,6 +35870,22 @@
       "day_hint": "thu",
       "date_hint": "Nov 26",
       "event_date": "2026-11-26"
+    },
+    {
+      "title": "Small Business Saturday",
+      "url": "https://www.carrboronc.gov/Calendar.aspx?EID=9681&month=11&year=2026&day=18&calType=0",
+      "venue": "Event Location",
+      "time_hint": "12:00 AM",
+      "time_end": "",
+      "cost": "",
+      "source": "carrboro",
+      "city": "Carrboro",
+      "tags": [
+        "Community Events Calendar"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 28",
+      "event_date": "2026-11-28"
     },
     {
       "title": "Housing and Human Services Advisory Commission",

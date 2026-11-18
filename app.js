@@ -165,6 +165,15 @@ function toGcalDateTime(dateStr, timeStr) {
   return `${y}${mo}${day}T${hr}${mi}00`;
 }
 
+function nextDateStr(dateStr) {
+  const d = new Date(dateStr + "T12:00:00");
+  d.setDate(d.getDate() + 1);
+  const y = d.getFullYear();
+  const mo = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${mo}-${day}`;
+}
+
 function addHours(dateTimeStr, hours) {
   const y = parseInt(dateTimeStr.slice(0, 4), 10);
   const mo = parseInt(dateTimeStr.slice(4, 6), 10) - 1;
@@ -204,8 +213,13 @@ function buildGoogleCalUrl(event, dateStr) {
     const start = toGcalDateTime(dateStr, startTime);
     if (!start) return null;
     let end;
-    if (endTime && parseTime(endTime)) {
-      end = toGcalDateTime(dateStr, endTime);
+    const endParsed = endTime ? parseTime(endTime) : null;
+    if (endParsed) {
+      const st = parseTime(startTime);
+      const endMinutes = endParsed.h * 60 + endParsed.min;
+      const startMinutes = st ? st.h * 60 + st.min : 0;
+      const endDate = st && endMinutes <= startMinutes ? nextDateStr(dateStr) : dateStr;
+      end = toGcalDateTime(endDate, endTime);
     } else {
       end = addHours(start, 2);
     }
@@ -245,8 +259,13 @@ function buildIcsContent(event, dateStr) {
     const start = toIcsDateTime(dateStr, startTime);
     if (!start) return null;
     let end;
-    if (endTime && parseTime(endTime)) {
-      end = toIcsDateTime(dateStr, endTime);
+    const endParsed = endTime ? parseTime(endTime) : null;
+    if (endParsed) {
+      const st = parseTime(startTime);
+      const endMinutes = endParsed.h * 60 + endParsed.min;
+      const startMinutes = st ? st.h * 60 + st.min : 0;
+      const endDate = st && endMinutes <= startMinutes ? nextDateStr(dateStr) : dateStr;
+      end = toIcsDateTime(endDate, endTime);
     } else {
       end = addHours(start, 2);
     }

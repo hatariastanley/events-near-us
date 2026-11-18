@@ -136,8 +136,13 @@ def scrape_stufftodoinrdu():
             time_hint, time_end = tr.group(1), tr.group(2)
             start_min = _time_minutes(time_hint)
             end_min = _time_minutes(time_end)
-            if start_min is not None and end_min is not None and end_min <= start_min:
-                time_end = ""
+            if start_min is not None and end_min is not None:
+                if end_min == start_min:
+                    time_end = ""
+                elif end_min < start_min:
+                    overnight = 1440 - start_min + end_min
+                    if overnight <= 0 or overnight > 12 * 60:
+                        time_end = ""
         else:
             time_hint, time_end = (tm.group(0) if tm else ""), ""
         vibes = [a.get_text(strip=True) for a in block.select("a[href*='/is/']")] if block else []
