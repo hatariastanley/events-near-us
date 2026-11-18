@@ -89,20 +89,20 @@ EXCLUDE_PATTERNS = [
 
 # Keywords that boost family-friendliness score
 KID_KEYWORDS = {
-    "family": 4, "kid": 10, "children": 10, "storytime": 14, "story time": 14,
+    "family": 4, "kid": 10, "kidz": 10, "children": 10, "storytime": 14, "story time": 14,
     "pumpkin": 8, "halloween": 6, "trick-or-treat": 14, "trunk-or-treat": 14,
     "train": 8, "farm": 8, "animal": 7, "corn maze": 10, "festival": 3,
     "museum": 6, "movie": 4, "dance": 4, "craft": 6, "scarecrow": 8,
     "toddler": 12, "preschool": 12, "baby": 10, "sensory": 12, "lego": 10,
     "puppet": 10, "young children": 15, "all ages": 10, "family-friendly": 10,
-    "market": 1, "fair": 3, "maze": 4, "skate": 3, "playground": 10,
+    "market": 1, "farmers market": 4, "fair": 3, "maze": 4, "skate": 3, "playground": 10,
     "santa": 10, "easter": 7, "egg hunt": 15, "holiday": 4, "christmas": 5,
-    "parade": 8, "fireworks": 8, "picnic": 5, "nature": 2, "hike": 1,
+    "tree lighting": 8, "parade": 8, "fireworks": 8, "picnic": 5, "nature": 2, "hike": 1,
     "zoo": 14, "aquarium": 14, "planetarium": 14, "science": 7, "dinosaur": 10,
 }
 
 PRACTICAL_KEYWORDS = {
-    "stroller-friendly": 8, "stroller": 6, "parking": 4, "rainy day": 5,
+    "stroller-friendly": 8, "stroller": 6, "rainy day": 5,
     "quiet": 4, "family restrooms": 6,
 }
 

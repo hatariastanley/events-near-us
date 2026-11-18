@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:50:11+00:00",
+  "generated_at": "2026-11-18T19:55:37+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -11,6 +11,49 @@
     "mode": "90days"
   },
   "events": [
+    {
+      "id": "downtown-raleigh-tree-lighting-holiday-market",
+      "title": "Downtown Raleigh Tree Lighting & Holiday Market",
+      "days": [
+        "sat"
+      ],
+      "date": "",
+      "start": "5:30 PM",
+      "end": "",
+      "venue": "Moore Square",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/downtown-raleigh-tree-lighting-holiday-market-2026/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 100,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "cary-downtown-farmers-market",
+      "title": "Cary Downtown Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "date": "",
+      "start": "9 AM",
+      "end": "",
+      "venue": "Downtown Cary Park",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 100,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
     {
       "id": "free-children-s-movies-at-the-holly-springs-cultural-center",
       "title": "Free Children’s Movies at the Holly Springs Cultural Center",
@@ -48,49 +91,6 @@
       "source": "stufftodoinrdu",
       "indoor": false,
       "family_score": 98,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "downtown-raleigh-tree-lighting-holiday-market",
-      "title": "Downtown Raleigh Tree Lighting & Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "5:30 PM",
-      "end": "",
-      "venue": "Moore Square",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/downtown-raleigh-tree-lighting-holiday-market-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 96,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "cary-downtown-farmers-market",
-      "title": "Cary Downtown Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "9 AM",
-      "end": "",
-      "venue": "Downtown Cary Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 96,
       "why": "",
       "tags": [
         "free"
@@ -180,6 +180,25 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "kidz-bop-skate",
+      "title": "Kidz Bop Skate",
+      "days": [
+        "sat"
+      ],
+      "date": "",
+      "start": "10 AM",
+      "end": "",
+      "venue": "United Skates Of America Raleigh",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 92,
+      "why": "",
+      "tags": []
     },
     {
       "id": "true-crime-curious-tales-raleigh-walking-tour",
@@ -329,45 +348,25 @@
       ]
     },
     {
-      "id": "jazz-jive-night",
-      "title": "Jazz & Jive Night",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "05:00 PM",
-      "end": "08:00 PM",
-      "venue": "The Depot parking lot, Apex 2,",
-      "city": "Apex",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "jazz-jive-night-at-the-depot",
-      "title": "Jazz & Jive Night at The Depot",
+      "id": "waverly-tree-lighting",
+      "title": "Waverly Tree Lighting",
       "days": [
         "fri"
       ],
       "date": "2026-11-20",
       "start": "5:00 pm",
       "end": "",
-      "venue": "The Depot parking lot, 220 N. Salem St.,  Apex, NC  27502",
-      "city": "Apex",
+      "venue": "302 Colonades Way, Cary, NC 27518",
+      "city": "Cary",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194012/-/jazz-jive-night-at-the-depot",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/137959/-/waverly-tree-lighting",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 89,
+      "family_score": 93,
       "why": "",
       "tags": [
-        "free"
+        "free",
+        "holiday"
       ]
     },
     {
@@ -455,27 +454,6 @@
       ]
     },
     {
-      "id": "park-west-village-s-winter-wonderland",
-      "title": "Park West Village's Winter Wonderland",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "5:30 pm",
-      "end": "",
-      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196430/-/park-west-village-s-winter-wonderland",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "salem-baptist-preschool-holiday-market",
       "title": "Salem Baptist Preschool Holiday Market",
       "days": [
@@ -532,27 +510,6 @@
       "cost": "Free - Parking $5. Please RSVP",
       "url": "https://raleighparent.com/event/ax-rhythm-and-dance-fest-on-nov-21-2026/",
       "source": "raleighparent",
-      "indoor": false,
-      "family_score": 97,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "harvest-fest-at-good-hope-farm",
-      "title": "Harvest Fest at Good Hope Farm",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "Satellite Parking Lot, 2500 Carpenter Upchurch Rd., Cary, NC  27519",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194455/-/harvest-fest-at-good-hope-farm",
-      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 97,
       "why": "",
@@ -668,6 +625,28 @@
       ]
     },
     {
+      "id": "north-hills-christmas-tree-lighting-celebration",
+      "title": "North Hills Christmas Tree Lighting Celebration",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "4:00 pm",
+      "end": "",
+      "venue": "4321 Lassiter at North Hills Avenue, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/137253/-/north-hills-christmas-tree-lighting-celebration",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "harvest-fest-2026",
       "title": "Harvest Fest 2026",
       "days": [
@@ -681,6 +660,27 @@
       "cost": "FREE",
       "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
       "source": "raleighparent",
+      "indoor": false,
+      "family_score": 93,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "harvest-fest-at-good-hope-farm",
+      "title": "Harvest Fest at Good Hope Farm",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "Satellite Parking Lot, 2500 Carpenter Upchurch Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194455/-/harvest-fest-at-good-hope-farm",
+      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 93,
       "why": "",
@@ -708,6 +708,111 @@
       "tags": [
         "free",
         "holiday"
+      ]
+    },
+    {
+      "id": "thanksgiving-food-drive-at-western-wake-farmers-market",
+      "title": "Thanksgiving Food Drive at Western Wake Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "8:00 am",
+      "end": "",
+      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191759/-/thanksgiving-food-drive-at-western-wake-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "apex-farmers-market-at-the-depot",
+      "title": "Apex Farmers Market at The Depot",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "220 N Salem St, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190227/-/apex-farmers-market-at-the-depot",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "cary-farmers-market-at-downtown-cary-park",
+      "title": "Cary Farmers Market at Downtown Cary Park",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "160 East Park St., Cary, NC  27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193978/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "holly-springs-farmers-market",
+      "title": "Holly Springs Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
+      "city": "Holly Springs",
+      "cost": "Free Entry",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190826/-/holly-springs-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186633/-/wake-forest-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -853,111 +958,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "holiday-vendor-market",
-      "title": "Holiday Vendor Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:00 AM",
-      "end": "03:00 PM",
-      "venue": "Fairview Greenhouses Garden Center, South Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "thanksgiving-food-drive-at-western-wake-farmers-market",
-      "title": "Thanksgiving Food Drive at Western Wake Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191759/-/thanksgiving-food-drive-at-western-wake-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "apex-farmers-market-at-the-depot",
-      "title": "Apex Farmers Market at The Depot",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "220 N Salem St, Apex, NC 27502",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190227/-/apex-farmers-market-at-the-depot",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-farmers-market-at-downtown-cary-park",
-      "title": "Cary Farmers Market at Downtown Cary Park",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "160 East Park St., Cary, NC  27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193978/-/cary-farmers-market-at-downtown-cary-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "holly-springs-farmers-market",
-      "title": "Holly Springs Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
-      "city": "Holly Springs",
-      "cost": "Free Entry",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190826/-/holly-springs-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
       "why": "",
       "tags": [
         "free"
@@ -1310,6 +1310,63 @@
       ]
     },
     {
+      "id": "apex-farmers-market-at-the-depot",
+      "title": "Apex Farmers Market at The Depot",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "220 N Salem St, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190228/-/apex-farmers-market-at-the-depot",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "cary-farmers-market-at-downtown-cary-park",
+      "title": "Cary Farmers Market at Downtown Cary Park",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "160 East Park St., Cary, NC  27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193979/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186634/-/wake-forest-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "hidden-holiday-raleigh-christmas-past-with-heather-leah",
       "title": "Hidden Holiday: Raleigh Christmas Past with Heather Leah",
       "days": [],
@@ -1343,63 +1400,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "apex-farmers-market-at-the-depot",
-      "title": "Apex Farmers Market at The Depot",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "220 N Salem St, Apex, NC 27502",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190228/-/apex-farmers-market-at-the-depot",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-farmers-market-at-downtown-cary-park",
-      "title": "Cary Farmers Market at Downtown Cary Park",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "160 East Park St., Cary, NC  27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193979/-/cary-farmers-market-at-downtown-cary-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186634/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
       "why": "",
       "tags": [
         "free"
@@ -1537,6 +1537,23 @@
       "tags": [
         "holiday"
       ]
+    },
+    {
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187217/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": []
     },
     {
       "id": "nc-state-watch-party-wolfpack-vs-north-carolina",
@@ -1747,23 +1764,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "united-skates-kidz-bop",
-      "title": "United Skates Kidz Bop",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187217/-/united-skates-kidz-bop",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 72,
       "why": "",
       "tags": []
     },
@@ -2119,6 +2119,46 @@
       ]
     },
     {
+      "id": "christmas-tree-lighting-on-first-avenue",
+      "title": "Christmas Tree Lighting on First Avenue",
+      "days": [],
+      "date": "2026-12-04",
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "Knightdale Station Park, 810 N First Ave., Knightdale, NC 27545",
+      "city": "Knightdale",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195306/-/christmas-tree-lighting-on-first-avenue",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "morrisville-s-christmas-tree-lighting",
+      "title": "Morrisville's Christmas Tree Lighting",
+      "days": [],
+      "date": "2026-12-04",
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196639/-/morrisville-s-christmas-tree-lighting",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "holiday-model-train-show-with-little-world-charity",
       "title": "Holiday Model Train Show with Little WORLD Charity",
       "days": [],
@@ -2173,46 +2213,6 @@
       "why": "",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "id": "christmas-tree-lighting-on-first-avenue",
-      "title": "Christmas Tree Lighting on First Avenue",
-      "days": [],
-      "date": "2026-12-04",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "Knightdale Station Park, 810 N First Ave., Knightdale, NC 27545",
-      "city": "Knightdale",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195306/-/christmas-tree-lighting-on-first-avenue",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "morrisville-s-christmas-tree-lighting",
-      "title": "Morrisville's Christmas Tree Lighting",
-      "days": [],
-      "date": "2026-12-04",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196639/-/morrisville-s-christmas-tree-lighting",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
       ]
     },
     {
@@ -2412,6 +2412,26 @@
       ]
     },
     {
+      "id": "downtown-cary-park-tree-lighting-celebration",
+      "title": "Downtown Cary Park Tree Lighting Celebration",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "327 S. Academy St., Cary, NC 27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195921/-/downtown-cary-park-tree-lighting-celebration",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 93,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "holiday-model-train-show-with-little-world-charity",
       "title": "Holiday Model Train Show with Little WORLD Charity",
       "days": [],
@@ -2444,6 +2464,63 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 93,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "apex-farmers-market-at-the-depot",
+      "title": "Apex Farmers Market at The Depot",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "220 N Salem St, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190229/-/apex-farmers-market-at-the-depot",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "cary-farmers-market-at-downtown-cary-park",
+      "title": "Cary Farmers Market at Downtown Cary Park",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "160 East Park St., Cary, NC  27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193980/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186635/-/wake-forest-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
       "why": "",
       "tags": [
         "free"
@@ -2521,84 +2598,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "rrg-triangle-town-holiday-market",
-      "title": "RRG Triangle Town Holiday Market",
-      "days": [],
-      "date": "2026-12-05",
-      "start": "12:00 PM",
-      "end": "",
-      "venue": "Triangle Town Center - 2nd floor in front of Macy’s and Saks, North Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/rrg-triangle-town-holiday-market-on-dec-5-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "the-grl-market-december",
-      "title": "The GRL Market December",
-      "days": [],
-      "date": "2026-12-05",
-      "start": "11:00 AM",
-      "end": "02:00 PM",
-      "venue": "Waverly Place, Cary 2,",
-      "city": "Cary",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/the-grl-market-december-on-dec-5-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "christmas-candle-tea-at-raleigh-moravian-church-2026",
-      "title": "Christmas Candle Tea at Raleigh Moravian Church 2026",
-      "days": [],
-      "date": "2026-12-05",
-      "start": "01:00 PM",
-      "end": "05:00 PM",
-      "venue": "Raleigh Moravian Church, West Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/christmas-candle-tea-at-raleigh-moravian-church-2026-on-dec-5-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "apex-farmers-market-at-the-depot",
-      "title": "Apex Farmers Market at The Depot",
-      "days": [],
-      "date": "2026-12-05",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "220 N Salem St, Apex, NC 27502",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190229/-/apex-farmers-market-at-the-depot",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
       "why": "",
       "tags": [
         "free"
@@ -2930,6 +2929,25 @@
       ]
     },
     {
+      "id": "winter-wonderalnd-craft-fair-and-holiday-food-drive-at-weste",
+      "title": "Winter Wonderalnd Craft Fair and Holiday Food Drive at Western Wake Farmers Market",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "9:30 am",
+      "end": "",
+      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-and-holiday-food-drive-at-western-wake-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 100,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "annual-sensory-santa-in-bierman-autism-center-garner",
       "title": "Annual Sensory Santa in Bierman Autism Center Garner",
       "days": [],
@@ -2947,25 +2965,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "winter-wonderalnd-craft-fair-and-holiday-food-drive-at-weste",
-      "title": "Winter Wonderalnd Craft Fair and Holiday Food Drive at Western Wake Farmers Market",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-and-holiday-food-drive-at-western-wake-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 99,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -3061,6 +3060,63 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 93,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "apex-farmers-market-at-the-depot",
+      "title": "Apex Farmers Market at The Depot",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "220 N Salem St, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190230/-/apex-farmers-market-at-the-depot",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "cary-farmers-market-at-downtown-cary-park",
+      "title": "Cary Farmers Market at Downtown Cary Park",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "160 East Park St., Cary, NC  27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193981/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186636/-/wake-forest-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
       "why": "",
       "tags": [
         "free"
@@ -3176,63 +3232,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "apex-farmers-market-at-the-depot",
-      "title": "Apex Farmers Market at The Depot",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "220 N Salem St, Apex, NC 27502",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190230/-/apex-farmers-market-at-the-depot",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-farmers-market-at-downtown-cary-park",
-      "title": "Cary Farmers Market at Downtown Cary Park",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "160 East Park St., Cary, NC  27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193981/-/cary-farmers-market-at-downtown-cary-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186636/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
       "why": "",
       "tags": [
         "free"
@@ -3583,25 +3582,6 @@
       ]
     },
     {
-      "id": "flour-power-cary-s-rockin-christmas-jam",
-      "title": "Flour Power Cary's Rockin' Christmas Jam",
-      "days": [],
-      "date": "2026-12-18",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "1128 Parkside Main St, Cary, NC 27519",
-      "city": "Cary",
-      "cost": "$59 per child",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196310/-/flour-power-cary-s-rockin-christmas-jam",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 78,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
       "id": "page-158-books-storytime",
       "title": "Page 158 Books Storytime",
       "days": [],
@@ -3660,6 +3640,63 @@
       ]
     },
     {
+      "id": "apex-farmers-market-at-the-depot",
+      "title": "Apex Farmers Market at The Depot",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "220 N Salem St, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190231/-/apex-farmers-market-at-the-depot",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "cary-farmers-market-at-downtown-cary-park",
+      "title": "Cary Farmers Market at Downtown Cary Park",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "160 East Park St., Cary, NC  27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193982/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186637/-/wake-forest-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "hidden-holiday-raleigh-christmas-past-with-heather-leah",
       "title": "Hidden Holiday: Raleigh Christmas Past with Heather Leah",
       "days": [],
@@ -3693,63 +3730,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "apex-farmers-market-at-the-depot",
-      "title": "Apex Farmers Market at The Depot",
-      "days": [],
-      "date": "2026-12-19",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "220 N Salem St, Apex, NC 27502",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190231/-/apex-farmers-market-at-the-depot",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-farmers-market-at-downtown-cary-park",
-      "title": "Cary Farmers Market at Downtown Cary Park",
-      "days": [],
-      "date": "2026-12-19",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "160 East Park St., Cary, NC  27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193982/-/cary-farmers-market-at-downtown-cary-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [],
-      "date": "2026-12-19",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186637/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
       "why": "",
       "tags": [
         "free"
@@ -3849,6 +3829,23 @@
       "tags": [
         "holiday"
       ]
+    },
+    {
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187220/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": []
     },
     {
       "id": "sensory-friendly-event-urban-air-raleigh",
@@ -4294,6 +4291,23 @@
       ]
     },
     {
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
+      "days": [],
+      "date": "2026-12-26",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187221/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "directory-community-book-drive-benefiting-wake-up-and-read",
       "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
       "days": [],
@@ -4341,23 +4355,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 76,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "united-skates-kidz-bop",
-      "title": "United Skates Kidz Bop",
-      "days": [],
-      "date": "2026-12-26",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187221/-/united-skates-kidz-bop",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 72,
       "why": "",
       "tags": []
     },
@@ -5103,6 +5100,23 @@
       ]
     },
     {
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
+      "days": [],
+      "date": "2027-01-02",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187222/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "directory-community-book-drive-benefiting-wake-up-and-read",
       "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
       "days": [],
@@ -5150,23 +5164,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 76,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "united-skates-kidz-bop",
-      "title": "United Skates Kidz Bop",
-      "days": [],
-      "date": "2027-01-02",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187222/-/united-skates-kidz-bop",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 72,
       "why": "",
       "tags": []
     },
@@ -5774,6 +5771,23 @@
       ]
     },
     {
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
+      "days": [],
+      "date": "2027-01-09",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187223/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "directory-community-book-drive-benefiting-wake-up-and-read",
       "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
       "days": [],
@@ -5838,23 +5852,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "united-skates-kidz-bop",
-      "title": "United Skates Kidz Bop",
-      "days": [],
-      "date": "2027-01-09",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187223/-/united-skates-kidz-bop",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 72,
       "why": "",
       "tags": []
     },
@@ -6260,6 +6257,23 @@
       ]
     },
     {
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187224/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "directory-community-book-drive-benefiting-wake-up-and-read",
       "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
       "days": [],
@@ -6324,23 +6338,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 76,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "united-skates-kidz-bop",
-      "title": "United Skates Kidz Bop",
-      "days": [],
-      "date": "2027-01-16",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187224/-/united-skates-kidz-bop",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 72,
       "why": "",
       "tags": []
     },
