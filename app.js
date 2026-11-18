@@ -156,7 +156,7 @@ function woodcreekCardHtml(e) {
 
 function renderWoodcreek() {
   if (!woodcreekData) return;
-  const events = woodcreekData.events || [];
+  const allWcEvents = woodcreekData.events || [];
   const container = document.getElementById("woodcreek-cards");
   const sourceEl = document.getElementById("woodcreek-source");
   const emptyEl = document.getElementById("woodcreek-empty");
@@ -166,11 +166,19 @@ function renderWoodcreek() {
     sourceEl.textContent = `Source: ${info.source_name || "Woodcreek Newsletter"} (${info.organizer || "Woodcreek HOA"})`;
   }
 
-  if (events.length === 0) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const upcomingEvents = allWcEvents.filter((e) => {
+    if (!e.date) return false;
+    const eventDate = new Date(e.date + "T23:59:59");
+    return eventDate >= today;
+  });
+
+  if (upcomingEvents.length === 0) {
     container.innerHTML = "";
     emptyEl.hidden = false;
   } else {
-    const sorted = [...events].sort((a, b) => new Date(a.date) - new Date(b.date));
+    const sorted = [...upcomingEvents].sort((a, b) => new Date(a.date) - new Date(b.date));
     container.innerHTML = sorted.map(woodcreekCardHtml).join("");
     emptyEl.hidden = true;
   }

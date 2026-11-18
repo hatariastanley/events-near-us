@@ -7,6 +7,9 @@ Holly Springs / Apex / Cary core. This is the automatic baseline — the
 LLM pass in REFRESH.md produces higher-quality `why` text and day accuracy
 and should overwrite this output when it runs.
 
+NOTE: This script ONLY writes to data/events.json. It does NOT touch
+data/woodcreek_events.json, which is hand-edited for HOA community events.
+
 Usage:  python scripts/curate.py
 """
 
