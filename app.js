@@ -405,8 +405,10 @@ function renderWeekend(offset, filter = "all") {
   for (const day of ["fri", "sat", "sun"]) {
     const dateStr = dates[day] || "";
     const events = allEvents.filter((e) => {
-      if (e.date) return e.date === dateStr;
-      return Boolean(isFeedWeekend) && eventDays(e).includes(day);
+      const inWeekend = e.date
+        ? e.date === dateStr
+        : Boolean(isFeedWeekend) && eventDays(e).includes(day);
+      return inWeekend && match(e);
     });
     sortEventsForFilter(events, filter);
     document.getElementById(`cards-${day}`).innerHTML = events.map((e) => cardHtml(e, dateStr)).join("");
