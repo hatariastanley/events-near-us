@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:55:37+00:00",
+  "generated_at": "2026-11-18T19:59:05+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -34,27 +34,6 @@
       ]
     },
     {
-      "id": "cary-downtown-farmers-market",
-      "title": "Cary Downtown Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "9 AM",
-      "end": "",
-      "venue": "Downtown Cary Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "free-children-s-movies-at-the-holly-springs-cultural-center",
       "title": "Free Children’s Movies at the Holly Springs Cultural Center",
       "days": [
@@ -76,6 +55,27 @@
       ]
     },
     {
+      "id": "cary-downtown-farmers-market",
+      "title": "Cary Downtown Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "date": "",
+      "start": "9 AM",
+      "end": "",
+      "venue": "Downtown Cary Park",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "durham-craft-market",
       "title": "Durham Craft Market",
       "days": [
@@ -90,7 +90,28 @@
       "url": "https://stufftodoinrdu.com/events/durham-craft-market/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 98,
+      "family_score": 96,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "durham-farmers-market",
+      "title": "Durham Farmers’ Market",
+      "days": [
+        "sat"
+      ],
+      "date": "",
+      "start": "8 AM",
+      "end": "",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/durham-farmers-market/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 94,
       "why": "",
       "tags": [
         "free"
@@ -111,7 +132,7 @@
       "url": "https://stufftodoinrdu.com/events/durham-art-walk-holiday-market/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 96,
+      "family_score": 94,
       "why": "",
       "tags": [
         "free",
@@ -133,7 +154,7 @@
       "url": "https://stufftodoinrdu.com/events/trail-talks-with-tlc-williamson/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 93,
+      "family_score": 91,
       "why": "",
       "tags": [
         "free"
@@ -154,31 +175,10 @@
       "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-watch-party-taverna-agora-2026/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 92,
+      "family_score": 90,
       "why": "",
       "tags": [
         "holiday"
-      ]
-    },
-    {
-      "id": "durham-farmers-market",
-      "title": "Durham Farmers’ Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "8 AM",
-      "end": "",
-      "venue": "Durham Central Park",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/durham-farmers-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 92,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -196,7 +196,7 @@
       "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 92,
+      "family_score": 90,
       "why": "",
       "tags": []
     },
@@ -215,7 +215,7 @@
       "url": "https://stufftodoinrdu.com/events/true-crime-curious-tales-raleigh-walking-tour/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 91,
+      "family_score": 89,
       "why": "",
       "tags": [
         "free"
@@ -236,31 +236,12 @@
       "url": "https://stufftodoinrdu.com/events/rag-alley-2-holiday-market/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 88,
+      "family_score": 86,
       "why": "",
       "tags": [
         "free",
         "holiday"
       ]
-    },
-    {
-      "id": "nature-storytime-forest-detectives",
-      "title": "Nature Storytime: Forest Detectives",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "10 AM",
-      "end": "",
-      "venue": "Brumley South Nature Preserve",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/nature-storytime-forest-detectives/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": []
     },
     {
       "id": "salem-baptist-preschool-holiday-market",
@@ -958,6 +939,27 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "holiday-vendor-market",
+      "title": "Holiday Vendor Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10:00 AM",
+      "end": "03:00 PM",
+      "venue": "Fairview Greenhouses Garden Center, South Raleigh 2,",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
       "why": "",
       "tags": [
         "free"

@@ -94,7 +94,7 @@ KID_KEYWORDS = {
     "train": 8, "farm": 8, "animal": 7, "corn maze": 10, "festival": 3,
     "museum": 6, "movie": 4, "dance": 4, "craft": 6, "scarecrow": 8,
     "toddler": 12, "preschool": 12, "baby": 10, "sensory": 12, "lego": 10,
-    "puppet": 10, "young children": 15, "all ages": 10, "family-friendly": 10,
+    "puppet": 10, "young children": 15, "all ages": 10, "family-friendly": 8,
     "market": 1, "farmers market": 4, "fair": 3, "maze": 4, "skate": 3, "playground": 10,
     "santa": 10, "easter": 7, "egg hunt": 15, "holiday": 4, "christmas": 5,
     "tree lighting": 8, "parade": 8, "fireworks": 8, "picnic": 5, "nature": 2, "hike": 1,
@@ -279,6 +279,7 @@ def keyword_hits(text, mapping):
 def score(e):
     """Score event for family-friendliness (0-100)."""
     text = norm(" ".join([e.get("title", ""), e.get("venue", ""), " ".join(e.get("tags", []))]))
+    text = text.replace("’", "").replace("'", "")
     s = 45.0
     tags = set()
     tag_set = {norm(t) for t in e.get("tags", [])}
