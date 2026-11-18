@@ -81,6 +81,10 @@ EXCLUDE_PATTERNS = [
     r"\bdepartment(?:al)?\s+(?:meeting|seminar|colloquium)\b",
     r"\bboard\s+(?:of\s+)?(?:directors|trustees|commissioners)\b",
     r"\bpublic\s+hearing\b", r"\bzoning\s+(?:board|hearing)\b",
+    r"\bclosed\b", r"\bclosure\b",
+    r"\bsolid waste\b", r"\bwaste (?:collection|schedule|pickup)\b",
+    r"\btrash (?:collection|schedule|pickup)\b", r"\brecycling (?:collection|schedule|pickup)\b",
+    r"\bschedule delayed\b", r"\bholiday observed\b", r"\bno (?:trash|garbage|collection)\b",
 ]
 
 # Keywords that boost family-friendliness score
@@ -211,6 +215,14 @@ def detect_city(text):
         if best is None or idx < best[0] or (idx == best[0] and len(t) > len(best[1])):
             best = (idx, t)
     return best[1].title() if best else ""
+
+
+def title_key(title):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", norm(title))).strip()
+
+
+def titles_match(a, b):
+    return bool(a and b and min(len(a), len(b)) >= 8 and (a in b or b in a))
 
 
 def score(e):
@@ -397,6 +409,23 @@ def main():
                 "why": "",
                 "tags": sorted(tags),
             })
+
+    feed_dates = set()
+    wk = raw.get("weekend", {})
+    try:
+        feed_fri = date.fromisoformat(wk["fri"])
+        feed_dates = {(feed_fri + timedelta(days=i)).isoformat() for i in range(3)}
+    except Exception:
+        feed_dates = set()
+    if feed_dates:
+        dated_keys = [title_key(e["title"]) for e in events if e.get("date") in feed_dates]
+        if dated_keys:
+            kept = []
+            for e in events:
+                if not e.get("date") and any(titles_match(title_key(e["title"]), dk) for dk in dated_keys):
+                    continue
+                kept.append(e)
+            events = kept
 
     # Apply week-based distribution for extended ranges
     range_info = raw.get("range", {})

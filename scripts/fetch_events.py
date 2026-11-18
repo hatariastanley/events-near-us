@@ -190,15 +190,11 @@ def scrape_raleighparent():
 def scrape_civicplus(source_name, base, city, months_ahead=3):
     """CivicPlus calendar. Combines the list view with month grids for extended ranges."""
     events = []
-    seen_keys = set()
+    seen_keys = {}
     start_date, end_date = get_date_range()
 
     def add_event(title, url, venue, time_hint, time_end, tags, day_hint, date_hint, event_date):
-        key = (title, event_date or "", venue)
-        if key in seen_keys:
-            return
-        seen_keys.add(key)
-        events.append({
+        item = {
             "title": title,
             "url": url,
             "venue": venue,
@@ -211,7 +207,19 @@ def scrape_civicplus(source_name, base, city, months_ahead=3):
             "day_hint": day_hint,
             "date_hint": date_hint,
             "event_date": event_date,
-        })
+        }
+        key = (re.sub(r"\s+", " ", title.lower()).strip(), event_date or "")
+        if key in seen_keys:
+            idx = seen_keys[key]
+            old = events[idx]
+            generic_venues = {"", "event location"}
+            new_venue = (venue or "").strip().lower()
+            old_venue = (old.get("venue") or "").strip().lower()
+            if (new_venue not in generic_venues and old_venue in generic_venues) or (time_end and not old.get("time_end")):
+                events[idx] = item
+            return
+        seen_keys[key] = len(events)
+        events.append(item)
 
     # List view has cleaner titles when present, but month grids catch events it omits.
     try:

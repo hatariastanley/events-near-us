@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:22:11+00:00",
+  "generated_at": "2026-11-18T19:32:45+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -140,27 +140,6 @@
       ]
     },
     {
-      "id": "cary-night-market-november",
-      "title": "Cary Night Market (November)",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "5 PM",
-      "end": "",
-      "venue": "Downtown Cary Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/cary-night-market-november-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "trail-talks-with-tlc-williamson",
       "title": "Trail Talks with TLC: Williamson",
       "days": [
@@ -179,67 +158,6 @@
       "why": "",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "id": "holly-springs-farmers-market-thanksgiving-market",
-      "title": "Holly Springs Farmers Market – Thanksgiving Market",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "9 AM",
-      "end": "",
-      "venue": "Holly Springs Farmers Market",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/holly-springs-farmers-market-thanksgiving-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 84,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "raleigh-christmas-parade-watch-party-at-taverna-agora",
-      "title": "Raleigh Christmas Parade Watch Party at Taverna Agora",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "7:30 AM",
-      "end": "",
-      "venue": "Taverna Agora",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-watch-party-taverna-agora-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 83,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "raleigh-christmas-parade",
-      "title": "Raleigh Christmas Parade",
-      "days": [
-        "sat"
-      ],
-      "date": "",
-      "start": "9:30 AM",
-      "end": "",
-      "venue": "Fayetteville Street, Downtown Raleigh",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 83,
-      "why": "",
-      "tags": [
-        "holiday"
       ]
     },
     {
@@ -510,6 +428,27 @@
       "source": "raleighparent",
       "indoor": false,
       "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "jazz-jive-night",
+      "title": "Jazz & Jive Night",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "05:00 PM",
+      "end": "08:00 PM",
+      "venue": "The Depot parking lot, Apex 2,",
+      "city": "Apex",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/jazz-jive-night-on-nov-20-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 77,
       "why": "",
       "tags": [
         "free"
@@ -1005,6 +944,48 @@
       ]
     },
     {
+      "id": "animal-encounters-and-open-play",
+      "title": "Animal Encounters and Open Play",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "The Feathered Farm, 3620 Rosinburg Rd., Zebulon, NC  27597",
+      "city": "",
+      "cost": "$15 for ages 2-64.  Children under 2 are free.   $11.50 per ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192496/-/animal-encounters-and-open-play",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "art-on-the-dot-at-nc-museum-of-art",
+      "title": "Art on the Dot at NC Museum of Art",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "2:30 pm",
+      "end": "",
+      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194857/-/art-on-the-dot-at-nc-museum-of-art",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "santa-and-mrs-clause-visits-shephered-s-way-farms",
       "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
       "days": [
@@ -1063,6 +1044,27 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "art-on-the-dot-at-nc-museum-of-art",
+      "title": "Art on the Dot at NC Museum of Art",
+      "days": [
+        "sun"
+      ],
+      "date": "2026-11-22",
+      "start": "2:30 pm",
+      "end": "",
+      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194858/-/art-on-the-dot-at-nc-museum-of-art",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
       "why": "",
       "tags": [
         "free"
@@ -1626,23 +1628,6 @@
       "days": [],
       "date": "2026-11-28",
       "start": "9:00 AM",
-      "end": "",
-      "venue": "Event Location",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16505&month=11&year=2026&day=18&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 66,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "holly-springs-farmers-market-small-business-saturday",
-      "title": "Holly Springs Farmers Market - Small Business Saturday",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "9:00 AM",
       "end": "12:00 PM",
       "venue": "",
       "city": "Holly Springs",
@@ -1706,6 +1691,25 @@
       "family_score": 65,
       "why": "",
       "tags": []
+    },
+    {
+      "id": "november-storywalks-of-wake-county-parks",
+      "title": "November StoryWalks® of Wake County Parks",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "8:00 am",
+      "end": "",
+      "venue": "",
+      "city": "",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196162/-/november-storywalks-of-wake-county-parks",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 65,
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
       "id": "5th-annual-kid-s-holiday-craft-fair",
@@ -1791,11 +1795,11 @@
       "days": [],
       "date": "2026-11-29",
       "start": "2:30 PM",
-      "end": "",
+      "end": "5:00 PM",
       "venue": "The Halle Cultural Arts Center",
       "city": "Apex",
       "cost": "See listing",
-      "url": "https://www.apexnc.org/Calendar.aspx?EID=4779&month=11&year=2026&day=18&calType=0",
+      "url": "https://www.apexnc.org/Calendar.aspx?EID=4779&month=11&year=2026&day=29&calType=0",
       "source": "apex",
       "indoor": false,
       "family_score": 82,
@@ -3926,25 +3930,6 @@
       "tags": []
     },
     {
-      "id": "christmas-holiday-observed-solid-waste-schedule-delayed",
-      "title": "Christmas Holiday Observed (Solid Waste Schedule Delayed)",
-      "days": [],
-      "date": "2026-12-25",
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Apex",
-      "cost": "See listing",
-      "url": "https://www.apexnc.org/Calendar.aspx?EID=4620&month=12&year=2026&day=25&calType=0",
-      "source": "apex",
-      "indoor": false,
-      "family_score": 68,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
       "id": "parents-night-out-with-triangle-rock-club-morrisville",
       "title": "Parents' Night Out with Triangle Rock Club Morrisville",
       "days": [],
@@ -3960,25 +3945,6 @@
       "family_score": 65,
       "why": "",
       "tags": []
-    },
-    {
-      "id": "closed-for-christmas",
-      "title": "Closed for Christmas",
-      "days": [],
-      "date": "2026-12-25",
-      "start": "8:00 AM",
-      "end": "5:00 PM",
-      "venue": "",
-      "city": "Fuquay-Varina",
-      "cost": "See listing",
-      "url": "https://www.fuquay-varina.org/Calendar.aspx?EID=9557&month=12&year=2026&day=25&calType=0",
-      "source": "fuquayvarina",
-      "indoor": false,
-      "family_score": 63,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
     },
     {
       "id": "power-circuit-bootcamp",
@@ -4028,23 +3994,6 @@
       "source": "hollysprings",
       "indoor": false,
       "family_score": 51,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "marbles-is-closed",
-      "title": "Marbles is Closed",
-      "days": [],
-      "date": "2026-12-25",
-      "start": "4:00 AM",
-      "end": "3:59 AM",
-      "venue": "",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48820/",
-      "source": "marbles",
-      "indoor": false,
-      "family_score": 45,
       "why": "",
       "tags": []
     },
@@ -4431,6 +4380,40 @@
       "tags": []
     },
     {
+      "id": "mini-birthday-party",
+      "title": "Mini Birthday Party",
+      "days": [],
+      "date": "2026-12-27",
+      "start": "10:30 AM",
+      "end": "11:30 AM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/48603/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2026-12-27",
+      "start": "2:30 PM",
+      "end": "4:50 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47911/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "artspace-s-first-friday",
       "title": "Artspace's First Friday",
       "days": [],
@@ -4484,23 +4467,6 @@
       "tags": []
     },
     {
-      "id": "new-year-s-day-solid-waste-schedule-delayed",
-      "title": "New Year’s Day (Solid Waste Schedule Delayed)",
-      "days": [],
-      "date": "2027-01-01",
-      "start": "See listing",
-      "end": "",
-      "venue": "",
-      "city": "Apex",
-      "cost": "See listing",
-      "url": "https://www.apexnc.org/Calendar.aspx?EID=4622&month=1&year=2027&day=1&calType=0",
-      "source": "apex",
-      "indoor": false,
-      "family_score": 62,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "power-circuit-bootcamp",
       "title": "Power Circuit Bootcamp",
       "days": [],
@@ -4512,23 +4478,6 @@
       "cost": "See listing",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15281&month=1&year=2027&day=1&calType=0",
       "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "closed-for-new-year-s-day",
-      "title": "Closed for New Year's Day",
-      "days": [],
-      "date": "2027-01-01",
-      "start": "8:00 AM",
-      "end": "5:00 PM",
-      "venue": "",
-      "city": "Fuquay-Varina",
-      "cost": "See listing",
-      "url": "https://www.fuquay-varina.org/Calendar.aspx?EID=9547&month=1&year=2027&day=1&calType=0",
-      "source": "fuquayvarina",
       "indoor": false,
       "family_score": 57,
       "why": "",
@@ -4809,6 +4758,40 @@
       "source": "morehead",
       "indoor": false,
       "family_score": 53,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "birthday-party",
+      "title": "Birthday Party",
+      "days": [],
+      "date": "2027-01-02",
+      "start": "9:30 AM",
+      "end": "10:30 AM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/48998/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-02",
+      "start": "10:30 AM",
+      "end": "12:50 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47989/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
       "why": "",
       "tags": []
     },
@@ -7360,6 +7343,23 @@
       "city": "",
       "cost": "See listing",
       "url": "https://moreheadplanetarium.org/calendar/we-are-stars-239/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 53,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "one-sky-many-eyes",
+      "title": "One Sky, Many Eyes",
+      "days": [],
+      "date": "2027-02-12",
+      "start": "4:30 PM",
+      "end": "5:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/one-sky-many-eyes-207/",
       "source": "morehead",
       "indoor": false,
       "family_score": 53,
