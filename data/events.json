@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:17:05+00:00",
+  "generated_at": "2026-11-18T20:26:46+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -244,27 +244,6 @@
       ]
     },
     {
-      "id": "park-west-village-s-winter-wonderland",
-      "title": "Park West Village's Winter Wonderland",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "5:30 pm",
-      "end": "",
-      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196430/-/park-west-village-s-winter-wonderland",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "salem-baptist-preschool-holiday-market",
       "title": "Salem Baptist Preschool Holiday Market",
       "days": [
@@ -413,28 +392,6 @@
       ]
     },
     {
-      "id": "raleigh-christmas-parade",
-      "title": "Raleigh Christmas Parade",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:30 am",
-      "end": "12 PM",
-      "venue": "Downtown Raleigh, Hillsborough Street and Fayetteville St., Raleigh, NC  27603",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/136354/-/raleigh-christmas-parade",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
       "id": "durham-art-walk-holiday-market",
       "title": "Durham Art Walk Holiday Market",
       "days": [
@@ -448,6 +405,28 @@
       "cost": "Free",
       "url": "https://stufftodoinrdu.com/events/durham-art-walk-holiday-market/",
       "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "raleigh-christmas-parade",
+      "title": "Raleigh Christmas Parade",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:30 am",
+      "end": "12 PM",
+      "venue": "Downtown Raleigh, Hillsborough Street and Fayetteville St., Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/136354/-/raleigh-christmas-parade",
+      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 94,
       "why": "",
@@ -478,6 +457,27 @@
       ]
     },
     {
+      "id": "nc-museum-of-natural-sciences-incredible-science",
+      "title": "NC Museum of Natural Sciences Incredible Science",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "12:30 pm",
+      "end": "",
+      "venue": "11 West Jones Street, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193471/-/nc-museum-of-natural-sciences-incredible-science",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 94,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "north-hills-christmas-tree-lighting-celebration",
       "title": "North Hills Christmas Tree Lighting Celebration",
       "days": [
@@ -497,27 +497,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "nc-museum-of-natural-sciences-incredible-science",
-      "title": "NC Museum of Natural Sciences Incredible Science",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:30 pm",
-      "end": "",
-      "venue": "11 West Jones Street, Raleigh, NC 27601",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193471/-/nc-museum-of-natural-sciences-incredible-science",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -605,6 +584,66 @@
       ]
     },
     {
+      "id": "kidz-bop-skate",
+      "title": "Kidz Bop Skate",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10 AM",
+      "end": "12:30 PM",
+      "venue": "United Skates Of America Raleigh",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "jupiter-ball",
+      "title": "Jupiter Ball",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "6 PM",
+      "end": "11:30 PM",
+      "venue": "Morehead Planetarium and Science Center",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://stufftodoinrdu.com/events/jupiter-ball/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "triangle-pop-up-handcrafted-holiday-market",
+      "title": "Triangle Pop Up – Handcrafted Holiday Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "11:00 AM",
+      "end": "04:00 PM",
+      "venue": "Fenton Square, Cary 2,",
+      "city": "Cary",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/triangle-pop-up-handcrafted-holiday-market-on-nov-21-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "thanksgiving-food-drive-at-western-wake-farmers-market",
       "title": "Thanksgiving Food Drive at Western Wake Farmers Market",
       "days": [
@@ -617,48 +656,6 @@
       "city": "Morrisville",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/191759/-/thanksgiving-food-drive-at-western-wake-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186633/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "holly-springs-farmers-market",
-      "title": "Holly Springs Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "12 PM",
-      "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
-      "city": "Holly Springs",
-      "cost": "Free Entry",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190826/-/holly-springs-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 90,
@@ -710,23 +707,46 @@
       ]
     },
     {
-      "id": "kidz-bop-skate",
-      "title": "Kidz Bop Skate",
+      "id": "holly-springs-farmers-market-thanksgiving-market",
+      "title": "Holly Springs Farmers Market – Thanksgiving Market",
       "days": [
         "sat"
       ],
       "date": "2026-11-21",
-      "start": "10 AM",
-      "end": "12:30 PM",
-      "venue": "United Skates Of America Raleigh",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
+      "start": "9:00 am",
+      "end": "12 PM",
+      "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
+      "city": "Holly Springs",
+      "cost": "Free Entry",
+      "url": "https://stufftodoinrdu.com/events/holly-springs-farmers-market-thanksgiving-market/",
       "source": "stufftodoinrdu",
       "indoor": false,
       "family_score": 90,
       "why": "",
-      "tags": []
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186633/-/wake-forest-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
       "id": "page-158-book-s-holiday-market",
@@ -751,45 +771,25 @@
       ]
     },
     {
-      "id": "triangle-pop-up-handcrafted-holiday-market",
-      "title": "Triangle Pop Up – Handcrafted Holiday Market",
+      "id": "true-crime-curious-tales-raleigh-walking-tour",
+      "title": "True Crime & Curious Tales Raleigh Walking Tour",
       "days": [
         "sat"
       ],
       "date": "2026-11-21",
-      "start": "11:00 AM",
-      "end": "04:00 PM",
-      "venue": "Fenton Square, Cary 2,",
-      "city": "Cary",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/triangle-pop-up-handcrafted-holiday-market-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "jupiter-ball",
-      "title": "Jupiter Ball",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "6 PM",
-      "end": "11:30 PM",
-      "venue": "Morehead Planetarium and Science Center",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/jupiter-ball/",
+      "start": "4 PM",
+      "end": "5:30 PM",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/true-crime-curious-tales-raleigh-walking-tour/",
       "source": "stufftodoinrdu",
       "indoor": false,
-      "family_score": 90,
+      "family_score": 89,
       "why": "",
-      "tags": []
+      "tags": [
+        "free"
+      ]
     },
     {
       "id": "wake-forest-cares-holiday-kick-off-2026",
@@ -805,27 +805,6 @@
       "cost": "FREE",
       "url": "https://raleighparent.com/event/wake-forest-cares-holiday-kick-off-2026-on-nov-21-2026/",
       "source": "raleighparent",
-      "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "true-crime-curious-tales-raleigh-walking-tour",
-      "title": "True Crime & Curious Tales Raleigh Walking Tour",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "4 PM",
-      "end": "5:30 PM",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/true-crime-curious-tales-raleigh-walking-tour/",
-      "source": "stufftodoinrdu",
       "indoor": false,
       "family_score": 89,
       "why": "",
@@ -918,6 +897,28 @@
       ]
     },
     {
+      "id": "rag-alley-2-holiday-market",
+      "title": "Rag Alley 2 + Holiday Market",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "12 PM",
+      "end": "5 PM",
+      "venue": "Phelps Phine Art",
+      "city": "",
+      "cost": "Free",
+      "url": "https://stufftodoinrdu.com/events/rag-alley-2-holiday-market/",
+      "source": "stufftodoinrdu",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "holiday-vendor-market",
       "title": "Holiday Vendor Market",
       "days": [
@@ -958,6 +959,27 @@
       "tags": []
     },
     {
+      "id": "under-the-tree-storytime-with-quail-ridge-books",
+      "title": "Under the Tree Storytime with Quail Ridge Books",
+      "days": [
+        "sun"
+      ],
+      "date": "2026-11-22",
+      "start": "10:30 am",
+      "end": "",
+      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/190511/-/under-the-tree-storytime-with-quail-ridge-books",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 99,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "santa-and-mrs-clause-visits-shephered-s-way-farms",
       "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
       "days": [
@@ -977,27 +999,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "under-the-tree-storytime-with-quail-ridge-books",
-      "title": "Under the Tree Storytime with Quail Ridge Books",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "10:30 am",
-      "end": "",
-      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190511/-/under-the-tree-storytime-with-quail-ridge-books",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 99,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -1323,25 +1324,6 @@
       ]
     },
     {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186634/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "apex-farmers-market-at-the-depot",
       "title": "Apex Farmers Market at The Depot",
       "days": [],
@@ -1371,6 +1353,25 @@
       "city": "Cary",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/193979/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186634/-/wake-forest-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 90,
@@ -1438,25 +1439,6 @@
       ]
     },
     {
-      "id": "downtown-cary-park-s-art-cart",
-      "title": "Downtown Cary Park's Art Cart",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "11:00 am",
-      "end": "",
-      "venue": "DCP Academy Pavilion, 319 S. Academy St., Cary, NC 27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196601/-/downtown-cary-park-s-art-cart",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
       "title": "Saturday Morning Magic with New World Toys and Collectibles",
       "days": [],
@@ -1467,6 +1449,25 @@
       "city": "Garner",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/195779/-/saturday-morning-magic-with-new-world-toys-and-collectibles",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "downtown-cary-park-s-art-cart",
+      "title": "Downtown Cary Park's Art Cart",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "11:00 am",
+      "end": "",
+      "venue": "DCP Academy Pavilion, 319 S. Academy St., Cary, NC 27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196601/-/downtown-cary-park-s-art-cart",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 85,
@@ -2096,26 +2097,6 @@
       ]
     },
     {
-      "id": "morrisville-s-christmas-tree-lighting",
-      "title": "Morrisville's Christmas Tree Lighting",
-      "days": [],
-      "date": "2026-12-04",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196639/-/morrisville-s-christmas-tree-lighting",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 98,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
       "id": "christmas-tree-lighting-on-first-avenue",
       "title": "Christmas Tree Lighting on First Avenue",
       "days": [],
@@ -2126,6 +2107,26 @@
       "city": "Knightdale",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/195306/-/christmas-tree-lighting-on-first-avenue",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "morrisville-s-christmas-tree-lighting",
+      "title": "Morrisville's Christmas Tree Lighting",
+      "days": [],
+      "date": "2026-12-04",
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196639/-/morrisville-s-christmas-tree-lighting",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 98,
@@ -2251,25 +2252,6 @@
       ]
     },
     {
-      "id": "page-158-books-storytime",
-      "title": "Page 158 Books Storytime",
-      "days": [],
-      "date": "2026-12-05",
-      "start": "11:00 am",
-      "end": "",
-      "venue": "415 Brooks St., Suite B, Wake Forest, NC 27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191575/-/page-158-books-storytime",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "north-raleigh-bierman-autism-center-s-annual-sensory-santa",
       "title": "North Raleigh Bierman Autism Center's Annual Sensory Santa",
       "days": [],
@@ -2287,6 +2269,25 @@
       "tags": [
         "free",
         "holiday"
+      ]
+    },
+    {
+      "id": "page-158-books-storytime",
+      "title": "Page 158 Books Storytime",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "11:00 am",
+      "end": "",
+      "venue": "415 Brooks St., Suite B, Wake Forest, NC 27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191575/-/page-158-books-storytime",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 100,
+      "why": "",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -2466,25 +2467,6 @@
       ]
     },
     {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [],
-      "date": "2026-12-05",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186635/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "apex-farmers-market-at-the-depot",
       "title": "Apex Farmers Market at The Depot",
       "days": [],
@@ -2514,6 +2496,25 @@
       "city": "Cary",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/193980/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186635/-/wake-forest-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 90,
@@ -2578,6 +2579,25 @@
       "tags": [
         "free",
         "holiday"
+      ]
+    },
+    {
+      "id": "art-on-the-dot-at-nc-museum-of-art",
+      "title": "Art on the Dot at NC Museum of Art",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "2:30 pm",
+      "end": "",
+      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194861/-/art-on-the-dot-at-nc-museum-of-art",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 87,
+      "why": "",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -2754,25 +2774,6 @@
       ]
     },
     {
-      "id": "art-on-the-dot-at-nc-museum-of-art",
-      "title": "Art on the Dot at NC Museum of Art",
-      "days": [],
-      "date": "2026-12-06",
-      "start": "2:30 pm",
-      "end": "",
-      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194862/-/art-on-the-dot-at-nc-museum-of-art",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "yarn-habit-monthly-fiber-craft-meetup",
       "title": "Yarn Habit: Monthly Fiber Craft Meetup",
       "days": [],
@@ -2906,6 +2907,25 @@
       ]
     },
     {
+      "id": "winter-wonderalnd-craft-fair-and-holiday-food-drive-at-weste",
+      "title": "Winter Wonderalnd Craft Fair and Holiday Food Drive at Western Wake Farmers Market",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "9:30 am",
+      "end": "",
+      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-and-holiday-food-drive-at-western-wake-farmers-market",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 100,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "annual-sensory-santa-in-bierman-autism-center-garner",
       "title": "Annual Sensory Santa in Bierman Autism Center Garner",
       "days": [],
@@ -2923,25 +2943,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "winter-wonderalnd-craft-fair-and-holiday-food-drive-at-weste",
-      "title": "Winter Wonderalnd Craft Fair and Holiday Food Drive at Western Wake Farmers Market",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-and-holiday-food-drive-at-western-wake-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -3062,25 +3063,6 @@
       ]
     },
     {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186636/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "apex-farmers-market-at-the-depot",
       "title": "Apex Farmers Market at The Depot",
       "days": [],
@@ -3110,6 +3092,25 @@
       "city": "Cary",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/193981/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186636/-/wake-forest-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 90,
@@ -3158,25 +3159,6 @@
       ]
     },
     {
-      "id": "raleigh-fire-museum-is-open",
-      "title": "Raleigh Fire Museum is Open",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Keeter Training Center, 105 Keeter Center Drive, Raleigh, NC  27603",
-      "city": "Raleigh",
-      "cost": "Admission is free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196215/-/raleigh-fire-museum-is-open",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "in-motion-in-time-an-homage-to-ancient-nubia",
       "title": "In Motion, In Time: An Homage to Ancient Nubia",
       "days": [],
@@ -3188,6 +3170,25 @@
       "cost": "FREE",
       "url": "https://raleighparent.com/event/in-motion-in-time-an-homage-to-ancient-nubia-on-dec-12-2026/",
       "source": "raleighparent",
+      "indoor": false,
+      "family_score": 87,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "raleigh-fire-museum-is-open",
+      "title": "Raleigh Fire Museum is Open",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "Keeter Training Center, 105 Keeter Center Drive, Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Admission is free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196215/-/raleigh-fire-museum-is-open",
+      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 87,
       "why": "",
@@ -3636,25 +3637,6 @@
       ]
     },
     {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [],
-      "date": "2026-12-19",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186637/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "apex-farmers-market-at-the-depot",
       "title": "Apex Farmers Market at The Depot",
       "days": [],
@@ -3684,6 +3666,25 @@
       "city": "Cary",
       "cost": "Free Admission",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/193982/-/cary-farmers-market-at-downtown-cary-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 90,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "wake-forest-farmers-market",
+      "title": "Wake Forest Farmers Market",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "9:00 am",
+      "end": "",
+      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/186637/-/wake-forest-farmers-market",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 90,
@@ -4391,12 +4392,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2026-12-26",
-      "start": "10:00 AM",
-      "end": "11:00 AM",
+      "start": "9:30 AM",
+      "end": "10:30 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48577/",
+      "url": "https://marbleskidsmuseum.org/event/48576/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -4408,12 +4409,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2026-12-26",
-      "start": "9:30 AM",
-      "end": "10:30 AM",
+      "start": "10:00 AM",
+      "end": "11:00 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48576/",
+      "url": "https://marbleskidsmuseum.org/event/48577/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -4699,12 +4700,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2026-12-27",
-      "start": "10:00 AM",
-      "end": "11:00 AM",
+      "start": "9:30 AM",
+      "end": "10:30 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48583/",
+      "url": "https://marbleskidsmuseum.org/event/48582/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -4716,12 +4717,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2026-12-27",
-      "start": "9:30 AM",
-      "end": "10:30 AM",
+      "start": "10:00 AM",
+      "end": "11:00 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48582/",
+      "url": "https://marbleskidsmuseum.org/event/48583/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -4801,12 +4802,12 @@
       "title": "Mini Birthday Party",
       "days": [],
       "date": "2026-12-27",
-      "start": "1:30 PM",
-      "end": "2:30 PM",
+      "start": "10:30 AM",
+      "end": "11:30 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48604/",
+      "url": "https://marbleskidsmuseum.org/event/48603/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -4818,12 +4819,12 @@
       "title": "Mini Birthday Party",
       "days": [],
       "date": "2026-12-27",
-      "start": "10:30 AM",
-      "end": "11:30 AM",
+      "start": "1:30 PM",
+      "end": "2:30 PM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48603/",
+      "url": "https://marbleskidsmuseum.org/event/48604/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -4965,6 +4966,57 @@
       "source": "hollysprings",
       "indoor": false,
       "family_score": 51,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-01",
+      "start": "2:30 PM",
+      "end": "4:50 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47986/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-01",
+      "start": "5:40 PM",
+      "end": "8:00 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47987/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-01",
+      "start": "8:50 PM",
+      "end": "11:10 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47988/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
       "why": "",
       "tags": []
     },
@@ -5200,12 +5252,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2027-01-02",
-      "start": "10:00 AM",
-      "end": "11:00 AM",
+      "start": "9:30 AM",
+      "end": "10:30 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48999/",
+      "url": "https://marbleskidsmuseum.org/event/48998/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -5217,12 +5269,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2027-01-02",
-      "start": "9:30 AM",
-      "end": "10:30 AM",
+      "start": "10:00 AM",
+      "end": "11:00 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/48998/",
+      "url": "https://marbleskidsmuseum.org/event/48999/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -5525,12 +5577,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2027-01-03",
-      "start": "10:00 AM",
-      "end": "11:00 AM",
+      "start": "9:30 AM",
+      "end": "10:30 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/49005/",
+      "url": "https://marbleskidsmuseum.org/event/49004/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -5542,12 +5594,12 @@
       "title": "Birthday Party",
       "days": [],
       "date": "2027-01-03",
-      "start": "9:30 AM",
-      "end": "10:30 AM",
+      "start": "10:00 AM",
+      "end": "11:00 AM",
       "venue": "",
       "city": "",
       "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/49004/",
+      "url": "https://marbleskidsmuseum.org/event/49005/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -5616,40 +5668,6 @@
       "city": "",
       "cost": "See listing",
       "url": "https://marbleskidsmuseum.org/event/49009/",
-      "source": "marbles",
-      "indoor": false,
-      "family_score": 45,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "mini-birthday-party",
-      "title": "Mini Birthday Party",
-      "days": [],
-      "date": "2027-01-03",
-      "start": "1:30 PM",
-      "end": "2:30 PM",
-      "venue": "",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/49061/",
-      "source": "marbles",
-      "indoor": false,
-      "family_score": 45,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "mini-birthday-party",
-      "title": "Mini Birthday Party",
-      "days": [],
-      "date": "2027-01-03",
-      "start": "10:30 AM",
-      "end": "11:30 AM",
-      "venue": "",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://marbleskidsmuseum.org/event/49060/",
       "source": "marbles",
       "indoor": false,
       "family_score": 45,
@@ -5744,23 +5762,6 @@
       "tags": []
     },
     {
-      "id": "fit-advantage-10a-10-45a-hunt-center",
-      "title": "Fit Advantage, 10A-10:45A, Hunt Center",
-      "days": [],
-      "date": "2027-01-08",
-      "start": "10:00 AM",
-      "end": "10:45 AM",
-      "venue": "W.E. Hunt Recreation Center",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16208&month=1&year=2027&day=8&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "power-circuit-bootcamp",
       "title": "Power Circuit Bootcamp",
       "days": [],
@@ -5771,6 +5772,40 @@
       "city": "Holly Springs",
       "cost": "See listing",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15282&month=1&year=2027&day=8&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "comedian-bill-boronkay",
+      "title": "Comedian Bill Boronkay",
+      "days": [],
+      "date": "2027-01-08",
+      "start": "7:30 PM",
+      "end": "",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16085&month=1&year=2027&day=8&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "fit-advantage-10a-10-45a-hunt-center",
+      "title": "Fit Advantage, 10A-10:45A, Hunt Center",
+      "days": [],
+      "date": "2027-01-08",
+      "start": "10:00 AM",
+      "end": "10:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16208&month=1&year=2027&day=8&calType=0",
       "source": "hollysprings",
       "indoor": false,
       "family_score": 57,
@@ -5795,16 +5830,16 @@
       "tags": []
     },
     {
-      "id": "comedian-bill-boronkay",
-      "title": "Comedian Bill Boronkay",
+      "id": "mah-jongg-club-1p-4p-hunt-center",
+      "title": "Mah Jongg Club, 1P-4P, Hunt Center",
       "days": [],
       "date": "2027-01-08",
-      "start": "7:30 PM",
-      "end": "",
-      "venue": "Holly Springs Cultural Center",
+      "start": "1:00 PM",
+      "end": "4:00 PM",
+      "venue": "W.E. Hunt Recreation Center | Community Room",
       "city": "Holly Springs",
       "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16085&month=1&year=2027&day=8&calType=0",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16435&month=1&year=2027&day=8&calType=0",
       "source": "hollysprings",
       "indoor": false,
       "family_score": 57,
@@ -6160,23 +6195,6 @@
       "tags": []
     },
     {
-      "id": "freetech-series-1-30-3-30p-hunt-center",
-      "title": "FreeTech Series, 1:30-3:30P, Hunt Center",
-      "days": [],
-      "date": "2027-01-10",
-      "start": "1:30 PM",
-      "end": "3:30 PM",
-      "venue": "W.E. Hunt Recreation Center",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16303&month=1&year=2027&day=10&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
       "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
       "days": [],
@@ -6247,23 +6265,6 @@
       "tags": []
     },
     {
-      "id": "one-sky-many-eyes",
-      "title": "One Sky, Many Eyes",
-      "days": [],
-      "date": "2027-01-15",
-      "start": "4:30 PM",
-      "end": "5:30 PM",
-      "venue": "",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://moreheadplanetarium.org/calendar/one-sky-many-eyes-203/",
-      "source": "morehead",
-      "indoor": false,
-      "family_score": 59,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "we-are-stars",
       "title": "We Are Stars",
       "days": [],
@@ -6281,16 +6282,33 @@
       "tags": []
     },
     {
-      "id": "fit-advantage-10a-10-45a-hunt-center",
-      "title": "Fit Advantage, 10A-10:45A, Hunt Center",
+      "id": "one-sky-many-eyes",
+      "title": "One Sky, Many Eyes",
       "days": [],
       "date": "2027-01-15",
-      "start": "10:00 AM",
-      "end": "10:45 AM",
-      "venue": "W.E. Hunt Recreation Center",
+      "start": "4:30 PM",
+      "end": "5:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/one-sky-many-eyes-203/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "power-circuit-bootcamp",
+      "title": "Power Circuit Bootcamp",
+      "days": [],
+      "date": "2027-01-15",
+      "start": "5:15 AM",
+      "end": "6:15 AM",
+      "venue": "",
       "city": "Holly Springs",
       "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16213&month=1&year=2027&day=15&calType=0",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15283&month=1&year=2027&day=15&calType=0",
       "source": "hollysprings",
       "indoor": false,
       "family_score": 57,
@@ -6714,23 +6732,6 @@
       "tags": []
     },
     {
-      "id": "fit-advantage-10a-10-45a-hunt-center",
-      "title": "Fit Advantage, 10A-10:45A, Hunt Center",
-      "days": [],
-      "date": "2027-01-22",
-      "start": "10:00 AM",
-      "end": "10:45 AM",
-      "venue": "W.E. Hunt Recreation Center",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16218&month=1&year=2027&day=22&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "power-circuit-bootcamp",
       "title": "Power Circuit Bootcamp",
       "days": [],
@@ -6741,6 +6742,23 @@
       "city": "Holly Springs",
       "cost": "See listing",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15284&month=1&year=2027&day=22&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "fit-advantage-10a-10-45a-hunt-center",
+      "title": "Fit Advantage, 10A-10:45A, Hunt Center",
+      "days": [],
+      "date": "2027-01-22",
+      "start": "10:00 AM",
+      "end": "10:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16218&month=1&year=2027&day=22&calType=0",
       "source": "hollysprings",
       "indoor": false,
       "family_score": 57,
@@ -6901,6 +6919,23 @@
       "tags": []
     },
     {
+      "id": "hiit-high-intensity-interval-training",
+      "title": "HIIT: High Intensity Interval Training",
+      "days": [],
+      "date": "2027-01-23",
+      "start": "9:00 AM",
+      "end": "9:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15729&month=1&year=2027&day=23&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "directory-community-book-drive-benefiting-wake-up-and-read",
       "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
       "days": [],
@@ -7018,23 +7053,6 @@
       "source": "morehead",
       "indoor": false,
       "family_score": 59,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "freetech-series-1-30-3-30p-hunt-center",
-      "title": "FreeTech Series, 1:30-3:30P, Hunt Center",
-      "days": [],
-      "date": "2027-01-24",
-      "start": "1:30 PM",
-      "end": "3:30 PM",
-      "venue": "W.E. Hunt Recreation Center",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16304&month=1&year=2027&day=24&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
       "why": "",
       "tags": []
     },
@@ -7262,6 +7280,23 @@
       "tags": []
     },
     {
+      "id": "carolina-skies",
+      "title": "Carolina Skies",
+      "days": [],
+      "date": "2027-01-30",
+      "start": "4:30 PM",
+      "end": "5:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/carolina-skies-566/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "directory-community-book-drive-benefiting-wake-up-and-read",
       "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
       "days": [],
@@ -7328,40 +7363,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 72,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "mars-the-ultimate-voyage",
-      "title": "Mars: The Ultimate Voyage",
-      "days": [],
-      "date": "2027-01-31",
-      "start": "1:30 PM",
-      "end": "2:30 PM",
-      "venue": "",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://moreheadplanetarium.org/calendar/mars-the-ultimate-voyage-235/",
-      "source": "morehead",
-      "indoor": false,
-      "family_score": 59,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "the-longest-night-a-winter-s-tale",
-      "title": "The Longest Night: A Winter’s Tale",
-      "days": [],
-      "date": "2027-01-31",
-      "start": "3:00 PM",
-      "end": "4:00 PM",
-      "venue": "",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://moreheadplanetarium.org/calendar/the-longest-night-a-winters-tale-161/",
-      "source": "morehead",
-      "indoor": false,
-      "family_score": 59,
       "why": "",
       "tags": []
     }

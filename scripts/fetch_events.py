@@ -83,6 +83,16 @@ def _time_key(value):
     return f"{hour:02d}:{m.group(2)}"
 
 
+def _time_minutes(value):
+    m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([AP]M)", (value or "").upper())
+    if not m:
+        return None
+    hour = int(m.group(1)) % 12
+    if m.group(3) == "PM":
+        hour += 12
+    return hour * 60 + int(m.group(2) or 0)
+
+
 # ============================================================================
 # Source scrapers - all updated to respect date range when possible
 # ============================================================================
@@ -124,6 +134,10 @@ def scrape_stufftodoinrdu():
         tm = time_re.search(text)
         if tr:
             time_hint, time_end = tr.group(1), tr.group(2)
+            start_min = _time_minutes(time_hint)
+            end_min = _time_minutes(time_end)
+            if start_min is not None and end_min is not None and end_min <= start_min:
+                time_end = ""
         else:
             time_hint, time_end = (tm.group(0) if tm else ""), ""
         vibes = [a.get_text(strip=True) for a in block.select("a[href*='/is/']")] if block else []

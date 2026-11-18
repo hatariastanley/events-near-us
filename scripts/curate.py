@@ -269,7 +269,7 @@ def time_key(value):
 
 
 def merge_duplicate_events(events):
-    """Merge cross-source duplicates that share date, start time, city, and title."""
+    """Merge cross-source duplicates without reordering the curated feed."""
     def title_similar(a, b):
         ta, tb = title_key(a), title_key(b)
         if not ta or not tb:
@@ -279,28 +279,48 @@ def merge_duplicate_events(events):
         short, long = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
         return len(short) >= 12 and short in long
 
-    groups = defaultdict(list)
-    for e in events:
-        if not e.get("date"):
-            continue
-        groups[(e["date"], time_key(e.get("start", "")))].append(e)
+    edition_re = re.compile(r"^\d+(?:st|nd|rd|th)?$")
 
-    merged = []
+    def clean_tokens(key):
+        return {t for t in key.split() if t not in TITLE_MATCH_IGNORE and not edition_re.match(t)}
+
+    def meaningful_extra(short_key, long_key):
+        return clean_tokens(long_key) - clean_tokens(short_key)
+
+    def city_ok(indices, idx):
+        cb = norm(events[idx].get("city", "")).strip()
+        if not cb:
+            return True
+        for j in indices:
+            ca = norm(events[j].get("city", "")).strip()
+            if ca and ca != cb:
+                return False
+        return True
+
+    groups = defaultdict(list)
+    for idx, e in enumerate(events):
+        if e.get("date"):
+            groups[(e["date"], time_key(e.get("start", "")))].append(idx)
+
+    merged_by_index = {}
+    drop_indices = set()
     for members in groups.values():
         clusters = []
-        for e in sorted(members, key=lambda x: (-x["family_score"], len(x["title"]))):
+        for idx in sorted(members, key=lambda i: (-events[i]["family_score"], len(events[i]["title"]))):
             for cluster in clusters:
-                ca = norm(cluster[0].get("city", "")).strip()
-                cb = norm(e.get("city", "")).strip()
-                if (not ca or not cb or ca == cb) and title_similar(cluster[0]["title"], e["title"]):
-                    cluster.append(e)
+                if city_ok(cluster, idx) and title_similar(events[cluster[0]]["title"], events[idx]["title"]):
+                    cluster.append(idx)
                     break
             else:
-                clusters.append([e])
+                clusters.append([idx])
         for cluster in clusters:
-            ordered = sorted(cluster, key=lambda x: (-x["family_score"], len(x["title"]), 0 if x.get("end") else 1, 0 if x.get("venue") else 1))
-            primary = ordered[0]
-            for donor in ordered[1:]:
+            if len(cluster) == 1:
+                continue
+            ordered = sorted(cluster, key=lambda i: (-events[i]["family_score"], len(events[i]["title"]), 0 if events[i].get("end") else 1, 0 if events[i].get("venue") else 1))
+            primary_idx = ordered[0]
+            primary = dict(events[primary_idx])
+            for donor_idx in ordered[1:]:
+                donor = events[donor_idx]
                 if not primary.get("end") and donor.get("end"):
                     primary["end"] = donor["end"]
                 if not primary.get("venue") and donor.get("venue"):
@@ -310,9 +330,33 @@ def merge_duplicate_events(events):
                 tags = set(primary.get("tags", [])) | set(donor.get("tags", []))
                 if tags:
                     primary["tags"] = sorted(tags)
-            merged.append(primary)
-    merged.extend(e for e in events if not e.get("date"))
-    return merged
+            primary_key = title_key(primary["title"])
+            detail_candidates = []
+            for idx in ordered:
+                raw_title = events[idx]["title"]
+                if "," in raw_title or re.search(r"\b\d{5}\b", raw_title):
+                    continue
+                member_key = title_key(raw_title)
+                if len(member_key) > len(primary_key) and meaningful_extra(primary_key, member_key):
+                    detail_candidates.append(idx)
+            if detail_candidates:
+                detail_idx = max(detail_candidates, key=lambda i: (events[i]["family_score"], len(title_key(events[i]["title"]))))
+                detail = events[detail_idx]
+                primary["title"] = detail["title"]
+                primary["url"] = detail.get("url", primary.get("url", ""))
+                primary["source"] = detail.get("source", primary.get("source", ""))
+            primary["id"] = re.sub(r"[^a-z0-9]+", "-", norm(primary["title"])).strip("-")[:60]
+            merged_by_index[primary_idx] = primary
+            drop_indices.update(ordered[1:])
+
+    if not merged_by_index:
+        return events
+    out = []
+    for idx, e in enumerate(events):
+        if idx in drop_indices:
+            continue
+        out.append(merged_by_index.get(idx, e))
+    return out
 
 
 def keyword_hits(text, mapping):

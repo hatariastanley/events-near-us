@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T20:16:42+00:00",
+  "fetched_at": "2026-11-18T20:25:49+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -157,7 +157,7 @@
       "url": "https://stufftodoinrdu.com/events/unc-jazz-combos-4-5-6-with-brian-miller/",
       "venue": "Kenan Music Building, Rehearsal Hall",
       "time_hint": "2 PM",
-      "time_end": "2 PM",
+      "time_end": "",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -619,7 +619,7 @@
       "url": "https://stufftodoinrdu.com/events/charanga-carolina/",
       "venue": "Kenan Music Building, Rehearsal Hall",
       "time_hint": "7:30 PM",
-      "time_end": "7:30 PM",
+      "time_end": "",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -635,7 +635,7 @@
       "url": "https://stufftodoinrdu.com/events/november-dances-duke-dance-2026/",
       "venue": "Reynolds Industries Theater",
       "time_hint": "7:30 PM",
-      "time_end": "7:30 PM",
+      "time_end": "",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -878,7 +878,7 @@
       "url": "https://stufftodoinrdu.com/events/orange-county-all-stars/",
       "venue": "Speakeasy",
       "time_hint": "9 PM",
-      "time_end": "12 AM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -911,7 +911,7 @@
       "url": "https://stufftodoinrdu.com/events/bachata-fixation-with-dj-numinus-2/",
       "venue": "Flying Bull Restaurant and Brewery",
       "time_hint": "9:30 PM",
-      "time_end": "12 AM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -943,7 +943,7 @@
       "url": "https://stufftodoinrdu.com/events/overtime-at-e-o-s/",
       "venue": "E.O.’s Athletic Club",
       "time_hint": "11 PM",
-      "time_end": "2 AM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
@@ -1858,7 +1858,7 @@
       "url": "https://stufftodoinrdu.com/events/carolina-choir-and-unc-chamber-singers-mfe-26-27/",
       "venue": "Moeser Auditorium (Hill Hall, UNC)",
       "time_hint": "7 PM",
-      "time_end": "7 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
