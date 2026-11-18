@@ -231,8 +231,6 @@ def titles_match(a, b):
     if not a or not b or min(len(a), len(b)) < 8:
         return False
     ta, tb = a.split(), b.split()
-    if min(len(ta), len(tb)) < 2:
-        return False
 
     def contains(longer, shorter):
         n = len(shorter)
@@ -253,6 +251,16 @@ def titles_match(a, b):
     else:
         extra = []
     return all(t in TITLE_MATCH_IGNORE for t in extra)
+
+
+def time_key(value):
+    m = re.search(r"(\d{1,2}):(\d{2})\s*([AP]M)", (value or "").upper())
+    if not m:
+        return ""
+    hour = int(m.group(1)) % 12
+    if m.group(3) == "PM":
+        hour += 12
+    return f"{hour:02d}:{m.group(2)}"
 
 
 def score(e):
@@ -418,7 +426,7 @@ def main():
 
         for _, days, date_iso in candidates:
             day_list = days if days is not None else detect_days(text)
-            key = norm(title)[:60] + "|" + (date_iso or ",".join(day_list)) + "|" + norm(e.get("venue", ""))[:40]
+            key = norm(title)[:60] + "|" + (date_iso or ",".join(day_list)) + "|" + norm(e.get("venue", ""))[:40] + "|" + time_key(e.get("time_hint", ""))
             if key in seen:
                 continue
             seen.add(key)
