@@ -323,7 +323,7 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
         start_date, end_date = fri, sun
     raw_events = []
     page = 1
-    total_pages = 1
+    total_pages = None
     while True:
         r = requests.get(
             f"{base}/wp-json/tribe/events/v1/events",
@@ -334,10 +334,12 @@ def scrape_tec(source_name, base, per_page=50, start_date=None, end_date=None):
         batch = r.json().get("events", [])
         raw_events.extend(batch)
         try:
-            total_pages = int(r.headers.get("X-WP-TotalPages", total_pages))
+            header_pages = r.headers.get("X-WP-TotalPages")
+            if header_pages:
+                total_pages = int(header_pages)
         except (TypeError, ValueError):
             pass
-        if len(batch) < per_page or page >= total_pages or page >= 10:
+        if len(batch) < per_page or (total_pages is not None and page >= total_pages) or page >= 10:
             break
         page += 1
     events = []
