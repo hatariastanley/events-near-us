@@ -94,7 +94,8 @@ function cardHtml(e, dateStr, showDate = false) {
     : "";
   const dist = eventDistanceMi(e);
   const distChip = dist != null ? `<span class="tag distance">${dist} mi</span>` : "";
-  const evtKey = `${e.id}-${dateStr}`;
+  const uid = e._uid || e.id;
+  const evtKey = `${uid}-${dateStr}`;
   window._evtMap[evtKey] = e;
   const dateLabel = showDate && dateStr ? `${escapeHtml(fmtCardDate(dateStr))} · ` : "";
   return `<article class="card">
@@ -104,7 +105,7 @@ function cardHtml(e, dateStr, showDate = false) {
       <p class="meta">${dateLabel}<strong>${escapeHtml(time)}</strong>${place ? ` · ${escapeHtml(place)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
       ${e.why ? `<p class="why">${escapeHtml(e.why)}</p>` : ""}
       <div class="tags">${distChip}${(e.tags || []).map(tagChip).join("")}${link}</div>
-      ${calendarLinks(e, dateStr)}
+      ${calendarLinks(e, dateStr, evtKey)}
     </div>
   </article>`;
 }
@@ -220,7 +221,8 @@ function buildIcsContent(event, dateStr) {
   const title = event.title || "Event";
   const location = [event.venue, event.city].filter(Boolean).join(", ");
   const description = [event.why || event.description || "", event.url ? `Details: ${event.url}` : ""].filter(Boolean).join("\\n\\n");
-  const uid = `${event.id || Math.random().toString(36).slice(2)}-${dateStr}@trianglefamilyweekend`;
+  const baseId = event._uid || event.id || Math.random().toString(36).slice(2);
+  const uid = `${baseId}-${dateStr}@trianglefamilyweekend`;
   
   const startTime = event.start;
   const endTime = event.end;
@@ -279,12 +281,13 @@ function downloadIcs(event, dateStr) {
   URL.revokeObjectURL(url);
 }
 
-function calendarLinks(event, dateStr) {
+function calendarLinks(event, dateStr, evtKey) {
   const gcalUrl = buildGoogleCalUrl(event, dateStr);
   if (!gcalUrl) return "";
+  const key = evtKey || `${event._uid || event.id}-${dateStr}`;
   return `<div class="cal-links">
     <a href="${escapeAttr(gcalUrl)}" target="_blank" rel="noopener" class="cal-btn gcal" title="Add to Google Calendar">📅 Google</a>
-    <button type="button" class="cal-btn ics" onclick="downloadIcs(window._evtMap['${event.id}-${dateStr}'], '${dateStr}')" title="Download .ics for Apple/Outlook">📥 .ics</button>
+    <button type="button" class="cal-btn ics" onclick="downloadIcs(window._evtMap['${key}'], '${dateStr}')" title="Download .ics for Apple/Outlook">📥 .ics</button>
   </div>`;
 }
 
@@ -407,14 +410,14 @@ function fmtFullDate(iso) {
 function woodcreekCardHtml(e) {
   const time = e.end ? `${e.start}–${e.end}` : e.start || "";
   const dateStrDisplay = fmtFullDate(e.date);
-  const evtKey = `${e.id}-${e.date}`;
+  const evtKey = `${e._uid || e.id}-${e.date}`;
   window._evtMap[evtKey] = e;
   return `<article class="card woodcreek-card">
     <div class="card-body">
       <h3>${escapeHtml(e.title)}</h3>
       <p class="meta"><strong>${escapeHtml(dateStrDisplay)}</strong>${time ? ` · ${escapeHtml(time)}` : ""}${e.venue ? ` · ${escapeHtml(e.venue)}` : ""}${e.cost ? ` · ${escapeHtml(e.cost)}` : ""}</p>
       ${e.description ? `<p class="description">${escapeHtml(e.description)}</p>` : ""}
-      ${calendarLinks(e, e.date)}
+      ${calendarLinks(e, e.date, evtKey)}
     </div>
   </article>`;
 }
@@ -569,6 +572,7 @@ async function main() {
   try {
     const data = await loadEvents();
     allEvents = data.events || [];
+    allEvents.forEach((e, i) => { e._uid = `${e.id || "event"}-${i}`; });
     const wk = data.weekend || {};
     weekendDates = wk;
     for (const day of ["fri", "sat", "sun"]) {
