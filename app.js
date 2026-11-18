@@ -326,14 +326,43 @@ function addDaysISO(iso, days) {
   return `${y}-${m}-${day}`;
 }
 
-function weekendForOffset(offset) {
+function todayISO() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function currentWeekendDates() {
   if (!weekendDates.fri) return {};
-  if (offset === 0) return weekendDates;
   const fri = weekendDates.fri;
-  const sat = weekendDates.sat || addDaysISO(fri, 1);
-  const sun = weekendDates.sun || addDaysISO(fri, 2);
+  const satOff = weekendDates.sat
+    ? Math.round((new Date(weekendDates.sat + "T12:00:00") - new Date(fri + "T12:00:00")) / 86400000)
+    : 1;
+  const sunOff = weekendDates.sun
+    ? Math.round((new Date(weekendDates.sun + "T12:00:00") - new Date(fri + "T12:00:00")) / 86400000)
+    : 2;
+  const today = todayISO();
+  let weeks = 0;
+  let sun = addDaysISO(fri, sunOff);
+  while (sun < today) {
+    weeks += 1;
+    sun = addDaysISO(fri, sunOff + weeks * 7);
+  }
+  const baseFri = addDaysISO(fri, weeks * 7);
+  return { fri: baseFri, sat: addDaysISO(baseFri, satOff), sun: addDaysISO(baseFri, sunOff) };
+}
+
+function weekendForOffset(offset) {
+  const base = currentWeekendDates();
+  if (!base.fri) return {};
   const shift = offset * 7;
-  return { fri: addDaysISO(fri, shift), sat: addDaysISO(sat, shift), sun: addDaysISO(sun, shift) };
+  return {
+    fri: addDaysISO(base.fri, shift),
+    sat: addDaysISO(base.sat || addDaysISO(base.fri, 1), shift),
+    sun: addDaysISO(base.sun || addDaysISO(base.fri, 2), shift),
+  };
 }
 
 function weekendOptionLabel(offset, dates) {
@@ -362,34 +391,23 @@ function sortEventsForFilter(events, filter) {
 let weekendDates = {};
 let activeWeekend = 0;
 
-function render(filter = "all") {
-  const match = FILTERS[filter] || FILTERS.all;
-  let shown = 0;
-  for (const day of ["fri", "sat", "sun"]) {
-    const dateStr = weekendDates[day] || "";
-    const events = allEvents
-      .filter((e) => (e.days || [e.day]).includes(day) && match(e));
-    sortEventsForFilter(events, filter);
-    document.getElementById(`cards-${day}`).innerHTML = events.map((e) => cardHtml(e, dateStr)).join("");
-    shown += events.length;
-  }
-  document.getElementById("empty-state").hidden = shown > 0;
+function eventDays(e) {
+  return e.days || (e.day ? [e.day] : []);
 }
 
 function renderWeekend(offset, filter = "all") {
-  if (offset === 0) {
-    restoreWeekendView(weekendDates);
-    render(filter);
-    return;
-  }
-
   const dates = weekendForOffset(offset);
   restoreWeekendView(dates);
   const match = FILTERS[filter] || FILTERS.all;
+  const feedSun = weekendDates.sun || (weekendDates.fri ? addDaysISO(weekendDates.fri, 2) : "");
+  const isFeedWeekend = weekendDates.fri && dates.fri === weekendDates.fri && dates.sun === feedSun;
   let shown = 0;
   for (const day of ["fri", "sat", "sun"]) {
     const dateStr = dates[day] || "";
-    const events = allEvents.filter((e) => e.date === dateStr && match(e));
+    const events = allEvents.filter((e) => {
+      if (e.date) return e.date === dateStr;
+      return Boolean(isFeedWeekend) && eventDays(e).includes(day);
+    });
     sortEventsForFilter(events, filter);
     document.getElementById(`cards-${day}`).innerHTML = events.map((e) => cardHtml(e, dateStr)).join("");
     shown += events.length;
