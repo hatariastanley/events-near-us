@@ -73,29 +73,90 @@ def _day_in_range(d, start, end):
     return start <= d <= end
 
 
+def _time_key(value):
+    m = re.search(r"(\d{1,2}):(\d{2})\s*([AP]M)", (value or "").upper())
+    if not m:
+        return ""
+    hour = int(m.group(1)) % 12
+    if m.group(3) == "PM":
+        hour += 12
+    return f"{hour:02d}:{m.group(2)}"
+
+
+def _time_minutes(value):
+    m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([AP]M)", (value or "").upper())
+    if not m:
+        return None
+    hour = int(m.group(1)) % 12
+    if m.group(3) == "PM":
+        hour += 12
+    return hour * 60 + int(m.group(2) or 0)
+
+
 # ============================================================================
 # Source scrapers - all updated to respect date range when possible
 # ============================================================================
 
 def scrape_stufftodoinrdu():
-    """Weekend page: event blocks with h3 title links, time, venue, vibes."""
+    """Weekend page: event cards grouped under day bars, with some dated cards."""
     events = []
     soup = get("https://stufftodoinrdu.com/")
+    daybar_re = re.compile(
+        r"^(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\s*,\s*"
+        r"(\d{1,2})\s+([A-Za-z]{3})", re.I)
+    lead_re = re.compile(
+        r"^\s*(?:(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\.?\s+)?"
+        r"(\d{1,2})\s+([A-Za-z]{3})\s+(?=\d{1,2}(?::\d{2})?\s*[AP]M)", re.I)
+    range_re = re.compile(
+        r"(\d{1,2}(?::\d{2})?\s*[AP]M)\s*(?:–|—|-|to)\s*"
+        r"(\d{1,2}(?::\d{2})?\s*[AP]M)", re.I)
+    time_re = re.compile(r"\d{1,2}(?::\d{2})?\s*[AP]M", re.I)
+    day_hints = {"fri": "fri", "friday": "fri", "sat": "sat", "saturday": "sat", "sun": "sun", "sunday": "sun"}
     for h3 in soup.select("h3 a[href*='/events/']"):
         block = h3.find_parent(["li", "article", "div"])
         text = block.get_text(" ", strip=True) if block else ""
+        lead = lead_re.match(text)
+        day_hint = date_hint = ""
+        if lead:
+            day_hint = day_hints.get((lead.group(1) or "").lower(), "")
+            date_hint = f"{lead.group(3).capitalize()} {int(lead.group(2))}"
+        else:
+            daybar = h3.find_previous("h2", class_="te-daybar")
+            m = daybar_re.match(daybar.get_text(" ", strip=True)) if daybar else None
+            if not m:
+                continue
+            day_hint = {"friday": "fri", "saturday": "sat", "sunday": "sun"}.get(m.group(1).lower(), "")
+            if not day_hint:
+                continue
+            date_hint = f"{m.group(3).capitalize()} {int(m.group(2))}"
         venue = block.select_one("a[href*='/venues/']") if block else None
-        time = re.search(r"\d{1,2}(:\d{2})?\s*(AM|PM)", text)
+        tr = range_re.search(text)
+        tm = time_re.search(text)
+        if tr:
+            time_hint, time_end = tr.group(1), tr.group(2)
+            start_min = _time_minutes(time_hint)
+            end_min = _time_minutes(time_end)
+            if start_min is not None and end_min is not None:
+                if end_min == start_min:
+                    time_end = ""
+                elif end_min < start_min:
+                    overnight = 1440 - start_min + end_min
+                    if overnight <= 0 or overnight > 12 * 60:
+                        time_end = ""
+        else:
+            time_hint, time_end = (tm.group(0) if tm else ""), ""
         vibes = [a.get_text(strip=True) for a in block.select("a[href*='/is/']")] if block else []
         events.append({
             "title": h3.get_text(strip=True),
             "url": urljoin("https://stufftodoinrdu.com", h3.get("href", "")),
             "venue": venue.get_text(strip=True) if venue else "",
-            "time_hint": time.group(0) if time else "",
+            "time_hint": time_hint,
+            "time_end": time_end,
             "cost": "Free" if "Free" in text else "",
             "source": "stufftodoinrdu",
             "tags": vibes,
-            "day_hint": "",
+            "day_hint": day_hint,
+            "date_hint": date_hint,
         })
     return events
 
@@ -208,7 +269,7 @@ def scrape_civicplus(source_name, base, city, months_ahead=3):
             "date_hint": date_hint,
             "event_date": event_date,
         }
-        key = (re.sub(r"\s+", " ", title.lower()).strip(), event_date or "")
+        key = (re.sub(r"\s+", " ", title.lower()).strip(), event_date or "", _time_key(time_hint))
         if key in seen_keys:
             idx = seen_keys[key]
             old = events[idx]

@@ -165,6 +165,15 @@ function toGcalDateTime(dateStr, timeStr) {
   return `${y}${mo}${day}T${hr}${mi}00`;
 }
 
+function nextDateStr(dateStr) {
+  const d = new Date(dateStr + "T12:00:00");
+  d.setDate(d.getDate() + 1);
+  const y = d.getFullYear();
+  const mo = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${mo}-${day}`;
+}
+
 function addHours(dateTimeStr, hours) {
   const y = parseInt(dateTimeStr.slice(0, 4), 10);
   const mo = parseInt(dateTimeStr.slice(4, 6), 10) - 1;
@@ -204,11 +213,13 @@ function buildGoogleCalUrl(event, dateStr) {
     const start = toGcalDateTime(dateStr, startTime);
     if (!start) return null;
     let end;
-    if (endTime && parseTime(endTime)) {
-      end = toGcalDateTime(dateStr, endTime);
-    } else {
-      end = addHours(start, 2);
-    }
+    const endParsed = endTime ? parseTime(endTime) : null;
+    const st = parseTime(startTime);
+    const endMinutes = endParsed ? endParsed.h * 60 + endParsed.min : null;
+    const startMinutes = st ? st.h * 60 + st.min : 0;
+    const useParsedEnd = endParsed && !(st && endMinutes === startMinutes);
+    const endDate = useParsedEnd && st && endMinutes < startMinutes ? nextDateStr(dateStr) : dateStr;
+    end = useParsedEnd ? toGcalDateTime(endDate, endTime) : addHours(start, 2);
     dates = `${start}/${end}`;
   }
   
@@ -245,11 +256,13 @@ function buildIcsContent(event, dateStr) {
     const start = toIcsDateTime(dateStr, startTime);
     if (!start) return null;
     let end;
-    if (endTime && parseTime(endTime)) {
-      end = toIcsDateTime(dateStr, endTime);
-    } else {
-      end = addHours(start, 2);
-    }
+    const endParsed = endTime ? parseTime(endTime) : null;
+    const st = parseTime(startTime);
+    const endMinutes = endParsed ? endParsed.h * 60 + endParsed.min : null;
+    const startMinutes = st ? st.h * 60 + st.min : 0;
+    const useParsedEnd = endParsed && !(st && endMinutes === startMinutes);
+    const endDate = useParsedEnd && st && endMinutes < startMinutes ? nextDateStr(dateStr) : dateStr;
+    end = useParsedEnd ? toIcsDateTime(endDate, endTime) : addHours(start, 2);
     dtstart = `DTSTART;TZID=America/New_York:${start}`;
     dtend = `DTEND;TZID=America/New_York:${end}`;
   }

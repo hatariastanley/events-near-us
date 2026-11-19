@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T19:32:44+00:00",
+  "fetched_at": "2026-11-18T20:33:26+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
@@ -14,78 +14,11 @@
   "partial_sources": [],
   "raw_events": [
     {
-      "title": "Knock, Knock at Raleigh Little Theatre",
-      "url": "https://stufftodoinrdu.com/events/knock-knock-raleigh-little-theatre-2026/",
-      "venue": "Raleigh Little Theatre",
-      "time_hint": "10 AM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Family-friendly",
-        "Low impact",
-        "Sober-friendly"
-      ],
-      "day_hint": ""
-    },
-    {
-      "title": "There’s An App For That",
-      "url": "https://stufftodoinrdu.com/events/theres-an-app-for-that/",
-      "venue": "Eva Perry Regional Library",
-      "time_hint": "3 PM",
-      "cost": "Free",
-      "source": "stufftodoinrdu",
-      "tags": [],
-      "day_hint": ""
-    },
-    {
-      "title": "Periphery – A Pale White Dot US Tour",
-      "url": "https://stufftodoinrdu.com/events/periphery-a-pale-white-dot-us-tour/",
-      "venue": "The Ritz",
-      "time_hint": "5:30 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Family-friendly",
-        "Good solo",
-        "Low impact",
-        "Side-by-side"
-      ],
-      "day_hint": ""
-    },
-    {
-      "title": "Ballet BC at Memorial Hall",
-      "url": "https://stufftodoinrdu.com/events/ballet-bc-memorial-hall-2026/",
-      "venue": "Memorial Hall (UNC)",
-      "time_hint": "7 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "Low impact",
-        "Newcomer-friendly",
-        "Sober-friendly"
-      ],
-      "day_hint": ""
-    },
-    {
-      "title": "Daniel Sloss: BITTER  (Brand New Tour!)",
-      "url": "https://stufftodoinrdu.com/events/daniel-sloss-bitter-brand-new-tour/",
-      "venue": "Carolina Theatre of Durham",
-      "time_hint": "7 PM",
-      "cost": "",
-      "source": "stufftodoinrdu",
-      "tags": [
-        "Good solo",
-        "Low impact",
-        "Side-by-side"
-      ],
-      "day_hint": ""
-    },
-    {
       "title": "Trail Talks with TLC: Williamson",
       "url": "https://stufftodoinrdu.com/events/trail-talks-with-tlc-williamson/",
       "venue": "Williamson Farm and Nature Preserve",
       "time_hint": "9:30 AM",
+      "time_end": "11:30 AM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -95,25 +28,29 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Bingo, Books and Bites",
       "url": "https://stufftodoinrdu.com/events/bingo-books-and-bites-2/",
       "venue": "West Regional Library",
       "time_hint": "10 AM",
+      "time_end": "11 AM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Nature Storytime: Forest Detectives",
       "url": "https://stufftodoinrdu.com/events/nature-storytime-forest-detectives/",
       "venue": "Brumley South Nature Preserve",
       "time_hint": "10 AM",
+      "time_end": "11:30 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -123,25 +60,29 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Tasting at Ten – Durham",
       "url": "https://stufftodoinrdu.com/events/tasting-at-ten-durham/",
       "venue": "Counter Culture Coffee",
       "time_hint": "10 AM",
+      "time_end": "11 AM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Mahjong",
       "url": "https://stufftodoinrdu.com/events/mahjong-3/",
       "venue": "Northeast Regional Library",
       "time_hint": "10:30 AM",
+      "time_end": "12:30 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -149,23 +90,27 @@
         "Low impact",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Gobble Waddle Bar Crawl",
       "url": "https://stufftodoinrdu.com/events/gobble-waddle-bar-crawl/",
       "venue": "DSSOLVR",
       "time_hint": "12 PM",
+      "time_end": "10:30 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Triangle Orchid Society Fall for Orchids Show",
       "url": "https://stufftodoinrdu.com/events/triangle-orchid-society-fall-for-orchids-show/",
       "venue": "Sarah P. Duke Gardens",
       "time_hint": "1 PM",
+      "time_end": "5 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -175,13 +120,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Tree Camp",
       "url": "https://stufftodoinrdu.com/events/tree-camp/",
       "venue": "Prairie Ridge",
       "time_hint": "1 PM",
+      "time_end": "4 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -190,23 +137,27 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Historic Oakwood and North Blount: Architecture and History Tour",
       "url": "https://stufftodoinrdu.com/events/historic-oakwood-and-north-blount-architecture-and-history-tour/",
       "venue": "Heck-Andrews House",
       "time_hint": "1 PM",
+      "time_end": "2 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "UNC Jazz Combos 4, 5, 6 with Brian Miller",
       "url": "https://stufftodoinrdu.com/events/unc-jazz-combos-4-5-6-with-brian-miller/",
       "venue": "Kenan Music Building, Rehearsal Hall",
       "time_hint": "2 PM",
+      "time_end": "",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -214,23 +165,27 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Spades Card Club",
       "url": "https://stufftodoinrdu.com/events/spades-card-club-2/",
       "venue": "North Regional Library",
       "time_hint": "2:30 PM",
+      "time_end": "4 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Invasive Plant Removal at Old Chapel Hill Rd Park",
       "url": "https://stufftodoinrdu.com/events/invasive-plant-removal-at-old-chapel-hill-rd-park/",
       "venue": "Old Chapel Hill Road Park",
       "time_hint": "3 PM",
+      "time_end": "5 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -241,13 +196,15 @@
         "Sober-friendly",
         "Volunteer"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "You Can See Everything",
       "url": "https://stufftodoinrdu.com/events/you-can-see-everything/",
       "venue": "Carolina Theatre of Durham",
       "time_hint": "4 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -256,13 +213,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Cary Night Market (November)",
       "url": "https://stufftodoinrdu.com/events/cary-night-market-november-2026/",
       "venue": "Downtown Cary Park",
       "time_hint": "5 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -271,25 +230,29 @@
         "Low impact",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Intro to Linoprinting – Create a seamless pattern",
       "url": "https://stufftodoinrdu.com/events/intro-to-linoprinting-create-a-seamless-pattern/",
       "venue": "Anne and Arthur Fine Arts Supply",
       "time_hint": "5 PM",
+      "time_end": "7 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Foodie Fare",
       "url": "https://stufftodoinrdu.com/events/foodie-fare/",
       "venue": "Durham Central Park",
       "time_hint": "5:30 PM",
+      "time_end": "9:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -299,13 +262,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Downtown Raleigh Tree Lighting & Holiday Market",
       "url": "https://stufftodoinrdu.com/events/downtown-raleigh-tree-lighting-holiday-market-2026/",
       "venue": "Moore Square",
       "time_hint": "5:30 PM",
+      "time_end": "8 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -314,23 +279,27 @@
         "Low impact",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "World Kindness Day Storytelling Event",
       "url": "https://stufftodoinrdu.com/events/world-kindness-day-storytelling-event/",
       "venue": "Dingo Dog Brewing",
       "time_hint": "6 PM",
+      "time_end": "8 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Friday Art Opening – Mike Benson",
       "url": "https://stufftodoinrdu.com/events/third-friday-art-opening-mike-benson/",
       "venue": "Ment Beverage Co.",
       "time_hint": "6 PM",
+      "time_end": "8 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -339,13 +308,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "8th Black Light! (ArtWalk)",
       "url": "https://stufftodoinrdu.com/events/8th-black-light-artwalk/",
       "venue": "Phelps Phine Art",
       "time_hint": "6 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -355,13 +326,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "KING NOBUYOSHI GODWIN: 5 POINTS GALLERY FEATURED ARTIST – Third Friday Opening Reception November",
       "url": "https://stufftodoinrdu.com/events/king-nobuyoshi-godwin-5-points-gallery-featured-artist-third-friday-opening-reception-november/",
       "venue": "5 Points Gallery",
       "time_hint": "6 PM",
+      "time_end": "9 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -370,13 +343,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Friday Zine Swap",
       "url": "https://stufftodoinrdu.com/events/third-friday-zine-swap/",
       "venue": "Vessel Coffee House & Art Cafe",
       "time_hint": "6 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -385,13 +360,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Imprint of Faith: Exhibition Opening at Zeitgeist Gallery & Bar",
       "url": "https://stufftodoinrdu.com/events/the-imprint-of-faith-exhibition-opening-at-zeitgeist-gallery-bar/",
       "venue": "Zeitgeist Gallery & Bar",
       "time_hint": "6 PM",
+      "time_end": "11 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -401,26 +378,30 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Live Music Fridays at Gizmo Brew Works Raleigh",
       "url": "https://stufftodoinrdu.com/events/live-music-fridays-gizmo-raleigh/",
       "venue": "Gizmo Brew Works (Raleigh)",
       "time_hint": "6 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo",
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Friday Art Walk",
       "url": "https://stufftodoinrdu.com/events/third-friday-art-walk/",
       "venue": "Golden Belt",
       "time_hint": "6 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -430,13 +411,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Art of Gratitude",
       "url": "https://stufftodoinrdu.com/events/the-art-of-gratitude/",
       "venue": "ReCity",
       "time_hint": "6:30 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -445,13 +428,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Raleigh International Folk Dancers",
       "url": "https://stufftodoinrdu.com/events/raleigh-international-folk-dancers/",
       "venue": "Glen Eden Pilot Park Community Center",
       "time_hint": "6:30 PM",
+      "time_end": "10 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -460,13 +445,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "An Archaeologist’s Face to Feet with King Taharqa",
       "url": "https://stufftodoinrdu.com/events/an-archaeologists-face-to-feet-with-king-taharqa/",
       "venue": "North Carolina Museum of Art",
       "time_hint": "7 PM",
+      "time_end": "8:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -477,13 +464,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Jam Series – Celtic Jam",
       "url": "https://stufftodoinrdu.com/events/jam-series-celtic-jam/",
       "venue": "Drakeford Library Complex",
       "time_hint": "7 PM",
+      "time_end": "8:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -492,13 +481,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Princess Bride & Ladyhawke",
       "url": "https://stufftodoinrdu.com/events/the-princess-bride-ladyhawke/",
       "venue": "Carolina Theatre of Durham",
       "time_hint": "7 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -507,26 +498,30 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Sapphic Speed Dating @ Blackbird Books and Coffee",
       "url": "https://stufftodoinrdu.com/events/sapphic-speed-dating-blackbird-books-and-coffee/",
       "venue": "Blackbird Books and Coffee",
       "time_hint": "7 PM",
+      "time_end": "9 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "LGBTQ+",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Space Open Mic Night",
       "url": "https://stufftodoinrdu.com/events/third-space-open-mic-night-2/",
       "venue": "Lanza’s Cafe",
       "time_hint": "7 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -535,13 +530,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Chase Petra with Jer, Leisure Hour, & Sewing Club",
       "url": "https://stufftodoinrdu.com/events/chase-petra-with-jer-leisure-hour-sewing-club/",
       "venue": "Motorco",
       "time_hint": "7 PM",
+      "time_end": "10 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -550,13 +547,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "3rd Friday After Dark: ALIGNMENT",
       "url": "https://stufftodoinrdu.com/events/3rd-friday-after-dark-alignment/",
       "venue": "Future Hooman",
       "time_hint": "7 PM",
+      "time_end": "11 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -565,13 +564,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Third Space Open Mic at Lanza’s",
       "url": "https://stufftodoinrdu.com/events/lanzas-third-space-open-mic/",
       "venue": "Lanza’s Cafe",
       "time_hint": "7 PM",
+      "time_end": "9 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -581,13 +582,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "An Evening with Sugaree String Society",
       "url": "https://stufftodoinrdu.com/events/an-evening-with-sugaree-string-society/",
       "venue": "Wake Forest Listening Room",
       "time_hint": "7:30 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -596,23 +599,27 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "On The Steps with Kate McGarry & Keith Ganz",
       "url": "https://stufftodoinrdu.com/events/on-the-steps-with-kate-mcgarry-keith-ganz/",
       "venue": "The Halle Cultural Arts Center",
       "time_hint": "7:30 PM",
+      "time_end": "9 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Charanga Carolina",
       "url": "https://stufftodoinrdu.com/events/charanga-carolina/",
       "venue": "Kenan Music Building, Rehearsal Hall",
       "time_hint": "7:30 PM",
+      "time_end": "",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -620,13 +627,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "November Dances 2026 at Duke",
       "url": "https://stufftodoinrdu.com/events/november-dances-duke-dance-2026/",
       "venue": "Reynolds Industries Theater",
       "time_hint": "7:30 PM",
+      "time_end": "",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -634,26 +643,30 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Easter in Alexandria at The ArtsCenter",
       "url": "https://stufftodoinrdu.com/events/easter-in-alexandria-artscenter-2026/",
       "venue": "The ArtsCenter",
       "time_hint": "7:30 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo",
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "A Drag Queen Christmas",
       "url": "https://stufftodoinrdu.com/events/a-drag-queen-christmas/",
       "venue": "DPAC",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -663,13 +676,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "North Carolina Symphony – Beethoven Piano Concerto No. 1",
       "url": "https://stufftodoinrdu.com/events/north-carolina-symphony-beethoven-piano-concerto-no-1/",
       "venue": "Martin Marietta Center for the Performing Arts",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -677,23 +692,27 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Heavy Heavy – Durham",
       "url": "https://stufftodoinrdu.com/events/the-heavy-heavy-durham/",
       "venue": "Stanczyks",
       "time_hint": "8 PM",
+      "time_end": "10 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Liana Flores",
       "url": "https://stufftodoinrdu.com/events/gilla-band-w-annie-claude-deschenes/",
       "venue": "Cat’s Cradle",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -701,13 +720,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Carbon Leaf",
       "url": "https://stufftodoinrdu.com/events/carbon-leaf/",
       "venue": "Cat’s Cradle",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -715,85 +736,99 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Lace Larrabee and Jason Allen King at The Cary",
       "url": "https://stufftodoinrdu.com/events/cary-theater-lace-larrabee-comedy-2026/",
       "venue": "The Cary Theater",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo",
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Fire + Frequency",
       "url": "https://stufftodoinrdu.com/events/fire-frequency/",
       "venue": "Glass Jug Beer Lab",
       "time_hint": "8 PM",
+      "time_end": "10 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "The Last Waltz 50th Anniversary Tribute with Buzzard Company at Kings",
       "url": "https://stufftodoinrdu.com/events/last-waltz-50th-anniversary-tribute-kings-raleigh-2026/",
       "venue": "Kings-NC",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Myles Morgan at the Pour House",
       "url": "https://stufftodoinrdu.com/events/myles-morgan-pour-house-raleigh-2026/",
       "venue": "The Pour House Music Hall & Record Shop",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Blue Cactus with Ramona and the Holy Smokes at The Pinhook",
       "url": "https://stufftodoinrdu.com/events/blue-cactus-ramona-holy-smokes-pinhook-2026/",
       "venue": "The Pinhook",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo",
         "LGBTQ+"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Dead Rat Disco with The Rufftons, Lot Lizards and Manic Third Planet at Local 506",
       "url": "https://stufftodoinrdu.com/events/dead-rat-disco-rufftons-local-506-2026/",
       "venue": "Local 506",
       "time_hint": "8 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Raleigh True Crime Walking Tour",
       "url": "https://stufftodoinrdu.com/events/raleigh-true-crime-walking-tour-2/",
       "venue": "Moore Square",
       "time_hint": "8 PM",
+      "time_end": "9 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -802,13 +837,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Raleigh True Crime Walking Tour",
       "url": "https://stufftodoinrdu.com/events/raleigh-true-crime-walking-tour/",
       "venue": "Moore Square",
       "time_hint": "8 PM",
+      "time_end": "9 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -817,13 +854,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Stand-up Comedy Open Mic at Durty Bull",
       "url": "https://stufftodoinrdu.com/events/durty-bull-comedy-open-mic/",
       "venue": "Durty Bull Brewing Company",
       "time_hint": "8 PM",
+      "time_end": "11 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -831,13 +870,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Orange County All-Stars",
       "url": "https://stufftodoinrdu.com/events/orange-county-all-stars/",
       "venue": "Speakeasy",
       "time_hint": "9 PM",
+      "time_end": "12 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -846,13 +887,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Hush Hush: Improv Comedy Based on Your Secrets",
       "url": "https://stufftodoinrdu.com/events/hush-hush-improv-comedy-based-on-your-secrets/",
       "venue": "Golden Belt",
       "time_hint": "9 PM",
+      "time_end": "10 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -860,13 +903,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Bachata Fixation with DJ Numinus",
       "url": "https://stufftodoinrdu.com/events/bachata-fixation-with-dj-numinus-2/",
       "venue": "Flying Bull Restaurant and Brewery",
       "time_hint": "9:30 PM",
+      "time_end": "12 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -874,13 +919,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Space Laces – Ages 21+",
       "url": "https://stufftodoinrdu.com/events/space-laces-ages-21/",
       "venue": "Aura Lounge – Raleigh",
       "time_hint": "10 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -888,23 +935,27 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Overtime at E.O.’s",
       "url": "https://stufftodoinrdu.com/events/overtime-at-e-o-s/",
       "venue": "E.O.’s Athletic Club",
       "time_hint": "11 PM",
+      "time_end": "2 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "fri",
+      "date_hint": "Nov 20"
     },
     {
       "title": "Holly Springs Half Marathon",
       "url": "https://stufftodoinrdu.com/events/holly-springs-half-marathon/",
       "venue": "",
       "time_hint": "7 AM",
+      "time_end": "11 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -912,13 +963,15 @@
         "Newcomer-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Christmas Parade Watch Party at Taverna Agora",
       "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-watch-party-taverna-agora-2026/",
       "venue": "Taverna Agora",
       "time_hint": "7:30 AM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -926,13 +979,15 @@
         "Good solo",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Durham Craft Market",
       "url": "https://stufftodoinrdu.com/events/durham-craft-market/",
       "venue": "Durham Central Park",
       "time_hint": "8 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -943,13 +998,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Durham Farmers’ Market",
       "url": "https://stufftodoinrdu.com/events/durham-farmers-market/",
       "venue": "Durham Central Park",
       "time_hint": "8 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -960,26 +1017,30 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Stewardship Workday: Restoration at Rocky Branch!",
       "url": "https://stufftodoinrdu.com/events/stewardship-workday-restoration-at-rocky-branch/",
       "venue": "Rocky Branch Conservation Area",
       "time_hint": "9 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Saturday morning",
         "Volunteer"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Holly Springs Farmers Market – Thanksgiving Market",
       "url": "https://stufftodoinrdu.com/events/holly-springs-farmers-market-thanksgiving-market/",
       "venue": "Holly Springs Farmers Market",
       "time_hint": "9 AM",
+      "time_end": "12 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -991,26 +1052,30 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Saturday Outdoor Yoga",
       "url": "https://stufftodoinrdu.com/events/saturday-outdoor-yoga/",
       "venue": "Wooten Meadow Park",
       "time_hint": "9 AM",
+      "time_end": "10:30 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Newcomer-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Carrboro Farmers’ Market (Saturday)",
       "url": "https://stufftodoinrdu.com/events/carrboro-farmers-market-saturday/",
       "venue": "Carrboro Town Commons",
       "time_hint": "9 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1021,13 +1086,15 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Chapel Hill Farmers’ Market (Saturday)",
       "url": "https://stufftodoinrdu.com/events/chapel-hill-farmers-market-saturday/",
       "venue": "University Place",
       "time_hint": "9 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1038,13 +1105,15 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Cary Downtown Farmers Market",
       "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
       "venue": "Downtown Cary Park",
       "time_hint": "9 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1055,13 +1124,15 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Christmas Parade",
       "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-2026/",
       "venue": "Fayetteville Street, Downtown Raleigh",
       "time_hint": "9:30 AM",
+      "time_end": "12 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1070,13 +1141,15 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Museum Tour in ASL",
       "url": "https://stufftodoinrdu.com/events/museum-tour-in-asl/",
       "venue": "North Carolina Museum of Art",
       "time_hint": "10 AM",
+      "time_end": "12 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1088,13 +1161,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Durham Art Walk Holiday Market",
       "url": "https://stufftodoinrdu.com/events/durham-art-walk-holiday-market/",
       "venue": "",
       "time_hint": "10 AM",
+      "time_end": "5 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1105,13 +1180,15 @@
         "Saturday morning",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "A World of Weird and Wonderful Plants: Duke Research Greenhouse Tour",
       "url": "https://stufftodoinrdu.com/events/a-world-of-weird-and-wonderful-plants-duke-research-greenhouse-tour/",
       "venue": "Sarah P. Duke Gardens",
       "time_hint": "10 AM",
+      "time_end": "12:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1122,38 +1199,44 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Year-Round Gardening: Plant Garlic, Onions and Shallots – Oh My!",
       "url": "https://stufftodoinrdu.com/events/year-round-gardening-plant-garlic-onions-and-shallots-oh-my/",
       "venue": "Western Wake Farmers Market",
       "time_hint": "10 AM",
+      "time_end": "11 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Crochet and Conversation",
       "url": "https://stufftodoinrdu.com/events/crochet-and-conversation-2/",
       "venue": "North Regional Library",
       "time_hint": "10 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Newcomer-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Plantmania Tropical Plant Expo at Dorton Arena",
       "url": "https://stufftodoinrdu.com/events/plantmania-expo-raleigh-nov-2026/",
       "venue": "N.C. State Fairgrounds",
       "time_hint": "10 AM",
+      "time_end": "4 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1162,26 +1245,30 @@
         "Newcomer-friendly",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Hillsborough Holiday Bazaar",
       "url": "https://stufftodoinrdu.com/events/hillsborough-holiday-bazaar/",
       "venue": "Historic County Courthouse Lawn",
       "time_hint": "10 AM",
+      "time_end": "4 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Family-friendly",
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Ecotones: Transitional Zones Where Ecosystems Meet",
       "url": "https://stufftodoinrdu.com/events/ecotones-transitional-zones-where-ecosystems-meet/",
       "venue": "Bynum Mill Access at Lower Haw River State Natural Area",
       "time_hint": "10 AM",
+      "time_end": "11 AM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1192,13 +1279,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Sandy Creek Park Boardwalk Restoration",
       "url": "https://stufftodoinrdu.com/events/sandy-creek-park-boardwalk-restoration/",
       "venue": "Sandy Creek Park",
       "time_hint": "10 AM",
+      "time_end": "1 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1209,13 +1298,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Kidz Bop Skate",
       "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
       "venue": "United Skates Of America Raleigh",
       "time_hint": "10 AM",
+      "time_end": "12:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1226,37 +1317,43 @@
         "Saturday morning",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Holiday Kickoff Party with Matt Tavares!",
       "url": "https://stufftodoinrdu.com/events/holiday-kickoff-party-with-matt-tavares/",
       "venue": "Quail Ridge Books",
       "time_hint": "10:30 AM",
+      "time_end": "11:30 AM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "SuperFun Saturday",
       "url": "https://stufftodoinrdu.com/events/superfun-saturday/",
       "venue": "The Halle Cultural Arts Center",
       "time_hint": "10:30 AM",
+      "time_end": "12:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Ratatouille",
       "url": "https://stufftodoinrdu.com/events/ratatouille/",
       "venue": "Carolina Theatre of Durham",
       "time_hint": "11 AM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1267,13 +1364,15 @@
         "Saturday morning",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "American Indian Heritage Celebration",
       "url": "https://stufftodoinrdu.com/events/american-indian-heritage-celebration/",
       "venue": "North Carolina Museum of Art",
       "time_hint": "11 AM",
+      "time_end": "4 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1284,25 +1383,29 @@
         "Saturday morning",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Thanksgiving: Culinary & Cultural History",
       "url": "https://stufftodoinrdu.com/events/thanksgiving-culinary-cultural-history/",
       "venue": "Bennett Place State Historic Site",
       "time_hint": "11 AM",
+      "time_end": "3 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Saturday morning"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Orchids 101: Growing Orchids at Home",
       "url": "https://stufftodoinrdu.com/events/orchids-101-growing-orchids-at-home/",
       "venue": "Sarah P. Duke Gardens",
       "time_hint": "11 AM",
+      "time_end": "12 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1313,13 +1416,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Saturdaze: DJ Proto J",
       "url": "https://stufftodoinrdu.com/events/saturdaze-dj-proto-j/",
       "venue": "Boxyard RTP",
       "time_hint": "11:30 AM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1330,13 +1435,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Fall Fest with Triangle Canine Club",
       "url": "https://stufftodoinrdu.com/events/fall-fest-with-triangle-canine-club/",
       "venue": "Boxyard RTP",
       "time_hint": "12 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1347,26 +1454,30 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Ponysaurus Wonderland Lighting and Fun Run",
       "url": "https://stufftodoinrdu.com/events/ponysaurus-wonderland-lighting-2026/",
       "venue": "Ponysaurus Brewing Co.",
       "time_hint": "12 PM",
+      "time_end": "11 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Rag Alley 2 + Holiday Market",
       "url": "https://stufftodoinrdu.com/events/rag-alley-2-holiday-market/",
       "venue": "Phelps Phine Art",
       "time_hint": "12 PM",
+      "time_end": "5 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1376,25 +1487,29 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Carolina Hurricanes vs. Edmonton Oilers",
       "url": "https://stufftodoinrdu.com/events/carolina-hurricanes-vs-edmonton-oilers/",
       "venue": "Lenovo Center",
       "time_hint": "1 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "A Fleetwood Mac Candlelight Experience",
       "url": "https://stufftodoinrdu.com/events/a-fleetwood-mac-candlelight-experience/",
       "venue": "The Colonial Inn, an Ascend Collection Hotel",
       "time_hint": "1 PM",
+      "time_end": "8 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1402,13 +1517,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Saturday Afternoon Family Skate",
       "url": "https://stufftodoinrdu.com/events/saturday-afternoon-family-skate/",
       "venue": "United Skates Of America Raleigh",
       "time_hint": "1 PM",
+      "time_end": "3:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1417,13 +1534,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Drafts of the Bull: Durham’s Craft Beer & History Walking Tour",
       "url": "https://stufftodoinrdu.com/events/drafts-of-the-bull-durhams-craft-beer-history-walking-tour/",
       "venue": "Clouds Brewing – Durham Brewcade + Kitchen",
       "time_hint": "1 PM",
+      "time_end": "3 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1432,13 +1551,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Storytelling Open Mic",
       "url": "https://stufftodoinrdu.com/events/storytelling-open-mic/",
       "venue": "Moon Dog Meadery",
       "time_hint": "1 PM",
+      "time_end": "2:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1446,13 +1567,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Poetry Café & Open Mic",
       "url": "https://stufftodoinrdu.com/events/poetry-cafe-open-mic/",
       "venue": "Northeast Regional Library",
       "time_hint": "2 PM",
+      "time_end": "4 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1461,23 +1584,27 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Downtown Durham Historian-Guided Tour",
       "url": "https://stufftodoinrdu.com/events/downtown-durham-historian-guided-tour/",
       "venue": "Lucky Strike Tower",
       "time_hint": "2 PM",
+      "time_end": "3 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Live and Local!: Triangle Youth Jazz Orchestra and Triangle Youth Jazz Ensemble",
       "url": "https://stufftodoinrdu.com/events/live-and-local-triangle-youth-jazz-orchestra-and-triangle-youth-jazz-ensemble/",
       "venue": "Downtown Cary Park",
       "time_hint": "3 PM",
+      "time_end": "4:45 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1487,38 +1614,44 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Singles Event: Speed Dating (Ages 30-45) at Coffee Shop",
       "url": "https://stufftodoinrdu.com/events/raleigh-singles-event-speed-dating-ages-30-45-at-coffee-shop-2/",
       "venue": "The Third Place Coffee Shop",
       "time_hint": "3 PM",
+      "time_end": "5 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Light the Square at Fenton",
       "url": "https://stufftodoinrdu.com/events/light-the-square-fenton-cary-2026/",
       "venue": "Fenton Square",
       "time_hint": "3 PM",
+      "time_end": "7 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Family-friendly",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Irish Jam at Moon Dog Meadery",
       "url": "https://stufftodoinrdu.com/events/moon-dog-irish-jam/",
       "venue": "Moon Dog Meadery",
       "time_hint": "3 PM",
+      "time_end": "5 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1526,26 +1659,30 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Christmas at North Hills Tree Lighting",
       "url": "https://stufftodoinrdu.com/events/christmas-at-north-hills-tree-lighting-2026/",
       "venue": "The Commons at North Hills",
       "time_hint": "4 PM",
+      "time_end": "7 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Family-friendly",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "True Crime & Curious Tales Raleigh Walking Tour",
       "url": "https://stufftodoinrdu.com/events/true-crime-curious-tales-raleigh-walking-tour/",
       "venue": "",
       "time_hint": "4 PM",
+      "time_end": "5:30 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1555,25 +1692,29 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Holiday Tree Lighting",
       "url": "https://stufftodoinrdu.com/events/holiday-tree-lighting/",
       "venue": "CCB Plaza",
       "time_hint": "4 PM",
+      "time_end": "8 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Family-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Messiah Sing-Along",
       "url": "https://stufftodoinrdu.com/events/messiah-sing-along/",
       "venue": "Trinity United Methodist Church",
       "time_hint": "4 PM",
+      "time_end": "5:30 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1581,33 +1722,39 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Downtown Durham African American Historian-Guided Tour",
       "url": "https://stufftodoinrdu.com/events/downtown-durham-african-american-historian-guided-tour/",
       "venue": "CCB Plaza",
       "time_hint": "4 PM",
+      "time_end": "5 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "AW SHUCKS! IT’S AN OYSTERS & WINE NIGHT!",
       "url": "https://stufftodoinrdu.com/events/aw-shucks-its-an-oysters-wine-night/",
       "venue": "B3 Wine Bar & Bottle Shop",
       "time_hint": "5 PM",
+      "time_end": "7 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "T.J. Mannix in LimboLand",
       "url": "https://stufftodoinrdu.com/events/t-j-mannix-in-limboland/",
       "venue": "Golden Belt",
       "time_hint": "5 PM",
+      "time_end": "6 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1617,26 +1764,30 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Twilight Market at Smoky Hollow (November)",
       "url": "https://stufftodoinrdu.com/events/raleigh-twilight-market-smoky-hollow-nov-2026/",
       "venue": "Smoky Hollow",
       "time_hint": "5:30 PM",
+      "time_end": "9:30 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Good solo",
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Jupiter Ball",
       "url": "https://stufftodoinrdu.com/events/jupiter-ball/",
       "venue": "Morehead Planetarium and Science Center",
       "time_hint": "6 PM",
+      "time_end": "11:30 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1647,13 +1798,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "NC Chinese Lantern Festival",
       "url": "https://stufftodoinrdu.com/events/nc-chinese-lantern-festival-2026/",
       "venue": "Koka Booth Amphitheatre",
       "time_hint": "6 PM",
+      "time_end": "10 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1662,13 +1815,15 @@
         "Low impact",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Downtown Durham True Crime Walking Tour",
       "url": "https://stufftodoinrdu.com/events/downtown-durham-true-crime-walking-tour/",
       "venue": "Lucky Strike Tower",
       "time_hint": "6 PM",
+      "time_end": "7 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1678,13 +1833,15 @@
         "Side-by-side",
         "Sober-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Imminence – Axis Mundi Tour: North America 2026",
       "url": "https://stufftodoinrdu.com/events/imminence-axis-mundi-tour-north-america-2026/",
       "venue": "The Ritz",
       "time_hint": "6:30 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1693,13 +1850,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Carolina Choir and UNC Chamber Singers | MFE 26-27",
       "url": "https://stufftodoinrdu.com/events/carolina-choir-and-unc-chamber-singers-mfe-26-27/",
       "venue": "Moeser Auditorium (Hill Hall, UNC)",
       "time_hint": "7 PM",
+      "time_end": "",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1707,37 +1866,43 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Raleigh Singles Event: Sunset Speed Dating (Ages 30–45)",
       "url": "https://stufftodoinrdu.com/events/raleigh-singles-event-sunset-speed-dating-ages-30-45/",
       "venue": "Gizmo Brew Works (Raleigh)",
       "time_hint": "7 PM",
+      "time_end": "9 PM",
       "cost": "",
       "source": "stufftodoinrdu",
       "tags": [
         "Newcomer-friendly"
       ],
-      "day_hint": ""
+      "day_hint": "sat",
+      "date_hint": "Nov 21"
     },
     {
       "title": "Bingo, Books, and Bagels for Seniors",
       "url": "https://stufftodoinrdu.com/events/bingo-books-and-bagels-for-seniors/",
       "venue": "North Regional Library",
       "time_hint": "10 AM",
+      "time_end": "11 AM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
         "Low impact"
       ],
-      "day_hint": ""
+      "day_hint": "",
+      "date_hint": "Nov 18"
     },
     {
       "title": "Free Children’s Movies at the Holly Springs Cultural Center",
       "url": "https://stufftodoinrdu.com/events/free-childrens-movies-at-the-holly-springs-cultural-center/",
       "venue": "Holly Springs Cultural Center",
       "time_hint": "10 AM",
+      "time_end": "11:59 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1747,13 +1912,15 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "",
+      "date_hint": "Nov 18"
     },
     {
       "title": "Wine Down Wednesday & Live Music | Durham",
       "url": "https://stufftodoinrdu.com/events/wine-down-wednesday-live-music-durham/",
       "venue": "714 9th St",
       "time_hint": "11 AM",
+      "time_end": "10 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1761,13 +1928,15 @@
         "Low impact",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "",
+      "date_hint": "Nov 18"
     },
     {
       "title": "Board Game Night @ Gizmo Brew Works in Durham",
       "url": "https://stufftodoinrdu.com/events/board-game-night-gizmo-brew-works-in-durham/",
       "venue": "Gizmo Brew Works (Durham)",
       "time_hint": "12 PM",
+      "time_end": "10 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [
@@ -1776,17 +1945,36 @@
         "Newcomer-friendly",
         "Side-by-side"
       ],
-      "day_hint": ""
+      "day_hint": "",
+      "date_hint": "Nov 18"
     },
     {
       "title": "K-5th Adventures",
       "url": "https://stufftodoinrdu.com/events/k-5th-adventures/",
       "venue": "Athens Drive Community Library",
       "time_hint": "5 PM",
+      "time_end": "6 PM",
       "cost": "Free",
       "source": "stufftodoinrdu",
       "tags": [],
-      "day_hint": ""
+      "day_hint": "",
+      "date_hint": "Nov 18"
+    },
+    {
+      "title": "Live Irish Music at Doherty’s",
+      "url": "https://stufftodoinrdu.com/events/live-irish-music-at-dohertys/",
+      "venue": "Doherty’s Irish Pub & Restaurant",
+      "time_hint": "6 PM",
+      "time_end": "9 PM",
+      "cost": "Free",
+      "source": "stufftodoinrdu",
+      "tags": [
+        "Good solo",
+        "Low impact",
+        "Side-by-side"
+      ],
+      "day_hint": "",
+      "date_hint": "Nov 18"
     },
     {
       "title": "Events next weekend >>",
@@ -14024,21 +14212,6 @@
       "event_date": "2026-12-12"
     },
     {
-      "title": "Holiday Food Drive at Western Wake Farmers Market",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194896/-/holiday-food-drive-at-western-wake-farmers-market",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "time_hint": "9:30 am",
-      "time_end": "",
-      "cost": "Free Admission",
-      "source": "fun4raleighkids",
-      "tags": [
-        "family"
-      ],
-      "day_hint": "sat",
-      "date_hint": "Dec 12",
-      "event_date": "2026-12-12"
-    },
-    {
       "title": "Marbles Gingerbread Jamboree",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/192933/-/marbles-gingerbread-jamboree",
       "venue": "IMAX Building (Venture Hall), 201 East Hargett Street, Raleigh, NC 27601",
@@ -14069,8 +14242,8 @@
       "event_date": "2026-12-12"
     },
     {
-      "title": "Winter Wonderalnd Craft Fair at Western Wake Farmers Market",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-at-western-wake-farmers-market",
+      "title": "Winter Wonderalnd Craft Fair and Holiday Food Drive at Western Wake Farmers Market",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194897/-/winter-wonderalnd-craft-fair-and-holiday-food-drive-at-western-wake-farmers-market",
       "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
       "time_hint": "9:30 am",
       "time_end": "",
@@ -21314,36 +21487,6 @@
       "event_date": "2027-02-15"
     },
     {
-      "title": "ABC Craft & Learn",
-      "url": "https://www.wake.gov/events/abc-craft-learn-165",
-      "venue": "",
-      "time_hint": "2:00 pm",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Morrisville Community Library Libraries"
-      ],
-      "day_hint": "wed",
-      "date_hint": "Nov 18",
-      "event_date": "2026-11-18"
-    },
-    {
-      "title": "ABC Craft & Learn",
-      "url": "https://www.wake.gov/events/abc-craft-learn-193",
-      "venue": "",
-      "time_hint": "2:00 pm",
-      "time_end": "",
-      "cost": "",
-      "source": "wakegov",
-      "tags": [
-        "Fuquay-Varina Community Library Libraries"
-      ],
-      "day_hint": "wed",
-      "date_hint": "Nov 18",
-      "event_date": "2026-11-18"
-    },
-    {
       "title": "Read and Discuss The Mighty Red by Louise Erdrich",
       "url": "https://www.wake.gov/events/read-and-discuss-mighty-red-louise-erdrich",
       "venue": "",
@@ -23459,6 +23602,36 @@
       "event_date": "2026-11-21"
     },
     {
+      "title": "Stay and Play",
+      "url": "https://www.wake.gov/events/stay-and-play-23",
+      "venue": "",
+      "time_hint": "11:00 am",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Athens Drive Community Library Community Services Libraries"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "ABC Craft and Learn",
+      "url": "https://www.wake.gov/events/abc-craft-and-learn-642",
+      "venue": "",
+      "time_hint": "11:30 am",
+      "time_end": "",
+      "cost": "",
+      "source": "wakegov",
+      "tags": [
+        "Zebulon Community Library Libraries"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 21",
+      "event_date": "2026-11-21"
+    },
+    {
       "title": "Planning Commission Text Change Committee",
       "url": "https://raleighnc.gov/planning/events/planning-commission-text-change-committee-37",
       "venue": "",
@@ -24035,8 +24208,8 @@
       "event_date": "2026-12-09"
     },
     {
-      "title": "Police Advisory Board Subcommittee Meeting",
-      "url": "https://raleighnc.gov/government/events/police-advisory-board-subcommittee-meeting-4",
+      "title": "City of Raleigh Budget Listening Session (in-person)",
+      "url": "https://raleighnc.gov/government/events/city-raleigh-budget-listening-session-person",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -24051,8 +24224,8 @@
       "event_date": "2026-12-09"
     },
     {
-      "title": "City of Raleigh Budget Listening Session (in-person)",
-      "url": "https://raleighnc.gov/government/events/city-raleigh-budget-listening-session-person",
+      "title": "Police Advisory Board Subcommittee Meeting",
+      "url": "https://raleighnc.gov/government/events/police-advisory-board-subcommittee-meeting-4",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -24099,6 +24272,22 @@
       "event_date": "2026-12-10"
     },
     {
+      "title": "RHDC Certificate of Appropriateness Committee",
+      "url": "https://raleighnc.gov/government/events/rhdc-certificate-appropriateness-committee-33",
+      "venue": "",
+      "city": "Raleigh",
+      "time_hint": "11:00 PM",
+      "time_end": "",
+      "cost": "",
+      "source": "raleighnc",
+      "tags": [
+        "city"
+      ],
+      "day_hint": "thu",
+      "date_hint": "Dec 10",
+      "event_date": "2026-12-10"
+    },
+    {
       "title": "City of Raleigh Budget Listening Session (in-person)",
       "url": "https://raleighnc.gov/government/events/city-raleigh-budget-listening-session-person-0",
       "venue": "",
@@ -24117,22 +24306,6 @@
     {
       "title": "Canceled - Human Relations Commission Meeting",
       "url": "https://raleighnc.gov/government/events/canceled-human-relations-commission-meeting",
-      "venue": "",
-      "city": "Raleigh",
-      "time_hint": "11:00 PM",
-      "time_end": "",
-      "cost": "",
-      "source": "raleighnc",
-      "tags": [
-        "city"
-      ],
-      "day_hint": "thu",
-      "date_hint": "Dec 10",
-      "event_date": "2026-12-10"
-    },
-    {
-      "title": "RHDC Certificate of Appropriateness Committee",
-      "url": "https://raleighnc.gov/government/events/rhdc-certificate-appropriateness-committee-33",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -24579,8 +24752,8 @@
       "event_date": "2027-01-13"
     },
     {
-      "title": "Parks, Recreation, and Greenway Advisory Board",
-      "url": "https://raleighnc.gov/parks-and-recreation/events/parks-recreation-and-greenway-advisory-board-9",
+      "title": "Human Relations Commission Meeting ",
+      "url": "https://raleighnc.gov/government/events/human-relations-commission-meeting-10",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -24595,8 +24768,8 @@
       "event_date": "2027-01-14"
     },
     {
-      "title": "Human Relations Commission Meeting ",
-      "url": "https://raleighnc.gov/government/events/human-relations-commission-meeting-10",
+      "title": "Parks, Recreation, and Greenway Advisory Board",
+      "url": "https://raleighnc.gov/parks-and-recreation/events/parks-recreation-and-greenway-advisory-board-9",
       "venue": "",
       "city": "Raleigh",
       "time_hint": "11:00 PM",
@@ -30915,6 +31088,22 @@
       "event_date": "2026-11-24"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13393&month=11&year=2026&day=24&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Nov 24",
+      "event_date": "2026-11-24"
+    },
+    {
       "title": "Level Up",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15223&month=11&year=2026&day=25&calType=0",
       "venue": "W.E. Hunt Recreation Center",
@@ -31288,6 +31477,22 @@
       "venue": "W.E. Hunt Recreation Center",
       "time_hint": "5:00 PM",
       "time_end": "5:45 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 1",
+      "event_date": "2026-12-01"
+    },
+    {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13394&month=12&year=2026&day=1&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
       "cost": "",
       "source": "hollysprings",
       "city": "Holly Springs",
@@ -32083,6 +32288,22 @@
       "event_date": "2026-12-08"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13395&month=12&year=2026&day=8&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 8",
+      "event_date": "2026-12-08"
+    },
+    {
       "title": "Holly Springs Town Council Workshop (at Operations Campus)",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16065&month=12&year=2026&day=8&calType=0",
       "venue": "Holly Springs Operations Campus",
@@ -32867,6 +33088,22 @@
       "event_date": "2026-12-15"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13396&month=12&year=2026&day=15&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 15",
+      "event_date": "2026-12-15"
+    },
+    {
       "title": "Freedom Tour",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15972&month=12&year=2026&day=15&calType=0",
       "venue": "",
@@ -33635,6 +33872,22 @@
       "event_date": "2026-12-22"
     },
     {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13397&month=12&year=2026&day=22&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 22",
+      "event_date": "2026-12-22"
+    },
+    {
       "title": "Horseshoes Club, 9A-10:30A, Womble Park",
       "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=14328&month=12&year=2026&day=22&calType=0",
       "venue": "Womble Park Horseshoe Pits",
@@ -34008,6 +34261,22 @@
       "venue": "W.E. Hunt Recreation Center",
       "time_hint": "5:00 PM",
       "time_end": "5:45 PM",
+      "cost": "",
+      "source": "hollysprings",
+      "city": "Holly Springs",
+      "tags": [
+        "Fitness Calendar"
+      ],
+      "day_hint": "tue",
+      "date_hint": "Dec 29",
+      "event_date": "2026-12-29"
+    },
+    {
+      "title": "Gentle Yoga",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=13398&month=12&year=2026&day=29&calType=0",
+      "venue": "",
+      "time_hint": "6:00 PM",
+      "time_end": "7:00 PM",
       "cost": "",
       "source": "hollysprings",
       "city": "Holly Springs",
@@ -34628,6 +34897,22 @@
     },
     {
       "title": "Thanksgiving Holiday Observed (Solid Waste Schedule Delayed)",
+      "url": "https://www.apexnc.org/Calendar.aspx?EID=4619&month=11&year=2026&day=26&calType=0",
+      "venue": "",
+      "time_hint": "",
+      "time_end": "",
+      "cost": "",
+      "source": "apex",
+      "city": "Apex",
+      "tags": [
+        "Holidays"
+      ],
+      "day_hint": "thu",
+      "date_hint": "Nov 26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "Thanksgiving Holiday Observed (Solid Waste Schedule Delayed)",
       "url": "https://www.apexnc.org/Calendar.aspx?EID=4619&month=11&year=2026&day=27&calType=0",
       "venue": "",
       "time_hint": "",
@@ -34771,6 +35056,22 @@
       "event_date": "2026-12-06"
     },
     {
+      "title": "Infinity Ballet: \"Nutcracker Dances\"",
+      "url": "https://www.apexnc.org/Calendar.aspx?EID=4776&month=12&year=2026&day=6&calType=0",
+      "venue": "The Halle Cultural Arts Center",
+      "time_hint": "4:00 PM",
+      "time_end": "5:00 PM",
+      "cost": "",
+      "source": "apex",
+      "city": "Apex",
+      "tags": [
+        "Halle Cultural Arts Center Upcoming Events"
+      ],
+      "day_hint": "sun",
+      "date_hint": "Dec 6",
+      "event_date": "2026-12-06"
+    },
+    {
       "title": "West Williams St Sidewalk & Vision Zero Upgrades Open House",
       "url": "https://www.apexnc.org/Calendar.aspx?EID=4942&month=12&year=2026&day=8&calType=0",
       "venue": "Town Hall",
@@ -34872,6 +35173,22 @@
       "venue": "The Halle Cultural Arts Center",
       "time_hint": "3:00 PM",
       "time_end": "4:30 PM",
+      "cost": "",
+      "source": "apex",
+      "city": "Apex",
+      "tags": [
+        "Halle Cultural Arts Center Upcoming Events"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Dec 12",
+      "event_date": "2026-12-12"
+    },
+    {
+      "title": "Christmas Play & Musical",
+      "url": "https://www.apexnc.org/Calendar.aspx?EID=4770&month=12&year=2026&day=12&calType=0",
+      "venue": "The Halle Cultural Arts Center",
+      "time_hint": "7:30 PM",
+      "time_end": "9:00 PM",
       "cost": "",
       "source": "apex",
       "city": "Apex",
@@ -35553,6 +35870,22 @@
       "day_hint": "thu",
       "date_hint": "Nov 26",
       "event_date": "2026-11-26"
+    },
+    {
+      "title": "Small Business Saturday",
+      "url": "https://www.carrboronc.gov/Calendar.aspx?EID=9681&month=11&year=2026&day=18&calType=0",
+      "venue": "Event Location",
+      "time_hint": "12:00 AM",
+      "time_end": "",
+      "cost": "",
+      "source": "carrboro",
+      "city": "Carrboro",
+      "tags": [
+        "Community Events Calendar"
+      ],
+      "day_hint": "sat",
+      "date_hint": "Nov 28",
+      "event_date": "2026-11-28"
     },
     {
       "title": "Housing and Human Services Advisory Commission",

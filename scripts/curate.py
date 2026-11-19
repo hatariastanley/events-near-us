@@ -89,16 +89,21 @@ EXCLUDE_PATTERNS = [
 
 # Keywords that boost family-friendliness score
 KID_KEYWORDS = {
-    "family": 8, "kid": 8, "children": 8, "storytime": 10, "story time": 10,
-    "pumpkin": 6, "halloween": 5, "trick-or-treat": 8, "trunk-or-treat": 8,
-    "train": 7, "farm": 6, "animal": 7, "corn maze": 7, "festival": 5,
-    "museum": 5, "movie": 4, "dance": 4, "craft": 6, "scarecrow": 7,
-    "toddler": 8, "preschool": 8, "baby": 5, "sensory": 7, "lego": 7,
-    "puppet": 7, "young children": 10, "all ages": 6, "family-friendly": 10,
-    "market": 3, "fair": 6, "maze": 6, "skate": 5, "playground": 7,
-    "santa": 8, "easter": 7, "egg hunt": 8, "holiday": 5, "christmas": 6,
-    "parade": 6, "fireworks": 6, "picnic": 5, "nature": 5, "hike": 4,
-    "zoo": 8, "aquarium": 8, "planetarium": 8, "science": 6, "dinosaur": 7,
+    "family": 4, "kid": 10, "kidz": 10, "children": 10, "storytime": 18, "story time": 18,
+    "pumpkin": 8, "halloween": 6, "trick-or-treat": 14, "trunk-or-treat": 14,
+    "train": 8, "farm": 8, "animal": 7, "corn maze": 10, "festival": 3,
+    "museum": 6, "movie": 4, "dance": 4, "craft": 6, "scarecrow": 8,
+    "toddler": 12, "preschool": 12, "baby": 10, "sensory": 12, "lego": 10,
+    "puppet": 10, "young children": 15, "all ages": 10, "family-friendly": 8,
+    "market": 1, "farmers market": 4, "fair": 3, "maze": 4, "skate": 3, "playground": 10,
+    "santa": 10, "easter": 7, "egg hunt": 15, "holiday": 4, "christmas": 5,
+    "tree lighting": 8, "parade": 8, "fireworks": 8, "picnic": 5, "nature": 2, "hike": 1,
+    "zoo": 14, "aquarium": 14, "planetarium": 14, "science": 7, "dinosaur": 10,
+}
+
+PRACTICAL_KEYWORDS = {
+    "stroller-friendly": 8, "stroller": 6, "rainy day": 5,
+    "quiet": 4, "family restrooms": 6,
 }
 
 # Keywords that reduce score (but don't exclude)
@@ -221,24 +226,169 @@ def title_key(title):
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", norm(title))).strip()
 
 
+TITLE_MATCH_IGNORE = set(
+    "jan january feb february mar march apr april may jun june jul july "
+    "aug august sep sept september oct october nov november dec december annual".split()
+)
+
+
 def titles_match(a, b):
-    return bool(a and b and min(len(a), len(b)) >= 8 and (a in b or b in a))
+    if not a or not b or min(len(a), len(b)) < 8:
+        return False
+    ta, tb = a.split(), b.split()
+
+    def contains(longer, shorter):
+        n = len(shorter)
+        return any(longer[i:i + n] == shorter for i in range(len(longer) - n + 1))
+
+    if contains(tb, ta):
+        shorter, longer = ta, tb
+    elif contains(ta, tb):
+        shorter, longer = tb, ta
+    else:
+        return False
+
+    n = len(shorter)
+    for i in range(len(longer) - n + 1):
+        if longer[i:i + n] == shorter:
+            extra = longer[:i] + longer[i + n:]
+            break
+    else:
+        extra = []
+    return all(t in TITLE_MATCH_IGNORE for t in extra)
+
+
+def time_key(value):
+    m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([AP]M)", (value or "").upper())
+    if not m:
+        return ""
+    hour = int(m.group(1)) % 12
+    if m.group(3) == "PM":
+        hour += 12
+    return f"{hour:02d}:{m.group(2) or '00'}"
+
+
+def merge_duplicate_events(events):
+    """Merge cross-source duplicates without reordering the curated feed."""
+    def title_similar(a, b):
+        ta, tb = title_key(a), title_key(b)
+        if not ta or not tb:
+            return False
+        if ta == tb:
+            return True
+        short, long = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+        return len(short) >= 12 and short in long
+
+    edition_re = re.compile(r"^\d+(?:st|nd|rd|th)?$")
+
+    def clean_tokens(key):
+        return {t for t in key.split() if t not in TITLE_MATCH_IGNORE and not edition_re.match(t)}
+
+    def meaningful_extra(short_key, long_key):
+        return clean_tokens(long_key) - clean_tokens(short_key)
+
+    def city_ok(indices, idx):
+        cb = norm(events[idx].get("city", "")).strip()
+        if not cb:
+            return True
+        for j in indices:
+            ca = norm(events[j].get("city", "")).strip()
+            if ca and ca != cb:
+                return False
+        return True
+
+    groups = defaultdict(list)
+    for idx, e in enumerate(events):
+        if e.get("date"):
+            groups[(e["date"], time_key(e.get("start", "")))].append(idx)
+
+    merged_by_index = {}
+    drop_indices = set()
+    for members in groups.values():
+        clusters = []
+        for idx in sorted(members, key=lambda i: (-events[i]["family_score"], len(events[i]["title"]))):
+            for cluster in clusters:
+                if city_ok(cluster, idx) and title_similar(events[cluster[0]]["title"], events[idx]["title"]):
+                    cluster.append(idx)
+                    break
+            else:
+                clusters.append([idx])
+        for cluster in clusters:
+            if len(cluster) == 1:
+                continue
+            ordered = sorted(cluster, key=lambda i: (-events[i]["family_score"], len(events[i]["title"]), 0 if events[i].get("end") else 1, 0 if events[i].get("venue") else 1))
+            primary_idx = ordered[0]
+            primary = dict(events[primary_idx])
+            for donor_idx in ordered[1:]:
+                donor = events[donor_idx]
+                if not primary.get("end") and donor.get("end"):
+                    primary["end"] = donor["end"]
+                if not primary.get("venue") and donor.get("venue"):
+                    primary["venue"] = donor["venue"]
+                if (not primary.get("cost") or primary.get("cost") == "See listing") and donor.get("cost"):
+                    primary["cost"] = donor["cost"]
+                tags = set(primary.get("tags", [])) | set(donor.get("tags", []))
+                if tags:
+                    primary["tags"] = sorted(tags)
+            primary_key = title_key(primary["title"])
+            detail_candidates = []
+            for idx in ordered:
+                raw_title = events[idx]["title"]
+                if "," in raw_title or re.search(r"\b\d{5}\b", raw_title):
+                    continue
+                member_key = title_key(raw_title)
+                if len(member_key) > len(primary_key) and meaningful_extra(primary_key, member_key):
+                    detail_candidates.append(idx)
+            if detail_candidates:
+                detail_idx = max(detail_candidates, key=lambda i: (events[i]["family_score"], len(title_key(events[i]["title"]))))
+                detail = events[detail_idx]
+                primary["title"] = detail["title"]
+                primary["url"] = detail.get("url", primary.get("url", ""))
+                primary["source"] = detail.get("source", primary.get("source", ""))
+            primary["id"] = re.sub(r"[^a-z0-9]+", "-", norm(primary["title"])).strip("-")[:60]
+            merged_by_index[primary_idx] = primary
+            drop_indices.update(ordered[1:])
+
+    if not merged_by_index:
+        return events
+    out = []
+    for idx, e in enumerate(events):
+        if idx in drop_indices:
+            continue
+        out.append(merged_by_index.get(idx, e))
+    return out
+
+
+def keyword_hits(text, mapping):
+    total = 0
+    for k, v in mapping.items():
+        if re.search(r"(?<![a-z0-9])" + re.escape(k) + r"s?(?![a-z0-9])", text):
+            total += v
+    return total
 
 
 def score(e):
     """Score event for family-friendliness (0-100)."""
     text = norm(" ".join([e.get("title", ""), e.get("venue", ""), " ".join(e.get("tags", []))]))
+    text = text.replace("’", "").replace("'", "")
     s = 45.0
     tags = set()
+    tag_set = {norm(t) for t in e.get("tags", [])}
 
     if re.search(r"\bfree\b", text) or "free" in norm(e.get("cost", "")):
         s += 12
         tags.add("free")
-    if "family-friendly" in e.get("tags", []):
-        s += 15
+    if "family-friendly" in tag_set or "family" in tag_set:
+        s += 12
 
-    kid_hits = sum(v for k, v in KID_KEYWORDS.items() if k in text)
-    s += min(kid_hits, 30)
+    kid_hits = keyword_hits(text, KID_KEYWORDS)
+    s += min(kid_hits, 36)
+    practical_hits = keyword_hits(text, PRACTICAL_KEYWORDS)
+    s += min(practical_hits, 12)
+    if "indoor" in text:
+        s += 4
+    elif "outdoor" in text:
+        s += 2
     
     if re.search(r"\bhalloween\b|pumpkin|scarecrow|trunk-or-treat|trick-or-treat", text):
         tags.add("halloween")
@@ -297,25 +447,35 @@ def distribute_by_week(events, today, max_total=400):
     }
     DEFAULT_QUOTA = 20  # For weeks beyond 12
     
+    def occurrence_key(e):
+        when = e.get("date") or ",".join(e.get("days") or [])
+        return (norm(e.get("title", ""))[:80], when)
+
     # Group events by week
     by_week = defaultdict(list)
     for e in events:
         week = get_week_key(e.get("date", ""), today)
         by_week[week].append(e)
-    
-    # Sort each week by score (descending)
-    for week in by_week:
-        by_week[week].sort(key=lambda x: -x["family_score"])
-    
-    # Select events respecting quotas
+
+    # Select event occurrences respecting quotas; keep every session in a chosen occurrence.
     selected = []
     for week in sorted(by_week.keys()):
         quota = WEEK_QUOTAS.get(week, DEFAULT_QUOTA)
-        week_events = by_week[week][:quota]
-        selected.extend(week_events)
+        groups = defaultdict(list)
+        for e in by_week[week]:
+            groups[occurrence_key(e)].append(e)
+        ordered = sorted(groups.values(), key=lambda g: -max(x["family_score"] for x in g))
+        week_groups = 0
+        for group in ordered:
+            if week_groups >= quota:
+                break
+            if len(selected) + len(group) > max_total:
+                continue
+            selected.extend(group)
+            week_groups += 1
         if len(selected) >= max_total:
             break
-    
+
     # Sort final list by date, then score
     selected.sort(key=lambda e: (e.get("date", "9999-99-99"), -e["family_score"]))
     return selected[:max_total]
@@ -388,7 +548,7 @@ def main():
 
         for _, days, date_iso in candidates:
             day_list = days if days is not None else detect_days(text)
-            key = norm(title)[:60] + "|" + (date_iso or ",".join(day_list)) + "|" + norm(e.get("venue", ""))[:40]
+            key = norm(title)[:60] + "|" + (date_iso or ",".join(day_list)) + "|" + norm(e.get("venue", ""))[:40] + "|" + time_key(e.get("time_hint", ""))
             if key in seen:
                 continue
             seen.add(key)
@@ -409,6 +569,8 @@ def main():
                 "why": "",
                 "tags": sorted(tags),
             })
+
+    events = merge_duplicate_events(events)
 
     feed_dates = set()
     wk = raw.get("weekend", {})
