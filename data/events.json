@@ -1,38 +1,16 @@
 {
-  "generated_at": "2026-11-18T20:33:26+00:00",
+  "generated_at": "2026-11-20T02:55:18+00:00",
   "weekend": {
     "fri": "2026-11-20",
     "sat": "2026-11-21",
     "sun": "2026-11-22"
   },
   "range": {
-    "start": "2026-11-18",
-    "end": "2027-02-16",
+    "start": "2026-11-20",
+    "end": "2027-02-18",
     "mode": "90days"
   },
   "events": [
-    {
-      "id": "downtown-raleigh-tree-lighting-holiday-market",
-      "title": "Downtown Raleigh Tree Lighting & Holiday Market",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "5:30 PM",
-      "end": "8 PM",
-      "venue": "Moore Square",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/downtown-raleigh-tree-lighting-holiday-market-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
     {
       "id": "salem-baptist-preschool-holiday-market",
       "title": "Salem Baptist Preschool Holiday Market",
@@ -98,27 +76,6 @@
       ]
     },
     {
-      "id": "cary-night-market-november",
-      "title": "Cary Night Market (November)",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "5 PM",
-      "end": "9 PM",
-      "venue": "Downtown Cary Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/cary-night-market-november-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "nc-museum-of-natural-sciences-incredible-science",
       "title": "NC Museum of Natural Sciences Incredible Science",
       "days": [
@@ -162,27 +119,6 @@
       ]
     },
     {
-      "id": "trail-talks-with-tlc-williamson",
-      "title": "Trail Talks with TLC: Williamson",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "9:30 AM",
-      "end": "11:30 AM",
-      "venue": "Williamson Farm and Nature Preserve",
-      "city": "",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/trail-talks-with-tlc-williamson/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 91,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "wake-county-library-storytimes-and-programs",
       "title": "Wake County Library Storytimes and Programs",
       "days": [
@@ -204,25 +140,6 @@
       ]
     },
     {
-      "id": "nature-storytime-forest-detectives",
-      "title": "Nature Storytime: Forest Detectives",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "10 AM",
-      "end": "11:30 AM",
-      "venue": "Brumley South Nature Preserve",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/nature-storytime-forest-detectives/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "an-archaeologist-s-face-to-feet-with-king-taharqa",
       "title": "An Archaeologist’s Face to Feet with King Taharqa",
       "days": [
@@ -241,6 +158,112 @@
       "why": "",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "id": "cary-night-market",
+      "title": "Cary Night Market",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "05:00 PM",
+      "end": "09:00 PM",
+      "venue": "Downtown Cary Park, Cary 2,",
+      "city": "Cary",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "park-west-village-s-winter-wonderland",
+      "title": "Park West Village's Winter Wonderland",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "5:30 pm",
+      "end": "",
+      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196430/-/park-west-village-s-winter-wonderland",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "jazz-jive-night-at-the-depot",
+      "title": "Jazz & Jive Night at The Depot",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "05:00 PM",
+      "end": "08:00 PM",
+      "venue": "The Depot parking lot, Apex 2,",
+      "city": "Apex",
+      "cost": "FREE",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194012/-/jazz-jive-night-at-the-depot",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view",
+      "title": "Last Weekend of Paint the Parks Exhibit at Historic Oak View County Park",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "8:00 am",
+      "end": "",
+      "venue": "4028 Carya Dr, Raleigh, NC 27610",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191665/-/last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view-county-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "tree-camp",
+      "title": "Tree Camp",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-20",
+      "start": "01:00 PM",
+      "end": "04:00 PM",
+      "venue": "Prairie Ridge Outdoor Classroom, West Raleigh 2,",
+      "city": "Raleigh",
+      "cost": "Free please register",
+      "url": "https://raleighparent.com/event/tree-camp-on-nov-20-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 83,
+      "why": "",
+      "tags": [
+        "free",
+        "outdoor"
       ]
     },
     {
@@ -287,48 +310,6 @@
       ]
     },
     {
-      "id": "under-the-tree-storytime-with-quail-ridge-books",
-      "title": "Under the Tree Storytime with Quail Ridge Books",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:30 am",
-      "end": "",
-      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/189835/-/under-the-tree-storytime-with-quail-ridge-books",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 99,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-downtown-farmers-market",
-      "title": "Cary Downtown Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9 AM",
-      "end": "12 PM",
-      "venue": "Downtown Cary Park",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/cary-downtown-farmers-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 98,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "ax-rhythm-and-dance-fest",
       "title": "Axé Rhythm and Dance Fest",
       "days": [
@@ -350,70 +331,6 @@
       ]
     },
     {
-      "id": "durham-craft-market",
-      "title": "Durham Craft Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "8 AM",
-      "end": "12 PM",
-      "venue": "Durham Central Park",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/durham-craft-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 96,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "durham-farmers-market",
-      "title": "Durham Farmers’ Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "8 AM",
-      "end": "12 PM",
-      "venue": "Durham Central Park",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/durham-farmers-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "durham-art-walk-holiday-market",
-      "title": "Durham Art Walk Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10 AM",
-      "end": "5 PM",
-      "venue": "",
-      "city": "Durham",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/durham-art-walk-holiday-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
       "id": "raleigh-christmas-parade",
       "title": "Raleigh Christmas Parade",
       "days": [
@@ -421,7 +338,7 @@
       ],
       "date": "2026-11-21",
       "start": "9:30 am",
-      "end": "12 PM",
+      "end": "",
       "venue": "Downtown Raleigh, Hillsborough Street and Fayetteville St., Raleigh, NC  27603",
       "city": "Raleigh",
       "cost": "Free Admission",
@@ -521,8 +438,8 @@
       ]
     },
     {
-      "id": "harvest-fest-at-good-hope-farm",
-      "title": "Harvest Fest at Good Hope Farm",
+      "id": "cancelled-harvest-fest-at-good-hope-farm",
+      "title": "*CANCELLED* Harvest Fest at Good Hope Farm",
       "days": [
         "sat"
       ],
@@ -532,7 +449,7 @@
       "venue": "Satellite Parking Lot, 2500 Carpenter Upchurch Rd., Cary, NC  27519",
       "city": "Cary",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194455/-/harvest-fest-at-good-hope-farm",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194455/-/cancelled-harvest-fest-at-good-hope-farm",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 93,
@@ -561,65 +478,6 @@
       "tags": [
         "free"
       ]
-    },
-    {
-      "id": "raleigh-christmas-parade-watch-party-at-taverna-agora",
-      "title": "Raleigh Christmas Parade Watch Party at Taverna Agora",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "7:30 AM",
-      "end": "",
-      "venue": "Taverna Agora",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/raleigh-christmas-parade-watch-party-taverna-agora-2026/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "kidz-bop-skate",
-      "title": "Kidz Bop Skate",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10 AM",
-      "end": "12:30 PM",
-      "venue": "United Skates Of America Raleigh",
-      "city": "Raleigh",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/kidz-bop-skate/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "jupiter-ball",
-      "title": "Jupiter Ball",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "6 PM",
-      "end": "11:30 PM",
-      "venue": "Morehead Planetarium and Science Center",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/jupiter-ball/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": []
     },
     {
       "id": "triangle-pop-up-handcrafted-holiday-market",
@@ -708,18 +566,18 @@
     },
     {
       "id": "holly-springs-farmers-market-thanksgiving-market",
-      "title": "Holly Springs Farmers Market – Thanksgiving Market",
+      "title": "Holly Springs Farmers Market - Thanksgiving Market",
       "days": [
         "sat"
       ],
       "date": "2026-11-21",
       "start": "9:00 am",
-      "end": "12 PM",
+      "end": "12:00 PM",
       "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
       "city": "Holly Springs",
       "cost": "Free Entry",
-      "url": "https://stufftodoinrdu.com/events/holly-springs-farmers-market-thanksgiving-market/",
-      "source": "stufftodoinrdu",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16503&month=11&year=2026&day=21&calType=0",
+      "source": "hollysprings",
       "indoor": false,
       "family_score": 90,
       "why": "",
@@ -768,27 +626,6 @@
       "tags": [
         "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "true-crime-curious-tales-raleigh-walking-tour",
-      "title": "True Crime & Curious Tales Raleigh Walking Tour",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "4 PM",
-      "end": "5:30 PM",
-      "venue": "",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/true-crime-curious-tales-raleigh-walking-tour/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -841,7 +678,7 @@
       ],
       "date": "2026-11-21",
       "start": "6:00 pm",
-      "end": "10 PM",
+      "end": "",
       "venue": "8003 Regency Parkway Cary, NC  27518",
       "city": "Cary",
       "cost": "from $19 for 3yrs+. Children 2yrs and under are free. Genera",
@@ -897,28 +734,6 @@
       ]
     },
     {
-      "id": "rag-alley-2-holiday-market",
-      "title": "Rag Alley 2 + Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12 PM",
-      "end": "5 PM",
-      "venue": "Phelps Phine Art",
-      "city": "",
-      "cost": "Free",
-      "url": "https://stufftodoinrdu.com/events/rag-alley-2-holiday-market/",
-      "source": "stufftodoinrdu",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
       "id": "holiday-vendor-market",
       "title": "Holiday Vendor Market",
       "days": [
@@ -940,23 +755,170 @@
       ]
     },
     {
-      "id": "museum-tour-in-asl",
-      "title": "Museum Tour in ASL",
+      "id": "park-west-village-s-winter-wonderland",
+      "title": "Park West Village's Winter Wonderland",
       "days": [
         "sat"
       ],
       "date": "2026-11-21",
-      "start": "10 AM",
-      "end": "12 PM",
-      "venue": "North Carolina Museum of Art",
-      "city": "",
-      "cost": "See listing",
-      "url": "https://stufftodoinrdu.com/events/museum-tour-in-asl/",
-      "source": "stufftodoinrdu",
+      "start": "5:30 pm",
+      "end": "",
+      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196431/-/park-west-village-s-winter-wonderland",
+      "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 75,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view",
+      "title": "Last Weekend of Paint the Parks Exhibit at Historic Oak View County Park",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "8:00 am",
+      "end": "",
+      "venue": "4028 Carya Dr, Raleigh, NC 27610",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191666/-/last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view-county-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
+      "title": "Saturday Morning Magic with New World Toys and Collectibles",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "9:30 am",
+      "end": "",
+      "venue": "164 Bratton Dr., Garner, NC  27529",
+      "city": "Garner",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195778/-/saturday-morning-magic-with-new-world-toys-and-collectibles",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "superfun-saturday-at-halle-cultural-arts-center",
+      "title": "SuperFun Saturday at Halle Cultural Arts Center",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10:30 am",
+      "end": "12:30 PM",
+      "venue": "237 N. Salem Street, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192864/-/superfun-saturday-at-halle-cultural-arts-center",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "fenton-lights-the-square",
+      "title": "Fenton Lights the Square",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "3:00 pm",
+      "end": "",
+      "venue": "201 Fenton Gateway Drive, Cary, NC 27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/146044/-/fenton-lights-the-square",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "annual-christmas-parade-watch-party",
+      "title": "Annual Christmas Parade Watch Party",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "07:30 AM",
+      "end": "10:45 AM",
+      "venue": "Taverna Agora, Downtown Raleigh 2,",
+      "city": "Raleigh",
+      "cost": "$30 Adults, $15 kids 12 and under",
+      "url": "https://raleighparent.com/event/annual-christmas-parade-watch-party-on-nov-21-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "united-skates-kidz-bop",
+      "title": "United Skates Kidz Bop",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/187216/-/united-skates-kidz-bop",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
       "why": "",
       "tags": []
+    },
+    {
+      "id": "music-in-the-market-at-dix-park",
+      "title": "Music in the Market at Dix Park",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-21",
+      "start": "11:00 am",
+      "end": "",
+      "venue": "House of Many Porches Market of Dix Park, 701 Palmer Dr., Raleigh, NC 27603",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193201/-/music-in-the-market-at-dix-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 82,
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
       "id": "under-the-tree-storytime-with-quail-ridge-books",
@@ -1086,6 +1048,27 @@
       ]
     },
     {
+      "id": "last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view",
+      "title": "Last Weekend of Paint the Parks Exhibit at Historic Oak View County Park",
+      "days": [
+        "sun"
+      ],
+      "date": "2026-11-22",
+      "start": "8:00 am",
+      "end": "",
+      "venue": "4028 Carya Dr, Raleigh, NC 27610",
+      "city": "Cary",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/191667/-/last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view-county-park",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
       "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
       "days": [],
@@ -1155,6 +1138,25 @@
       "cost": "FREE",
       "url": "https://raleighparent.com/event/wildfire-ride-on-nov-27-2026/",
       "source": "raleighparent",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "yates-mill-open-house",
+      "title": "Yates Mill Open House",
+      "days": [],
+      "date": "2026-11-27",
+      "start": "1:00 pm",
+      "end": "",
+      "venue": "4620 Lake Wheeler Rd, Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Free.  Donations Accepted.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196684/-/yates-mill-open-house",
+      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 81,
       "why": "",
@@ -1570,6 +1572,25 @@
       ]
     },
     {
+      "id": "yates-mill-open-house",
+      "title": "Yates Mill Open House",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "1:00 pm",
+      "end": "",
+      "venue": "4620 Lake Wheeler Rd, Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Free.  Donations Accepted.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196680/-/yates-mill-open-house",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "santa-express-with-the-great-raleigh-trolley-ride",
       "title": "Santa Express with the Great Raleigh Trolley Ride",
       "days": [],
@@ -1674,25 +1695,6 @@
       "tags": []
     },
     {
-      "id": "the-biggest-bonfire-on-eart-at-todd-s-park",
-      "title": "The Biggest Bonfire on Eart at Todd's Park",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "12:00 am",
-      "end": "",
-      "venue": "1300 Mack Todd Rd., Zebulon, NC  27597",
-      "city": "",
-      "cost": "Free Kids BBOE 12pm- 3pm.  Arrive Before 6pm= Free Parking.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196640/-/the-biggest-bonfire-on-eart-at-todd-s-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "id": "turkey-chase-at-william-b-umstead-state-park",
       "title": "Turkey Chase at William B. Umstead State Park",
       "days": [],
@@ -1720,6 +1722,25 @@
       "city": "",
       "cost": "Free",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/196162/-/november-storywalks-of-wake-county-parks",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "the-biggest-bonfire-on-eart-at-todd-s-park",
+      "title": "The Biggest Bonfire on Eart at Todd's Park",
+      "days": [],
+      "date": "2026-11-28",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "1300 Mack Todd Rd., Zebulon, NC  27597",
+      "city": "",
+      "cost": "Free Kids BBOE 12pm- 3pm.  Arrive Before 6pm= Free Parking.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196640/-/the-biggest-bonfire-on-eart-at-todd-s-park",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -1759,23 +1780,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "united-skates-saturday-afternoon-family-skate",
-      "title": "United Skates' Saturday Afternoon Family Skate",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "1:00 pm",
-      "end": "",
-      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/192586/-/united-skates-saturday-afternoon-family-skate",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 72,
       "why": "",
       "tags": []
     },
@@ -1953,6 +1957,25 @@
       ]
     },
     {
+      "id": "yates-mill-open-house",
+      "title": "Yates Mill Open House",
+      "days": [],
+      "date": "2026-11-29",
+      "start": "1:00 pm",
+      "end": "",
+      "venue": "4620 Lake Wheeler Rd, Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Free.  Donations Accepted.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196681/-/yates-mill-open-house",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -2036,42 +2059,6 @@
       "cost": "$4.66+",
       "url": "https://raleighparent.com/event/being-heumann-on-nov-29-2026/",
       "source": "raleighparent",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "november-storywalks-of-wake-county-parks",
-      "title": "November StoryWalks® of Wake County Parks",
-      "days": [],
-      "date": "2026-11-29",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196163/-/november-storywalks-of-wake-county-parks",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "kids-yoga-grown-up-and-me-yoga-at-wild-art",
-      "title": "Kids Yoga: Grown Up and Me Yoga at Wild @ Art",
-      "days": [],
-      "date": "2026-11-29",
-      "start": "3:00 pm",
-      "end": "",
-      "venue": "Wild at Art, 231 Bickett Blvd., Raleigh, NC  27608",
-      "city": "Raleigh",
-      "cost": "Individual Classes: $20.  $5 for an additional sibling.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193991/-/kids-yoga-grown-up-and-me-yoga-at-wild-art",
-      "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
       "why": "",
@@ -2869,6 +2856,25 @@
       ]
     },
     {
+      "id": "social-roll-mahjong-at-downtown-cary-park",
+      "title": "Social Roll: Mahjong at Downtown Cary Park",
+      "days": [],
+      "date": "2026-12-11",
+      "start": "06:30 PM",
+      "end": "09:30 PM",
+      "venue": "DCP Gathering House, Cary 2,",
+      "city": "Cary",
+      "cost": "Free, ages 18+",
+      "url": "https://raleighparent.com/event/social-roll-mahjong-at-downtown-cary-park-on-dec-11-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "soulful-holiday-open-house-at-john-chavis-memorial-park",
       "title": "Soulful Holiday Open House at John Chavis Memorial Park",
       "days": [],
@@ -3446,23 +3452,6 @@
       "tags": [
         "free"
       ]
-    },
-    {
-      "id": "sensory-friendly-holiday-express-at-pullen-park",
-      "title": "Sensory Friendly Holiday Express at Pullen Park",
-      "days": [],
-      "date": "2026-12-13",
-      "start": "1:00 pm",
-      "end": "",
-      "venue": "520 Ashe Ave., Raleigh, NC, 27606",
-      "city": "Raleigh",
-      "cost": "$21 (plus tax and fees) per person 1yr or older",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195423/-/sensory-friendly-holiday-express-at-pullen-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": []
     },
     {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
@@ -4093,57 +4082,6 @@
       ]
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2026-12-25",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "parents-night-out-with-triangle-rock-club-morrisville",
-      "title": "Parents' Night Out with Triangle Rock Club Morrisville",
-      "days": [],
-      "date": "2026-12-25",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "102 Pheasant Wood Court, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "$30 for members.  $35 for non-members.  Siblings receive a $",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193786/-/parents-night-out-with-triangle-rock-club-morrisville",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "holiday-afternoon-tea-at-the-carolina-inn",
-      "title": "Holiday Afternoon Tea at The Carolina Inn",
-      "days": [],
-      "date": "2026-12-25",
-      "start": "11:00 pm",
-      "end": "",
-      "venue": "211 Pittsboro Street, Chapel Hill, NC 27516",
-      "city": "Pittsboro",
-      "cost": "$80 per person",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195678/-/holiday-afternoon-tea-at-the-carolina-inn",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 61,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "power-circuit-bootcamp",
       "title": "Power Circuit Bootcamp",
       "days": [],
@@ -4286,23 +4224,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2026-12-26",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "planet-peace-farm-club",
       "title": "Planet Peace Farm Club",
       "days": [],
@@ -4350,23 +4271,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 72,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "holiday-afternoon-tea-at-the-carolina-inn",
-      "title": "Holiday Afternoon Tea at The Carolina Inn",
-      "days": [],
-      "date": "2026-12-26",
-      "start": "11:00 pm",
-      "end": "",
-      "venue": "211 Pittsboro Street, Chapel Hill, NC 27516",
-      "city": "Pittsboro",
-      "cost": "$80 per person",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195679/-/holiday-afternoon-tea-at-the-carolina-inn",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 61,
       "why": "",
       "tags": []
     },
@@ -4575,23 +4479,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2026-12-27",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -4675,23 +4562,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 69,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "holiday-afternoon-tea-at-the-carolina-inn",
-      "title": "Holiday Afternoon Tea at The Carolina Inn",
-      "days": [],
-      "date": "2026-12-27",
-      "start": "11:00 pm",
-      "end": "",
-      "venue": "211 Pittsboro Street, Chapel Hill, NC 27516",
-      "city": "Pittsboro",
-      "cost": "$80 per person",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195680/-/holiday-afternoon-tea-at-the-carolina-inn",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 61,
       "why": "",
       "tags": []
     },
@@ -4883,59 +4753,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-01",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "artspace-s-first-friday",
-      "title": "Artspace's First Friday",
-      "days": [],
-      "date": "2027-01-01",
-      "start": "5:00 pm",
-      "end": "",
-      "venue": "201 E. Davie Street, Raleigh NC 27601",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193168/-/artspace-s-first-friday",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "parents-night-out-with-triangle-rock-club-morrisville",
-      "title": "Parents' Night Out with Triangle Rock Club Morrisville",
-      "days": [],
-      "date": "2027-01-01",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "102 Pheasant Wood Court, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "$30 for members.  $35 for non-members.  Siblings receive a $",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193787/-/parents-night-out-with-triangle-rock-club-morrisville",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "power-circuit-bootcamp",
       "title": "Power Circuit Bootcamp",
       "days": [],
@@ -5095,23 +4912,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-02",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "morehead-planetarium-science-center-s-presents-carolina-skie",
       "title": "Morehead Planetarium & Science Center's presents Carolina Skies",
       "days": [],
@@ -5159,6 +4959,23 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 69,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holly-springs-farmers-market-9-a-m-to-noon",
+      "title": "Holly Springs Farmers Market - 9 a.m. to Noon",
+      "days": [],
+      "date": "2027-01-02",
+      "start": "9:00 AM",
+      "end": "12:00 PM",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16541&month=1&year=2027&day=2&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 62,
       "why": "",
       "tags": []
     },
@@ -5452,23 +5269,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-03",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -5675,6 +5475,108 @@
       "tags": []
     },
     {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-03",
+      "start": "10:30 AM",
+      "end": "12:50 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47995/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-03",
+      "start": "1:40 PM",
+      "end": "4:00 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47996/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-03",
+      "start": "4:50 PM",
+      "end": "7:10 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47997/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "dune-part-three",
+      "title": "Dune: Part Three",
+      "days": [],
+      "date": "2027-01-03",
+      "start": "8:00 PM",
+      "end": "10:20 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/47998/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "mini-birthday-party",
+      "title": "Mini Birthday Party",
+      "days": [],
+      "date": "2027-01-03",
+      "start": "10:30 AM",
+      "end": "11:30 AM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49060/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "mini-birthday-party",
+      "title": "Mini Birthday Party",
+      "days": [],
+      "date": "2027-01-03",
+      "start": "1:30 PM",
+      "end": "2:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49061/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
       "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
       "days": [],
@@ -5692,23 +5594,6 @@
       "tags": [
         "free"
       ]
-    },
-    {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-08",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
     },
     {
       "id": "parents-night-out-with-triangle-rock-club-morrisville",
@@ -5847,6 +5732,23 @@
       "tags": []
     },
     {
+      "id": "milestone-moves-1-2-30p-hunt-center",
+      "title": "Milestone Moves, 1-2:30P, Hunt Center",
+      "days": [],
+      "date": "2027-01-08",
+      "start": "1:00 PM",
+      "end": "2:30 PM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16299&month=1&year=2027&day=8&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "wake-cross-roads-baptist-church-s-kids-open-gym",
       "title": "Wake Cross Roads Baptist Church's Kids Open Gym",
       "days": [],
@@ -5902,23 +5804,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-09",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "morehead-planetarium-science-center-s-presents-carolina-skie",
       "title": "Morehead Planetarium & Science Center's presents Carolina Skies",
       "days": [],
@@ -5966,6 +5851,23 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holly-springs-farmers-market-9-a-m-to-noon",
+      "title": "Holly Springs Farmers Market - 9 a.m. to Noon",
+      "days": [],
+      "date": "2027-01-09",
+      "start": "9:00 AM",
+      "end": "12:00 PM",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16542&month=1&year=2027&day=9&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 62,
       "why": "",
       "tags": []
     },
@@ -6038,6 +5940,23 @@
       "tags": []
     },
     {
+      "id": "hiit-high-intensity-interval-training",
+      "title": "HIIT: High Intensity Interval Training",
+      "days": [],
+      "date": "2027-01-09",
+      "start": "9:00 AM",
+      "end": "9:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15727&month=1&year=2027&day=9&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "raleigh-s-really-really-free-market",
       "title": "Raleigh's Really Really Free Market",
       "days": [],
@@ -6055,23 +5974,6 @@
       "tags": [
         "free"
       ]
-    },
-    {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-10",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
     },
     {
       "id": "artspace-open-studio",
@@ -6214,23 +6116,6 @@
       ]
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-15",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "mini-mites-open-gym-at-peak-gymnastics",
       "title": "Mini Mites Open Gym at Peak Gymnastics",
       "days": [],
@@ -6316,6 +6201,40 @@
       "tags": []
     },
     {
+      "id": "fit-advantage-10a-10-45a-hunt-center",
+      "title": "Fit Advantage, 10A-10:45A, Hunt Center",
+      "days": [],
+      "date": "2027-01-15",
+      "start": "10:00 AM",
+      "end": "10:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16213&month=1&year=2027&day=15&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "mah-jongg-club-1p-4p-hunt-center",
+      "title": "Mah Jongg Club, 1P-4P, Hunt Center",
+      "days": [],
+      "date": "2027-01-15",
+      "start": "1:00 PM",
+      "end": "4:00 PM",
+      "venue": "W.E. Hunt Recreation Center | Community Room",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16437&month=1&year=2027&day=15&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "superfun-saturday-at-halle-cultural-arts-center",
       "title": "SuperFun Saturday at Halle Cultural Arts Center",
       "days": [],
@@ -6371,23 +6290,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-16",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "sensory-friendly-event-urban-air-raleigh",
       "title": "Sensory Friendly Event - Urban Air Raleigh",
       "days": [],
@@ -6435,6 +6337,23 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 76,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holly-springs-farmers-market-9-a-m-to-noon",
+      "title": "Holly Springs Farmers Market - 9 a.m. to Noon",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "9:00 AM",
+      "end": "12:00 PM",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16543&month=1&year=2027&day=16&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 62,
       "why": "",
       "tags": []
     },
@@ -6503,23 +6422,6 @@
       "source": "morehead",
       "indoor": false,
       "family_score": 59,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-17",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
       "why": "",
       "tags": []
     },
@@ -6647,19 +6549,19 @@
       ]
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
+      "id": "dandelion-learning-collaborative-day-camp",
+      "title": "Dandelion Learning Collaborative Day Camp",
       "days": [],
       "date": "2027-01-22",
       "start": "10:00 am",
       "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
+      "venue": "120 E Holding Ave., Wake Forest, NC  27587",
+      "city": "Wake Forest",
+      "cost": "$50 per child",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193182/-/dandelion-learning-collaborative-day-camp",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 81,
+      "family_score": 73,
       "why": "",
       "tags": []
     },
@@ -6800,23 +6702,6 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-23",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "morehead-planetarium-science-center-s-presents-carolina-skie",
       "title": "Morehead Planetarium & Science Center's presents Carolina Skies",
       "days": [],
@@ -6847,6 +6732,23 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 76,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holly-springs-farmers-market-9-a-m-to-noon",
+      "title": "Holly Springs Farmers Market - 9 a.m. to Noon",
+      "days": [],
+      "date": "2027-01-23",
+      "start": "9:00 AM",
+      "end": "12:00 PM",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16544&month=1&year=2027&day=23&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 62,
       "why": "",
       "tags": []
     },
@@ -6932,23 +6834,6 @@
       "source": "hollysprings",
       "indoor": false,
       "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-24",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
       "why": "",
       "tags": []
     },
@@ -7057,6 +6942,23 @@
       "tags": []
     },
     {
+      "id": "freetech-series-1-30-3-30p-hunt-center",
+      "title": "FreeTech Series, 1:30-3:30P, Hunt Center",
+      "days": [],
+      "date": "2027-01-24",
+      "start": "1:30 PM",
+      "end": "3:30 PM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16304&month=1&year=2027&day=24&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
       "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
       "days": [],
@@ -7074,23 +6976,6 @@
       "tags": [
         "free"
       ]
-    },
-    {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
-      "days": [],
-      "date": "2027-01-29",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 81,
-      "why": "",
-      "tags": []
     },
     {
       "id": "mini-mites-open-gym-at-peak-gymnastics",
@@ -7161,19 +7046,70 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
+      "id": "power-circuit-bootcamp",
+      "title": "Power Circuit Bootcamp",
       "days": [],
-      "date": "2027-01-30",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
+      "date": "2027-01-29",
+      "start": "5:15 AM",
+      "end": "6:15 AM",
+      "venue": "",
+      "city": "Holly Springs",
       "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15285&month=1&year=2027&day=29&calType=0",
+      "source": "hollysprings",
       "indoor": false,
-      "family_score": 81,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "freedom-tour",
+      "title": "Freedom Tour",
+      "days": [],
+      "date": "2027-01-29",
+      "start": "See listing",
+      "end": "",
+      "venue": "",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16338&month=1&year=2027&day=29&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "fit-advantage-10a-10-45a-hunt-center",
+      "title": "Fit Advantage, 10A-10:45A, Hunt Center",
+      "days": [],
+      "date": "2027-01-29",
+      "start": "10:00 AM",
+      "end": "10:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16223&month=1&year=2027&day=29&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "mah-jongg-club-1p-4p-hunt-center",
+      "title": "Mah Jongg Club, 1P-4P, Hunt Center",
+      "days": [],
+      "date": "2027-01-29",
+      "start": "1:00 PM",
+      "end": "4:00 PM",
+      "venue": "W.E. Hunt Recreation Center | Community Room",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16441&month=1&year=2027&day=29&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
       "why": "",
       "tags": []
     },
@@ -7208,6 +7144,23 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holly-springs-farmers-market-9-a-m-to-noon",
+      "title": "Holly Springs Farmers Market - 9 a.m. to Noon",
+      "days": [],
+      "date": "2027-01-30",
+      "start": "9:00 AM",
+      "end": "12:00 PM",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16545&month=1&year=2027&day=30&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 62,
       "why": "",
       "tags": []
     },
@@ -7297,19 +7250,19 @@
       "tags": []
     },
     {
-      "id": "directory-community-book-drive-benefiting-wake-up-and-read",
-      "title": "*Directory* Community Book Drive Benefiting WAKE Up and Read",
+      "id": "hiit-high-intensity-interval-training",
+      "title": "HIIT: High Intensity Interval Training",
       "days": [],
-      "date": "2027-01-31",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "Brecotea, 1144 Kildaire Farm Road, Cary, NC 27511",
-      "city": "Cary",
+      "date": "2027-01-30",
+      "start": "9:00 AM",
+      "end": "9:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
       "cost": "See listing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196611/-/directory-community-book-drive-benefiting-wake-up-and-read",
-      "source": "fun4raleighkids",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15730&month=1&year=2027&day=30&calType=0",
+      "source": "hollysprings",
       "indoor": false,
-      "family_score": 81,
+      "family_score": 57,
       "why": "",
       "tags": []
     },
@@ -7363,6 +7316,57 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 72,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "mars-the-ultimate-voyage",
+      "title": "Mars: The Ultimate Voyage",
+      "days": [],
+      "date": "2027-01-31",
+      "start": "1:30 PM",
+      "end": "2:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/mars-the-ultimate-voyage-235/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "the-longest-night-a-winter-s-tale",
+      "title": "The Longest Night: A Winter’s Tale",
+      "days": [],
+      "date": "2027-01-31",
+      "start": "3:00 PM",
+      "end": "4:00 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/the-longest-night-a-winters-tale-161/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "carolina-skies",
+      "title": "Carolina Skies",
+      "days": [],
+      "date": "2027-01-31",
+      "start": "4:30 PM",
+      "end": "5:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/carolina-skies-567/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
       "why": "",
       "tags": []
     }
