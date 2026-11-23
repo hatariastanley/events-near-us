@@ -1,1077 +1,22 @@
 {
-  "generated_at": "2026-11-20T02:55:18+00:00",
+  "generated_at": "2026-11-23T22:24:12+00:00",
   "weekend": {
-    "fri": "2026-11-20",
-    "sat": "2026-11-21",
-    "sun": "2026-11-22"
+    "fri": "2026-11-27",
+    "sat": "2026-11-28",
+    "sun": "2026-11-29"
   },
   "range": {
-    "start": "2026-11-20",
-    "end": "2027-02-18",
+    "start": "2026-11-23",
+    "end": "2027-02-21",
     "mode": "90days"
   },
   "events": [
     {
-      "id": "salem-baptist-preschool-holiday-market",
-      "title": "Salem Baptist Preschool Holiday Market",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "1821 North Salem Street, Apex, NC 27523",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196575/-/salem-baptist-preschool-holiday-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
       "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
       "days": [
         "fri"
       ],
-      "date": "2026-11-20",
-      "start": "10:45 am",
-      "end": "",
-      "venue": "11 West Jones Street, Raleigh, NC 27601",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194634/-/nc-museum-of-natural-sciences-live-animal-feeding-ocean-habitat",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "kids-bible-story-time-at-village-church-rolesville",
-      "title": "Kids Bible Story Time at Village Church Rolesville",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "410 Southtown Circle, Rolesville, NC  27571",
-      "city": "Rolesville",
-      "cost": "Free - No Sign-Up Required.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194517/-/kids-bible-story-time-at-village-church-rolesville",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 97,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "nc-museum-of-natural-sciences-incredible-science",
-      "title": "NC Museum of Natural Sciences Incredible Science",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "1:30 pm",
-      "end": "",
-      "venue": "11 West Jones Street, Raleigh, NC 27601",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193456/-/nc-museum-of-natural-sciences-incredible-science",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "waverly-tree-lighting",
-      "title": "Waverly Tree Lighting",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "5:00 pm",
-      "end": "",
-      "venue": "302 Colonades Way, Cary, NC 27518",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/137959/-/waverly-tree-lighting",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 93,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187877/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 91,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "an-archaeologist-s-face-to-feet-with-king-taharqa",
-      "title": "An Archaeologist’s Face to Feet with King Taharqa",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "07:00 PM",
-      "end": "08:30 PM",
-      "venue": "North Carolina Museum of Art, West Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/an-archaeologists-face-to-feet-with-king-taharqa-on-nov-20-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-night-market",
-      "title": "Cary Night Market",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "05:00 PM",
-      "end": "09:00 PM",
-      "venue": "Downtown Cary Park, Cary 2,",
-      "city": "Cary",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/cary-night-market-on-nov-20-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "park-west-village-s-winter-wonderland",
-      "title": "Park West Village's Winter Wonderland",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "5:30 pm",
-      "end": "",
-      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196430/-/park-west-village-s-winter-wonderland",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "jazz-jive-night-at-the-depot",
-      "title": "Jazz & Jive Night at The Depot",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "05:00 PM",
-      "end": "08:00 PM",
-      "venue": "The Depot parking lot, Apex 2,",
-      "city": "Apex",
-      "cost": "FREE",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194012/-/jazz-jive-night-at-the-depot",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view",
-      "title": "Last Weekend of Paint the Parks Exhibit at Historic Oak View County Park",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "4028 Carya Dr, Raleigh, NC 27610",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191665/-/last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view-county-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "tree-camp",
-      "title": "Tree Camp",
-      "days": [
-        "fri"
-      ],
-      "date": "2026-11-20",
-      "start": "01:00 PM",
-      "end": "04:00 PM",
-      "venue": "Prairie Ridge Outdoor Classroom, West Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "Free please register",
-      "url": "https://raleighparent.com/event/tree-camp-on-nov-20-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 83,
-      "why": "",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
-      "id": "salem-baptist-preschool-holiday-market",
-      "title": "Salem Baptist Preschool Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "1821 North Salem Street, Apex, NC 27523",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196576/-/salem-baptist-preschool-holiday-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "page-158-books-storytime",
-      "title": "Page 158 Books Storytime",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "11:00 am",
-      "end": "",
-      "venue": "415 Brooks St., Suite B, Wake Forest, NC 27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191571/-/page-158-books-storytime",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 100,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "ax-rhythm-and-dance-fest",
-      "title": "Axé Rhythm and Dance Fest",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:00 PM",
-      "end": "",
-      "venue": "Ubuntu Farm, Knightdale 2,",
-      "city": "Knightdale",
-      "cost": "Free - Parking $5. Please RSVP",
-      "url": "https://raleighparent.com/event/ax-rhythm-and-dance-fest-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 97,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "raleigh-christmas-parade",
-      "title": "Raleigh Christmas Parade",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "Downtown Raleigh, Hillsborough Street and Fayetteville St., Raleigh, NC  27603",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/136354/-/raleigh-christmas-parade",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "marker-s-market-at-grasshopper-farm",
-      "title": "Marker's Market at Grasshopper Farm",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "11:00 am",
-      "end": "",
-      "venue": "8004 Poole Road, Knightdale, NC  27545",
-      "city": "Knightdale",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193957/-/marker-s-market-at-grasshopper-farm",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "nc-museum-of-natural-sciences-incredible-science",
-      "title": "NC Museum of Natural Sciences Incredible Science",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:30 pm",
-      "end": "",
-      "venue": "11 West Jones Street, Raleigh, NC 27601",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193471/-/nc-museum-of-natural-sciences-incredible-science",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "north-hills-christmas-tree-lighting-celebration",
-      "title": "North Hills Christmas Tree Lighting Celebration",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "4:00 pm",
-      "end": "",
-      "venue": "4321 Lassiter at North Hills Avenue, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/137253/-/north-hills-christmas-tree-lighting-celebration",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 94,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "harvest-fest-2026",
-      "title": "Harvest Fest 2026",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:00 PM",
-      "end": "04:00 PM",
-      "venue": "Good Hope Farm, Cary 2,",
-      "city": "Cary",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/harvest-fest-2026-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 93,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cancelled-harvest-fest-at-good-hope-farm",
-      "title": "*CANCELLED* Harvest Fest at Good Hope Farm",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "Satellite Parking Lot, 2500 Carpenter Upchurch Rd., Cary, NC  27519",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194455/-/cancelled-harvest-fest-at-good-hope-farm",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 93,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187878/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 91,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "triangle-pop-up-handcrafted-holiday-market",
-      "title": "Triangle Pop Up – Handcrafted Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "11:00 AM",
-      "end": "04:00 PM",
-      "venue": "Fenton Square, Cary 2,",
-      "city": "Cary",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/triangle-pop-up-handcrafted-holiday-market-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "thanksgiving-food-drive-at-western-wake-farmers-market",
-      "title": "Thanksgiving Food Drive at Western Wake Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "Indian Creek Trailhead, 101 Town Hall Drive, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191759/-/thanksgiving-food-drive-at-western-wake-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "apex-farmers-market-at-the-depot",
-      "title": "Apex Farmers Market at The Depot",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "220 N Salem St, Apex, NC 27502",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190227/-/apex-farmers-market-at-the-depot",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cary-farmers-market-at-downtown-cary-park",
-      "title": "Cary Farmers Market at Downtown Cary Park",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "160 East Park St., Cary, NC  27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193978/-/cary-farmers-market-at-downtown-cary-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "holly-springs-farmers-market-thanksgiving-market",
-      "title": "Holly Springs Farmers Market - Thanksgiving Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "12:00 PM",
-      "venue": "300 W. Ballentine St., Holly Springs, NC  27540",
-      "city": "Holly Springs",
-      "cost": "Free Entry",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16503&month=11&year=2026&day=21&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "wake-forest-farmers-market",
-      "title": "Wake Forest Farmers Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:00 am",
-      "end": "",
-      "venue": "235 S. Taylor Street, Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186633/-/wake-forest-farmers-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "page-158-book-s-holiday-market",
-      "title": "Page 158 Book's Holiday Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "415 Brooks Street, Ste B,  Wake Forest, NC  27587",
-      "city": "Wake Forest",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/186353/-/page-158-book-s-holiday-market",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 90,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "wake-forest-cares-holiday-kick-off-2026",
-      "title": "Wake Forest Cares Holiday Kick Off 2026",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:00 PM",
-      "end": "",
-      "venue": "Downtown Wake Forest, Wake Forest 2,",
-      "city": "Wake Forest",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/wake-forest-cares-holiday-kick-off-2026-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 89,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "animal-encounters-and-open-play",
-      "title": "Animal Encounters and Open Play",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "The Feathered Farm, 3620 Rosinburg Rd., Zebulon, NC  27597",
-      "city": "",
-      "cost": "$15 for ages 2-64.  Children under 2 are free.   $11.50 per ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/192496/-/animal-encounters-and-open-play",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 88,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth",
-      "title": "Opening weekend of NC Chinese Lantern Festival at Koka Booth Amphitheatre",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "8003 Regency Parkway Cary, NC  27518",
-      "city": "Cary",
-      "cost": "from $19 for 3yrs+. Children 2yrs and under are free. Genera",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196392/-/opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth-amphitheatre",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 88,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "museum-tour-in-asl",
-      "title": "Museum Tour in ASL",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "12:00 PM",
-      "end": "",
-      "venue": "North Carolina Museum of Art, West Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "Free (pay what you wish); registration required",
-      "url": "https://raleighparent.com/event/museum-tour-in-asl-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "art-on-the-dot-at-nc-museum-of-art",
-      "title": "Art on the Dot at NC Museum of Art",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "2:30 pm",
-      "end": "",
-      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194857/-/art-on-the-dot-at-nc-museum-of-art",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "holiday-vendor-market",
-      "title": "Holiday Vendor Market",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:00 AM",
-      "end": "03:00 PM",
-      "venue": "Fairview Greenhouses Garden Center, South Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "FREE",
-      "url": "https://raleighparent.com/event/holiday-vendor-market-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "park-west-village-s-winter-wonderland",
-      "title": "Park West Village's Winter Wonderland",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "5:30 pm",
-      "end": "",
-      "venue": "3400 Village Market Pl., Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196431/-/park-west-village-s-winter-wonderland",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 86,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view",
-      "title": "Last Weekend of Paint the Parks Exhibit at Historic Oak View County Park",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "4028 Carya Dr, Raleigh, NC 27610",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191666/-/last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view-county-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
-      "title": "Saturday Morning Magic with New World Toys and Collectibles",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "164 Bratton Dr., Garner, NC  27529",
-      "city": "Garner",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195778/-/saturday-morning-magic-with-new-world-toys-and-collectibles",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "superfun-saturday-at-halle-cultural-arts-center",
-      "title": "SuperFun Saturday at Halle Cultural Arts Center",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:30 am",
-      "end": "12:30 PM",
-      "venue": "237 N. Salem Street, Apex, NC 27502",
-      "city": "Apex",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/192864/-/superfun-saturday-at-halle-cultural-arts-center",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "fenton-lights-the-square",
-      "title": "Fenton Lights the Square",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "3:00 pm",
-      "end": "",
-      "venue": "201 Fenton Gateway Drive, Cary, NC 27511",
-      "city": "Cary",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/146044/-/fenton-lights-the-square",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "annual-christmas-parade-watch-party",
-      "title": "Annual Christmas Parade Watch Party",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "07:30 AM",
-      "end": "10:45 AM",
-      "venue": "Taverna Agora, Downtown Raleigh 2,",
-      "city": "Raleigh",
-      "cost": "$30 Adults, $15 kids 12 and under",
-      "url": "https://raleighparent.com/event/annual-christmas-parade-watch-party-on-nov-21-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 82,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "united-skates-kidz-bop",
-      "title": "United Skates Kidz Bop",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "10:00 am",
-      "end": "",
-      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "Admission $14 when purchased online in advanced, $15 at the ",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/187216/-/united-skates-kidz-bop",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 82,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "music-in-the-market-at-dix-park",
-      "title": "Music in the Market at Dix Park",
-      "days": [
-        "sat"
-      ],
-      "date": "2026-11-21",
-      "start": "11:00 am",
-      "end": "",
-      "venue": "House of Many Porches Market of Dix Park, 701 Palmer Dr., Raleigh, NC 27603",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193201/-/music-in-the-market-at-dix-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 82,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "under-the-tree-storytime-with-quail-ridge-books",
-      "title": "Under the Tree Storytime with Quail Ridge Books",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "10:30 am",
-      "end": "",
-      "venue": "4209-100 Lassiter Mill Rd, Raleigh, NC 27609",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/190511/-/under-the-tree-storytime-with-quail-ridge-books",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 99,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "santa-and-mrs-clause-visits-shephered-s-way-farms",
-      "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "1:00 pm",
-      "end": "",
-      "venue": "13044 Norwood Road, Raleigh, NC  27613",
-      "city": "Raleigh",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196606/-/santa-and-mrs-clause-visits-shephered-s-way-farms",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 99,
-      "why": "",
-      "tags": [
-        "free",
-        "holiday"
-      ]
-    },
-    {
-      "id": "wake-county-library-storytimes-and-programs",
-      "title": "Wake County Library Storytimes and Programs",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "9:15 am",
-      "end": "",
-      "venue": "Check out your local library for specific times and dates",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195530/-/wake-county-library-storytimes-and-programs",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 91,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "sensory-santa-at-crabtree-valley-mall",
-      "title": "Sensory Santa at Crabtree Valley Mall",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "4325 Glenwood Ave., Raleigh, NC, 27612",
-      "city": "Raleigh",
-      "cost": "from $45 photo packages",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196327/-/sensory-santa-at-crabtree-valley-mall",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 91,
-      "why": "",
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth",
-      "title": "Opening weekend of NC Chinese Lantern Festival at Koka Booth Amphitheatre",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "8003 Regency Parkway Cary, NC  27518",
-      "city": "Cary",
-      "cost": "from $19 for 3yrs+. Children 2yrs and under are free. Genera",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196393/-/opening-weekend-of-nc-chinese-lantern-festival-at-koka-booth-amphitheatre",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 88,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "art-on-the-dot-at-nc-museum-of-art",
-      "title": "Art on the Dot at NC Museum of Art",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "2:30 pm",
-      "end": "",
-      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
-      "city": "Raleigh",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/194858/-/art-on-the-dot-at-nc-museum-of-art",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 87,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view",
-      "title": "Last Weekend of Paint the Parks Exhibit at Historic Oak View County Park",
-      "days": [
-        "sun"
-      ],
-      "date": "2026-11-22",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "4028 Carya Dr, Raleigh, NC 27610",
-      "city": "Cary",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/191667/-/last-weekend-of-paint-the-parks-exhibit-at-historic-oak-view-county-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
-      "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
-      "days": [],
       "date": "2026-11-27",
       "start": "10:45 am",
       "end": "",
@@ -1090,7 +35,9 @@
     {
       "id": "the-gathering-community-church-s-christmas-tree-lot-opens",
       "title": "The Gathering Community Church's Christmas Tree Lot Opens",
-      "days": [],
+      "days": [
+        "fri"
+      ],
       "date": "2026-11-27",
       "start": "8:00 am",
       "end": "",
@@ -1108,9 +55,32 @@
       ]
     },
     {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-27",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196693/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "opening-weekend-of-grasshopper-farm-s-christmas-wonderland",
       "title": "Opening Weekend of Grasshopper Farm's Christmas Wonderland",
-      "days": [],
+      "days": [
+        "fri"
+      ],
       "date": "2026-11-27",
       "start": "5:30 pm",
       "end": "",
@@ -1127,13 +97,36 @@
       ]
     },
     {
+      "id": "rsd-black-friday",
+      "title": "RSD Black Friday",
+      "days": [
+        "fri"
+      ],
+      "date": "2026-11-27",
+      "start": "08:00 AM",
+      "end": "",
+      "venue": "The Pour House Music Hall & Record Shop, Downtown Raleigh",
+      "city": "Raleigh",
+      "cost": "Free, all ages",
+      "url": "https://raleighparent.com/event/rsd-black-friday-on-nov-27-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "wildfire-ride",
       "title": "Wildfire Ride",
-      "days": [],
+      "days": [
+        "fri"
+      ],
       "date": "2026-11-27",
       "start": "06:30 PM",
       "end": "",
-      "venue": "Tin Roof Raleigh, Downtown Raleigh 2,",
+      "venue": "Tin Roof Raleigh, Downtown Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/wildfire-ride-on-nov-27-2026/",
@@ -1148,7 +141,9 @@
     {
       "id": "yates-mill-open-house",
       "title": "Yates Mill Open House",
-      "days": [],
+      "days": [
+        "fri"
+      ],
       "date": "2026-11-27",
       "start": "1:00 pm",
       "end": "",
@@ -1165,113 +160,70 @@
       ]
     },
     {
-      "id": "nc-transportation-museum-s-polar-express-train-ride",
-      "title": "NC Transportation Museum's Polar Express Train Ride",
-      "days": [],
+      "id": "hill-ridge-farms-festival-of-lights-opening-weekend",
+      "title": "Hill Ridge Farms' Festival of Lights Opening Weekend",
+      "days": [
+        "fri"
+      ],
       "date": "2026-11-27",
-      "start": "3:15 pm",
+      "start": "5:00 pm",
       "end": "",
-      "venue": "1 Samuel Spencer Drive, Spencer, NC  28159",
-      "city": "",
-      "cost": "from $45.50 per child or $51.75 per adult",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193077/-/nc-transportation-museum-s-polar-express-train-ride",
+      "venue": "703 Tarboro Road, Youngsville, NC, 27596",
+      "city": "Youngsville",
+      "cost": "$19.95 ages 2-64. Under 2yrs are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196721/-/hill-ridge-farms-festival-of-lights-opening-weekend",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 75,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "november-storywalks-of-wake-county-parks",
-      "title": "November StoryWalks® of Wake County Parks",
-      "days": [],
-      "date": "2026-11-27",
-      "start": "8:00 am",
-      "end": "",
-      "venue": "",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196161/-/november-storywalks-of-wake-county-parks",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
+      "family_score": 80,
       "why": "",
       "tags": [
         "free"
       ]
     },
     {
-      "id": "mini-mites-open-gym-at-peak-gymnastics",
-      "title": "Mini Mites Open Gym at Peak Gymnastics",
-      "days": [],
+      "id": "north-carolina-chinese-lantern-festival-at-koka-booth-amphit",
+      "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
+      "days": [
+        "fri"
+      ],
       "date": "2026-11-27",
-      "start": "10:00 am",
+      "start": "04:30 PM",
       "end": "",
-      "venue": "6003 Old Jenks Road Apex, NC  27523",
-      "city": "Apex",
-      "cost": "$5",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196452/-/mini-mites-open-gym-at-peak-gymnastics",
-      "source": "fun4raleighkids",
+      "venue": "Regency Park, Cary",
+      "city": "Cary",
+      "cost": "See listing",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-27-2026/",
+      "source": "raleighparent",
       "indoor": false,
-      "family_score": 73,
+      "family_score": 76,
       "why": "",
       "tags": []
     },
     {
-      "id": "cirque-holiday-pops-with-the-nc-symphony",
-      "title": "Cirque Holiday Pops with the NC Symphony",
-      "days": [],
+      "id": "north-carolina-chinese-lantern-festival-at-koka-booth-amphit",
+      "title": "North Carolina Chinese Lantern Festival at Koka Booth Amphitheatre",
+      "days": [
+        "fri"
+      ],
       "date": "2026-11-27",
-      "start": "3:00 pm",
+      "start": "06:00 PM",
       "end": "",
-      "venue": "Meymandi Concert Hall at Martin Marietta Center for the Performing Arts, 2 E South St., Raleigh, NC, 27601",
-      "city": "Raleigh",
-      "cost": "Starting at $51 with all-in pricing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193293/-/cirque-holiday-pops-with-the-nc-symphony",
-      "source": "fun4raleighkids",
+      "venue": "Regency Park, Cary",
+      "city": "Cary",
+      "cost": "See listing",
+      "url": "https://raleighparent.com/event/north-carolina-chinese-lantern-festival-on-nov-27-2026-Z7r9jZ/",
+      "source": "raleighparent",
       "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "cirque-holiday-pops-with-the-nc-symphony",
-      "title": "Cirque Holiday Pops with the NC Symphony",
-      "days": [],
-      "date": "2026-11-27",
-      "start": "7:30 pm",
-      "end": "",
-      "venue": "Meymandi Concert Hall at Martin Marietta Center for the Performing Arts, 2 E South St., Raleigh, NC, 27601",
-      "city": "Raleigh",
-      "cost": "Starting at $51 with all-in pricing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193295/-/cirque-holiday-pops-with-the-nc-symphony",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "parents-night-out-with-triangle-rock-club-morrisville",
-      "title": "Parents' Night Out with Triangle Rock Club Morrisville",
-      "days": [],
-      "date": "2026-11-27",
-      "start": "6:00 pm",
-      "end": "",
-      "venue": "102 Pheasant Wood Court, Morrisville, NC  27560",
-      "city": "Morrisville",
-      "cost": "$30 for members.  $35 for non-members.  Siblings receive a $",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193782/-/parents-night-out-with-triangle-rock-club-morrisville",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
+      "family_score": 76,
       "why": "",
       "tags": []
     },
     {
       "id": "page-158-books-storytime",
       "title": "Page 158 Books Storytime",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "11:00 am",
       "end": "",
@@ -1290,7 +242,9 @@
     {
       "id": "kids-markets-at-garner-light-up-main",
       "title": "Kids Markets at Garner Light Up Main",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "3:00 pm",
       "end": "",
@@ -1309,7 +263,9 @@
     {
       "id": "wake-county-library-storytimes-and-programs",
       "title": "Wake County Library Storytimes and Programs",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "9:15 am",
       "end": "",
@@ -1328,7 +284,9 @@
     {
       "id": "apex-farmers-market-at-the-depot",
       "title": "Apex Farmers Market at The Depot",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "9:00 am",
       "end": "",
@@ -1347,7 +305,9 @@
     {
       "id": "cary-farmers-market-at-downtown-cary-park",
       "title": "Cary Farmers Market at Downtown Cary Park",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "9:00 am",
       "end": "",
@@ -1366,7 +326,9 @@
     {
       "id": "wake-forest-farmers-market",
       "title": "Wake Forest Farmers Market",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "9:00 am",
       "end": "",
@@ -1385,7 +347,9 @@
     {
       "id": "hidden-holiday-raleigh-christmas-past-with-heather-leah",
       "title": "Hidden Holiday: Raleigh Christmas Past with Heather Leah",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "12:00 pm",
       "end": "",
@@ -1405,7 +369,9 @@
     {
       "id": "cary-really-really-free-market",
       "title": "Cary Really Really Free Market",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "2:00 pm",
       "end": "",
@@ -1422,9 +388,32 @@
       ]
     },
     {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-28",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196694/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "opening-weekend-of-grasshopper-farm-s-christmas-wonderland",
       "title": "Opening Weekend of Grasshopper Farm's Christmas Wonderland",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "5:30 pm",
       "end": "",
@@ -1443,7 +432,9 @@
     {
       "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
       "title": "Saturday Morning Magic with New World Toys and Collectibles",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "9:30 am",
       "end": "",
@@ -1462,7 +453,9 @@
     {
       "id": "downtown-cary-park-s-art-cart",
       "title": "Downtown Cary Park's Art Cart",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "11:00 am",
       "end": "",
@@ -1481,7 +474,9 @@
     {
       "id": "the-raleigh-book-fair-at-raleigh-iron-works",
       "title": "The Raleigh Book Fair at Raleigh Iron Works",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "12:00 pm",
       "end": "",
@@ -1498,9 +493,54 @@
       ]
     },
     {
+      "id": "santa-at-lake-myra-christmas-lights",
+      "title": "Santa at Lake Myra Christmas Lights",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-28",
+      "start": "7:00 pm",
+      "end": "",
+      "venue": "10 S. Cypress St., Wendell, NC 27591",
+      "city": "Wendell",
+      "cost": "Free Admission.  Donations Accepted.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196716/-/santa-at-lake-myra-christmas-lights",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 84,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "santa-igloo-mini-sessions",
+      "title": "Santa Igloo Mini Sessions",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-28",
+      "start": "10:00 AM",
+      "end": "03:00 PM",
+      "venue": "The Igloo, Cary",
+      "city": "Cary",
+      "cost": "$255+ - 10 minutes, 35+ photos, 1-on-1 with Santa",
+      "url": "https://raleighparent.com/event/santa-igloo-mini-sessions-on-nov-28-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 83,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "tea-with-santa-at-the-umstead-hotel-and-spa",
       "title": "Tea with Santa at The Umstead Hotel and Spa",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "10:30 am",
       "end": "",
@@ -1519,7 +559,9 @@
     {
       "id": "tea-with-santa-at-the-umstead-hotel-and-spa",
       "title": "Tea with Santa at The Umstead Hotel and Spa",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "3:00 pm",
       "end": "",
@@ -1538,7 +580,9 @@
     {
       "id": "united-skates-kidz-bop",
       "title": "United Skates Kidz Bop",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "10:00 am",
       "end": "",
@@ -1555,11 +599,13 @@
     {
       "id": "nc-state-watch-party-wolfpack-vs-north-carolina",
       "title": "NC State Watch Party: Wolfpack vs. North Carolina",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "11:00 AM",
       "end": "",
-      "venue": "Tin Roof Raleigh, Downtown Raleigh 2,",
+      "venue": "Tin Roof Raleigh, Downtown Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/nc-state-watch-party-wolfpack-vs-north-carolina-on-nov-28-2026/",
@@ -1572,9 +618,53 @@
       ]
     },
     {
+      "id": "the-art-of-caring-gifting-well-a-small-business-saturday-exp",
+      "title": "The Art of Caring & Gifting Well: A Small Business Saturday Experience Inspired Closets, 810 Ramseur Street, Durham, NC 27701",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-28",
+      "start": "12:00 PM",
+      "end": "02:00 PM",
+      "venue": "",
+      "city": "Durham",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/the-art-of-caring-gifting-well-a-small-business-saturday-experience-on-nov-28-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "jingle-jam-and-toy-drive-with-dear-brown-mama",
+      "title": "Jingle Jam and Toy Drive with Dear Brown Mama",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-28",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "Creative Camp Studios, 12 W Martin Street, Raleigh, NC  27601",
+      "city": "Raleigh",
+      "cost": "Free Admission.  Photos with Santa $25 - Registration Requir",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196691/-/jingle-jam-and-toy-drive-with-dear-brown-mama",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "yates-mill-open-house",
       "title": "Yates Mill Open House",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "1:00 pm",
       "end": "",
@@ -1591,9 +681,32 @@
       ]
     },
     {
+      "id": "hill-ridge-farms-festival-of-lights-opening-weekend",
+      "title": "Hill Ridge Farms' Festival of Lights Opening Weekend",
+      "days": [
+        "sat"
+      ],
+      "date": "2026-11-28",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "703 Tarboro Road, Youngsville, NC, 27596",
+      "city": "Youngsville",
+      "cost": "$19.95 ages 2-64. Under 2yrs are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196722/-/hill-ridge-farms-festival-of-lights-opening-weekend",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 80,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "santa-express-with-the-great-raleigh-trolley-ride",
       "title": "Santa Express with the Great Raleigh Trolley Ride",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "10:00 am",
       "end": "",
@@ -1612,7 +725,9 @@
     {
       "id": "morehead-planetarium-science-center-s-presents-carolina-skie",
       "title": "Morehead Planetarium & Science Center's presents Carolina Skies",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "4:30 pm",
       "end": "5:30 PM",
@@ -1629,7 +744,9 @@
     {
       "id": "planet-peace-farm-club",
       "title": "Planet Peace Farm Club",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "10:30 am",
       "end": "",
@@ -1646,7 +763,9 @@
     {
       "id": "little-fentonians-skate-the-square",
       "title": "Little Fentonians Skate the Square",
-      "days": [],
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
       "start": "10:00 am",
       "end": "",
@@ -1661,136 +780,36 @@
       "tags": []
     },
     {
-      "id": "nc-transportation-museum-s-polar-express-train-ride",
-      "title": "NC Transportation Museum's Polar Express Train Ride",
-      "days": [],
+      "id": "holly-springs-farmers-market-holiday-artisan-market-with-san",
+      "title": "Holly Springs Farmers Market - Holiday Artisan Market with Santa",
+      "days": [
+        "sat"
+      ],
       "date": "2026-11-28",
-      "start": "3:15 pm",
-      "end": "",
-      "venue": "1 Samuel Spencer Drive, Spencer, NC  28159",
-      "city": "",
-      "cost": "from $45.50 per child or $51.75 per adult",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193078/-/nc-transportation-museum-s-polar-express-train-ride",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 75,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "being-heumann",
-      "title": "Being Heumann",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "02:00 PM",
-      "end": "",
-      "venue": "The Cary Theater, Cary 2,",
-      "city": "Cary",
-      "cost": "$4.66+",
-      "url": "https://raleighparent.com/event/being-heumann-on-nov-28-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "turkey-chase-at-william-b-umstead-state-park",
-      "title": "Turkey Chase at William B. Umstead State Park",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "7:30 am",
-      "end": "",
-      "venue": "RallyPoint Sports Grill, 837 Bass Pro Ln., Cary, NC, 27513",
-      "city": "Cary",
-      "cost": "Starting at $40.  Kids in Strollers $5.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/167792/-/turkey-chase-at-william-b-umstead-state-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "november-storywalks-of-wake-county-parks",
-      "title": "November StoryWalks® of Wake County Parks",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "8:00 am",
-      "end": "",
+      "start": "9:00 AM",
+      "end": "12:00 PM",
       "venue": "",
-      "city": "",
-      "cost": "Free",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196162/-/november-storywalks-of-wake-county-parks",
-      "source": "fun4raleighkids",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16505&month=11&year=2026&day=28&calType=0",
+      "source": "hollysprings",
       "indoor": false,
-      "family_score": 73,
+      "family_score": 76,
       "why": "",
       "tags": [
-        "free"
+        "holiday"
       ]
-    },
-    {
-      "id": "the-biggest-bonfire-on-eart-at-todd-s-park",
-      "title": "The Biggest Bonfire on Eart at Todd's Park",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "12:00 pm",
-      "end": "",
-      "venue": "1300 Mack Todd Rd., Zebulon, NC  27597",
-      "city": "",
-      "cost": "Free Kids BBOE 12pm- 3pm.  Arrive Before 6pm= Free Parking.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196640/-/the-biggest-bonfire-on-eart-at-todd-s-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "cirque-holiday-pops-with-the-nc-symphony",
-      "title": "Cirque Holiday Pops with the NC Symphony",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "3:00 pm",
-      "end": "",
-      "venue": "Meymandi Concert Hall at Martin Marietta Center for the Performing Arts, 2 E South St., Raleigh, NC, 27601",
-      "city": "Raleigh",
-      "cost": "Starting at $51 with all-in pricing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193294/-/cirque-holiday-pops-with-the-nc-symphony",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "cirque-holiday-pops-with-the-nc-symphony",
-      "title": "Cirque Holiday Pops with the NC Symphony",
-      "days": [],
-      "date": "2026-11-28",
-      "start": "7:30 pm",
-      "end": "",
-      "venue": "Meymandi Concert Hall at Martin Marietta Center for the Performing Arts, 2 E South St., Raleigh, NC, 27601",
-      "city": "Raleigh",
-      "cost": "Starting at $51 with all-in pricing",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193296/-/cirque-holiday-pops-with-the-nc-symphony",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 73,
-      "why": "",
-      "tags": []
     },
     {
       "id": "5th-annual-kid-s-holiday-craft-fair",
       "title": "5th Annual Kid's Holiday Craft Fair",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "02:30 PM",
       "end": "05:00 PM",
-      "venue": "The Halle Cultural Arts Center, Apex 2,",
+      "venue": "The Halle Cultural Arts Center, Apex",
       "city": "Apex",
       "cost": "Free to attend; $10 to be a vendor",
       "url": "https://raleighparent.com/event/5th-annual-kids-holiday-craft-fair-on-nov-29-2026/",
@@ -1805,7 +824,9 @@
     {
       "id": "annual-kid-s-holiday-craft-fair-at-halle-cultural-arts-cente",
       "title": "Annual Kid's Holiday Craft Fair at Halle Cultural Arts Center",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "2:30 pm",
       "end": "",
@@ -1824,7 +845,9 @@
     {
       "id": "santa-and-mrs-clause-visits-shephered-s-way-farms",
       "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "1:00 pm",
       "end": "",
@@ -1844,7 +867,9 @@
     {
       "id": "wake-county-library-storytimes-and-programs",
       "title": "Wake County Library Storytimes and Programs",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "9:15 am",
       "end": "",
@@ -1863,7 +888,9 @@
     {
       "id": "hidden-holiday-raleigh-christmas-past-with-heather-leah",
       "title": "Hidden Holiday: Raleigh Christmas Past with Heather Leah",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "12:00 pm",
       "end": "",
@@ -1881,9 +908,32 @@
       ]
     },
     {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [
+        "sun"
+      ],
+      "date": "2026-11-29",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196695/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "opening-weekend-of-grasshopper-farm-s-christmas-wonderland",
       "title": "Opening Weekend of Grasshopper Farm's Christmas Wonderland",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "5:30 pm",
       "end": "",
@@ -1902,7 +952,9 @@
     {
       "id": "tea-with-santa-at-the-umstead-hotel-and-spa",
       "title": "Tea with Santa at The Umstead Hotel and Spa",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "10:30 am",
       "end": "",
@@ -1921,7 +973,9 @@
     {
       "id": "tea-with-santa-at-the-umstead-hotel-and-spa",
       "title": "Tea with Santa at The Umstead Hotel and Spa",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "3:00 pm",
       "end": "",
@@ -1940,11 +994,13 @@
     {
       "id": "qatar-grand-prix-watch-party-at-the-davie",
       "title": "Qatar Grand Prix Watch Party at The Davie",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "11:00 AM",
       "end": "01:00 PM",
-      "venue": "The Davie, Downtown Raleigh 2,",
+      "venue": "The Davie, Downtown Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/qatar-grand-prix-watch-party-at-the-davie-on-nov-29-2026/",
@@ -1959,7 +1015,9 @@
     {
       "id": "yates-mill-open-house",
       "title": "Yates Mill Open House",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "1:00 pm",
       "end": "",
@@ -1978,7 +1036,9 @@
     {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "1:30 pm",
       "end": "",
@@ -1995,9 +1055,32 @@
       ]
     },
     {
+      "id": "hill-ridge-farms-festival-of-lights-opening-weekend",
+      "title": "Hill Ridge Farms' Festival of Lights Opening Weekend",
+      "days": [
+        "sun"
+      ],
+      "date": "2026-11-29",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "703 Tarboro Road, Youngsville, NC, 27596",
+      "city": "Youngsville",
+      "cost": "$19.95 ages 2-64. Under 2yrs are free.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196723/-/hill-ridge-farms-festival-of-lights-opening-weekend",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 80,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "santa-express-with-the-great-raleigh-trolley-ride",
       "title": "Santa Express with the Great Raleigh Trolley Ride",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "10:00 am",
       "end": "",
@@ -2016,7 +1099,9 @@
     {
       "id": "morehead-planetarium-science-center-s-presents-carolina-skie",
       "title": "Morehead Planetarium & Science Center's presents Carolina Skies",
-      "days": [],
+      "days": [
+        "sun"
+      ],
       "date": "2026-11-29",
       "start": "4:30 pm",
       "end": "5:30 PM",
@@ -2027,40 +1112,6 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 78,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "nc-transportation-museum-s-polar-express-train-ride",
-      "title": "NC Transportation Museum's Polar Express Train Ride",
-      "days": [],
-      "date": "2026-11-29",
-      "start": "3:15 pm",
-      "end": "",
-      "venue": "1 Samuel Spencer Drive, Spencer, NC  28159",
-      "city": "",
-      "cost": "from $45.50 per child or $51.75 per adult",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196243/-/nc-transportation-museum-s-polar-express-train-ride",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 75,
-      "why": "",
-      "tags": []
-    },
-    {
-      "id": "being-heumann",
-      "title": "Being Heumann",
-      "days": [],
-      "date": "2026-11-29",
-      "start": "12:00 PM",
-      "end": "",
-      "venue": "The Cary Theater, Cary 2,",
-      "city": "Cary",
-      "cost": "$4.66+",
-      "url": "https://raleighparent.com/event/being-heumann-on-nov-29-2026/",
-      "source": "raleighparent",
-      "indoor": false,
-      "family_score": 73,
       "why": "",
       "tags": []
     },
@@ -2143,6 +1194,26 @@
       ]
     },
     {
+      "id": "annual-tree-lighting-ceremony",
+      "title": "Annual Tree Lighting Ceremony",
+      "days": [],
+      "date": "2026-12-04",
+      "start": "06:00 PM",
+      "end": "08:00 PM",
+      "venue": "Knightdale Station Park, Knightdale",
+      "city": "Knightdale",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/annual-tree-lighting-ceremony-on-dec-4-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 93,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "holiday-model-train-show-with-little-world-charity",
       "title": "Holiday Model Train Show with Little WORLD Charity",
       "days": [],
@@ -2206,7 +1277,7 @@
       "date": "2026-12-04",
       "start": "05:00 PM",
       "end": "09:00 PM",
-      "venue": "City of Raleigh Museum (COR Museum), Downtown Raleigh 2,",
+      "venue": "City of Raleigh Museum (COR Museum), Downtown Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/sip-n-shop-on-dec-4-2026/",
@@ -2219,22 +1290,41 @@
       ]
     },
     {
-      "id": "st-nicholas-european-christmas-market",
-      "title": "St. Nicholas European Christmas Market",
+      "id": "19th-annual-st-nicholas-european-christmas-market-at-agri-su",
+      "title": "19th Annual St. Nicholas European Christmas Market at Agri-Supply Exposition Center",
       "days": [],
       "date": "2026-12-04",
       "start": "5:00 pm",
-      "end": "",
+      "end": "09:00 PM",
       "venue": "Agri Supply Expo Building of NC State Fairgrounds, 4285 Trinity Road, Raleigh, NC  27607",
       "city": "Raleigh",
       "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196586/-/st-nicholas-european-christmas-market",
-      "source": "fun4raleighkids",
+      "url": "https://raleighparent.com/event/19th-annual-st-nicholas-european-christmas-market-on-dec-4-2026/",
+      "source": "raleighparent",
       "indoor": false,
       "family_score": 87,
       "why": "",
       "tags": [
         "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [],
+      "date": "2026-12-04",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196697/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
         "holiday"
       ]
     },
@@ -2298,6 +1388,26 @@
       ]
     },
     {
+      "id": "apex-rotary-christmas-parade",
+      "title": "Apex Rotary Christmas Parade",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "Apex Peakway and Ambergate Station, Apex, NC  27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/137735/-/apex-rotary-christmas-parade",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "breakfast-with-santa-at-dave-buster-s",
       "title": "Breakfast with Santa at Dave & Buster's",
       "days": [],
@@ -2344,7 +1454,7 @@
       "date": "2026-12-05",
       "start": "11:00 AM",
       "end": "09:00 PM",
-      "venue": "Paragon Theaters - Fenton Square, Cary 2,",
+      "venue": "Paragon Theaters - Fenton Square, Cary",
       "city": "Cary",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/skate-the-square-outdoor-movie-elf-on-dec-5-2026/",
@@ -2454,6 +1564,26 @@
       ]
     },
     {
+      "id": "cookies-with-santa-at-the-cupcake-shoppe",
+      "title": "Cookies with Santa at The Cupcake Shoppe",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "12:00 pm",
+      "end": "",
+      "venue": "104 Glenwood Ave., Raleigh, NC  27603",
+      "city": "Raleigh",
+      "cost": "Free Admission.  See Menu.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196648/-/cookies-with-santa-at-the-cupcake-shoppe",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 91,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "apex-farmers-market-at-the-depot",
       "title": "Apex Farmers Market at The Depot",
       "days": [],
@@ -2511,6 +1641,25 @@
       ]
     },
     {
+      "id": "garner-s-holiday-block-party",
+      "title": "Garner's Holiday Block Party",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "2:00 pm",
+      "end": "",
+      "venue": "Garner Recreation Center, 215 W Main St, Garner, NC 27529",
+      "city": "Garner",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/172290/-/garner-s-holiday-block-party",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 89,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "id": "smith-s-nursery-storytime-with-santa",
       "title": "Smith's Nursery Storytime with Santa",
       "days": [],
@@ -2543,6 +1692,25 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 88,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "teens-sketch-in-the-galleries",
+      "title": "Teens Sketch in the Galleries",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "12:00 PM",
+      "end": "",
+      "venue": "North Carolina Museum of Art, West Raleigh",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/teens-sketch-in-the-galleries-on-dec-5-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 87,
       "why": "",
       "tags": [
         "free"
@@ -2588,6 +1756,124 @@
       ]
     },
     {
+      "id": "rrg-triangle-town-holiday-market",
+      "title": "RRG Triangle Town Holiday Market",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "12:00 PM",
+      "end": "",
+      "venue": "Triangle Town Center - 2nd floor in front of Macy’s and Saks, North Raleigh",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/rrg-triangle-town-holiday-market-on-dec-5-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "the-grl-market-december",
+      "title": "The GRL Market December",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "11:00 AM",
+      "end": "02:00 PM",
+      "venue": "Waverly Place, Cary",
+      "city": "Cary",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/the-grl-market-december-on-dec-5-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "christmas-candle-tea-at-raleigh-moravian-church-2026",
+      "title": "Christmas Candle Tea at Raleigh Moravian Church 2026",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "01:00 PM",
+      "end": "05:00 PM",
+      "venue": "Raleigh Moravian Church, West Raleigh",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/christmas-candle-tea-at-raleigh-moravian-church-2026-on-dec-5-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "grl-market-at-waverly-place",
+      "title": "GRL Market at Waverly Place",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "11:00 am",
+      "end": "",
+      "venue": "302 Colonades Way, Cary, NC 27518",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193744/-/grl-market-at-waverly-place",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "jolly-raleigh-holiday-market-with-shop-local-raleigh",
+      "title": "Jolly Raleigh Holiday Market with Shop Local Raleigh",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "11:00 am",
+      "end": "",
+      "venue": "The Exchange Raleigh, 1000 Social St., Raleigh, NC  27609",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/183564/-/jolly-raleigh-holiday-market-with-shop-local-raleigh",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "wilson-christmas-parade",
+      "title": "Wilson Christmas Parade",
+      "days": [],
+      "date": "2026-12-05",
+      "start": "11:00 am",
+      "end": "",
+      "venue": "Downtown Wilson, NC  27893",
+      "city": "",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196740/-/wilson-christmas-parade",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "santa-and-mrs-clause-visits-shephered-s-way-farms",
       "title": "Santa and Mrs. Clause visits Shephered's Way Farms",
       "days": [],
@@ -2601,6 +1887,26 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 99,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "fuquay-varina-christmas-parade",
+      "title": "Fuquay-Varina Christmas Parade",
+      "days": [],
+      "date": "2026-12-06",
+      "start": "4:00 pm",
+      "end": "",
+      "venue": "Main Street, Fuquay Varina, NC, 27526",
+      "city": "Fuquay-Varina",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/137351/-/fuquay-varina-christmas-parade",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 98,
       "why": "",
       "tags": [
         "free",
@@ -2729,7 +2035,7 @@
       "date": "2026-12-06",
       "start": "03:00 PM",
       "end": "06:00 PM",
-      "venue": "Apex Senior Center, Apex 2,",
+      "venue": "Apex Senior Center, Apex",
       "city": "Apex",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/chanukah-festival-on-dec-6-2026/",
@@ -2767,7 +2073,7 @@
       "date": "2026-12-06",
       "start": "02:30 PM",
       "end": "05:30 PM",
-      "venue": "Craft Habit, East Raleigh 2,",
+      "venue": "Craft Habit, East Raleigh",
       "city": "Raleigh",
       "cost": "Free, 18+ yrs. Please RSVP",
       "url": "https://raleighparent.com/event/yarn-habit-monthly-fiber-craft-meetup-on-dec-6-2026/",
@@ -2777,6 +2083,45 @@
       "why": "",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "id": "art-on-the-dot-at-nc-museum-of-art",
+      "title": "Art on the Dot at NC Museum of Art",
+      "days": [],
+      "date": "2026-12-06",
+      "start": "2:30 pm",
+      "end": "",
+      "venue": "2110 Blue Ridge Rd., Raleigh, NC 27607",
+      "city": "Raleigh",
+      "cost": "Free",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194862/-/art-on-the-dot-at-nc-museum-of-art",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 87,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "holiday-market-2026",
+      "title": "Holiday Market 2026",
+      "days": [],
+      "date": "2026-12-06",
+      "start": "01:00 PM",
+      "end": "04:00 PM",
+      "venue": "Bloom Collective, North Raleigh",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/holiday-market-2026-on-dec-6-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
       ]
     },
     {
@@ -2856,60 +2201,42 @@
       ]
     },
     {
-      "id": "social-roll-mahjong-at-downtown-cary-park",
-      "title": "Social Roll: Mahjong at Downtown Cary Park",
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
       "days": [],
       "date": "2026-12-11",
-      "start": "06:30 PM",
-      "end": "09:30 PM",
-      "venue": "DCP Gathering House, Cary 2,",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
       "city": "Cary",
-      "cost": "Free, ages 18+",
-      "url": "https://raleighparent.com/event/social-roll-mahjong-at-downtown-cary-park-on-dec-11-2026/",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196701/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "6th-annual-holiday-market-photos-with-santa",
+      "title": "6th Annual Holiday Market & Photos with Santa",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "10:00 AM",
+      "end": "03:00 PM",
+      "venue": "New Hill Community Center, Apex",
+      "city": "New Hill",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/6th-annual-holiday-market-photos-with-santa-on-dec-12-2026/",
       "source": "raleighparent",
       "indoor": false,
-      "family_score": 85,
+      "family_score": 100,
       "why": "",
       "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "soulful-holiday-open-house-at-john-chavis-memorial-park",
-      "title": "Soulful Holiday Open House at John Chavis Memorial Park",
-      "days": [],
-      "date": "2026-12-11",
-      "start": "5:30 pm",
-      "end": "",
-      "venue": "505 Martin Luther King Jr. Blvd., Raleigh, NC  27601",
-      "city": "Raleigh",
-      "cost": "Free with Registration",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196635/-/soulful-holiday-open-house-at-john-chavis-memorial-park",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "must-see-raleigh-holiday-edition-with-the-great-raleigh-trol",
-      "title": "Must See Raleigh Holiday Edition with the Great Raleigh Trolley Ride Begins",
-      "days": [],
-      "date": "2026-12-11",
-      "start": "6:15 pm",
-      "end": "",
-      "venue": "Tap Yard Raleigh, 1610 Automotive Way, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "$25 per ticket. Infants ages 0-1 are free and must ride on a",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193004/-/must-see-raleigh-holiday-edition-with-the-great-raleigh-trolley-ride-begins",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
+        "free",
+        "holiday"
       ]
     },
     {
@@ -2971,6 +2298,26 @@
       ]
     },
     {
+      "id": "knightdale-christmas-parade",
+      "title": "Knightdale Christmas Parade",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "First Avenue, Knightdale, NC, 27545",
+      "city": "Knightdale",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196714/-/knightdale-christmas-parade",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "knightdale-s-christmas-parade",
       "title": "Knightdale's Christmas Parade",
       "days": [],
@@ -2991,8 +2338,28 @@
       ]
     },
     {
+      "id": "cary-jaycees-christmas-parade",
+      "title": "Cary Jaycees Christmas Parade",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "2:00 pm",
+      "end": "",
+      "venue": "Downtown Cary, NC  27511",
+      "city": "Cary",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/164504/-/cary-jaycees-christmas-parade",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 98,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "raleigh-s-international-holiday-celebration-a-european-exper",
-      "title": "Raleigh's International Holiday Celebration! A European Experience! Food, Desserts, Santa & More Raleigh City Plaza 400 Fayetteville St. Raleigh NC 27601 2,",
+      "title": "Raleigh's International Holiday Celebration! A European Experience! Food, Desserts, Santa & More Raleigh City Plaza 400 Fayetteville St. Raleigh NC 27601",
       "days": [],
       "date": "2026-12-12",
       "start": "10:00 AM",
@@ -3171,7 +2538,7 @@
       "date": "2026-12-12",
       "start": "04:15 PM",
       "end": "",
-      "venue": "North Carolina Museum of Art; East Building, Level B, West Raleigh 2,",
+      "venue": "North Carolina Museum of Art; East Building, Level B, West Raleigh",
       "city": "Raleigh",
       "cost": "FREE",
       "url": "https://raleighparent.com/event/in-motion-in-time-an-homage-to-ancient-nubia-on-dec-12-2026/",
@@ -3222,6 +2589,26 @@
       ]
     },
     {
+      "id": "hoot-n-holler-holiday-market",
+      "title": "Hoot n' Holler Holiday Market",
+      "days": [],
+      "date": "2026-12-12",
+      "start": "12:00 PM",
+      "end": "",
+      "venue": "Cannonball Music Hall, Downtown Raleigh",
+      "city": "Raleigh",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/hoot-n-holler-holiday-market-on-dec-12-2026/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
+      ]
+    },
+    {
       "id": "raleigh-s-international-holiday-market-at-city-plaza",
       "title": "Raleigh's International Holiday Market at City Plaza",
       "days": [],
@@ -3242,80 +2629,22 @@
       ]
     },
     {
-      "id": "meet-the-grinch-at-the-mocha-room",
-      "title": "Meet The Grinch at The Mocha Room",
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
       "days": [],
       "date": "2026-12-12",
-      "start": "8:00 am",
+      "start": "5:00 pm",
       "end": "",
-      "venue": "2145 Ten Ten Rd., Apex, NC  27539",
-      "city": "Apex",
-      "cost": "Free Admission.  $12 Breakfast.",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/196437/-/meet-the-grinch-at-the-mocha-room",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196702/-/phillips-farms-country-christmas",
       "source": "fun4raleighkids",
       "indoor": false,
-      "family_score": 85,
+      "family_score": 86,
       "why": "",
       "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
-      "title": "Saturday Morning Magic with New World Toys and Collectibles",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "9:30 am",
-      "end": "",
-      "venue": "164 Bratton Dr., Garner, NC  27529",
-      "city": "Garner",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195781/-/saturday-morning-magic-with-new-world-toys-and-collectibles",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "santa-claus-visits-the-glass-jug-beer-lab",
-      "title": "Santa Claus Visits the Glass Jug Beer Lab",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "3:00 pm",
-      "end": "",
-      "venue": "5410 NC Hwy 55, Suite V, Durham, NC 27713",
-      "city": "Durham",
-      "cost": "Free Admission",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/195958/-/santa-claus-visits-the-glass-jug-beer-lab",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free",
         "holiday"
-      ]
-    },
-    {
-      "id": "must-see-raleigh-holiday-edition-with-the-great-raleigh-trol",
-      "title": "Must See Raleigh Holiday Edition with the Great Raleigh Trolley Ride Begins",
-      "days": [],
-      "date": "2026-12-12",
-      "start": "6:30 pm",
-      "end": "",
-      "venue": "Tap Yard Raleigh, 1610 Automotive Way, Raleigh, NC 27604",
-      "city": "Raleigh",
-      "cost": "$25 per ticket. Infants ages 0-1 are free and must ride on a",
-      "url": "https://fun4raleighkids.com/calendar/eventdetail/193007/-/must-see-raleigh-holiday-edition-with-the-great-raleigh-trolley-ride-begins",
-      "source": "fun4raleighkids",
-      "indoor": false,
-      "family_score": 85,
-      "why": "",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -3454,6 +2783,25 @@
       ]
     },
     {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [],
+      "date": "2026-12-13",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196703/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
       "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
       "days": [],
@@ -3530,6 +2878,25 @@
       ]
     },
     {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [],
+      "date": "2026-12-18",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196705/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "must-see-raleigh-holiday-edition-with-the-great-raleigh-trol",
       "title": "Must See Raleigh Holiday Edition with the Great Raleigh Trolley Ride Begins",
       "days": [],
@@ -3546,6 +2913,25 @@
       "why": "",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "id": "flour-power-cary-s-rockin-christmas-jam",
+      "title": "Flour Power Cary's Rockin' Christmas Jam",
+      "days": [],
+      "date": "2026-12-18",
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "1128 Parkside Main St, Cary, NC 27519",
+      "city": "Cary",
+      "cost": "$59 per child",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196310/-/flour-power-cary-s-rockin-christmas-jam",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 78,
+      "why": "",
+      "tags": [
+        "holiday"
       ]
     },
     {
@@ -3703,6 +3089,25 @@
       ]
     },
     {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196706/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "saturday-morning-magic-with-new-world-toys-and-collectibles",
       "title": "Saturday Morning Magic with New World Toys and Collectibles",
       "days": [],
@@ -3776,6 +3181,26 @@
       "why": "",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "id": "santa-at-lake-myra-christmas-lights",
+      "title": "Santa at Lake Myra Christmas Lights",
+      "days": [],
+      "date": "2026-12-19",
+      "start": "7:00 pm",
+      "end": "",
+      "venue": "10 S. Cypress St., Wendell, NC 27591",
+      "city": "Wendell",
+      "cost": "Free Admission.  Donations Accepted.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196719/-/santa-at-lake-myra-christmas-lights",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 84,
+      "why": "",
+      "tags": [
+        "free",
+        "holiday"
       ]
     },
     {
@@ -3926,6 +3351,25 @@
       "why": "",
       "tags": [
         "free",
+        "holiday"
+      ]
+    },
+    {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [],
+      "date": "2026-12-20",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196707/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
         "holiday"
       ]
     },
@@ -4185,6 +3629,25 @@
       "why": "",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [],
+      "date": "2026-12-26",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196710/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
       ]
     },
     {
@@ -4479,6 +3942,25 @@
       "tags": []
     },
     {
+      "id": "phillips-farms-country-christmas",
+      "title": "Phillips Farms Country Christmas",
+      "days": [],
+      "date": "2026-12-27",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "6720 Good Hope Church Rd., Cary, NC  27519",
+      "city": "Cary",
+      "cost": "General Admission $20 per person, ages 2yrs+",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196711/-/phillips-farms-country-christmas",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 86,
+      "why": "",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -4508,6 +3990,23 @@
       "city": "Morrisville",
       "cost": "Starting at $30.  Kids in Strollers $5.",
       "url": "https://fun4raleighkids.com/calendar/eventdetail/179254/-/last-mile",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holidays-at-the-crooked-hammock",
+      "title": "Holidays at the Crooked Hammock",
+      "days": [],
+      "date": "2026-12-27",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "4501 Edwards Mill Road,  Raleigh, NC 27612",
+      "city": "Raleigh",
+      "cost": "See Menu",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196735/-/holidays-at-the-crooked-hammock",
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 73,
@@ -4751,6 +4250,25 @@
       "family_score": 45,
       "why": "",
       "tags": []
+    },
+    {
+      "id": "first-walk-2027",
+      "title": "First Walk 2027",
+      "days": [],
+      "date": "2027-01-01",
+      "start": "10:00 AM",
+      "end": "11:15 AM",
+      "venue": "Cary Parkway Pedestrian Bridge, Midtown Raleigh",
+      "city": "Cary",
+      "cost": "FREE",
+      "url": "https://raleighparent.com/event/first-walk-2027-on-jan-1-2027/",
+      "source": "raleighparent",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
     },
     {
       "id": "power-circuit-bootcamp",
@@ -5305,6 +4823,23 @@
       "tags": []
     },
     {
+      "id": "holidays-at-the-crooked-hammock",
+      "title": "Holidays at the Crooked Hammock",
+      "days": [],
+      "date": "2027-01-03",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "4501 Edwards Mill Road,  Raleigh, NC 27612",
+      "city": "Raleigh",
+      "cost": "See Menu",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196736/-/holidays-at-the-crooked-hammock",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "character-skate-at-united-skates",
       "title": "Character Skate at United Skates",
       "days": [],
@@ -5732,23 +5267,6 @@
       "tags": []
     },
     {
-      "id": "milestone-moves-1-2-30p-hunt-center",
-      "title": "Milestone Moves, 1-2:30P, Hunt Center",
-      "days": [],
-      "date": "2027-01-08",
-      "start": "1:00 PM",
-      "end": "2:30 PM",
-      "venue": "W.E. Hunt Recreation Center",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16299&month=1&year=2027&day=8&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "wake-cross-roads-baptist-church-s-kids-open-gym",
       "title": "Wake Cross Roads Baptist Church's Kids Open Gym",
       "days": [],
@@ -5855,6 +5373,23 @@
       "tags": []
     },
     {
+      "id": "winter-princess-ball-presented-by-picture-perfect-princess",
+      "title": "Winter Princess Ball presented by Picture Perfect Princess",
+      "days": [],
+      "date": "2027-01-09",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "John Chavis Community Center, 505 Martin Luther King Junior Boulevard, Raleigh, NC  27601",
+      "city": "Raleigh",
+      "cost": "$55 per Child.  $34 per Adult.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196727/-/winter-princess-ball-presented-by-picture-perfect-princess",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 69,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "holly-springs-farmers-market-9-a-m-to-noon",
       "title": "Holly Springs Farmers Market - 9 a.m. to Noon",
       "days": [],
@@ -5940,23 +5475,6 @@
       "tags": []
     },
     {
-      "id": "hiit-high-intensity-interval-training",
-      "title": "HIIT: High Intensity Interval Training",
-      "days": [],
-      "date": "2027-01-09",
-      "start": "9:00 AM",
-      "end": "9:45 AM",
-      "venue": "W.E. Hunt Recreation Center",
-      "city": "Holly Springs",
-      "cost": "See listing",
-      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15727&month=1&year=2027&day=9&calType=0",
-      "source": "hollysprings",
-      "indoor": false,
-      "family_score": 57,
-      "why": "",
-      "tags": []
-    },
-    {
       "id": "raleigh-s-really-really-free-market",
       "title": "Raleigh's Really Really Free Market",
       "days": [],
@@ -6025,6 +5543,23 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 78,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holidays-at-the-crooked-hammock",
+      "title": "Holidays at the Crooked Hammock",
+      "days": [],
+      "date": "2027-01-10",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "4501 Edwards Mill Road,  Raleigh, NC 27612",
+      "city": "Raleigh",
+      "cost": "See Menu",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196737/-/holidays-at-the-crooked-hammock",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
       "why": "",
       "tags": []
     },
@@ -6235,6 +5770,40 @@
       "tags": []
     },
     {
+      "id": "community-cares-collaborative-meeting",
+      "title": "Community Cares Collaborative Meeting",
+      "days": [],
+      "date": "2027-01-15",
+      "start": "4:30 PM",
+      "end": "",
+      "venue": "",
+      "city": "Raleigh",
+      "cost": "See listing",
+      "url": "https://raleighnc.gov/community/events/community-cares-collaborative-meeting-10",
+      "source": "raleighnc",
+      "indoor": false,
+      "family_score": 53,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "yoga-with-weights",
+      "title": "Yoga with Weights",
+      "days": [],
+      "date": "2027-01-15",
+      "start": "12:00 PM",
+      "end": "1:00 PM",
+      "venue": "W.E. Hunt Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15336&month=1&year=2027&day=15&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 51,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "superfun-saturday-at-halle-cultural-arts-center",
       "title": "SuperFun Saturday at Halle Cultural Arts Center",
       "days": [],
@@ -6426,6 +5995,125 @@
       "tags": []
     },
     {
+      "id": "hiit-high-intensity-interval-training",
+      "title": "HIIT: High Intensity Interval Training",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "9:00 AM",
+      "end": "9:45 AM",
+      "venue": "W.E. Hunt Recreation Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15728&month=1&year=2027&day=16&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 57,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "birthday-party",
+      "title": "Birthday Party",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "9:30 AM",
+      "end": "10:30 AM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49022/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "birthday-party",
+      "title": "Birthday Party",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "10:00 AM",
+      "end": "11:00 AM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49023/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "birthday-party",
+      "title": "Birthday Party",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "12:00 PM",
+      "end": "1:00 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49024/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "birthday-party",
+      "title": "Birthday Party",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "12:30 PM",
+      "end": "1:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49025/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "birthday-party",
+      "title": "Birthday Party",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "2:30 PM",
+      "end": "3:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49026/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "birthday-party",
+      "title": "Birthday Party",
+      "days": [],
+      "date": "2027-01-16",
+      "start": "3:00 PM",
+      "end": "4:00 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://marbleskidsmuseum.org/event/49027/",
+      "source": "marbles",
+      "indoor": false,
+      "family_score": 45,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "artspace-open-studio",
       "title": "Artspace Open Studio",
       "days": [],
@@ -6458,6 +6146,23 @@
       "source": "fun4raleighkids",
       "indoor": false,
       "family_score": 78,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holidays-at-the-crooked-hammock",
+      "title": "Holidays at the Crooked Hammock",
+      "days": [],
+      "date": "2027-01-17",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "4501 Edwards Mill Road,  Raleigh, NC 27612",
+      "city": "Raleigh",
+      "cost": "See Menu",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196738/-/holidays-at-the-crooked-hammock",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
       "why": "",
       "tags": []
     },
@@ -7114,6 +6819,23 @@
       "tags": []
     },
     {
+      "id": "yoga-with-weights",
+      "title": "Yoga with Weights",
+      "days": [],
+      "date": "2027-01-29",
+      "start": "12:00 PM",
+      "end": "1:00 PM",
+      "venue": "W.E. Hunt Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=15338&month=1&year=2027&day=29&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 51,
+      "why": "",
+      "tags": []
+    },
+    {
       "id": "little-fentonians-skate-the-square",
       "title": "Little Fentonians Skate the Square",
       "days": [],
@@ -7367,6 +7089,269 @@
       "source": "morehead",
       "indoor": false,
       "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "nc-museum-of-natural-sciences-live-animal-feeding-ocean-habi",
+      "title": "NC Museum of Natural Sciences Live Animal Feeding - Ocean Habitat",
+      "days": [],
+      "date": "2027-02-05",
+      "start": "10:45 am",
+      "end": "",
+      "venue": "11 West Jones Street, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/194656/-/nc-museum-of-natural-sciences-live-animal-feeding-ocean-habitat",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 100,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "artspace-s-first-friday",
+      "title": "Artspace's First Friday",
+      "days": [],
+      "date": "2027-02-05",
+      "start": "5:00 pm",
+      "end": "",
+      "venue": "201 E. Davie Street, Raleigh NC 27601",
+      "city": "Raleigh",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193169/-/artspace-s-first-friday",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "mini-mites-open-gym-at-peak-gymnastics",
+      "title": "Mini Mites Open Gym at Peak Gymnastics",
+      "days": [],
+      "date": "2027-02-05",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "6003 Old Jenks Road Apex, NC  27523",
+      "city": "Apex",
+      "cost": "$5",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196493/-/mini-mites-open-gym-at-peak-gymnastics",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "parents-night-out-with-triangle-rock-club-morrisville",
+      "title": "Parents' Night Out with Triangle Rock Club Morrisville",
+      "days": [],
+      "date": "2027-02-05",
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "102 Pheasant Wood Court, Morrisville, NC  27560",
+      "city": "Morrisville",
+      "cost": "$30 for members.  $35 for non-members.  Siblings receive a $",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193792/-/parents-night-out-with-triangle-rock-club-morrisville",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 73,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "we-are-stars",
+      "title": "We Are Stars",
+      "days": [],
+      "date": "2027-02-05",
+      "start": "3:00 PM",
+      "end": "4:00 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/we-are-stars-238/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "one-sky-many-eyes",
+      "title": "One Sky, Many Eyes",
+      "days": [],
+      "date": "2027-02-05",
+      "start": "4:30 PM",
+      "end": "5:30 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/one-sky-many-eyes-206/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "superfun-saturday-at-halle-cultural-arts-center",
+      "title": "SuperFun Saturday at Halle Cultural Arts Center",
+      "days": [],
+      "date": "2027-02-06",
+      "start": "10:30 am",
+      "end": "",
+      "venue": "237 N. Salem Street, Apex, NC 27502",
+      "city": "Apex",
+      "cost": "Free Admission",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/196272/-/superfun-saturday-at-halle-cultural-arts-center",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 85,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "little-fentonians-skate-the-square",
+      "title": "Little Fentonians Skate the Square",
+      "days": [],
+      "date": "2027-02-06",
+      "start": "10:00 am",
+      "end": "",
+      "venue": "21 Fenton Main Street, Cary NC 27511",
+      "city": "Cary",
+      "cost": "Adult tickets: $18.  Child tickets: $12.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/195821/-/little-fentonians-skate-the-square",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 76,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "cirque-de-vol-s-parents-night-out",
+      "title": "Cirque de Vol's Parents Night Out",
+      "days": [],
+      "date": "2027-02-06",
+      "start": "6:00 pm",
+      "end": "",
+      "venue": "300 W. Hargett St, #40, Raleigh, NC  27601",
+      "city": "Raleigh",
+      "cost": "$60/per kid. Additional siblings only $45.",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193799/-/cirque-de-vol-s-parents-night-out",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 69,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "holly-springs-farmers-market-9-a-m-to-noon",
+      "title": "Holly Springs Farmers Market - 9 a.m. to Noon",
+      "days": [],
+      "date": "2027-02-06",
+      "start": "9:00 AM",
+      "end": "12:00 PM",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "cost": "See listing",
+      "url": "https://www.hollyspringsnc.us/Calendar.aspx?EID=16546&month=2&year=2027&day=6&calType=0",
+      "source": "hollysprings",
+      "indoor": false,
+      "family_score": 62,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "magic-tree-house-space-mission",
+      "title": "Magic Tree House Space Mission",
+      "days": [],
+      "date": "2027-02-06",
+      "start": "10:30 AM",
+      "end": "11:30 AM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/magic-tree-house-space-mission-327/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "messengers-of-time-space",
+      "title": "Messengers of Time & Space",
+      "days": [],
+      "date": "2027-02-06",
+      "start": "12:00 PM",
+      "end": "1:00 PM",
+      "venue": "",
+      "city": "",
+      "cost": "See listing",
+      "url": "https://moreheadplanetarium.org/calendar/messengers-of-time-space-63/",
+      "source": "morehead",
+      "indoor": false,
+      "family_score": 59,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "artspace-open-studio",
+      "title": "Artspace Open Studio",
+      "days": [],
+      "date": "2027-02-07",
+      "start": "1:30 pm",
+      "end": "",
+      "venue": "201 East Davie Street, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "cost": "Free with Registration",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/193124/-/artspace-open-studio",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 81,
+      "why": "",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "character-skate-at-united-skates",
+      "title": "Character Skate at United Skates",
+      "days": [],
+      "date": "2027-02-07",
+      "start": "1:00 pm",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $13 online or $15 at the door.  Non Skating Chaper",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192618/-/character-skate-at-united-skates",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 72,
+      "why": "",
+      "tags": []
+    },
+    {
+      "id": "united-skates-sunday-funday",
+      "title": "United Skates' Sunday Funday",
+      "days": [],
+      "date": "2027-02-07",
+      "start": "4:00 pm",
+      "end": "",
+      "venue": "2901 Trawick Rd, Raleigh, NC 27604",
+      "city": "Raleigh",
+      "cost": "Admission $14 online or $16 at the door.  Spectator Admissio",
+      "url": "https://fun4raleighkids.com/calendar/eventdetail/192716/-/united-skates-sunday-funday",
+      "source": "fun4raleighkids",
+      "indoor": false,
+      "family_score": 72,
       "why": "",
       "tags": []
     }
